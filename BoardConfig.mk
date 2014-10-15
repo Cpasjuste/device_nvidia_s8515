@@ -1,7 +1,7 @@
 TARGET_BOARD_PLATFORM := tegra
 TARGET_TEGRA_VERSION := t114
 TARGET_TEGRA_FAMILY := t11x
-TARGET_CPU_VARIANT := cortex-a15
+TARGET_CPU_VARIANT := cortex-a9
 
 # CPU options
 TARGET_CPU_ABI := armeabi-v7a
@@ -16,10 +16,10 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 # Skip droiddoc build to save build time
 BOARD_SKIP_ANDROID_DOC_BUILD := true
 
-BOARD_BUILD_BOOTLOADER := true
-TARGET_USE_DTB := true
-TARGET_KERNEL_DT_NAME := tegra114-tegranote7c
-BOOTLOADER_SUPPORTS_DTB := true
+BOARD_BUILD_BOOTLOADER := false
+TARGET_USE_DTB := false
+#TARGET_KERNEL_DT_NAME := tegra114-tegranote7c
+BOOTLOADER_SUPPORTS_DTB := false
 # It can be overridden by an environment variable
 APPEND_DTB_TO_KERNEL ?= false
 
@@ -35,13 +35,15 @@ BOARD_SUPPORT_NVOICE := true
 BOARD_SUPPORT_NVAUDIOFX := true
 
 TARGET_USERIMAGES_USE_EXT4 := true
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1073741824
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 13352566784
+BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 8388608
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 805306368
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 2145386496
 BOARD_FLASH_BLOCK_SIZE := 4096
 
 SET_DCP_CURRENT_LIMIT_2A := true
 
-TARGET_KERNEL_CONFIG := tegra_tegranote7c_android_defconfig
+TARGET_KERNEL_CONFIG := tegra_s8515_cpasjuste_defconfig
 
 USE_E2FSPROGS := true
 USE_OPENGL_RENDERER := true
@@ -171,5 +173,21 @@ BOARD_SEPOLICY_UNION := healthd.te \
     file_contexts \
     file.te
 
-#Enable power hint for Auido playback with speaker
+# Enable power hint for Auido playback with speaker
 AUDIO_SPEAKER_POWER_HINT := true
+
+# TWRP RECOVERY
+#TW_BOARD_CUSTOM_GRAPHICS := ../../../device/enspert/s8515/recovery/graphics.c
+#DEVICE_RESOLUTION := 720x1280
+#TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+#BOARD_USE_SKIA_LCDTEXT := true
+#RECOVERY_GRAPHICS_USE_LINELENGTH := true
+#TW_INTERNAL_STORAGE_PATH := "/sdcard"
+#TW_INTERNAL_STORAGE_MOUNT_POINT := "sdcard"
+#TW_EXTERNAL_STORAGE_PATH := "/external_sd"
+#TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
+#TW_BRIGHTNESS_PATH := /sys/devices/platform/pwm-backlight/backlight/pwm-backlight/brightness
+#TW_MAX_BRIGHTESS := 255
+#TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/tegra-udc.0/gadget/lun0/file
+#TARGET_PREBUILT_RECOVERY_KERNEL := device/enspert/s8515/kernel
+

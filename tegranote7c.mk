@@ -9,7 +9,7 @@
 
 # SECURE_OS_BUILD - allowed values y,n
 # default: y
-SECURE_OS_BUILD ?= y
+SECURE_OS_BUILD ?= n
 
 # NV_TN_SKU - allowed values tn7c_114gp, tn7c_114np
 # Default: tn7c_114gp (GMS + PREMIUM)
