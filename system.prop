@@ -1,0 +1,38 @@
+ro.opengles.version = 131072
+wifi.interface=wlan0
+ap.interface=wlan1
+rild.libpath=/system/lib/libril-icera.so
+#rild.libargs=-e rmnet0
+persist.tegra.nvmmlite = 1
+persist.wlan.ti.calibrated = 0
+ro.ril.wake_lock_timeout=200000
+ro.sf.override_null_lcd_density = 1
+persist.tegra.panel.rotation = 180
+
+#NFC
+debug.nfc.fw_download=false
+debug.nfc.se=false
+
+#support dynamic resolution change property
+ro.streaming.video.drs=true
+
+# use glcomposer as the default compositor
+persist.tegra.compositor=glcomposer
+
+# disable input resampling
+ro.input.noresample=1
+
+#Support high quality audio sample rate conversion
+af.resampler.quality = 3
+
+#disable Miracast game mode support
+nvwfd.gamemode = 0
+
+#max resolution supported for Miracast is 720p, represented interms of macroblocks
+nvwfd.maxresolution_macroblocks = 3600
+
+#disable log services by default
+persist.sys.nvlog.enable = 0
+
+# don't preload OpenGL in Zygote, the Tegra drivers do not like it
+ro.zygote.disable_gl_preload=true

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">Alkalmazás</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">Adatok</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">Áthelyezi az alkalmazást az eszközre?</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">Áthelyezi az alkalmazást az SD-kártyára?</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">Ez eltarthat pár percig. Ne vegye ki az SD-kártyát a művelet alatt.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> szabad az eszközön</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> szabad az SD-kártyán</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device">A(z) <xliff:g id="pkg_label">%1$s</xliff:g> áthelyezése az eszközre...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard">A(z) <xliff:g id="pkg_label">%1$s</xliff:g> áthelyezése az SD-kártyára...</string>
+</resources>

@@ -1,0 +1,634 @@
+# Copyright (c) 2011-2013 NVIDIA Corporation.  All Rights Reserved.
+#
+# NVIDIA Corporation and its licensors retain all intellectual property and
+# proprietary rights in and to this software and related documentation.  Any
+# use, reproduction, disclosure or distribution of this software and related
+# documentation without an express license agreement from NVIDIA Corporation
+# is strictly prohibited.
+
+import init.tegranote7c.usb.rc
+import init.${ro.boot.modem}.rc
+
+on early-init
+    mount debugfs debugfs /sys/kernel/debug
+
+    # create LBH mountpoint
+    mkdir /lbh 0775 root system
+    # create FCT mountpoint
+    mkdir /mnt/factory 0666 system system
+
+on init
+    mkdir /mnt/shell/emulated 0700 shell shell
+    mkdir /storage/emulated 0555 root root
+    mkdir /mnt/media_rw/sdcard1 0700 media_rw media_rw
+    mkdir /storage/sdcard1 0700 root root
+
+    export SECONDARY_STORAGE /storage/sdcard1
+    export EXTERNAL_STORAGE /storage/emulated/legacy
+    export EMULATED_STORAGE_SOURCE /mnt/shell/emulated
+    export EMULATED_STORAGE_TARGET /storage/emulated
+
+    # Support legacy paths
+    symlink /storage/emulated/legacy /sdcard
+    symlink /storage/emulated/legacy /mnt/sdcard
+    symlink /storage/emulated/legacy /storage/sdcard0
+    symlink /mnt/shell/emulated/0 /storage/emulated/legacy
+
+    # create directory for mounting usb drives
+    mkdir /mnt/media_rw/usbdrive 0700 media_rw media_rw
+    mkdir /storage/usbdrive 0700 root root
+    symlink /mnt/media_rw/usbdrive /mnt/usbdrive
+    symlink /mnt/media_rw/usbdrive /usbdrive
+
+on fs
+    setprop ro.crypto.tmpfs_options size=128m,mode=0771,uid=1000,gid=1000
+    setprop ro.crypto.umount_sd false
+    setprop ro.crypto.fuse_sdcard true
+    mount_all /fstab.tegranote7c
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/LBH /lbh wait ro
+
+on fs-charger
+    setprop ro.crypto.tmpfs_options size=128m,mode=0771,uid=1000,gid=1000
+    setprop ro.crypto.umount_sd false
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/APP /system wait ro
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/LBH /lbh wait ro
+
+on post-fs-data
+    # create directory for runtime calibration data
+    mkdir /data/touchscreen 0755 system system
+    mkdir /data/mpu 0755 system system
+
+    mkdir /data/misc/wifi 0770 wifi wifi
+    mkdir /data/misc/wifi/sockets 0770 wifi wifi
+    mkdir /data/misc/wifi/firmware 0770 wifi wifi
+    mkdir /data/misc/wifi/wapi_cert 0770 system wifi
+    mkdir /data/misc/wifi/wapi_cert/as_cert 0770 system wifi
+    mkdir /data/misc/wifi/wapi_cert/user_cert 0770 system wifi
+    mkdir /data/misc/dhcp 0770 dhcp dhcp
+    mkdir /data/nvcam 0700 media camera
+    chown dhcp dhcp /data/misc/dhcp
+
+    mkdir /data/misc/wminput 0776 system system
+
+    mkdir /data/media 0770 media_rw media_rw
+
+    mkdir /data/data/mediaserver 0700 media media
+
+    # Set indication (checked by vold) that we have finished this action
+    setprop vold.post_fs_data_done 1
+
+    # Create /data/var and copy last_kmsg in order for NvCrashMonitor to handle
+    mkdir /data/var
+    copy /proc/last_kmsg /data/var/last_kmsg
+    chown system system /data/var/last_kmsg
+
+    # Create GPS folders and set its permissions
+    mkdir /data/gnss
+    chown system system /data/gnss
+    mkdir /data/gnss/logs/
+    mkdir /data/gnss/nvs/
+    mkdir /data/gnss/log_MD/
+    chown system system /data/gnss/logs/
+    chown system system /data/gnss/nvs/
+    chown system system /data/gnss/log_MD/
+    insmod /system/lib/modules/gps_drv.ko
+
+    # create lbh link folder
+    mkdir /data/lbh/
+    start link_lbh
+
+    # enable Rt_reg_ctrl app to access device
+    chmod 0660 /dev/snd/hwC1D0
+
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/FCT /mnt/factory rw remount
+    mkdir /mnt/factory/mpu 0777 system system
+    chmod 0644 /mnt/factory/mpu/inv_cal_data.bin
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/FCT /mnt/factory ro remount
+
+    # export environment for touch and sensor
+    export TOUCH_CONF_DIR /mnt/factory/touchscreen
+    export TOUCH_DATA_DIR /data/touchscreen
+    export MPU_CONF_DIR /mnt/factory/mpu
+    export MPU_DATA_DIR /data/mpu
+
+    start sensor_init
+
+service lbh-setup /system/bin/init_lbh.sh
+    class main
+    user root
+    group root
+    oneshot
+
+on boot
+
+# bluetooth
+    # UART device
+    chmod 0660 /dev/ttyHS2
+    chown bluetooth net_bt_stack /dev/ttyHS2
+
+    # bluetooth MAC address programming
+    chown bluetooth net_bt_stack /system/etc/bluetooth
+
+# wifi
+    insmod /system/lib/modules/compat/compat.ko
+    insmod /system/lib/modules/compat/cfg80211.ko
+    insmod /system/lib/modules/compat/mac80211.ko
+    insmod /system/lib/modules/compat/wlcore.ko
+    insmod /system/lib/modules/compat/wl18xx.ko
+    insmod /system/lib/modules/compat/wlcore_sdio.ko
+    start add_p2p_iface
+
+# audio
+    chmod 0664 /sys/power/suspend/mode
+    chown system audio /sys/power/suspend/mode
+
+# backlight
+    chown system system /sys/class/backlight/pwm-backlight/brightness
+
+# didim
+    chown system system /sys/class/graphics/fb0/device/smartdimmer/enable
+    chown system system /sys/class/graphics/fb0/device/smartdimmer/aggressiveness
+    chown system system /sys/class/graphics/fb0/device/smartdimmer/sd_window
+    chown system system /sys/class/graphics/fb0/device/smartdimmer/sd_window_enable
+
+# CMU
+    chown system system /sys/class/graphics/fb0/device/cmu_enable
+    chown system system /sys/class/graphics/fb1/device/cmu_enable
+
+# power
+    chown system system /sys/kernel/tegra_cap/core_cap_level
+    chown system system /sys/kernel/tegra_cap/core_cap_state
+    chown system system /sys/module/cpu_tegra/parameters/cpu_user_cap
+
+# Cpu maximum voltage control settings
+    chown system system /sys/kernel/tegra_cpu_volt_cap/volt
+    chown system system /sys/kernel/tegra_cpu_volt_cap/capping_state
+
+# Voltage monitor settings
+    chown system system /sys/power/tegra_rail_stats
+
+# Temperature monitor settings
+    chown system system /sys/class/thermal
+    chown system system /sys/class/thermal/thermal_zone5/trip_point_0_temp
+
+# Power management settings
+    write /sys/devices/system/cpu/cpuquiet/tegra_cpuquiet/no_lp 0
+
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor conservative
+    write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor conservative
+    write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor conservative
+    write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor conservative
+
+    write /sys/devices/system/cpu/cpufreq/conservative/up_threshold 85
+    write /sys/devices/system/cpu/cpufreq/conservative/down_threshold 65
+    write /sys/devices/system/cpu/cpufreq/conservative/freq_step 1
+
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor interactive
+    write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor interactive
+    write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor interactive
+    write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor interactive
+    write /sys/devices/system/cpu/cpufreq/interactive/boost_factor 2
+    write /sys/devices/system/cpu/cpufreq/interactive/sustain_load 80
+    write /sys/devices/system/cpu/cpufreq/interactive/io_busy_threshold 4
+    write /sys/devices/system/cpu/cpuquiet/tegra_cpuquiet/enable 1
+    write /sys/devices/system/cpu/cpuquiet/current_governor runnable
+    write /sys/module/cpuidle_t11x/parameters/cpu_power_gating_in_idle 31
+    write /sys/module/cpuidle_t11x/parameters/slow_cluster_power_gating_noncpu 1
+    write /sys/module/cpuidle/parameters/power_down_in_idle 1
+
+    chown system system /sys/devices/system/cpu/cpuquiet/tegra_cpuquiet/no_lp
+    chown system system /sys/devices/system/cpu/cpufreq/interactive/go_maxspeed_load
+    chown system system /sys/devices/system/cpu/cpufreq/interactive/max_boost
+    chown system system /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+    chown system system /sys/devices/tegradc.0/enable
+    chown system system /sys/devices/tegradc.1/enable
+    chown system system /sys/devices/platform/host1x/nvavp/boost_sclk
+    chown system system /sys/class/input/input0/enabled
+    chown system system /sys/class/input/input1/enabled
+    chown system system /sys/class/input/input2/enabled
+    chown system system /sys/class/input/input3/enabled
+    chown system system /sys/class/input/input4/enabled
+    chown system system /sys/class/input/input5/enabled
+    chown system system /sys/class/input/input6/enabled
+    chown system system /sys/class/input/input7/enabled
+    chown system system /sys/class/input/input8/enabled
+    chown system system /sys/class/input/input9/enabled
+
+    chown system system /sys/kernel/tegra_cap/cbus_cap_level
+    chown system system /sys/kernel/tegra_cap/cbus_cap_state
+    chown system system /sys/devices/platform/host1x/gr3d/enable_3d_scaling
+    chown system system /sys/devices/platform/pwm-fan/pwm_cap
+
+    # TODO: Remove once powerhal takes over app profiles
+    chown system system /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+
+# nvdps
+    chown system system /sys/class/graphics/fb0/device/nvdps
+
+# Tegra wakeup monitor
+    chown system system /sys/devices/platform/tegra_wakeup_monitor/cmd
+    chown system system /sys/devices/platform/tegra_wakeup_monitor/monitor_enable
+    chown system system /sys/devices/platform/tegra_wakeup_monitor/nf_enable
+    chown system system /sys/devices/platform/tegra_wakeup_monitor/am_enable
+    chown system system /sys/devices/platform/tegra_wakeup_monitor/init_ports
+    chown system system /sys/devices/platform/tegra_wakeup_monitor/add_ports
+    chown system system /sys/devices/platform/tegra_wakeup_monitor/del_ports
+
+# Default Read Ahead value for sdcards
+    write /sys/block/mmcblk0/queue/read_ahead_kb 2048
+    write /sys/block/mmcblk1/queue/read_ahead_kb 2048
+
+# Wiimote connect status
+    write /data/misc/wminput/connected 0
+    chmod 0666 /data/misc/wminput/connected
+
+# increase idle_bottom_freq in order for LP core to get a more chance to run
+    write /sys/devices/system/cpu/cpuquiet/tegra_cpuquiet/idle_bottom_freq 408000
+
+on charger
+    setprop persist.tegra.panel.rotation 180
+# Power management settings
+    write /sys/devices/system/cpu/cpuquiet/tegra_cpuquiet/no_lp 0
+
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor conservative
+    write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor conservative
+    write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor conservative
+    write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor conservative
+
+    write /sys/devices/system/cpu/cpufreq/conservative/up_threshold 85
+    write /sys/devices/system/cpu/cpufreq/conservative/down_threshold 65
+    write /sys/devices/system/cpu/cpufreq/conservative/freq_step 1
+
+    write /sys/devices/system/cpu/cpuquiet/tegra_cpuquiet/enable 1
+    write /sys/devices/system/cpu/cpuquiet/current_governor runnable
+    write /sys/module/cpuidle_t11x/parameters/cpu_power_gating_in_idle 31
+    write /sys/module/cpuidle_t11x/parameters/slow_cluster_power_gating_noncpu 1
+    write /sys/module/cpuidle/parameters/power_down_in_idle 1
+
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/idVendor ${ro.usb.vid}
+    write /sys/class/android_usb/android0/idProduct ${ro.usb.pid.charger}
+    write /sys/class/android_usb/android0/bDeviceClass 0
+    write /sys/class/android_usb/android0/bDeviceSubClass 0
+    write /sys/class/android_usb/android0/bDeviceProtocol 0
+    write /sys/class/android_usb/android0/functions mass_storage
+    write /sys/class/android_usb/android0/enable 1
+
+# set hwui properties depending on the screen resolution and the memory size
+service set_hwui_params /system/bin/set_hwui_params.sh
+    class main
+    user root
+    group root
+    oneshot
+
+# CPU Boost: boost CPU on input events
+service input-cfboost /system/bin/input_cfboost_init.sh
+    class main
+    user root
+    group root
+    oneshot
+
+on property:ro.debuggable=1
+    # Invensense interface
+    chmod 0666 /sys/class/invensense/mpu/accl_bias
+    chmod 0666 /sys/class/invensense/mpu/accl_enable
+    chmod 0666 /sys/class/invensense/mpu/accl_fifo_enable
+    chmod 0666 /sys/class/invensense/mpu/accl_fs
+    chmod 0666 /sys/class/invensense/mpu/accl_matrix
+    chmod 0666 /sys/class/invensense/mpu/clock_source
+    chmod 0666 /sys/class/invensense/mpu/compass_enable
+    chmod 0666 /sys/class/invensense/mpu/compass_matrix
+    chmod 0666 /sys/class/invensense/mpu/compass_scale
+    chmod 0666 /sys/class/invensense/mpu/dev
+    chmod 0666 /sys/class/invensense/mpu/dmp_firmware
+    chmod 0666 /sys/class/invensense/mpu/enable
+    chmod 0666 /sys/class/invensense/mpu/fifo_rate
+    chmod 0666 /sys/class/invensense/mpu/firmware_loaded
+    chmod 0666 /sys/class/invensense/mpu/flick_axis
+    chmod 0666 /sys/class/invensense/mpu/flick_counter
+    chmod 0666 /sys/class/invensense/mpu/flick_int_on
+    chmod 0666 /sys/class/invensense/mpu/flick_lower
+    chmod 0666 /sys/class/invensense/mpu/flick_message_on
+    chmod 0666 /sys/class/invensense/mpu/flick_upper
+    chmod 0666 /sys/class/invensense/mpu/gyro_enable
+    chmod 0666 /sys/class/invensense/mpu/gyro_fifo_enable
+    chmod 0666 /sys/class/invensense/mpu/gyro_fs
+    chmod 0666 /sys/class/invensense/mpu/gyro_matrix
+    chmod 0666 /sys/class/invensense/mpu/key
+    chmod 0666 /sys/class/invensense/mpu/lpa_freq
+    chmod 0666 /sys/class/invensense/mpu/lpa_mode
+    chmod 0666 /sys/class/invensense/mpu/pedometer_steps
+    chmod 0666 /sys/class/invensense/mpu/pedometer_time
+    chmod 0666 /sys/class/invensense/mpu/power
+    chmod 0666 /sys/class/invensense/mpu/power_state
+    chmod 0666 /sys/class/invensense/mpu/raw_accl
+    chmod 0666 /sys/class/invensense/mpu/raw_gyro
+    chmod 0666 /sys/class/invensense/mpu/reg_dump
+    chmod 0666 /sys/class/invensense/mpu/self_test
+    chmod 0666 /sys/class/invensense/mpu/temp_offset
+    chmod 0666 /sys/class/invensense/mpu/temp_scale
+    chmod 0666 /sys/class/invensense/mpu/temperature
+    chmod 0666 /sys/class/invensense/mpu/uevent
+
+    # Invensense debug register interface.
+    chmod 0666 /sys/class/invensense/mpu/dbg_reg
+    chmod 0666 /sys/class/invensense/mpu/dbg_dat
+
+on property:ro.debuggable=1
+    # EMC debug interface
+    chmod 666 /sys/kernel/debug/tegra_emc/eack_state
+    # disable dmesg_restrict to allow NvCrashMonitor to catch dmesg
+    write /proc/sys/kernel/dmesg_restrict 0
+
+#shared transport user space mgr service for Bluetooth, FM and GPS
+service uim /system/bin/uim-sysfs
+    class core
+    user bluetooth
+    group system
+    oneshot
+
+service dhcpcd_p2p_p2p0 /system/bin/dhcpcd p2p-p2p0-0
+    class main
+    disabled
+    oneshot
+
+service dhcpcd_wlan0 /system/bin/dhcpcd -aABKL
+    class main
+    disabled
+    oneshot
+
+service dhcpcd_p2p /system/bin/dhcpcd -aABKL
+    class main
+    disabled
+    oneshot
+
+service dhcpcd_eth0 /system/bin/dhcpcd -ABKL -f/system/etc/dhcpcd/dhcpcd.conf
+     class main
+     disabled
+     oneshot
+
+service dhcpcd_bt-pan /system/bin/dhcpcd -ABKL
+    class main
+    disabled
+    oneshot
+
+service iprenew_bt-pan /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+
+service iprenew_wlan0 /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+
+service iprenew_p2p /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+
+service iprenew_eth0 /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+
+service cpuvoltcap /system/bin/nvcpuvoltcapd -a
+    class main
+    user system
+    group system
+
+service sdcard /system/bin/sdcard -u 1023 -g 1023 -l /data/media /mnt/shell/emulated
+    class late_start
+
+service fuse_sdcard1 /system/bin/sdcard -u 1023 -g 1023 -w 1023 -d /mnt/media_rw/sdcard1 /storage/sdcard1
+    class late_start
+    disabled
+
+service fuse_usbdrive /system/bin/sdcard -u 1023 -g 1023 -w 1023 -d /mnt/media_rw/usbdrive /storage/usbdrive
+    class late_start
+    disabled
+
+service hostapd_bin  /system/bin/hostapd -dd /data/misc/wifi/hostapd.conf
+    socket wpa_wlan1 dgram 660 wifi wifi
+    disabled
+    oneshot
+
+# bugreport is triggered by the VOLUME-DOWN and VOLUME-UP keys
+service bugreport /system/bin/dumpstate -d -p -B -o /data/data/com.android.shell/files/bugreports/bugreport
+    class main
+    disabled
+    oneshot
+    keycodes 115 114
+
+on property:init.svc.hciattach=stopped
+    write /sys/devices/platform/reg-userspace-consumer.1/state disabled
+
+# Prepare TF service
+import init.tf.rc
+
+# Enable NvCpuD, and set it to never poll config again
+on boot
+    setprop nvcpud.enabled true
+    setprop nvcpud.config_refresh_ms -1
+
+service nvcpud /system/bin/nvcpud
+    class main
+    user system
+    group system
+    oneshot
+
+# Enable PowerService
+    service powerservice /system/bin/powerservice
+    class main
+    user system
+    group system
+
+# Set up HDCP
+import init.hdcp.rc
+
+# Charger Mode
+service charger /charger
+	class charger
+	user root
+	group root
+	oneshot
+
+# create filesystems if necessary
+service setup_fs /system/bin/setup_fs \
+        /dev/block/platform/sdhci-tegra.3/by-name/UDA \
+        /dev/block/platform/sdhci-tegra.3/by-name/FCT \
+        /dev/block/platform/sdhci-tegra.3/by-name/CAC
+    class core
+    user root
+    group root
+    oneshot
+
+# unified scaling setup
+service ussr_setup /system/bin/ussr_setup.sh
+    class main
+    user root
+    group root
+    oneshot
+
+# unified scaling process
+service ussrd /system/bin/ussrd
+    user system
+    group system
+    class main
+
+# unified scaling watchdog process
+service usdwatchdog /system/bin/usdwatchdog --wait 30
+    user system
+    group system
+    class main
+
+# start pbc daemon
+#service pbc /system/bin/pbc
+#    class main
+#    user root
+#    group root
+
+service dns_masq /system/bin/dnsmasq --no-daemon --no-resolv --no-poll --dhcp-option-force=43,ANDROID_METERED --dhcp-range=192.168.42.2,192.168.42.254,1h &
+    class main
+    user dhcp
+    group dhcp wifi system
+    disabled
+    oneshot
+
+service p2p_supplicant /system/bin/wpa_supplicant \
+    -iwlan0 -Dnl80211 -c/data/misc/wifi/wpa_supplicant.conf \
+    -I/system/etc/wifi/p2p_disabled.conf -N \
+    -ip2p0 -Dnl80211 -c /data/misc/wifi/p2p_supplicant.conf \
+    -O/data/misc/wifi/sockets -g@android:wpa_wlan0
+
+#   we will start as root and wpa_supplicant will switch to user wifi
+#   after setting up the capabilities required for WEXT
+#   user wifi
+#   group wifi inet keystore
+    class main
+    socket wpa_wlan0 dgram 660 wifi wifi
+    disabled
+    oneshot
+
+service wpa_supplicant /system/bin/wpa_supplicant \
+    -iwlan0 -Dnl80211 -c/data/misc/wifi/wpa_supplicant.conf -e/data/misc/wifi/entropy.bin \
+    -O/data/misc/wifi/sockets -g@android:wpa_wlan0
+    class main
+    socket wpa_wlan0 dgram 660 wifi wifi
+    disabled
+    oneshot
+
+service add_p2p_iface /system/bin/add_p2p_iface.sh
+    disabled
+    class main
+    user root
+    group root
+    oneshot
+
+#gps wl18XX
+service devproxy /system/bin/devproxy
+    class main
+    disabled
+    oneshot
+    user system
+    group gps
+
+service agnss_connect /system/bin/agnss_connect -p
+    class main
+    disabled
+    oneshot
+    user system
+    group gps
+
+# make symlink to proper configuration according to lbh
+service link_lbh /system/bin/link_lbh.sh
+    class main
+    user root
+    group root
+    oneshot
+
+service camera_lbh /system/bin/camera_lbh.sh
+    class main
+    user root
+    group root
+    oneshot
+
+service user_guide /system/bin/user_guide.sh
+    disabled
+    class main
+    user root
+    group root
+    oneshot
+
+on property:service.bootanim.exit=1
+   start user_guide
+
+on init
+    setprop persist.tegra.cursor.enable 1
+    setprop sf.async.cursor.enable 1
+
+on init
+    setprop input.tch_blk.enabled 1
+    setprop input.tch_blk.ext_for_ptrs 1
+    setprop input.tch_blk.timeout_ms 500
+    setprop input.tch_prs.ebc 0.9
+    setprop input.ptr_trk.toolswitch_time 400
+    setprop input.ptr_trk.toolswitch_range 200
+    setprop input.ptr_trk.eraserlatch_range 10
+    setprop input.ptr_trk.eraserdelay_time 250
+    setprop input.ptr_trk.pinchtozoom_time 1000
+    setprop input.ptr_trk.pinchtozoom_range 800
+    setprop input.ptr_trk.pinchtozoom_rectX 600
+    setprop input.ptr_trk.pinchtozoom_rectY 900
+    setprop input.ptr_trk.pinchtozoom_cenX 400
+    setprop input.ptr_trk.pinchtozoom_cenY 640
+    setprop input.tch_blk.edgeremap_left 5
+    setprop input.tch_blk.edgeremap_top 5
+    setprop input.tch_blk.edgeremap_right 15
+    setprop input.tch_blk.edgeremap_bottom 5
+    setprop input.nonwhitelistedmode 0
+
+# Customers should remove this line
+import init.qvs.rc
+
+# To save system log in runtime
+service nvlogd /system/bin/sh /system/bin/nv_log.sh
+    class main
+    user root
+    group root
+    oneshot
+    disabled
+
+# should be saved as rotated log, such as '-r 1024 -n 5'
+service logcat_system /system/bin/logcat -v time -b system -f /sdcard/logs/log/logcat/logcat_system.log
+    class main
+    oneshot
+    disabled
+
+service logcat_main /system/bin/logcat -v time -b main -f /sdcard/logs/log/logcat/logcat_main.log
+    class main
+    oneshot
+    disabled
+
+service logcat_radio /system/bin/logcat -v time -b radio -f /sdcard/logs/log/logcat/logcat_radio.log
+    class main
+    oneshot
+    disabled
+
+service logcat_events /system/bin/logcat -v time -b events -f /sdcard/logs/log/logcat/logcat_events.log
+    class main
+    oneshot
+    disabled
+
+service log_kmsg /system/bin/sh -c "cat /proc/kmsg  > /sdcard/logs/log/kernel/kmsg.log"
+    class main
+    oneshot
+    disabled
+
+on property:persist.sys.nvlog.enable=1
+    start nvlogd
+
+service sensor_init /system/bin/sensor_init.sh
+    user root
+    group root
+    oneshot

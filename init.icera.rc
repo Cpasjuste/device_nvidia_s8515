@@ -1,0 +1,41 @@
+# Copyright (c) 2013 NVIDIA Corporation.  All Rights Reserved.
+#
+# NVIDIA Corporation and its licensors retain all intellectual property and
+# proprietary rights in and to this software and related documentation.  Any
+# use, reproduction, disclosure or distribution of this software and related
+# documentation without an express license agreement from NVIDIA Corporation
+# is strictly prohibited.
+
+import init.icera.tablet.rc
+
+on init
+    start ril-daemon
+
+# icera generic properties
+    setprop gsm.modem.power.device /sys/class/gpio/gpio120/value,0,1
+    setprop ro.ril.devicename /dev/ttyACM0
+    setprop mdc_initial_max_retry 10
+
+on boot
+
+# Modem init
+    write /sys/class/gpio/gpio120/value 1
+
+# GPIO BB access for user radio
+    chown radio system /sys/class/gpio/gpio120/value
+    chown radio system /sys/class/gpio/gpio129/value
+    chown radio system /sys/class/gpio/gpio168/value
+
+on charger
+# Diable modem buck-boost circuit in charger kernel mode
+    write /sys/class/gpio/gpio122/value 0
+
+on post-fs-data
+# BB mapping symbolic name to the logging ttyACM port
+    symlink /dev/ttyACM3 /dev/log_modem
+# BB mapping symbolic name to the at ttyACM port
+    symlink /dev/ttyACM1 /dev/at_modem
+
+# Icera modem firmware updates
+    mkdir /data/modem_fw
+    chown radio radio /data/modem_fw

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">Aplikácia</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">Údaje</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">Premiestniť aplikáciu do zariadenia?</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">Premiestniť aplikáciu na SD kartu?</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">Môže to trvať niekoľko minút. Počas tejto operáciu SD kartu neodoberajte.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> voľného miesta v zariadení</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> voľného miesta na SD karte</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device">Premiestňovanie aplikácie <xliff:g id="pkg_label">%1$s</xliff:g> do zariadenia...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard">Premiestňovanie aplikácie <xliff:g id="pkg_label">%1$s</xliff:g> na SD kartu...</string>
+</resources>

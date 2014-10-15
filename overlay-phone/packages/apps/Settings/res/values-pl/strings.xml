@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">Aplikacja</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">Dane</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">Przenieść aplikację na urządzenie?</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">Przenieść aplikację na kartę SD?</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">Może to potrwać kilka minut. W czasie tej operacji nie należy wyjmować karty SD.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> wolnego miejsca na urządzeniu</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> wolnego miejsca na karcie SD</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device">Przenoszenie <xliff:g id="pkg_label">%1$s</xliff:g> na urządzenie...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard">Przenoszenie <xliff:g id="pkg_label">%1$s</xliff:g> na kartę SD...</string>
+</resources>
