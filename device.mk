@@ -301,50 +301,50 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/eula.html:system/etc/eula.html
 
 # Promotional content
-ifneq ($(TARGET_PRODUCT),kalamata)
-ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media_ad/Movies/TEGRA_NOTE_TapToTrack.mp4),)
-PRODUCT_COPY_FILES += \
-    vendor/nvidia/tegra/tegratab/partition-data/media_ad/Movies/TEGRA_NOTE_TapToTrack.mp4:data/media/Movies/TEGRA_NOTE_TapToTrack.mp4
-endif
-endif
+#ifneq ($(TARGET_PRODUCT),kalamata)
+#ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media_ad/Movies/TEGRA_NOTE_TapToTrack.mp4),)
+#PRODUCT_COPY_FILES += \
+#    vendor/nvidia/tegra/tegratab/partition-data/media_ad/Movies/TEGRA_NOTE_TapToTrack.mp4:data/media/Movies/TEGRA_NOTE_TapToTrack.mp4
+#endif
+#endif
 
 # User Manual
-ifneq ($(TARGET_PRODUCT),kalamata)
-    PRODUCT_COPY_FILES += $(LOCAL_PATH)/user_guide.sh:system/bin/user_guide.sh
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide.pdf:system/media/TegraNOTE7LTEUserGuide.pdf
-    endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-de.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-de.pdf:system/media/TegraNOTE7LTEUserGuide-de.pdf
-    endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-es.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-es.pdf:system/media/TegraNOTE7LTEUserGuide-es.pdf
-    endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-fr.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-fr.pdf:system/media/TegraNOTE7LTEUserGuide-fr.pdf
-    endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-it.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-it.pdf:system/media/TegraNOTE7LTEUserGuide-it.pdf
-    endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ja.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ja.pdf:system/media/TegraNOTE7LTEUserGuide-ja.pdf
-    endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ko.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ko.pdf:system/media/TegraNOTE7LTEUserGuide-ko.pdf
-    endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-pt.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-pt.pdf:system/media/TegraNOTE7LTEUserGuide-pt.pdf
-    endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ru.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ru.pdf:system/media/TegraNOTE7LTEUserGuide-ru.pdf
-    endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-zh.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-zh.pdf:system/media/TegraNOTE7LTEUserGuide-zh.pdf
-    endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-zt.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-zt.pdf:system/media/TegraNOTE7LTEUserGuide-zt.pdf
-    endif
-endif
+#ifneq ($(TARGET_PRODUCT),kalamata)
+#    PRODUCT_COPY_FILES += $(LOCAL_PATH)/user_guide.sh:system/bin/user_guide.sh
+#    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide.pdf),)
+#        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide.pdf:system/media/TegraNOTE7LTEUserGuide.pdf
+#    endif
+#    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-de.pdf),)
+#        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-de.pdf:system/media/TegraNOTE7LTEUserGuide-de.pdf
+#    endif
+#    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-es.pdf),)
+#        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-es.pdf:system/media/TegraNOTE7LTEUserGuide-es.pdf
+#    endif
+#    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-fr.pdf),)
+#        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-fr.pdf:system/media/TegraNOTE7LTEUserGuide-fr.pdf
+#    endif
+#    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-it.pdf),)
+#        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-it.pdf:system/media/TegraNOTE7LTEUserGuide-it.pdf
+#    endif
+#    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ja.pdf),)
+#        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ja.pdf:system/media/TegraNOTE7LTEUserGuide-ja.pdf
+#    endif
+#    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ko.pdf),)
+#        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ko.pdf:system/media/TegraNOTE7LTEUserGuide-ko.pdf
+#    endif
+#    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-pt.pdf),)
+#        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-pt.pdf:system/media/TegraNOTE7LTEUserGuide-pt.pdf
+#    endif
+#   ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ru.pdf),)
+#        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ru.pdf:system/media/TegraNOTE7LTEUserGuide-ru.pdf
+#    endif
+#    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-zh.pdf),)
+#        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-zh.pdf:system/media/TegraNOTE7LTEUserGuide-zh.pdf
+#    endif
+#    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-zt.pdf),)
+#        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-zt.pdf:system/media/TegraNOTE7LTEUserGuide-zt.pdf
+#    endif
+#endif
 
 #enable Widevine drm
 PRODUCT_PROPERTY_OVERRIDES += drm.service.enabled=true
@@ -406,39 +406,39 @@ PRODUCT_PACKAGES += \
 	WiiMote
 
 #WiFi
-PRODUCT_PACKAGES += \
-		TQS_S_2.6.ini \
-		iw \
-		wl18xx-conf-default.bin \
-		wl18xx-conf-us.bin \
-		wl18xx-conf-eu.bin \
-		crda \
-		regulatory.bin \
-		wpa_supplicant.conf \
-		p2p_supplicant.conf \
-		p2p_disabled.conf \
-		hostapd.conf \
-		ibss_supplicant.conf \
-		dhcpd.conf \
-		dhcpcd.conf
+#PRODUCT_PACKAGES += \
+#		TQS_S_2.6.ini \
+#		iw \
+#		wl18xx-conf-default.bin \
+#		wl18xx-conf-us.bin \
+#		wl18xx-conf-eu.bin \
+#		crda \
+#		regulatory.bin \
+#		wpa_supplicant.conf \
+#		p2p_supplicant.conf \
+#		p2p_disabled.conf \
+#		hostapd.conf \
+#		ibss_supplicant.conf \
+#		dhcpd.conf \
+#		dhcpcd.conf
 
 #Wifi firmwares
-PRODUCT_PACKAGES += \
-		wl1271-nvs_default.bin \
-		wl128x-fw-4-sr.bin \
-		wl128x-fw-4-mr.bin \
-		wl128x-fw-4-plt.bin \
-		wl18xx-fw-mc.bin \
-		wl18xx-fw-mc_pg22.bin \
-		wl18xx-fw-2.bin \
-		wl1271-nvs_wl8.bin
+#PRODUCT_PACKAGES += \
+#		wl1271-nvs_default.bin \
+#		wl128x-fw-4-sr.bin \
+#		wl128x-fw-4-mr.bin \
+#		wl128x-fw-4-plt.bin \
+#		wl18xx-fw-mc.bin \
+#		wl18xx-fw-mc_pg22.bin \
+#		wl18xx-fw-2.bin \
+#		wl1271-nvs_wl8.bin
 
 #BT & FM packages
-PRODUCT_PACKAGES += \
-		uim-sysfs \
-		TIInit_10.6.15.bts \
-		TIInit_11.8.32.bts \
-		TIInit_12.8.32.bts
+#PRODUCT_PACKAGES += \
+#		uim-sysfs \
+#		TIInit_10.6.15.bts \
+#		TIInit_11.8.32.bts \
+#		TIInit_12.8.32.bts
 
 #GPS
 PRODUCT_PACKAGES += \
@@ -462,6 +462,7 @@ PRODUCT_PACKAGES += \
 		nvs.txt \
 		ser2soc \
 		test_server
+
 # CPU volt cap daemon
 PRODUCT_PACKAGES += \
 	nvcpuvoltcapd
