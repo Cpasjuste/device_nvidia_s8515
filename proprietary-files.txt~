@@ -109,7 +109,7 @@ etc/firmware/tegra14x/nvhost_tsec.fw
 # ril?
 bin/wpa_supplicant
 bin/rild
-#bin/radiooptions
+bin/radiooptions
 bin/icera_log_serial_arm
 bin/hostapd
 lib/libril-icera.so

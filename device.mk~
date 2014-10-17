@@ -5,6 +5,7 @@
 $(call inherit-product-if-exists, vendor/nvidia/tegra/core/nvidia-tegra-vendor.mk)
 $(call inherit-product-if-exists, frameworks/base/data/videos/VideoPackage2.mk)
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage3.mk)
+$(call inherit-product-if-exists, vendor/nvidia/tegra/apps/tfc/tfc.mk)
 $(call inherit-product, build/target/product/languages_full.mk)
 
 PRODUCT_LOCALES += mdpi hdpi xhdpi

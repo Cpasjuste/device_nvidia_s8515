@@ -129,7 +129,7 @@ BOARD_HAVE_LBH_SUPPORT := true
 BOARD_HAVE_NV_FACTORY_TEST := true
 
 # This should be set to true for boards that have promotional media files
-BOARD_HAVE_AD_MEDIA := false
+BOARD_HAVE_AD_MEDIA := true
 
 # Max panel brightness in the first device boot for OOBE
 # BOARD_FIRST_MAX_BRIGHTNESS_FOR_OOBE := true
