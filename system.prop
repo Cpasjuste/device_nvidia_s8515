@@ -7,7 +7,7 @@ persist.tegra.nvmmlite = 1
 persist.wlan.ti.calibrated = 0
 ro.ril.wake_lock_timeout=200000
 ro.sf.override_null_lcd_density = 1
-persist.tegra.panel.rotation = 180
+persist.tegra.panel.rotation = 0
 
 #NFC
 debug.nfc.fw_download=false
@@ -36,3 +36,6 @@ persist.sys.nvlog.enable = 0
 
 # don't preload OpenGL in Zygote, the Tegra drivers do not like it
 ro.zygote.disable_gl_preload=true
+
+# disable soft keys
+qemu.hw.mainkeys=1

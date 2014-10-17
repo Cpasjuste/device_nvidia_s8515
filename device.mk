@@ -10,47 +10,47 @@ $(call inherit-product, build/target/product/languages_full.mk)
 
 PRODUCT_LOCALES += mdpi hdpi xhdpi
 
-ifeq ($(wildcard vendor/nvidia/tegra/core-private),vendor/nvidia/tegra/core-private)
-    NVFLASH_FILES_PATH := vendor/nvidia/tegra/customers/nvidia-partner/tegranote7c
-else
-    NVFLASH_FILES_PATH := vendor/nvidia/tegra/odm/tegranote7c
-endif
+#ifeq ($(wildcard vendor/nvidia/tegra/core-private),vendor/nvidia/tegra/core-private)
+#    NVFLASH_FILES_PATH := vendor/nvidia/tegra/customers/nvidia-partner/tegranote7c
+#else
+#    NVFLASH_FILES_PATH := vendor/nvidia/tegra/odm/tegranote7c
+#endif
 
-PRODUCT_COPY_FILES += \
-    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v9_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v2_0.cfg:bct.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v9_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v2_0.bct:flash.bct \
-    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v9_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v2_0.cfg:flash_tegranote7c_p1640.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v9_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v2_0.bct:flash_tegranote7c_p1640.bct \
-    $(NVFLASH_FILES_PATH)/nvflash/P1988_512MBx2_MT41K128M16JT-125_408Mhz_4.1.7.bct:flash_tegranote7c_p1988.bct \
-    $(NVFLASH_FILES_PATH)/nvflash/P1988_512MBx2_MT41K128M16JT-125_408Mhz_4.1.7.cfg:flash_tegranote7c_p1988.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/E1569_Micron_1GB_MT41K128M16-125_408Mhz.cfg:flash_tegranote7c_e1569.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/E1569_Micron_1GB_MT41K128M16-125_408Mhz.bct:flash_tegranote7c_e1569.bct \
-    $(NVFLASH_FILES_PATH)/nvflash/eks_nokey.dat:eks.dat \
-    $(NVFLASH_FILES_PATH)/partition_data/config/nvcamera.conf:system/etc/nvcamera.conf \
-    $(NVFLASH_FILES_PATH)/nvflash/lowbat.bmp:lowbat.bmp \
-    $(NVFLASH_FILES_PATH)/nvflash/charging.bmp:charging.bmp \
-    $(NVFLASH_FILES_PATH)/nvflash/fuse_write.txt:fuse_write.txt \
-    $(NVFLASH_FILES_PATH)/nvflash/nct_gb.txt:nct_gb.txt \
-    $(NVFLASH_FILES_PATH)/nvflash/nct_gp.txt:nct_gp.txt \
-    $(NVFLASH_FILES_PATH)/nvflash/nct_nb.txt:nct_nb.txt \
-    $(NVFLASH_FILES_PATH)/nvflash/nct_np.txt:nct_np.txt
+#PRODUCT_COPY_FILES += \
+#    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v9_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v2_0.cfg:bct.cfg \
+#    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v9_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v2_0.bct:flash.bct \
+#    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v9_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v2_0.cfg:flash_tegranote7c_p1640.cfg \
+#    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v9_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v2_0.bct:flash_tegranote7c_p1640.bct \
+#    $(NVFLASH_FILES_PATH)/nvflash/P1988_512MBx2_MT41K128M16JT-125_408Mhz_4.1.7.bct:flash_tegranote7c_p1988.bct \
+#    $(NVFLASH_FILES_PATH)/nvflash/P1988_512MBx2_MT41K128M16JT-125_408Mhz_4.1.7.cfg:flash_tegranote7c_p1988.cfg \
+#    $(NVFLASH_FILES_PATH)/nvflash/E1569_Micron_1GB_MT41K128M16-125_408Mhz.cfg:flash_tegranote7c_e1569.cfg \
+#    $(NVFLASH_FILES_PATH)/nvflash/E1569_Micron_1GB_MT41K128M16-125_408Mhz.bct:flash_tegranote7c_e1569.bct \
+#    $(NVFLASH_FILES_PATH)/nvflash/eks_nokey.dat:eks.dat \
+#    $(NVFLASH_FILES_PATH)/partition_data/config/nvcamera.conf:system/etc/nvcamera.conf \
+#    $(NVFLASH_FILES_PATH)/nvflash/lowbat.bmp:lowbat.bmp \
+#    $(NVFLASH_FILES_PATH)/nvflash/charging.bmp:charging.bmp \
+#    $(NVFLASH_FILES_PATH)/nvflash/fuse_write.txt:fuse_write.txt \
+#    $(NVFLASH_FILES_PATH)/nvflash/nct_gb.txt:nct_gb.txt \
+#    $(NVFLASH_FILES_PATH)/nvflash/nct_gp.txt:nct_gp.txt \
+#    $(NVFLASH_FILES_PATH)/nvflash/nct_nb.txt:nct_nb.txt \
+#    $(NVFLASH_FILES_PATH)/nvflash/nct_np.txt:nct_np.txt
 
-ifeq ($(TARGET_PRODUCT),kalamata)
-    ifneq ($(wildcard vendor/nvidia/kalamata/media/hpLogo.bmp),)
-        PRODUCT_COPY_FILES += vendor/nvidia/kalamata/media/hpLogo.bmp:nvidia.bmp
-    else
-        PRODUCT_COPY_FILES += $(NVFLASH_FILES_PATH)/nvflash/nvidia.bmp:nvidia.bmp
-    endif
-else
-    PRODUCT_COPY_FILES += $(NVFLASH_FILES_PATH)/nvflash/nvidia.bmp:nvidia.bmp
-endif
+#ifeq ($(TARGET_PRODUCT),kalamata)
+#    ifneq ($(wildcard vendor/nvidia/kalamata/media/hpLogo.bmp),)
+#        PRODUCT_COPY_FILES += vendor/nvidia/kalamata/media/hpLogo.bmp:nvidia.bmp
+#    else
+#        PRODUCT_COPY_FILES += $(NVFLASH_FILES_PATH)/nvflash/nvidia.bmp:nvidia.bmp
+#    endif
+#else
+#    PRODUCT_COPY_FILES += $(NVFLASH_FILES_PATH)/nvflash/nvidia.bmp:nvidia.bmp
+#endif
 
-ifeq ($(APPEND_DTB_TO_KERNEL), true)
-PRODUCT_COPY_FILES += \
-    $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_emmc_full.cfg:flash.cfg
-else
-NVFLASH_CFG_BASE_FILE := $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_dtb_emmc_full_noxusb_nosif.cfg
-endif
+#ifeq ($(APPEND_DTB_TO_KERNEL), true)
+#PRODUCT_COPY_FILES += \
+#    $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_emmc_full.cfg:flash.cfg
+#else
+#NVFLASH_CFG_BASE_FILE := $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_dtb_emmc_full_noxusb_nosif.cfg
+#endif
 
 NVFLASH_FILES_PATH :=
 
@@ -519,35 +519,37 @@ include $(LOCAL_PATH)/touchscreen/maxim/maxim.mk
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
 
-PRODUCT_CHARACTERISTICS := tablet
+PRODUCT_CHARACTERISTICS := phone
+#tablet
 
-ifeq ($(TARGET_PRODUCT),kalamata)
-    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/../../../vendor/nvidia/kalamata/overlay
-else
-    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay-phone
-endif
-ifeq ($(NV_TN_SKU),tn7c_114gp)
-    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay-phone
-endif
-ifeq ($(NV_TN_SKU),tn7c_114np)
-    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay-phone
-endif
-ifeq ($(NV_TN_SKU),tn7c_114gp_do)
-    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
-endif
-ifeq ($(NV_TN_SKU),tn7c_114np_do)
-    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
-endif
+PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay-phone
+#ifeq ($(TARGET_PRODUCT),kalamata)
+#    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/../../../vendor/nvidia/kalamata/overlay
+#else
+#    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay-phone
+#endif
+#ifeq ($(NV_TN_SKU),tn7c_114gp)
+#    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay-phone
+#endif
+#ifeq ($(NV_TN_SKU),tn7c_114np)
+#    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay-phone
+#endif
+#ifeq ($(NV_TN_SKU),tn7c_114gp_do)
+#    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
+#endif
+#ifeq ($(NV_TN_SKU),tn7c_114np_do)
+#    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
+#endif
 
 # override runtimes to dvm only(removing android runtime)
 OVERRIDE_RUNTIMES := runtime_libdvm_default
 
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp
+    persist.sys.usb.config=mtp,adb
 
 # Set DPI
-PRODUCT_PROPERTY_OVERRIDES += ro.sf.lcd_density=213
+PRODUCT_PROPERTY_OVERRIDES += ro.sf.lcd_density=312
 
 # Enable secure USB debugging in user release build
 ifeq ($(TARGET_BUILD_TYPE),release)
@@ -564,6 +566,12 @@ SHIELDTECH_FEATURE_KEYBOARD := false
 SHIELDTECH_FEATURE_CONSOLE_MODE := false
 SHIELDTECH_FEATURE_BLAKE := false
 
-$(call inherit-product-if-exists, vendor/nvidia/shieldtech/common/shieldtech.mk)
+#$(call inherit-product-if-exists, vendor/nvidia/shieldtech/common/shieldtech.mk)
 endif
+
+# cpasjuste
+-include vendor/nvidia/tegranote7c/BoardConfigVendor.mk
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/cpasjuste/remountsys:system/bin/remountsys \
+	$(LOCAL_PATH)/cpasjuste/mountsd:system/bin/mountsd
 

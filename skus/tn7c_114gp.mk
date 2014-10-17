@@ -20,7 +20,7 @@ NV_TN_PLATFORM := premium
 NV_TN_WITH_GMS := true
 
 ## All GMS apps for tegranote7c_gms
-$(call inherit-product-if-exists, 3rdparty/google/gms-apps/products/gms.mk)
+#$(call inherit-product-if-exists, 3rdparty/google/gms-apps/products/gms.mk)
 
 ## GMS 3rd-party preinstalled apk for tegranote7c_gms
-$(call inherit-product-if-exists, 3rdparty/applications/prebuilt/common/tegratab_gms.mk)
+#$(call inherit-product-if-exists, 3rdparty/applications/prebuilt/common/tegratab_gms.mk)
