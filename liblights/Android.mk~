@@ -30,7 +30,7 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_SHARED_LIBRARIES := liblog
 
-LOCAL_MODULE := lights.ceres
+LOCAL_MODULE := lights.tegranote7c
 LOCAL_NVIDIA_NO_WARNINGS_AS_ERRORS := 1
 
 include $(NVIDIA_SHARED_LIBRARY)

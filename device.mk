@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/product-files/power.ceres.rc:system/etc/power.ceres.rc
 
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/product-files/rootfs/fstab.ceres:root/ \
+	$(LOCAL_PATH)/product-files/rootfs/fstab.ceres:root/fstab.ceres \
 	$(LOCAL_PATH)/product-files/rootfs/init.environ.rc:root/init.environ.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.rc:root/init.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.ceres.rc:root/init.ceres.rc \
@@ -259,7 +259,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
 	sensors.tegranote7c \
-	lights.tegranote7c \
+	lights.ceres \
 	audio.primary.tegra \
 	audio.a2dp.default \
 	audio.usb.default \
@@ -392,6 +392,14 @@ ifeq ($(TARGET_BUILD_TYPE),release)
 ifeq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.secure=1
+endif
+endif
+
+ifeq ($(TARGET_BUILD_TYPE),release)
+ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.secure=0 \
+    ro.adb.secure=0
 endif
 endif
 

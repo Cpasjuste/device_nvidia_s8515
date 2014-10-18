@@ -75,7 +75,6 @@ lib/hw/audio_policy.tegra.so
 lib/hw/gralloc.tegra.so
 lib/hw/sensors.ceres.so
 #lib/hw/nfc.tegra.so
-#lib/hw/lights.ceres.so --------------------------> USE "lights.tegranote7c.so" OK !!
 #lib/hw/gps.tegra.so
 #lib/hw/camera.tegra.so
 
