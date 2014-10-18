@@ -1,0 +1,78 @@
+# Copyright (c) 2013-2014 NVIDIA Corporation.  All Rights Reserved.
+#
+# NVIDIA Corporation and its licensors retain all intellectual property and
+# proprietary rights in and to this software and related documentation.  Any
+# use, reproduction, disclosure or distribution of this software and related
+# documentation without an express license agreement from NVIDIA Corporation
+# is strictly prohibited.
+
+import init.icera.common.rc
+
+on init
+# agpsd properties
+    setprop agpsd.socket_path "/dev/socket/at_pal"
+# mount point for fs_mgr to mount modem partition
+    mkdir /mnt/modem
+
+on post-fs
+   mkdir /mnt/modem/data 0770 root radio
+   mkdir /mnt/modem/data/factory 0770 root radio
+   mkdir /mnt/modem/data/persistent 0770 root radio
+   mkdir /mnt/modem/data/modem 0770 root radio
+
+# Start FIL daemon
+service fil-daemon /system/bin/fild
+    class main
+    user radio
+    group log radio
+
+# Start AGPS daemon
+service agps-daemon /system/bin/agpsd
+    class main
+    user radio
+    socket at_pal seqpacket 0666 radio system
+    group system
+
+on property:gsm.modem.crashlogs=1
+    start icera-crashlogs
+
+on property:gsm.modem.ril.enabled=0
+    stop ril-daemon
+
+on property:gsm.modem.ril.enabled=1
+    stop ril-daemon
+    start ril-daemon
+
+on property:ril.testmode=2
+    setprop ril.mock_modem.socketname "/dev/mock_modem"
+    start mock_modem
+    stop fil-daemon
+    stop ril-daemon
+    start ril-daemon-test
+
+on property:ril.testmode=1
+    setprop ril.mock_modem.socketname ""
+    stop ril-daemon
+    stop ril-daemon-test
+    stop mock_modem
+    start ril-daemon-test
+
+on property:ril.testmode=0
+    setprop ril.mock_modem.socketname ""
+    stop ril-daemon-test
+    stop mock_modem
+    start fil-daemon
+    start ril-daemon
+
+on property:gsm.modem.icera.testmode=1
+    stop fil-daemon
+    start fil-daemon
+    start at-port-forward
+    start log-port-forward
+
+on property:gsm.modem.riltest.enabled=0
+    stop ril-daemon-test
+
+on property:gsm.modem.riltest.enabled=1
+    stop ril-daemon-test
+    start ril-daemon-test

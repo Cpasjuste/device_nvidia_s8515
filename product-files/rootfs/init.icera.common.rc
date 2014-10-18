@@ -1,0 +1,81 @@
+# Copyright (c) 2013-2014 NVIDIA Corporation.  All Rights Reserved.
+#
+# NVIDIA Corporation and its licensors retain all intellectual property and
+# proprietary rights in and to this software and related documentation.  Any
+# use, reproduction, disclosure or distribution of this software and related
+# documentation without an express license agreement from NVIDIA Corporation
+# is strictly prohibited.
+
+on init
+
+# Export the global environment for code coverage
+    export GCOV_PREFIX /data
+    export GCOV_PREFIX_STRIP 3
+
+# rild properties
+    stop ril-daemon
+    chown radio radio /dev/ttyGS0
+    chown radio radio /dev/ttyGS1
+
+# icera generic properties
+    setprop gsm.modem.powercontrol enabled
+    setprop ro.ril.wake_lock_timeout 200000
+    setprop ro.telephony.default_network 9
+
+on boot
+    write /proc/sys/net/core/rmem_default 2097152
+    write /proc/sys/net/core/rmem_max 2097152
+
+on post-fs-data
+# BB remote file system
+    mkdir /data/rfs
+    mkdir /data/rfs/ril 0770 root radio
+    mkdir /data/rfs/data
+    mkdir /data/rfs/data/debug
+    chown radio system /data/rfs/data
+    chown radio system /data/rfs/data/modem
+    chown radio log /data/rfs/data/debug
+    symlink /system/vendor/firmware/data/config /data/rfs/data/config
+    symlink /system/vendor/firmware/app /data/rfs/app
+    symlink /mnt/modem/data/factory /data/rfs/data/factory
+    symlink /mnt/modem/data/modem /data/rfs/data/modem
+    symlink /mnt/modem/data/persistent /data/rfs/data/persistent
+    chmod 775 /data/rfs/data/debug
+    setprop gsm.rfs.created 1
+
+# crashlogs service
+service icera-crashlogs /system/bin/icera-crashlogs
+    user root
+    group root
+    disabled
+    oneshot
+
+# AT port forwarding service
+service at-port-forward /system/bin/at-port-forward
+    user radio
+    group radio
+    disabled
+
+# Modem logging port forwarding service
+service log-port-forward /system/bin/log-port-forward
+    user radio
+    group radio
+    disabled
+
+# Mock modem service
+service mock_modem /system/bin/mock_modem
+    class main
+    user root
+    group root
+    disabled
+
+on property:gsm.modem.logging=1
+    start icera-crashlogs
+
+# test mode for RIL: Should probably be removed from production phones
+service ril-daemon-test /system/bin/rild
+    socket rild-testmode stream 666 root radio
+    socket rild-debug stream 660 radio system
+    user root
+    group radio cache inet misc audio sdcard_rw sdcard_r
+    disabled

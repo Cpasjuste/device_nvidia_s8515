@@ -5,7 +5,6 @@
 $(call inherit-product-if-exists, vendor/nvidia/tegra/core/nvidia-tegra-vendor.mk)
 $(call inherit-product-if-exists, frameworks/base/data/videos/VideoPackage2.mk)
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage3.mk)
-$(call inherit-product-if-exists, vendor/nvidia/tegra/apps/tfc/tfc.mk)
 $(call inherit-product, build/target/product/languages_full.mk)
 
 PRODUCT_LOCALES += mdpi hdpi xhdpi
@@ -39,40 +38,38 @@ PRODUCT_COPY_FILES += \
 endif
 
 PRODUCT_COPY_FILES += \
-  $(LOCAL_PATH)/ueventd.tegranote7c.rc:root/ueventd.tegranote7c.rc \
-  $(LOCAL_PATH)/tegra-kbc.kl:system/usr/keylayout/tegra-kbc.kl \
-  $(LOCAL_PATH)/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-  $(LOCAL_PATH)/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
-  $(LOCAL_PATH)/raydium_ts.idc:system/usr/idc/raydium_ts.idc \
-  $(LOCAL_PATH)/sensor00fn11.idc:system/usr/idc/sensor00fn11.idc \
   $(LOCAL_PATH)/../common/add_p2p_iface.sh:system/bin/add_p2p_iface.sh \
   $(LOCAL_PATH)/../common/ussr_setup.sh:system/bin/ussr_setup.sh \
   $(LOCAL_PATH)/../common/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
   $(LOCAL_PATH)/../common/set_hwui_params.sh:system/bin/set_hwui_params.sh
-#$(LOCAL_PATH)/touch_fusion.idc:system/usr/idc/touch_fusion.idc \
 
 PRODUCT_COPY_FILES += \
   $(LOCAL_PATH)/sensor_init.sh:system/bin/sensor_init.sh
 
-ifeq ($(NV_ANDROID_FRAMEWORK_ENHANCEMENTS),TRUE)
 PRODUCT_COPY_FILES += \
-  $(LOCAL_PATH)/media_profiles.xml:system/etc/media_profiles.xml \
-  $(LOCAL_PATH)/media_codecs.xml:system/etc/media_codecs.xml \
-  $(LOCAL_PATH)/audio_policy.conf:system/etc/audio_policy.conf
-else
-PRODUCT_COPY_FILES += \
-  $(LOCAL_PATH)/media_profiles_noenhance.xml:system/etc/media_profiles.xml \
-  $(LOCAL_PATH)/media_codecs_noenhance.xml:system/etc/media_codecs.xml \
-  $(LOCAL_PATH)/audio_policy_noenhance.conf:system/etc/audio_policy.conf
-endif
+    $(LOCAL_PATH)/product-files/power.ceres.rc:system/etc/power.ceres.rc
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/power.tegranote7c.rc:system/etc/power.tegranote7c.rc \
-    $(LOCAL_PATH)/init.tegranote7c.rc:root/init.tegranote7c.rc \
-    $(LOCAL_PATH)/init.icera.rc:root/init.icera.rc \
-    $(LOCAL_PATH)/init.icera.rc:factory_ramdisk/init.icera.rc \
-    $(LOCAL_PATH)/fstab.tegranote7c:root/fstab.tegranote7c \
-    $(LOCAL_PATH)/init.tegranote7c.usb.rc:root/init.tegranote7c.usb.rc
+	$(LOCAL_PATH)/product-files/rootfs/fstab.ceres:root/ \
+	$(LOCAL_PATH)/product-files/rootfs/init.environ.rc:root/init.environ.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.rc:root/init.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.ceres.rc:root/init.ceres.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.icera_ceres.rc:root/init.icera_ceres.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.icera.common.rc:root/init.icera.common.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.modem_icera.rc:root/init.modem_icera.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.icera.phone.rc:root/init.icera.phone.rc \
+	$(LOCAL_PATH)/product-files/rootfs/ueventd.rc:root/ueventd.rc \
+	$(LOCAL_PATH)/product-files/rootfs/ueventd.ceres.rc:root/ueventd.ceres.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.nv_dev_board.usb.rc:root/init.nv_dev_board.usb.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init_charging.rc:root/init_charging.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.trace.rc:root/init.trace.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.usb.rc:root/init.usb.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.hdcp.rc:root/init.hdcp.rc \
+	$(LOCAL_PATH)/product-files/rootfs/property_contexts:root/property_contexts \
+	$(LOCAL_PATH)/product-files/rootfs/seapp_contexts:root/seapp_contexts \
+	$(LOCAL_PATH)/product-files/rootfs/sepolicy:root/sepolicy \
+	$(LOCAL_PATH)/product-files/rootfs/sbin/mountsd:root/sbin/mountsd \
+	$(LOCAL_PATH)/product-files/rootfs/sbin/remountsys:root/sbin/remountsys
 
 ifeq ($(NO_ROOT_DEVICE),1)
   PRODUCT_COPY_FILES += \
@@ -194,9 +191,9 @@ PRODUCT_COPY_FILES += \
 	external/alsa-lib/src/conf/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
 	external/alsa-lib/src/conf/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
 	external/alsa-lib/src/conf/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
-	external/alsa-lib/src/conf/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
-	device/nvidia/tegranote7c/asound.conf:system/etc/asound.conf \
-	device/nvidia/tegranote7c/nvaudio_conf.xml:system/etc/nvaudio_conf.xml 
+	external/alsa-lib/src/conf/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf 
+#	device/nvidia/tegranote7c/asound.conf:system/etc/asound.conf \
+#	device/nvidia/tegranote7c/nvaudio_conf.xml:system/etc/nvaudio_conf.xml 
 #	device/nvidia/tegranote7c/nvaudio_fx.xml:system/etc/nvaudio_fx.xml
 
 ifeq ($(NV_ANDROID_FRAMEWORK_ENHANCEMENTS),TRUE)
@@ -212,18 +209,9 @@ PRODUCT_COPY_FILES += \
 	vendor/nvidia/tegra/3rdparty/cwiid/wminput/configs/nunchuk_stick2btn:system/etc/nunchuk_stick2btn
 endif
 
-PRODUCT_COPY_FILES += \
-	device/nvidia/tegranote7c/enctune.conf:system/etc/enctune.conf
-
 # nvcpud specific cpu frequencies config
 PRODUCT_COPY_FILES += \
         device/nvidia/tegranote7c/nvcpud.conf:system/etc/nvcpud.conf
-
-# modem test executable
-ifeq ($(wildcard vendor/nvidia/tegra/icera/tools/at_tool/atcmd-itf-arm),vendor/nvidia/tegra/icera/tools/at_tool/atcmd-itf-arm)
-PRODUCT_COPY_FILES += \
-	vendor/nvidia/tegra/icera/tools/at_tool/atcmd-itf-arm:system/bin/atcmd-itf-arm
-endif
 
 # Stereo API permissions file has different locations in private and customer builds
 ifeq ($(wildcard vendor/nvidia/tegra/core-private),vendor/nvidia/tegra/core-private)
@@ -233,12 +221,6 @@ else
 PRODUCT_COPY_FILES += \
     vendor/nvidia/tegra/prebuilt/$(REFERENCE_DEVICE)/stereo/api/com.nvidia.nvstereoutils.xml:system/etc/permissions/com.nvidia.nvstereoutils.xml
 endif
-
-# Enable following APKs only for internal engineering build
-#ifeq ($(wildcard vendor/nvidia/tegra/core-private),vendor/nvidia/tegra/core-private)
-#PRODUCT_PACKAGES += \
-#    NvwfdServiceTest
-#endif
 
 # Nvidia Miracast
 PRODUCT_COPY_FILES += \
@@ -379,38 +361,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	nvcpuvoltcapd
 
-# promotional contents
-PRODUCT_PACKAGES += \
-	media_ad
-
-# Factory test packages
-PRODUCT_PACKAGES += \
-	nvbdktestbl \
-        pcba_testcases.xml \
-        postassembly_testcases.xml \
-        preassembly_testcases.xml \
-        audio_testcases.xml \
-        usbhostumsread \
-	tdc \
-	tmc \
-	tst \
-	camera_existence \
-	factory_adbd \
-	oemcrypto_api_test
-
-#PRODUCT_PACKAGES += \
-#    nvflash_cfg_populator \
-#    lbh_images
-
-# Markers app (renamed to Tegra Draw)
-PRODUCT_PACKAGES += \
-        TegraDraw
-
-# Stylus apps
-#PRODUCT_PACKAGES += \
-#        NvLauncher \
-#        nvlasso
-
 # HDCP SRM Support
 PRODUCT_PACKAGES += \
                 hdcp1x.srm \
@@ -458,7 +408,5 @@ endif
 
 # cpasjuste
 -include vendor/nvidia/tegranote7c/BoardConfigVendor.mk
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/cpasjuste/remountsys:system/bin/remountsys \
-	$(LOCAL_PATH)/cpasjuste/mountsd:system/bin/mountsd
+
 

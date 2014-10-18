@@ -75,7 +75,7 @@ lib/hw/audio_policy.tegra.so
 lib/hw/gralloc.tegra.so
 lib/hw/sensors.ceres.so
 #lib/hw/nfc.tegra.so
-#lib/hw/lights.ceres.so
+#lib/hw/lights.ceres.so --------------------------> USE "lights.tegranote7c.so" OK !!
 #lib/hw/gps.tegra.so
 #lib/hw/camera.tegra.so
 
@@ -108,15 +108,42 @@ etc/firmware/tegra14x/nvhost_tsec.fw
 
 # ril?
 bin/wpa_supplicant
-bin/rild
-#bin/radiooptions
 bin/icera_log_serial_arm
 bin/hostapd
+bin/rild
+#lib/libril.so
+#lib/librilutils.so
+#lib/libreference-ril.so
 lib/libril-icera.so
+etc/ril_atc.config
+
+# gps
+bin/glgps_nvidiaTegra2android
+bin/ceres_mdm_boot_cfg.sh
+bin/agpsd
+etc/gps.conf
+etc/gps/gpsconfig.xml
 
 #
+bin/init_zram.sh
+bin/bt_mac_copy.sh
+bin/powerservice
+bin/wlbwservice
+bin/akmd8963
+bin/fild
+
+etc/enctune.conf
+etc/media_profiles.xml
+etc/media_codecs.xml
+etc/audio_policy.conf
+etc/dhcpcd/dhcpcd.conf
+etc/asound.conf
+etc/nvaudio_conf.xml
 etc/nvcamera.conf
 usr/idc/s320_tp.idc
+usr/idc/sensor00fn11.idc
+usr/idc/raydium_ts.idc
 usr/keylayout/tegra-max98090_Headphone_Jack.kl
+usr/keylayout/gpio-keys.kl
 
 
