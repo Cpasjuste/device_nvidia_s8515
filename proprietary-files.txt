@@ -1,5 +1,45 @@
-# todo -> remove libandroid_server.so dependency (lights.ceres.so)
-#lib/libandroid_servers.so
+## todo -> remove libandroid_server.so dependency (lights.ceres.so)
+lib/libandroid_servers.so
+lib/hw/lights.ceres.so
+
+## todo -> remove libhardware_legacy.so dependency (vibrator)
+lib/libhardware_legacy.so
+
+## todo -> remove libstagefright* dependency (audio sound in telephony)
+lib/libmedia.so
+lib/libmediaplayerservice.so
+lib/libstagefright_amrnb_common.so
+lib/libstagefright_avc_common.so
+lib/libstagefright_chromium_http.so
+lib/libstagefright_enc_common.so
+lib/libstagefright_foundation.so
+lib/libstagefright_httplive.so
+lib/libstagefrighthw.so
+lib/libstagefright_omx.so
+lib/libstagefright.so
+lib/libstagefright_soft_aacdec.so
+lib/libstagefright_soft_aacenc.so
+lib/libstagefright_soft_amrdec.so
+lib/libstagefright_soft_amrnbenc.so
+lib/libstagefright_soft_amrwbenc.so
+lib/libstagefright_soft_flacenc.so
+lib/libstagefright_soft_g711dec.so
+lib/libstagefright_soft_gsmdec.so
+lib/libstagefright_soft_h264dec.so
+lib/libstagefright_soft_h264enc.so
+lib/libstagefright_soft_mp3dec.so
+lib/libstagefright_soft_mpeg4dec.so
+lib/libstagefright_soft_mpeg4enc.so
+lib/libstagefright_soft_rawdec.so
+lib/libstagefright_soft_vorbisdec.so
+lib/libstagefright_soft_vpxdec.so
+lib/libstagefright_soft_vpxenc.so
+lib/libstagefright_wfd.so
+lib/libstagefright_yuv.so
+
+##
+## proprietary files
+##
 
 bin/ussrd
 
@@ -9,6 +49,7 @@ lib/libardrv_dynamic.so
 lib/libopencv24_tegra.so
 lib/libaudioavp.so
 lib/libcgdrv.so
+lib/libtbb.so
 
 lib/libnvrm_graphics.so
 lib/libnvrm.so
@@ -67,7 +108,7 @@ lib/libnvtvmr.so
 lib/libnvupdater_jni.so
 lib/libnvwinsys.so
 lib/libnvwsi.so
-#lib/libnvcontrol_jni.so
+lib/libnvcontrol_jni.so
 #lib/libnvcpl.so
 
 lib/hw/hwcomposer.tegra.so
@@ -131,11 +172,11 @@ etc/gps.conf
 etc/gps/gpsconfig.xml
 
 #
+bin/akmd8963
+bin/fild
 bin/init_zram.sh
 bin/powerservice
 #bin/wlbwservice
-bin/akmd8963
-bin/fild
 
 etc/enctune.conf
 etc/media_profiles.xml

@@ -1,0 +1,95 @@
+# Copyright (c) 2013-2014 NVIDIA Corporation.  All Rights Reserved.
+#
+# NVIDIA Corporation and its licensors retain all intellectual property and
+# proprietary rights in and to this software and related documentation.  Any
+# use, reproduction, disclosure or distribution of this software and related
+# documentation without an express license agreement from NVIDIA Corporation
+# is strictly prohibited.
+
+import init.icera.phone.rc
+
+on init
+# rild properties, with sim autodetect, bbc logical sim id is 0 for both slots
+    setprop rild.libargs "-ewwan0 -ewwan1 -ewwan2 -ewwan3 -ewwan4 -s0,2 -s0,1 -f20,36 -n"
+
+# fild properties
+    setprop gsm.modem.fild.args "--scheme 2 -f /dev/ttySHM0"
+
+# agpsd properties
+    setprop agpsd.dev_path "/dev/ttySHM3"
+
+# icera generic properties
+    setprop gsm.modem.power.device /sys/devices/platform/tegra_bb.0/reset,1,0
+    setprop ro.ril.devicename /dev/ttySHM1
+
+on post-fs-data
+# BB mapping symbolic name to the logging ttySHM port
+    symlink /dev/ttySHM4 /dev/log_modem
+# BB mapping symbolic name to the at ttySHM port
+    symlink /dev/ttySHM2 /dev/at_modem
+# Power BB access for user radio
+    chown radio system /sys/devices/platform/tegra_bb.0/reset
+    chown radio system /sys/devices/platform/tegra_bb.0/ipc_size
+    chown radio system /sys/devices/platform/tegra_bb.0/priv_size
+    chown radio system /sys/devices/platform/tegra_bb.0/status
+    chown radio system /dev/tegra_bb_priv0
+    chown radio system /dev/tegra_bb_ipc0
+
+on property:gsm.rfs.created=1
+# BB remote PMIC access points
+    mkdir /data/rfs/data/remotes
+    mkdir /data/rfs/data/remotes/sim
+    mkdir /data/rfs/data/remotes/rf
+    mkdir /data/rfs/data/remotes/iso
+    mkdir /data/rfs/data/remotes/edp
+    chown radio system /data/rfs/data/remotes
+    chown radio system /data/rfs/data/remotes/sim
+    chown radio system /data/rfs/data/remotes/rf
+    chown radio system /data/rfs/data/remotes/iso
+    chown radio system /data/rfs/data/remotes/edp
+
+# BB remote PMIC entries
+    #### SIM:
+    # SIM0
+    chown radio system /sys/class/misc/sim/sim1_inserted # SIM0 in kernel drivers...
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/sim0_state
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/sim0_microvolts
+    symlink /sys/devices/platform/tegra_bbc_proxy/sim0_state /data/rfs/data/remotes/sim/sim0_enable
+    symlink /sys/devices/platform/tegra_bbc_proxy/sim0_microvolts /data/rfs/data/remotes/sim/sim0_voltage
+
+    # SIM1
+    chown radio system /sys/class/misc/sim/sim2_inserted # SIM1 in kernel drivers...
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/sim1_state
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/sim1_microvolts
+    symlink /sys/devices/platform/tegra_bbc_proxy/sim1_state /data/rfs/data/remotes/sim/sim1_enable
+    symlink /sys/devices/platform/tegra_bbc_proxy/sim1_microvolts /data/rfs/data/remotes/sim/sim1_voltage
+
+    #### RF:
+    # RF1V7
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/rf1v7_mode
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/rf1v7_microvolts
+    symlink /sys/devices/platform/tegra_bbc_proxy/rf1v7_mode /data/rfs/data/remotes/rf/rf1v7_mode
+    symlink /sys/devices/platform/tegra_bbc_proxy/rf1v7_microvolts /data/rfs/data/remotes/rf/rf1v7_voltage
+
+    # RF2V7
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/rf2v65_mode
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/rf2v65_microvolts
+    symlink /sys/devices/platform/tegra_bbc_proxy/rf2v65_mode /data/rfs/data/remotes/rf/rf2v7_mode
+    symlink /sys/devices/platform/tegra_bbc_proxy/rf2v65_microvolts /data/rfs/data/remotes/rf/rf2v7_voltage
+
+# BBC proxy remote access points
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/iso_register
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/iso_reserve_realize
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/la_bbcr
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/la_bbcw
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/i_max
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/request
+    chown radio system /sys/devices/platform/tegra_bbc_proxy/threshold
+
+    symlink /sys/devices/platform/tegra_bbc_proxy/iso_register /data/rfs/data/remotes/iso/register
+    symlink /sys/devices/platform/tegra_bbc_proxy/iso_reserve_realize /data/rfs/data/remotes/iso/reserve_realize
+    symlink /sys/devices/platform/tegra_bbc_proxy/la_bbcr /data/rfs/data/remotes/iso/la_bbcr
+    symlink /sys/devices/platform/tegra_bbc_proxy/la_bbcw /data/rfs/data/remotes/iso/la_bbcw
+    symlink /sys/devices/platform/tegra_bbc_proxy/i_max /data/rfs/data/remotes/edp/i_max
+    symlink /sys/devices/platform/tegra_bbc_proxy/threshold /data/rfs/data/remotes/edp/threshold
+    symlink /sys/devices/platform/tegra_bbc_proxy/request /data/rfs/data/remotes/edp/request

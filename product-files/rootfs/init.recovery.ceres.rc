@@ -1,0 +1,51 @@
+#Copyright (c) 2012-2013 NVIDIA Corporation.  All Rights Reserved.
+#
+#NVIDIA Corporation and its licensors retain all intellectual property and
+#proprietary rights in and to this software and related documentation.  Any
+#use, reproduction, disclosure or distribution of this software and related
+#documentation without an express license agreement from NVIDIA Corporation
+#is strictly prohibited.
+
+import init.nv_dev_board.usb.rc
+
+# Nvidia baseband integration
+import init.recovery.${ro.boot.modem}_${ro.hardware}.rc
+import init.recovery.modem_${ro.boot.modem}.rc
+
+on early-init
+    mount debugfs debugfs /sys/kernel/debug
+
+on init
+    # create a mount point for the MDM partition
+    mkdir /mnt 0775 root system
+    # create a mount point for modem properties
+    mkdir /data/property 0700 root root
+
+# create filesystems if necessary
+service setup_fs /system/bin/setup_fs \
+        /dev/block/platform/sdhci-tegra.3/by-name/UDA \
+        /dev/block/platform/sdhci-tegra.3/by-name/CAC \
+        /dev/block/platform/sdhci-tegra.3/by-name/MDM
+    class core
+    user root
+    group root
+    oneshot
+
+# Configure modem
+on boot
+    service config_modem /system/bin/ceres_mdm_boot_cfg.sh
+    class late_start
+    user root
+    group root
+    oneshot
+
+on property:modem.recovery.start=1
+    mount_all /fstab.ceres
+    export PATH /sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin
+    export LD_LIBRARY_PATH /vendor/lib:/system/lib
+    # settings for port forwarding
+    setprop gsm.modem.fild.forward "uart:/dev/ttyS0 mdm:/dev/ttySHM1"
+    # triggers start of fil-daemon
+    setprop gsm.modem.fild.mode mdm
+    # disable kernel UART logging
+    write /proc/sys/kernel/printk 0

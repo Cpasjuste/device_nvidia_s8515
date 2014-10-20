@@ -53,6 +53,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/product-files/rootfs/fstab.ceres:root/fstab.ceres \
 	$(LOCAL_PATH)/product-files/rootfs/factory_init.rc:root/factory_init.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.ceres.factory.rc:root/init.ceres.factory.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.recovery.ceres.rc:root/init.recovery.ceres.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.recovery.icera_ceres.rc:root/init.recovery.icera_ceres.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.environ.rc:root/init.environ.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.rc:root/init.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.ceres.rc:root/init.ceres.rc \
@@ -70,8 +72,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/product-files/rootfs/property_contexts:root/property_contexts \
 	$(LOCAL_PATH)/product-files/rootfs/seapp_contexts:root/seapp_contexts \
 	$(LOCAL_PATH)/product-files/rootfs/sepolicy:root/sepolicy \
-	$(LOCAL_PATH)/product-files/rootfs/sbin/mountsd:root/sbin/mountsd \
-	$(LOCAL_PATH)/product-files/rootfs/sbin/remountsys:root/sbin/remountsys
+	$(LOCAL_PATH)/product-files/rootfs/sbin/mountsd:system/xbin/mountsd \
+	$(LOCAL_PATH)/product-files/rootfs/sbin/remountsys:system/xbin/remountsys
 
 ifeq ($(NO_ROOT_DEVICE),1)
   PRODUCT_COPY_FILES += \
@@ -298,20 +300,20 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += ro.sf.lcd_density=312
 
 # Enable secure USB debugging in user release build
-ifeq ($(TARGET_BUILD_TYPE),release)
-ifeq ($(TARGET_BUILD_VARIANT),user)
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.adb.secure=1
-endif
-endif
+#ifeq ($(TARGET_BUILD_TYPE),release)
+#ifeq ($(TARGET_BUILD_VARIANT),user)
+#"PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+#    ro.adb.secure=1
+#endif
+#endif
 
-ifeq ($(TARGET_BUILD_TYPE),release)
-ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+#ifeq ($(TARGET_BUILD_TYPE),release)
+#ifeq ($(TARGET_BUILD_VARIANT),userdebug)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.secure=0 \
     ro.adb.secure=0
-endif
-endif
+#endif
+#endif
 
 # Include ShieldTech
 ifeq ($(NV_ANDROID_FRAMEWORK_ENHANCEMENTS),TRUE)
