@@ -29,19 +29,19 @@
 #  powernode is the sysfs or variable we need to write and it is followed by three ints.
 #  normal, balanced, maxbatterylife are the three ints for different power modes.
 panelresolution=1080X1920
-NV_FPSLIMIT 0 30 30
+NV_FPSLIMIT 0 60 30
 NV_MAX_CORES 0 0 2
 /sys/module/cpu_tegra/parameters/cpu_user_cap 0 900000 900000
 /sys/class/graphics/fb0/device/smartdimmer/aggressiveness 29 29 29
 #/sys/class/graphics/fb0/device/smartdimmer/enable 1 1 1
 panelresolution=720X1280
-NV_FPSLIMIT 0 30 30
+NV_FPSLIMIT 0 60 30
 NV_MAX_CORES 0 0 2
 /sys/module/cpu_tegra/parameters/cpu_user_cap 0 900000 900000
 /sys/class/graphics/fb0/device/smartdimmer/aggressiveness 29 29 29
 #/sys/class/graphics/fb0/device/smartdimmer/enable 1 1 1
 panelresolution=-1X-1
-NV_FPSLIMIT 0 30 30
+NV_FPSLIMIT 0 60 30
 NV_MAX_CORES 0 0 2
 /sys/module/cpu_tegra/parameters/cpu_user_cap 0 900000 900000
 /sys/class/graphics/fb0/device/smartdimmer/aggressiveness 29 29 29

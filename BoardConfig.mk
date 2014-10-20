@@ -63,16 +63,17 @@ BOARD_USES_HW_MEDIARECORDER := false
 BOARD_USES_POWERHAL := true
 
 # Wifi related defines
-#BOARD_WLAN_DEVICE           := wl18xx_mac80211
-#BOARD_SOFTAP_DEVICE         := wl18xx_mac80211
-#BOARD_WPA_SUPPLICANT_DRIVER := NL80211
-#WPA_SUPPLICANT_VERSION      := VER_TI_0_8_X
-#BOARD_HOSTAPD_DRIVER        := NL80211
-#WIFI_DRIVER_MODULE_NAME     := "wlcore_sdio"
-#WIFI_FIRMWARE_LOADER        := ""
-
-#NFC
-#BOARD_HAVE_NFC_TI	:= true
+BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
+WPA_SUPPLICANT_VERSION           := VER_0_8_X
+BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_bcmdhd
+BOARD_WLAN_DEVICE                := bcmdhd
+BOARD_HOSTAPD_DRIVER             := NL80211
+BOARD_HOSTAPD_PRIVATE_LIB        := lib_driver_cmd_bcmdhd
+WIFI_DRIVER_FW_PATH_STA          := "/data/misc/wifi/firmware/fw_bcmdhd.bin"
+WIFI_DRIVER_FW_PATH_AP           := "/data/misc/wifi/firmware/fw_bcmdhd_apsta.bin"
+WIFI_DRIVER_FW_PATH_PARAM        := "/sys/module/bcmdhd/parameters/firmware_path"
+WIFI_DRIVER_MODULE_ARG           := "iface_name=wlan0"
+WIFI_DRIVER_MODULE_NAME          := "bcmdhd"
 
 # Default HDMI mirror mode
 # Crop (default) picks closest mode, crops to screen resolution
@@ -164,17 +165,17 @@ BOARD_SEPOLICY_UNION := healthd.te \
 AUDIO_SPEAKER_POWER_HINT := true
 
 # TWRP RECOVERY
-#TW_BOARD_CUSTOM_GRAPHICS := ../../../device/enspert/s8515/recovery/graphics.c
-#DEVICE_RESOLUTION := 720x1280
-#TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
-#BOARD_USE_SKIA_LCDTEXT := true
-#RECOVERY_GRAPHICS_USE_LINELENGTH := true
-#TW_INTERNAL_STORAGE_PATH := "/sdcard"
-#TW_INTERNAL_STORAGE_MOUNT_POINT := "sdcard"
-#TW_EXTERNAL_STORAGE_PATH := "/external_sd"
-#TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
-#TW_BRIGHTNESS_PATH := /sys/devices/platform/pwm-backlight/backlight/pwm-backlight/brightness
-#TW_MAX_BRIGHTESS := 255
-#TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/tegra-udc.0/gadget/lun0/file
+TW_BOARD_CUSTOM_GRAPHICS := ../../../device/nvidia/tegranote7c/product-files/graphics.c
+DEVICE_RESOLUTION := 720x1280
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+BOARD_USE_SKIA_LCDTEXT := true
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_INTERNAL_STORAGE_PATH := "/sdcard"
+TW_INTERNAL_STORAGE_MOUNT_POINT := "sdcard"
+TW_EXTERNAL_STORAGE_PATH := "/external_sd"
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
+TW_BRIGHTNESS_PATH := /sys/devices/platform/pwm-backlight/backlight/pwm-backlight/brightness
+TW_MAX_BRIGHTESS := 255
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/tegra-udc.0/gadget/lun0/file
 #TARGET_PREBUILT_RECOVERY_KERNEL := device/enspert/s8515/kernel
 

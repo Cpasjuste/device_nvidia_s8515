@@ -24,6 +24,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/hw
 LOCAL_SHARED_LIBRARIES := liblog libcutils libutils libdl
 LOCAL_STATIC_LIBRARIES := libpowerhal
 LOCAL_SRC_FILES := power.cpp
-LOCAL_MODULE := power.tegranote7c
+LOCAL_MODULE := power.ceres
 LOCAL_MODULE_TAGS := optional
 include $(NVIDIA_SHARED_LIBRARY)

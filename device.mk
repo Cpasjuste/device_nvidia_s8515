@@ -51,6 +51,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/product-files/rootfs/fstab.ceres:root/fstab.ceres \
+	$(LOCAL_PATH)/product-files/rootfs/factory_init.rc:root/factory_init.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.ceres.factory.rc:root/init.ceres.factory.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.environ.rc:root/init.environ.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.rc:root/init.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.ceres.rc:root/init.ceres.rc \
@@ -82,78 +84,6 @@ PRODUCT_COPY_FILES += \
 
 # Icera modem integration
 $(call inherit-product-if-exists, vendor/nvidia/tegra/icera/ril/modules/icera-modules.mk)
-
-# Icera modem files
-SYSTEM_ICERA_FW_PATH=system/vendor/firmware/icera
-LOCAL_ICERA_EU_FW_PATH_ROOT=vendor/nvidia/tegra/icera/firmware/binaries/binaries_nvidia-e1729-tn7c
-LOCAL_ICERA_NALA_FW_PATH_ROOT=vendor/nvidia/tegra/icera/firmware/binaries/binaries_nvidia-e1729-tn7c-nala
-
-#EU firmware path
-ifneq ($(wildcard $(LOCAL_ICERA_EU_FW_PATH_ROOT)/dev),)
-LOCAL_ICERA_EU_FW_PATH_DEV=$(LOCAL_ICERA_EU_FW_PATH_ROOT)/dev
-else
-LOCAL_ICERA_EU_FW_PATH_DEV=$(LOCAL_ICERA_EU_FW_PATH_ROOT)
-endif
-
-ifneq ($(wildcard $(LOCAL_ICERA_EU_FW_PATH_ROOT)/prod),)
-LOCAL_ICERA_EU_FW_PATH_PROD=$(LOCAL_ICERA_EU_FW_PATH_ROOT)/prod
-else
-LOCAL_ICERA_EU_FW_PATH_PROD=$(LOCAL_ICERA_EU_FW_PATH_ROOT)
-endif
-
-#NALA firmware path
-ifneq ($(wildcard $(LOCAL_ICERA_NALA_FW_PATH_ROOT)/dev),)
-LOCAL_ICERA_NALA_FW_PATH_DEV=$(LOCAL_ICERA_NALA_FW_PATH_ROOT)/dev
-else
-LOCAL_ICERA_NALA_FW_PATH_DEV=$(LOCAL_ICERA_NALA_FW_PATH_ROOT)
-endif
-
-ifneq ($(wildcard $(LOCAL_ICERA_NALA_FW_PATH_ROOT)/prod),)
-LOCAL_ICERA_NALA_FW_PATH_PROD=$(LOCAL_ICERA_NALA_FW_PATH_ROOT)/prod
-else
-LOCAL_ICERA_NALA_FW_PATH_PROD=$(LOCAL_ICERA_NALA_FW_PATH_ROOT)
-endif
-
-#Check if it's user release build, point to prod folder if it is
-ifeq ($(TARGET_BUILD_TYPE)-$(TARGET_BUILD_VARIANT),release-user)
-LOCAL_ICERA_EU_FW_PATH=$(LOCAL_ICERA_EU_FW_PATH_PROD)
-LOCAL_ICERA_NALA_FW_PATH=$(LOCAL_ICERA_NALA_FW_PATH_PROD)
-else
-LOCAL_ICERA_EU_FW_PATH=$(LOCAL_ICERA_EU_FW_PATH_DEV)
-LOCAL_ICERA_NALA_FW_PATH=$(LOCAL_ICERA_NALA_FW_PATH_DEV)
-endif
-
-# copy relevant config/common files
-ifneq ($(filter $(NV_TN_SKU),tn7c_114gp_do tn7c_114np_do),)
-PRODUCT_COPY_FILES += \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_EU_FW_PATH)/secondary_boot.wrapped:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729/secondary_boot.wrapped) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_EU_FW_PATH)/loader.wrapped:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729/loader.wrapped) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_EU_FW_PATH)/modem.wrapped:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729/modem.wrapped) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_EU_FW_PATH)/productConfigXml_icera_e1729_tn7c.bin:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729/productConfig.bin)
-
-PRODUCT_COPY_FILES += \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_NALA_FW_PATH)/secondary_boot.wrapped:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-nala/secondary_boot.wrapped) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_NALA_FW_PATH)/loader.wrapped:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-nala/loader.wrapped) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_NALA_FW_PATH)/modem.wrapped:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-nala/modem.wrapped) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_NALA_FW_PATH)/productConfigXml_icera_e1729_tn7c_nala.bin:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-nala/productConfig.bin)
-
-else
-PRODUCT_COPY_FILES += \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_EU_FW_PATH)/secondary_boot.wrapped:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-voice/secondary_boot.wrapped) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_EU_FW_PATH)/loader.wrapped:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-voice/loader.wrapped) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_EU_FW_PATH)/modem.wrapped:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-voice/modem.wrapped) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_EU_FW_PATH)/audioConfig.bin:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-voice/audioConfig.bin) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_EU_FW_PATH)/productConfigXml_icera_e1729_tn7c_voice.bin:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-voice/productConfig.bin)
-
-ifneq ($(wildcard $(LOCAL_ICERA_NALA_FW_PATH)/productConfigXml_icera_e1729_tn7c_voice_nala.bin),)
-PRODUCT_COPY_FILES += \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_NALA_FW_PATH)/productConfigXml_icera_e1729_tn7c_voice_nala.bin:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-voice-nala/productConfig.bin) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_NALA_FW_PATH)/secondary_boot.wrapped:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-voice-nala/secondary_boot.wrapped) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_NALA_FW_PATH)/loader.wrapped:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-voice-nala/loader.wrapped) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_NALA_FW_PATH)/modem.wrapped:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-voice-nala/modem.wrapped) \
-    $(call add-to-product-copy-files-if-exists, $(LOCAL_ICERA_NALA_FW_PATH)/audioConfig.bin:$(SYSTEM_ICERA_FW_PATH)/nvidia-e1729-voice-nala/audioConfig.bin)
-endif
-endif
 
 # Test files
 PRODUCT_COPY_FILES += \
@@ -258,21 +188,21 @@ PRODUCT_PACKAGES += \
     librs_jni
 
 PRODUCT_PACKAGES += \
-	sensors.tegranote7c \
 	lights.ceres \
-	audio.primary.tegra \
+	power.ceres \
 	audio.a2dp.default \
 	audio.usb.default \
-	audio_policy.tegra \
 	audio.r_submix.default\
-	power.tegranote7c \
 	setup_fs \
 	drmserver \
 	Gallery2 \
 	libdrmframework_jni \
 	e2fsck \
         NVSS
+#	sensors.ceres \
 #	nvidiafeedback \
+#	audio_policy.tegra \
+#	audio.primary.tegra \
 
 PRODUCT_PACKAGES += \
 	charger\
@@ -298,38 +228,18 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 		dhcpd.conf \
 		dhcpcd.conf \
-		hostapd.conf
+		hostapd.conf \
+		wpa_supplicant.conf \
+		p2p_supplicant.conf \
+		p2p_disabled.conf \
+		crda \
+		regulatory.bin \
+		iw \
+		ibss_supplicant.conf
 #		TQS_S_2.6.ini \
-#		iw \
 #		wl18xx-conf-default.bin \
 #		wl18xx-conf-us.bin \
 #		wl18xx-conf-eu.bin \
-#		crda \
-#		regulatory.bin \
-#		wpa_supplicant.conf \
-#		p2p_supplicant.conf \
-#		p2p_disabled.conf \
-#		hostapd.conf \
-#		ibss_supplicant.conf \
-
-
-#Wifi firmwares
-#PRODUCT_PACKAGES += \
-#		wl1271-nvs_default.bin \
-#		wl128x-fw-4-sr.bin \
-#		wl128x-fw-4-mr.bin \
-#		wl128x-fw-4-plt.bin \
-#		wl18xx-fw-mc.bin \
-#		wl18xx-fw-mc_pg22.bin \
-#		wl18xx-fw-2.bin \
-#		wl1271-nvs_wl8.bin
-
-#BT & FM packages
-#PRODUCT_PACKAGES += \
-#		uim-sysfs \
-#		TIInit_10.6.15.bts \
-#		TIInit_11.8.32.bts \
-#		TIInit_12.8.32.bts
 
 #GPS
 PRODUCT_PACKAGES += \
@@ -340,7 +250,6 @@ PRODUCT_PACKAGES += \
 		devproxy \
 		dproxy.conf \
 		dproxy.patch \
-		gps.tegra.so \
 		hwd \
 		libagnss.so \
 		libassist.so \
@@ -353,6 +262,7 @@ PRODUCT_PACKAGES += \
 		nvs.txt \
 		ser2soc \
 		test_server
+#gps.tegra.so \
 
 # CPU volt cap daemon
 PRODUCT_PACKAGES += \
@@ -411,7 +321,8 @@ SHIELDTECH_FEATURE_CONSOLE_MODE := false
 SHIELDTECH_FEATURE_BLAKE := false
 endif
 
-# cpasjuste
 -include vendor/nvidia/tegranote7c/BoardConfigVendor.mk
 
+# twrp
+PRODUCT_COPY_FILES += $(LOCAL_PATH)/product-files/twrp.fstab:recovery/root/etc/twrp.fstab
 

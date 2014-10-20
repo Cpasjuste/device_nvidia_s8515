@@ -3,22 +3,14 @@
 #set -e
 export DEVICE=tegranote7c
 export VENDOR=nvidia
+export SRC=../../../wax-bp/
 
-if [ $# -eq 0 ]; then
-  SRC=adb
-else
-  if [ $# -eq 1 ]; then
-    SRC=$1
-  else
-    echo "$0: bad number of arguments"
-    echo ""
-    echo "usage: $0 [PATH_TO_EXPANDED_ROM]"
-    echo ""
-    echo "If PATH_TO_EXPANDED_ROM is not specified, blobs will be extracted from"
-    echo "the device using adb pull."
-    exit 1
-  fi
-fi
+cp product-files/ril_atc.config ../../../vendor/nvidia/tegra/icera/ril/modules/ril_atc.config
+sed --in-place '/NvCPLSvc/d' ../../../vendor/nvidia/tegra/core/modules.mk
+sed --in-place '/NvCPLUpdater/d' ../../../vendor/nvidia/tegra/core/modules.mk
+sed --in-place '/libnvcpl/d' ../../../vendor/nvidia/tegra/core/modules.mk
+rm -rf ../../../3rdparty/ti
+rm -rf ../../../vendor/$VENDOR/$DEVICE
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 rm -rf $BASE/*
@@ -54,3 +46,4 @@ for FILE in `egrep -v '(^#|^$)' proprietary-files.txt`; do
 done
 
 ./setup-makefiles.sh
+

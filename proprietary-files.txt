@@ -1,14 +1,17 @@
-bin/ussr_setup.sh
-bin/ussrd
-bin/surfaceflinger
+# todo -> remove libandroid_server.so dependency (lights.ceres.so)
+#lib/libandroid_servers.so
 
-lib/libsurfaceflinger.so
+bin/ussrd
+
 lib/libcutils.so
 lib/libussrd.so
 lib/libardrv_dynamic.so
-lib/libcgdrv.so
+lib/libopencv24_tegra.so
 lib/libaudioavp.so
+lib/libcgdrv.so
 
+lib/libnvrm_graphics.so
+lib/libnvrm.so
 lib/libnvapputil.so
 lib/libnvasfparserhal.so
 lib/libnvaudioservice.so
@@ -22,8 +25,6 @@ lib/libnvcap_video.so
 lib/libnvcapaudioservice.so
 lib/libnvcapclk.so
 lib/libnvcms.so
-lib/libnvcontrol_jni.so
-lib/libnvcpl.so
 lib/libnvddk_2d.so
 lib/libnvddk_2d_v2.so
 lib/libnvfusebypass.so
@@ -57,8 +58,6 @@ lib/libnvparser.so
 lib/libnvremoteevtmgr.so
 lib/libnvremotell.so
 lib/libnvremoteprotocol.so
-lib/libnvrm.so
-lib/libnvrm_graphics.so
 lib/libnvsm.so
 lib/libnvstitching.so
 lib/libnvtestio.so
@@ -68,15 +67,17 @@ lib/libnvtvmr.so
 lib/libnvupdater_jni.so
 lib/libnvwinsys.so
 lib/libnvwsi.so
+#lib/libnvcontrol_jni.so
+#lib/libnvcpl.so
 
 lib/hw/hwcomposer.tegra.so
 lib/hw/audio.primary.tegra.so
 lib/hw/audio_policy.tegra.so
 lib/hw/gralloc.tegra.so
 lib/hw/sensors.ceres.so
-#lib/hw/nfc.tegra.so
-#lib/hw/gps.tegra.so
-#lib/hw/camera.tegra.so
+lib/hw/camera.tegra.so
+lib/hw/gps.tegra.so
+lib/hw/nfc.tegra.so
 
 lib/egl/egl.cfg
 lib/egl/libGLESv1_CM_tegra.so
@@ -87,17 +88,13 @@ lib/egl/libGLESv2_tegra.so
 lib/egl/libGLES_android.so
 lib/egl/libGLESv2_tegra_impl.so
 
+vendor/lib/libbt-vendor.so
 vendor/firmware/app/modem.wrapped
 vendor/firmware/app/secondary_boot.wrapped
 vendor/firmware/tlv320aic3206_fw_v1.bin
 vendor/firmware/data/config/audioConfig.bin
 vendor/firmware/data/config/productConfig.bin
-vendor/firmware/bcm43341/fw_bcmdhd.bin
-vendor/firmware/bcm43341/fw_bcmdhd_a0.bin
-vendor/firmware/bcm43341/fw_bcmdhd_mfgtest.bin
 
-etc/firmware/BCM43341A0_001.001.030.0015.0000.hcd
-etc/firmware/BCM43341B0_002.001.014.0008.0011.hcd
 etc/firmware/nvavp_os_0ff00000.bin
 etc/firmware/nvavp_os_eff00000.bin
 etc/firmware/nvavp_aud_ucode.bin
@@ -105,18 +102,28 @@ etc/firmware/nvavp_vid_ucode_alt.bin
 etc/firmware/tegra14x/nvhost_msenc030.fw
 etc/firmware/tegra14x/nvhost_tsec.fw
 
-# ril?
-bin/wpa_supplicant
-bin/icera_log_serial_arm
-bin/hostapd
-bin/rild
-#lib/libril.so
-#lib/librilutils.so
-#lib/libreference-ril.so
-lib/libril-icera.so
-etc/ril_atc.config
+# wifi
+vendor/firmware/bcm43341/fw_bcmdhd.bin
+vendor/firmware/bcm43341/fw_bcmdhd_a0.bin
+vendor/firmware/bcm43341/fw_bcmdhd_mfgtest.bin
+etc/firmware/BCM43341A0_001.001.030.0015.0000.hcd
+etc/firmware/BCM43341B0_002.001.014.0008.0011.hcd
+etc/wifi/wpa_supplicant_overlay.conf
+etc/wifi/p2p_supplicant_overlay.conf
+etc/nvram_rev2.txt
+etc/nvram_rev3.txt
+etc/nvram_rev4.txt
+bin/wifi_loader.sh
+bin/bt_mac_copy.sh
+bin/btmacwriter
+bin/nwifdown
+bin/nwifup
+bin/factory
+xbin/wifimacaddr
 
-# gps
+# ril/gps
+bin/icera_log_serial_arm
+lib/libril-icera.so
 bin/glgps_nvidiaTegra2android
 bin/ceres_mdm_boot_cfg.sh
 bin/agpsd
@@ -125,9 +132,8 @@ etc/gps/gpsconfig.xml
 
 #
 bin/init_zram.sh
-bin/bt_mac_copy.sh
 bin/powerservice
-bin/wlbwservice
+#bin/wlbwservice
 bin/akmd8963
 bin/fild
 
