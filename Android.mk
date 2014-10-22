@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq ($(TARGET_DEVICE),tegranote7c)
+ifeq ($(TARGET_DEVICE),s8515)
 LOCAL_PATH := $(my-dir)
 include $(call all-subdir-makefiles)
 endif

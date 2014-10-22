@@ -1,12 +1,17 @@
-## todo -> remove libandroid_server.so dependency (lights.ceres.so)
+## todo -> remove libandroid_server.so dependency (lights.ceres.so) -> wip
 lib/libandroid_servers.so
 lib/hw/lights.ceres.so
 
-## todo -> remove libhardware_legacy.so dependency (vibrator)
+## todo -> remove libhardware_legacy.so dependency (vibrator) -> wip
 lib/libhardware_legacy.so
 
 ## todo -> remove libstagefright* dependency (audio sound in telephony)
+bin/mediaserver
 lib/libmedia.so
+lib/libaudioeffect_jni.so
+lib/libaudioflinger.so
+lib/libaudioutils.so
+lib/libwilhelm.so
 lib/libmediaplayerservice.so
 lib/libstagefright_amrnb_common.so
 lib/libstagefright_avc_common.so
@@ -42,6 +47,9 @@ lib/libstagefright_yuv.so
 ##
 
 bin/ussrd
+bin/ussr_setup.sh
+bin/input_cfboost_init.sh
+bin/set_hwui_params.sh
 
 lib/libcutils.so
 lib/libussrd.so
@@ -111,9 +119,14 @@ lib/libnvwsi.so
 lib/libnvcontrol_jni.so
 #lib/libnvcpl.so
 
-lib/hw/hwcomposer.tegra.so
+lib/hw/audio.a2dp.default.so
+lib/hw/audio.primary.default.so
 lib/hw/audio.primary.tegra.so
+lib/hw/audio.r_submix.default.so
+lib/hw/audio.usb.default.so
+lib/hw/audio_policy.default.so
 lib/hw/audio_policy.tegra.so
+lib/hw/hwcomposer.tegra.so
 lib/hw/gralloc.tegra.so
 lib/hw/sensors.ceres.so
 lib/hw/camera.tegra.so
@@ -129,6 +142,7 @@ lib/egl/libGLESv2_tegra.so
 lib/egl/libGLES_android.so
 lib/egl/libGLESv2_tegra_impl.so
 
+vendor/lib/hw/power.ceres.so
 vendor/lib/libbt-vendor.so
 vendor/firmware/app/modem.wrapped
 vendor/firmware/app/secondary_boot.wrapped
@@ -170,14 +184,29 @@ bin/ceres_mdm_boot_cfg.sh
 bin/agpsd
 etc/gps.conf
 etc/gps/gpsconfig.xml
+etc/ril_atc.config
 
 #
 bin/akmd8963
 bin/fild
 bin/init_zram.sh
 bin/powerservice
-#bin/wlbwservice
+bin/cluster
+bin/cluster_get.sh
+bin/cluster_set.sh
+bin/dcc
+bin/hotplug
+bin/mount_debugfs.sh
+bin/nv_log.sh
+bin/wlbwservice
 
+etc/permissions/com.nvidia.balancedpower.xml
+etc/permissions/com.nvidia.graphics.xml
+etc/permissions/com.nvidia.miracast.xml
+etc/permissions/com.nvidia.nvsi.xml
+etc/permissions/com.nvidia.nvstereoutils.xml
+
+etc/model_frontal.xml
 etc/enctune.conf
 etc/media_profiles.xml
 etc/media_codecs.xml

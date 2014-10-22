@@ -7,8 +7,7 @@ LOCAL_PATH := $(call my-dir)
 #INSTALLED_RADIOIMAGE_TARGET += $(PRODUCT_OUT)/blob
 #endif
 
-include vendor/nvidia/build/kernel.mk
+#include vendor/nvidia/build/kernel.mk
 #include vendor/nvidia/build/nv_targets.mk
 
-#-include vendor/nvidia/tegranote7c/BoardConfigVendor.mk
 

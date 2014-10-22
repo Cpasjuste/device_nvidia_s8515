@@ -8,6 +8,7 @@ persist.wlan.ti.calibrated = 0
 ro.ril.wake_lock_timeout=200000
 ro.sf.override_null_lcd_density = 1
 persist.tegra.panel.rotation = 0
+ro.callvibrate.enable=true
 
 #NFC
 debug.nfc.fw_download=false

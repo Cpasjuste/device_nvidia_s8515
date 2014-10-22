@@ -141,12 +141,12 @@
          than the size of the config_autoBrightnessLevels array.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessButtonBacklightValues">
-        <item>255</item>
-	<item>200</item>
-	<item>100</item>
+        <item>0</item>
+	<item>10</item>
 	<item>50</item>
-	<item>0</item>
-	<item>0</item>
+	<item>100</item>
+	<item>200</item>
+	<item>255</item>
     </integer-array>
 
     <!-- Array of output values for keyboard backlight corresponding to the LUX values
@@ -206,7 +206,7 @@
 
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->
-    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_showNavigationBar">false</bool>
 
     <add-resource type="bool" name="config_rebootOnSimHotSwap" />
     <!-- Whether a sim card removal needs to trigger a full device reboot . -->

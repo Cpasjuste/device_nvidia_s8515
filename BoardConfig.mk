@@ -17,10 +17,8 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 BOARD_SKIP_ANDROID_DOC_BUILD := true
 
 BOARD_BUILD_BOOTLOADER := false
-TARGET_USE_DTB := false
-#TARGET_KERNEL_DT_NAME := tegra114-tegranote7c
 BOOTLOADER_SUPPORTS_DTB := false
-# It can be overridden by an environment variable
+TARGET_USE_DTB := false
 APPEND_DTB_TO_KERNEL ?= false
 
 ifeq ($(NO_ROOT_DEVICE),1)
@@ -28,6 +26,8 @@ ifeq ($(NO_ROOT_DEVICE),1)
 else
   TARGET_PROVIDES_INIT_RC := false
 endif
+
+#BOARD_USES_PRIV_HARDWARE_LEGACY := true
 
 BOARD_USES_GENERIC_AUDIO := false
 BOARD_USES_ALSA_AUDIO := true
@@ -40,15 +40,17 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 8388608
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 805306368
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 2145386496
 BOARD_FLASH_BLOCK_SIZE := 4096
+BOARD_KERNEL_BASE := 0x10000000
+BOARD_KERNEL_PAGESIZE := 2048
 
-SET_DCP_CURRENT_LIMIT_2A := true
-
+TARGET_KERNEL_SOURCE := kernel/nvidia/s8515
 TARGET_KERNEL_CONFIG := tegra_s8515_cpasjuste_defconfig
 
+SET_DCP_CURRENT_LIMIT_2A := true
 USE_E2FSPROGS := true
 USE_OPENGL_RENDERER := true
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/nvidia/tegranote7c/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/nvidia/s8515/bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_TI_BLUETOOTH := true
 
@@ -93,14 +95,13 @@ BOARD_HAS_3DV_SUPPORT := false
 # BOARD_DISABLE_TRIPLE_BUFFERED_DISPLAY_SURFACES := true
 
 BOARD_ROOT_DEVICE := emmc
-#include frameworks/base/data/sounds/AudioPackage3.mk
-include device/nvidia/common/BoardConfig.mk
-include vendor/nvidia/build/definitions.mk
+#include device/nvidia/common/BoardConfig.mk
+#include vendor/nvidia/build/definitions.mk
 
 # Use CMU-style config with Nvcms
 NVCMS_CMU_USE_CONFIG := true
 
--include 3rdparty/trustedlogic/samples/hdcp/tegra3/build/arm_android/config.mk
+#-include 3rdparty/trustedlogic/samples/hdcp/tegra3/build/arm_android/config.mk
 
 # BOARD_WIDEVINE_OEMCRYPTO_LEVEL
 # The security level of the content protection provided by the Widevine DRM plugin depends
@@ -165,7 +166,7 @@ BOARD_SEPOLICY_UNION := healthd.te \
 AUDIO_SPEAKER_POWER_HINT := true
 
 # TWRP RECOVERY
-TW_BOARD_CUSTOM_GRAPHICS := ../../../device/nvidia/tegranote7c/product-files/graphics.c
+TW_BOARD_CUSTOM_GRAPHICS := ../../../device/nvidia/s8515/product-files/graphics.c
 DEVICE_RESOLUTION := 720x1280
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_USE_SKIA_LCDTEXT := true
@@ -177,5 +178,4 @@ TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
 TW_BRIGHTNESS_PATH := /sys/devices/platform/pwm-backlight/backlight/pwm-backlight/brightness
 TW_MAX_BRIGHTESS := 255
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/tegra-udc.0/gadget/lun0/file
-#TARGET_PREBUILT_RECOVERY_KERNEL := device/enspert/s8515/kernel
 
