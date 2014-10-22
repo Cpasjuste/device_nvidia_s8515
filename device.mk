@@ -2,9 +2,8 @@
 #
 # Copyright (c) 2013-2014 NVIDIA Corporation.  All rights reserved.
 
-#$(call inherit-product-if-exists, vendor/nvidia/tegra/core/nvidia-tegra-vendor.mk)
-$(call inherit-product-if-exists, frameworks/base/data/videos/VideoPackage2.mk)
-$(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage3.mk)
+#$(call inherit-product-if-exists, frameworks/base/data/videos/VideoPackage2.mk)
+#$(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage3.mk)
 $(call inherit-product, build/target/product/languages_full.mk)
 
 PRODUCT_LOCALES += mdpi hdpi xhdpi
@@ -27,29 +26,13 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml
 
-#ifneq (,$(filter $(BOARD_INCLUDES_TEGRA_JNI),display))
-#PRODUCT_COPY_FILES += \
-#    vendor/nvidia/tegra/hal/frameworks/Display/com.nvidia.display.xml:system/etc/permissions/com.nvidia.display.xml
-#endif
-
-#ifneq (,$(filter $(BOARD_INCLUDES_TEGRA_JNI),cursor))
-#PRODUCT_COPY_FILES += \
-#    vendor/nvidia/tegra/hal/frameworks/Graphics/com.nvidia.graphics.xml:system/etc/permissions/com.nvidia.graphics.xml
-#endif
-
-#PRODUCT_COPY_FILES += \
-#  $(LOCAL_PATH)/../common/add_p2p_iface.sh:system/bin/add_p2p_iface.sh \
-#  $(LOCAL_PATH)/../common/ussr_setup.sh:system/bin/ussr_setup.sh \
-#  $(LOCAL_PATH)/../common/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
-#  $(LOCAL_PATH)/../common/set_hwui_params.sh:system/bin/set_hwui_params.sh
-
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/product-files/sensor_init.sh:system/bin/sensor_init.sh \
 	$(LOCAL_PATH)/product-files/mountsd:system/xbin/mountsd \
 	$(LOCAL_PATH)/product-files/remountsys:system/xbin/remountsys
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/product-files/power.ceres.rc:system/etc/power.ceres.rc
+	$(LOCAL_PATH)/product-files/power.ceres.rc:system/etc/power.ceres.rc
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/product-files/rootfs/fstab.ceres:root/fstab.ceres \
@@ -94,48 +77,27 @@ PRODUCT_COPY_FILES += \
 	external/alsa-lib/src/conf/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
 	external/alsa-lib/src/conf/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf
 
-#ifeq ($(NV_ANDROID_FRAMEWORK_ENHANCEMENTS),TRUE)
-# Configuration files for WiiMote support
-# PRODUCT_COPY_FILES += \
-# 	vendor/nvidia/tegra/3rdparty/cwiid/wminput/configs/acc_ptr:system/etc/acc_ptr \
-# 	vendor/nvidia/tegra/3rdparty/cwiid/wminput/configs/nunchuk_acc_ptr:system/etc/nunchuk_acc_ptr \
-# 	vendor/nvidia/tegra/3rdparty/cwiid/wminput/configs/acc_led:system/etc/acc_led \
-# 	vendor/nvidia/tegra/3rdparty/cwiid/wminput/configs/neverball:system/etc/neverball \
-# 	vendor/nvidia/tegra/3rdparty/cwiid/wminput/configs/ir_ptr:system/etc/ir_ptr \
-# 	vendor/nvidia/tegra/3rdparty/cwiid/wminput/configs/gamepad:system/etc/gamepad \
-# 	vendor/nvidia/tegra/3rdparty/cwiid/wminput/configs/buttons:system/etc/buttons \
-# 	vendor/nvidia/tegra/3rdparty/cwiid/wminput/configs/nunchuk_stick2btn:system/etc/nunchuk_stick2btn
-#endif
-
-# NCT ID help file
-#PRODUCT_COPY_FILES += \
-#    vendor/nvidia/tegra/core/include/nvnct.h:README.nct_id
-
-# EULA
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/eula.html:system/etc/eula.html
-
 #enable Widevine drm
 PRODUCT_PROPERTY_OVERRIDES += drm.service.enabled=true
 PRODUCT_PACKAGES += \
-    com.google.widevine.software.drm.xml \
-    com.google.widevine.software.drm \
-    libdrmwvmplugin \
-    libwvm \
-    libWVStreamControlAPI_L1 \
-    libwvdrm_L1
+	com.google.widevine.software.drm.xml \
+	com.google.widevine.software.drm \
+	libdrmwvmplugin \
+	libwvm \
+	libWVStreamControlAPI_L1 \
+	libwvdrm_L1
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    HoloSpiralWallpaper \
-    MagicSmokeWallpapers \
-    NoiseField \
-    Galaxy4 \
-    VisualizationWallpapers \
-    PhaseBeam \
-    librs_jni
+	LiveWallpapers \
+	LiveWallpapersPicker \
+	HoloSpiralWallpaper \
+	MagicSmokeWallpapers \
+	NoiseField \
+	Galaxy4 \
+	VisualizationWallpapers \
+	PhaseBeam \
+	librs_jni
 
 PRODUCT_PACKAGES += \
 	setup_fs \
@@ -160,20 +122,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += nvaudio_test
 
-# WiiMote support
-#PRODUCT_PACKAGES += \
-#	libcwiid \
-#	wminput \
-#	acc \
-#	ir_ptr \
-#	led \
-#	nunchuk_acc \
-#	nunchuk_stick2btn
-
-# Application to connect WiiMote with Tegra device
-#PRODUCT_PACKAGES += \
-#	WiiMote
-
 #WiFi
 PRODUCT_PACKAGES += \
 		dhcpd.conf \
@@ -186,10 +134,6 @@ PRODUCT_PACKAGES += \
 		regulatory.bin \
 		iw \
 		ibss_supplicant.conf
-#		TQS_S_2.6.ini \
-#		wl18xx-conf-default.bin \
-#		wl18xx-conf-us.bin \
-#		wl18xx-conf-eu.bin \
 
 #GPS
 PRODUCT_PACKAGES += \
@@ -212,7 +156,7 @@ PRODUCT_PACKAGES += \
 		nvs.txt \
 		ser2soc \
 		test_server
-#gps.tegra.so \
+#		gps.tegra.so 
 
 # CPU volt cap daemon
 PRODUCT_PACKAGES += \
@@ -225,8 +169,7 @@ PRODUCT_PACKAGES += \
                 hdcp2xtest.srm
 
 # OV5693 bayer sensor calibration manager
-PRODUCT_PACKAGES += otp-ov5693
-
+# PRODUCT_PACKAGES += otp-ov5693
 PRODUCT_PACKAGES += ControllerMapper
 
 #include frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap.mk
