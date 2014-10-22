@@ -7,7 +7,7 @@ LOCAL_PATH := $(call my-dir)
 #INSTALLED_RADIOIMAGE_TARGET += $(PRODUCT_OUT)/blob
 #endif
 
-#include vendor/nvidia/build/kernel.mk
+include device/nvidia/s8515/kernel.mk
 #include vendor/nvidia/build/nv_targets.mk
 
 

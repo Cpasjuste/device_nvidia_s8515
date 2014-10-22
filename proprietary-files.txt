@@ -197,7 +197,6 @@ bin/cluster_set.sh
 bin/dcc
 bin/hotplug
 bin/mount_debugfs.sh
-bin/nv_log.sh
 bin/wlbwservice
 
 etc/permissions/com.nvidia.balancedpower.xml
