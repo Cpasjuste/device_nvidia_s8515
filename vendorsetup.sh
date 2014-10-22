@@ -1,0 +1,1 @@
+add_lunch_combo s8515-userdebug
