@@ -1,0 +1,7 @@
+- fix play store (missing apps)
+- fix density (resources and lcd)
+- fix buttons backlight not enabled at boot until screen off
+- lower buttons backlight brightness
+- enable ART runtime (in dev settings)
+- change boot animation
+

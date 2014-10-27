@@ -25,9 +25,10 @@ PRODUCT_DEVICE := s8515
 PRODUCT_MANUFACTURER := NVIDIA
 PRODUCT_BRAND := nvidia
 
-PRODUCT_MODEL := WAX
+PRODUCT_MODEL := s8515
 PRODUCT_LOCALES += en_US
-PRODUCT_PROPERTY_OVERRIDES += ro.com.google.clientidbase=android-nvidia
+PRODUCT_PROPERTY_OVERRIDES += ro.com.google.clientidbase=android-enspert
+#ro.com.google.clientidbase=android-nvidia
 
 ## NV_TN_PLATFORM - allowed values premium, basic
 NV_TN_PLATFORM := premium

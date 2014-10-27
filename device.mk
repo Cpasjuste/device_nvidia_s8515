@@ -9,7 +9,7 @@ $(call inherit-product, build/target/product/languages_full.mk)
 PRODUCT_LOCALES += mdpi hdpi xhdpi
 
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml \
+    frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
     frameworks/native/data/etc/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml \
@@ -24,7 +24,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.direct.xml:system/etc/permissions/android.hardware.wifi.direct.xml \
     frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
     frameworks/native/data/etc/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml \
-    frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml
+    frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
+	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/product-files/sensor_init.sh:system/bin/sensor_init.sh \
@@ -34,29 +35,46 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/product-files/power.ceres.rc:system/etc/power.ceres.rc
 
+# Ramdisk
+#PRODUCT_COPY_FILES += \
+#	$(LOCAL_PATH)/product-files/rootfs/fstab.ceres:root/fstab.ceres \
+#	$(LOCAL_PATH)/product-files/rootfs/factory_init.rc:root/factory_init.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.ceres.factory.rc:root/init.ceres.factory.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.recovery.ceres.rc:root/init.recovery.ceres.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.recovery.icera_ceres.rc:root/init.recovery.icera_ceres.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.environ.rc:root/init.environ.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.rc:root/init.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.ceres.rc:root/init.ceres.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.icera_ceres.rc:root/init.icera_ceres.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.icera.common.rc:root/init.icera.common.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.modem_icera.rc:root/init.modem_icera.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.icera.phone.rc:root/init.icera.phone.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/ueventd.rc:root/ueventd.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/ueventd.ceres.rc:root/ueventd.ceres.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.nv_dev_board.usb.rc:root/init.nv_dev_board.usb.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init_charging.rc:root/init_charging.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.trace.rc:root/init.trace.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.usb.rc:root/init.usb.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/init.hdcp.rc:root/init.hdcp.rc \
+#	$(LOCAL_PATH)/product-files/rootfs/property_contexts:root/property_contexts \
+#	$(LOCAL_PATH)/product-files/rootfs/seapp_contexts:root/seapp_contexts \
+#	$(LOCAL_PATH)/product-files/rootfs/sepolicy:root/sepolicy
+
+# Ramdisk
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/product-files/rootfs/fstab.ceres:root/fstab.ceres \
-	$(LOCAL_PATH)/product-files/rootfs/factory_init.rc:root/factory_init.rc \
-	$(LOCAL_PATH)/product-files/rootfs/init.ceres.factory.rc:root/init.ceres.factory.rc \
-	$(LOCAL_PATH)/product-files/rootfs/init.recovery.ceres.rc:root/init.recovery.ceres.rc \
-	$(LOCAL_PATH)/product-files/rootfs/init.recovery.icera_ceres.rc:root/init.recovery.icera_ceres.rc \
-	$(LOCAL_PATH)/product-files/rootfs/init.environ.rc:root/init.environ.rc \
-	$(LOCAL_PATH)/product-files/rootfs/init.rc:root/init.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.ceres.rc:root/init.ceres.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.icera_ceres.rc:root/init.icera_ceres.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.icera.common.rc:root/init.icera.common.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.modem_icera.rc:root/init.modem_icera.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.icera.phone.rc:root/init.icera.phone.rc \
-	$(LOCAL_PATH)/product-files/rootfs/ueventd.rc:root/ueventd.rc \
 	$(LOCAL_PATH)/product-files/rootfs/ueventd.ceres.rc:root/ueventd.ceres.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.nv_dev_board.usb.rc:root/init.nv_dev_board.usb.rc \
-	$(LOCAL_PATH)/product-files/rootfs/init_charging.rc:root/init_charging.rc \
-	$(LOCAL_PATH)/product-files/rootfs/init.trace.rc:root/init.trace.rc \
-	$(LOCAL_PATH)/product-files/rootfs/init.usb.rc:root/init.usb.rc \
-	$(LOCAL_PATH)/product-files/rootfs/init.hdcp.rc:root/init.hdcp.rc \
-	$(LOCAL_PATH)/product-files/rootfs/property_contexts:root/property_contexts \
-	$(LOCAL_PATH)/product-files/rootfs/seapp_contexts:root/seapp_contexts \
-	$(LOCAL_PATH)/product-files/rootfs/sepolicy:root/sepolicy
+	$(LOCAL_PATH)/product-files/rootfs/init_charging.rc:root/init_charging.rc
+
+# Boot Animation
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_COPY_FILES += \
 	external/alsa-lib/src/conf/alsa.conf:system/usr/share/alsa/alsa.conf \
@@ -183,30 +201,30 @@ PRODUCT_CHARACTERISTICS := phone
 PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay-phone
 
 # override runtimes to dvm only(removing android runtime)
-OVERRIDE_RUNTIMES := runtime_libdvm_default
+#OVERRIDE_RUNTIMES := runtime_libdvm_default -> disable ART
 
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp,adb
+    persist.sys.usb.config=mtp
 
 # Set DPI
-PRODUCT_PROPERTY_OVERRIDES += ro.sf.lcd_density=312
+PRODUCT_PROPERTY_OVERRIDES += ro.sf.lcd_density=320
 
 # Enable secure USB debugging in user release build
-#ifeq ($(TARGET_BUILD_TYPE),release)
-#ifeq ($(TARGET_BUILD_VARIANT),user)
-#"PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-#    ro.adb.secure=1
-#endif
-#endif
+ifeq ($(TARGET_BUILD_TYPE),release)
+ifeq ($(TARGET_BUILD_VARIANT),user)
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.adb.secure=1
+endif
+endif
 
-#ifeq ($(TARGET_BUILD_TYPE),release)
-#ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+ifeq ($(TARGET_BUILD_TYPE),release)
+ifeq ($(TARGET_BUILD_VARIANT),userdebug)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.secure=0 \
     ro.adb.secure=0
-#endif
-#endif
+endif
+endif
 
 # Include ShieldTech
 ifeq ($(NV_ANDROID_FRAMEWORK_ENHANCEMENTS),TRUE)

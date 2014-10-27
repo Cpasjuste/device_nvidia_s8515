@@ -188,26 +188,31 @@ public class LightsService {
         for (int i = 0; i < LIGHT_ID_COUNT; i++) {
             mLights[i] = new Light(i);
         }
-
+// cpasjuste
 	IntentFilter intentFilter = new IntentFilter();
   	intentFilter.addAction(Intent.ACTION_SCREEN_ON);
 	intentFilter.addAction(Intent.ACTION_SCREEN_OFF);
+	intentFilter.addAction(Intent.ACTION_BOOT_COMPLETED);
   	mContext.registerReceiver(mBroadcastReceiver, intentFilter);
+// cpasjuste
     }
 
+// cpasjuste
 	private BroadcastReceiver mBroadcastReceiver = new BroadcastReceiver() {
 
 		@Override
   		public void onReceive(Context context, Intent intent) {
 
 			Slog.d( TAG, "onReceive: " + intent.getAction() );
-			if (intent.getAction().equals(Intent.ACTION_SCREEN_ON)) {
-               		 	mLights[2].setBrightness( 255 );
+			if (intent.getAction().equals(Intent.ACTION_SCREEN_ON)
+				||intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
+               		 	mLights[LIGHT_ID_BUTTONS].setBrightness( 170 );
 			} else if( intent.getAction().equals(Intent.ACTION_SCREEN_OFF)) {
-				mLights[2].setBrightness( 0 );
+				mLights[LIGHT_ID_BUTTONS].setBrightness( 0 );
 			}
 		}
 	};
+// cpasjuste
 
     protected void finalize() throws Throwable {
         finalize_native(mNativePointer);
