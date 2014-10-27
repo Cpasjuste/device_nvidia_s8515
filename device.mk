@@ -43,7 +43,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/product-files/rootfs/init.icera.phone.rc:root/init.icera.phone.rc \
 	$(LOCAL_PATH)/product-files/rootfs/ueventd.ceres.rc:root/ueventd.ceres.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.nv_dev_board.usb.rc:root/init.nv_dev_board.usb.rc \
-	$(LOCAL_PATH)/product-files/rootfs/init_charging.rc:root/init_charging.rc
+	$(LOCAL_PATH)/product-files/rootfs/init_charging.rc:root/init_charging.rc \
+	$(LOCAL_PATH)/product-files/rootfs/init.hdcp.rc:root/init.hdcp.rc
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
