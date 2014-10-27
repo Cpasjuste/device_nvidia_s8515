@@ -24,7 +24,7 @@ persist.tegra.compositor=glcomposer
 ro.input.noresample=1
 
 #Support high quality audio sample rate conversion
-af.resampler.quality = 3
+af.resampler.quality = 4
 
 #disable Miracast game mode support
 nvwfd.gamemode = 0

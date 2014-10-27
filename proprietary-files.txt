@@ -5,7 +5,7 @@ lib/hw/lights.ceres.so
 ## todo -> remove libhardware_legacy.so dependency (vibrator) -> wip
 lib/libhardware_legacy.so
 
-## todo -> remove libstagefright* dependency (audio sound in telephony)
+## todo -> remove libstagefright* dependency (audio)
 bin/mediaserver
 lib/libmedia.so
 lib/libaudioeffect_jni.so
@@ -13,15 +13,15 @@ lib/libaudioflinger.so
 lib/libaudioutils.so
 lib/libwilhelm.so
 lib/libmediaplayerservice.so
+lib/libstagefrighthw.so
+lib/libstagefright.so
+lib/libstagefright_omx.so
+lib/libstagefright_chromium_http.so
+lib/libstagefright_foundation.so
 lib/libstagefright_amrnb_common.so
 lib/libstagefright_avc_common.so
-lib/libstagefright_chromium_http.so
 lib/libstagefright_enc_common.so
-lib/libstagefright_foundation.so
 lib/libstagefright_httplive.so
-lib/libstagefrighthw.so
-lib/libstagefright_omx.so
-lib/libstagefright.so
 lib/libstagefright_soft_aacdec.so
 lib/libstagefright_soft_aacenc.so
 lib/libstagefright_soft_amrdec.so
@@ -119,12 +119,12 @@ lib/libnvwsi.so
 lib/libnvcontrol_jni.so
 #lib/libnvcpl.so
 
-lib/hw/audio.a2dp.default.so
-lib/hw/audio.primary.default.so
+#lib/hw/audio.a2dp.default.so
+#lib/hw/audio.primary.default.so
+#lib/hw/audio.r_submix.default.so
+#lib/hw/audio.usb.default.so
+#lib/hw/audio_policy.default.so
 lib/hw/audio.primary.tegra.so
-lib/hw/audio.r_submix.default.so
-lib/hw/audio.usb.default.so
-lib/hw/audio_policy.default.so
 lib/hw/audio_policy.tegra.so
 lib/hw/hwcomposer.tegra.so
 lib/hw/gralloc.tegra.so
@@ -187,6 +187,7 @@ etc/gps/gpsconfig.xml
 etc/ril_atc.config
 
 #
+bin/charging
 bin/akmd8963
 bin/fild
 bin/init_zram.sh

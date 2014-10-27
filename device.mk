@@ -2,8 +2,6 @@
 #
 # Copyright (c) 2013-2014 NVIDIA Corporation.  All rights reserved.
 
-#$(call inherit-product-if-exists, frameworks/base/data/videos/VideoPackage2.mk)
-#$(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage3.mk)
 $(call inherit-product, build/target/product/languages_full.mk)
 
 PRODUCT_LOCALES += mdpi hdpi xhdpi
@@ -34,31 +32,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/product-files/power.ceres.rc:system/etc/power.ceres.rc
-
-# Ramdisk
-#PRODUCT_COPY_FILES += \
-#	$(LOCAL_PATH)/product-files/rootfs/fstab.ceres:root/fstab.ceres \
-#	$(LOCAL_PATH)/product-files/rootfs/factory_init.rc:root/factory_init.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.ceres.factory.rc:root/init.ceres.factory.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.recovery.ceres.rc:root/init.recovery.ceres.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.recovery.icera_ceres.rc:root/init.recovery.icera_ceres.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.environ.rc:root/init.environ.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.rc:root/init.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.ceres.rc:root/init.ceres.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.icera_ceres.rc:root/init.icera_ceres.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.icera.common.rc:root/init.icera.common.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.modem_icera.rc:root/init.modem_icera.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.icera.phone.rc:root/init.icera.phone.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/ueventd.rc:root/ueventd.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/ueventd.ceres.rc:root/ueventd.ceres.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.nv_dev_board.usb.rc:root/init.nv_dev_board.usb.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init_charging.rc:root/init_charging.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.trace.rc:root/init.trace.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.usb.rc:root/init.usb.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/init.hdcp.rc:root/init.hdcp.rc \
-#	$(LOCAL_PATH)/product-files/rootfs/property_contexts:root/property_contexts \
-#	$(LOCAL_PATH)/product-files/rootfs/seapp_contexts:root/seapp_contexts \
-#	$(LOCAL_PATH)/product-files/rootfs/sepolicy:root/sepolicy
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
@@ -123,20 +96,20 @@ PRODUCT_PACKAGES += \
 	Gallery2 \
 	libdrmframework_jni \
 	e2fsck \
-        NVSS 
-#	audio.a2dp.default \
-#	audio.usb.default \
-#	audio.r_submix.default\
-# 	lights.ceres \
+        NVSS \
+	audio.a2dp.default \
+	audio.usb.default \
+	audio.r_submix.default
+# 	lights.ceres
 #	power.ceres \
 #	sensors.ceres \
 #	nvidiafeedback \
 #	audio_policy.tegra \
 #	audio.primary.tegra \
 
-PRODUCT_PACKAGES += \
-	charger\
-	charger_res_images\
+#PRODUCT_PACKAGES += \
+#	charger\
+#	charger_res_images\
 
 PRODUCT_PACKAGES += nvaudio_test
 

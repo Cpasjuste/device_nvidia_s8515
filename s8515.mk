@@ -25,7 +25,7 @@ PRODUCT_DEVICE := s8515
 PRODUCT_MANUFACTURER := NVIDIA
 PRODUCT_BRAND := nvidia
 
-PRODUCT_MODEL := s8515
+PRODUCT_MODEL := WAOSP v06
 PRODUCT_LOCALES += en_US
 PRODUCT_PROPERTY_OVERRIDES += ro.com.google.clientidbase=android-enspert
 #ro.com.google.clientidbase=android-nvidia
