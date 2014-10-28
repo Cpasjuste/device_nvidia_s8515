@@ -5,12 +5,14 @@ export DEVICE=s8515
 export VENDOR=nvidia
 export SRC=../../../wax-bp/
 
-#cp product-files/ril_atc.config ../../../vendor/nvidia/tegra/icera/ril/modules/ril_atc.config
 sed --in-place '/NvCPLSvc/d' ../../../vendor/nvidia/tegra/core/modules.mk
 sed --in-place '/NvCPLUpdater/d' ../../../vendor/nvidia/tegra/core/modules.mk
 sed --in-place '/libnvcpl/d' ../../../vendor/nvidia/tegra/core/modules.mk
 rm -rf ../../../3rdparty/ti
 rm -rf ../../../vendor/$VENDOR/$DEVICE
+
+# fix buttons backlights
+cp overlay-frameworks/base/services/java/com/android/server/LightsService.java ../../../frameworks/base/services/java/com/android/server/
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 rm -rf $BASE/*

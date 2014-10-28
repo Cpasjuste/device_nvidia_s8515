@@ -190,7 +190,7 @@ etc/ril_atc.config
 bin/charging
 bin/akmd8963
 bin/fild
-bin/init_zram.sh
+#bin/init_zram.sh
 bin/powerservice
 bin/cluster
 bin/cluster_get.sh
@@ -205,6 +205,24 @@ etc/permissions/com.nvidia.graphics.xml
 etc/permissions/com.nvidia.miracast.xml
 etc/permissions/com.nvidia.nvsi.xml
 etc/permissions/com.nvidia.nvstereoutils.xml
+
+res/images/charging/charger_p_3.png
+res/images/charging/charger_p_6.png
+res/images/charging/charger_p_5.png
+res/images/charging/charger_p_9.png
+res/images/charging/charger_p_100.png
+res/images/charging/charger_p_8.png
+res/images/charging/charger_p_0.png
+res/images/charging/charger_p_10.png
+res/images/charging/charger_p_4.png
+res/images/charging/charger_p_7.png
+res/images/charging/charger_p_1.png
+res/images/charging/charger_p_2.png
+res/images/charging/charger_ov.png
+
+etc/hdcpsrm/hdcp1x.srm
+etc/hdcpsrm/hdcp2x.srm
+etc/hdcpsrm/hdcp2xtest.srm
 
 etc/apns-conf.xml
 etc/model_frontal.xml

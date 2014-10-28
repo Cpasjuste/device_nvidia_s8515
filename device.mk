@@ -2,6 +2,7 @@
 #
 # Copyright (c) 2013-2014 NVIDIA Corporation.  All rights reserved.
 
+$(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage3.mk)
 $(call inherit-product, build/target/product/languages_full.mk)
 
 PRODUCT_LOCALES += mdpi hdpi xhdpi
@@ -35,8 +36,8 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/product-files/rootfs/fstab.ceres:root/fstab.ceres \
-	$(LOCAL_PATH)/product-files/rootfs/init.ceres.rc:root/init.ceres.rc \
+	$(LOCAL_PATH)/product-files/rootfs/switch_fstab.ceres:root/fstab.ceres \
+	$(LOCAL_PATH)/product-files/rootfs/switch_init.ceres.rc:root/init.ceres.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.icera_ceres.rc:root/init.icera_ceres.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.icera.common.rc:root/init.icera.common.rc \
 	$(LOCAL_PATH)/product-files/rootfs/init.modem_icera.rc:root/init.modem_icera.rc \
@@ -108,11 +109,11 @@ PRODUCT_PACKAGES += \
 #	audio_policy.tegra \
 #	audio.primary.tegra \
 
-#PRODUCT_PACKAGES += \
-#	charger\
-#	charger_res_images\
+PRODUCT_PACKAGES += \
+	charger\
+	charger_res_images
 
-PRODUCT_PACKAGES += nvaudio_test
+#PRODUCT_PACKAGES += nvaudio_test
 
 #WiFi
 PRODUCT_PACKAGES += \
@@ -128,43 +129,42 @@ PRODUCT_PACKAGES += \
 		ibss_supplicant.conf
 
 #GPS
-PRODUCT_PACKAGES += \
-		agnss_connect \
-		client_app \
-		client_hwd \
-		Connect_Config.txt \
-		devproxy \
-		dproxy.conf \
-		dproxy.patch \
-		hwd \
-		libagnss.so \
-		libassist.so \
-		libclientlogger.so \
-		libdevproxy.so \
-		libgnssutils.so \
-		Log_MD \
-		log_MD.txt \
-		logs.txt \
-		nvs.txt \
-		ser2soc \
-		test_server
+#PRODUCT_PACKAGES += \
+#		agnss_connect \
+#		client_app \
+#		client_hwd \
+#		Connect_Config.txt \
+#		devproxy \
+#		dproxy.conf \
+#		dproxy.patch \
+#		hwd \
+#		libagnss.so \
+#		libassist.so \
+#		libclientlogger.so \
+#		libdevproxy.so \
+#		libgnssutils.so \
+#		Log_MD \
+#		log_MD.txt \
+#		logs.txt \
+#		nvs.txt \
+#		ser2soc \
+#		test_server
 #		gps.tegra.so 
 
 # CPU volt cap daemon
-PRODUCT_PACKAGES += \
-	nvcpuvoltcapd
+#PRODUCT_PACKAGES += \
+#	nvcpuvoltcapd
 
 # HDCP SRM Support
-PRODUCT_PACKAGES += \
-                hdcp1x.srm \
-                hdcp2x.srm \
-                hdcp2xtest.srm
+#PRODUCT_PACKAGES += \
+#                hdcp1x.srm \
+#                hdcp2x.srm \
+#                hdcp2xtest.srm
 
 # OV5693 bayer sensor calibration manager
 # PRODUCT_PACKAGES += otp-ov5693
-PRODUCT_PACKAGES += ControllerMapper
+# PRODUCT_PACKAGES += ControllerMapper
 
-#include frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap.mk
 include frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk
 
 #include $(LOCAL_PATH)/touchscreen/maxim/maxim.mk

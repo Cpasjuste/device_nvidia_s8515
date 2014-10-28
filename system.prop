@@ -40,3 +40,4 @@ ro.zygote.disable_gl_preload=true
 
 # disable soft keys
 qemu.hw.mainkeys=1
+
