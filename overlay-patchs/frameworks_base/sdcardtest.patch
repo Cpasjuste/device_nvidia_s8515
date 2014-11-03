@@ -1,0 +1,116 @@
+
+project frameworks/base/
+diff --git a/core/java/android/os/Environment.java b/core/java/android/os/Environment.java
+old mode 100644
+new mode 100755
+index a3350da..cd54873
+--- a/core/java/android/os/Environment.java
++++ b/core/java/android/os/Environment.java
+@@ -119,6 +119,7 @@ public class Environment {
+         private final File mEmulatedDirForDirect;
+ 
+         public UserEnvironment(int userId) {
++/*
+             // See storage config details at http://source.android.com/tech/storage/
+             String rawExternalStorage = System.getenv(ENV_EXTERNAL_STORAGE);
+             String rawEmulatedSource = System.getenv(ENV_EMULATED_STORAGE_SOURCE);
+@@ -168,9 +169,33 @@ public class Environment {
+                     externalForApp.add(new File(secondaryPath));
+                 }
+             }
++*/
++
++	// STOCK
++	// mExternalDirsForVold[0]=/mnt/shell/emulated/0
++	// mExternalDirsForVold[1]=/storage/sdcard1
++	// mExternalDirsForApp[0]=/storage/emulated/0
++	// mExternalDirsForApp[1]=/storage/sdcard1
++	// mEmulatedDirForDirect=/data/media/0
++
++		ArrayList<File> externalForVold = Lists.newArrayList();
++		ArrayList<File> externalForApp = Lists.newArrayList();
++		externalForVold.add(new File("/storage/sdcard1"));
++		externalForVold.add(new File("/storage/sdcard0"));
++		externalForApp.add(new File("/storage/sdcard1"));
++		externalForApp.add(new File("/storage/sdcard0"));
++		mEmulatedDirForDirect = new File("/storage/sdcard1");
+ 
+             mExternalDirsForVold = externalForVold.toArray(new File[externalForVold.size()]);
+             mExternalDirsForApp = externalForApp.toArray(new File[externalForApp.size()]);
++
++		for( int i=0; i<mExternalDirsForVold.length; i++ ) {
++			Log.d( TAG, "mExternalDirsForVold["+i+"]="+mExternalDirsForVold[i].getAbsolutePath() );
++		}
++		for( int i=0; i<mExternalDirsForApp.length; i++ ) {
++			Log.d( TAG, "mExternalDirsForApp["+i+"]="+mExternalDirsForApp[i].getAbsolutePath() );
++		}
++		Log.d( TAG, "mEmulatedDirForDirect="+mEmulatedDirForDirect.getAbsolutePath() );
+         }
+ 
+         @Deprecated
+@@ -184,6 +209,7 @@ public class Environment {
+         }
+ 
+         public File[] getExternalDirsForVold() {
++		Log.d( TAG, "getExternalDirsForVold: "+mExternalDirsForVold[0].getAbsolutePath() );
+             return mExternalDirsForVold;
+         }
+ 
+@@ -855,3 +881,4 @@ public class Environment {
+         return path;
+     }
+ }
++
+diff --git a/data/etc/platform.xml b/data/etc/platform.xml
+old mode 100644
+new mode 100755
+index b3153a9..f000721
+--- a/data/etc/platform.xml
++++ b/data/etc/platform.xml
+@@ -64,21 +64,30 @@
+ 
+     <permission name="android.permission.READ_EXTERNAL_STORAGE" >
+         <group gid="sdcard_r" />
++        <group gid="sdcard_rw" />
++        <group gid="sdcard_all" />
++        <group gid="media_rw" />
+     </permission>
+ 
+     <permission name="android.permission.WRITE_EXTERNAL_STORAGE" >
+         <group gid="sdcard_r" />
+         <group gid="sdcard_rw" />
++        <group gid="sdcard_all" />
++        <group gid="media_rw" />
+     </permission>
+ 
+     <permission name="android.permission.ACCESS_ALL_EXTERNAL_STORAGE" >
+         <group gid="sdcard_r" />
+         <group gid="sdcard_rw" />
+         <group gid="sdcard_all" />
++	<group gid="media_rw" />
+     </permission>
+ 
+     <permission name="android.permission.WRITE_MEDIA_STORAGE" >
+-        <group gid="media_rw" />
++        <group gid="sdcard_r" />
++        <group gid="sdcard_rw" />
++        <group gid="sdcard_all" />
++	<group gid="media_rw" />
+     </permission>
+ 
+     <permission name="android.permission.ACCESS_MTP" >
+diff --git a/services/java/com/android/server/MountService.java b/services/java/com/android/server/MountService.java
+old mode 100644
+new mode 100755
+index 18344bd..56646a4
+--- a/services/java/com/android/server/MountService.java
++++ b/services/java/com/android/server/MountService.java
+@@ -1328,7 +1328,7 @@ class MountService extends IMountService.Stub
+         }
+ 
+         final UserEnvironment userEnv = new UserEnvironment(user.getIdentifier());
+-        final File path = userEnv.getExternalStorageDirectory();
++        final File path = new File( "/storage/sdcard0" );//userEnv.getExternalStorageDirectory();
+         final StorageVolume volume = StorageVolume.fromTemplate(mEmulatedTemplate, path, user);
+         volume.setStorageId(0);
+         addVolumeLocked(volume);
