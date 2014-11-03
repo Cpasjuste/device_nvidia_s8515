@@ -124,7 +124,7 @@ write_string(char const* path, char* str)
 
     fd = open(path, O_RDWR);
     if (fd >= 0) {
-        ALOGD("write_string %s %s", path, str);
+       // ALOGD("write_string %s %s", path, str);
 
     	int amt = write(fd, str, strlen(str));
         close(fd);
@@ -157,12 +157,13 @@ set_light_buttons(struct light_device_t* dev,
                   struct light_state_t const* state)
 {
     int err = 0;
-    //int on = is_lit(state);
-    ALOGD("set_light_buttons color=%d", state->color);
-
     int brightness = rgb_to_brightness(state);
-    ALOGD("set_light_buttons brightness=%d", brightness);
 
+	//ALOGD("set_light_buttons brightness=%d brightnessMode=%d flashMode=%d flashOnMS=%d flashOffMS=%d",
+    	//	brightness, state->brightnessMode, state->flashMode, state->flashOnMS, state->flashOffMS);
+
+
+/*
     if(brightness > 0) {
     	brightness = brightness * MAX_BUTTON_BRIGHTNESS / 255 + 1;
     	if(brightness >  MAX_BUTTON_BRIGHTNESS) {
@@ -170,6 +171,7 @@ set_light_buttons(struct light_device_t* dev,
     	}
     }
     ALOGD("set_light_buttons normBrightness=%d", brightness);
+*/
 
     pthread_mutex_lock(&g_lock);
     err = write_int(BUTTON_FILE, brightness);//on ? 255 : 0);
@@ -203,25 +205,27 @@ set_red_led_light(struct light_device_t* dev,
 
     if(state != NULL) {
         switch (state->flashMode) {
-            case LIGHT_FLASH_NONE:
-                //trigger = NONE;
-            	led_state = OFF;
+  		case LIGHT_FLASH_NONE:
+                	//trigger = NONE;
+            		led_state = OFF;
                 break;
+
         	case LIGHT_FLASH_TIMED:
         	case LIGHT_FLASH_HARDWARE:
-                delay_off = state->flashOffMS;
-                delay_on = state->flashOnMS;
+                	delay_off = state->flashOffMS;
+                	delay_on = state->flashOnMS;
 
-                if (delay_on == 0) {
-                	led_state = OFF;
-                } else if (delay_off) {
-                	led_state = BLINK;
-                } else {
-        			led_state = ON;
-                }
-                break;
+                	if (delay_on == 0) {
+                		led_state = OFF;
+               		} else if (delay_off) {
+                		led_state = BLINK;
+			} else {
+				led_state = ON;
+			}
+		break;
+
         	default:
-        		return -1;
+		return -1;
         }
     }
 
@@ -254,8 +258,9 @@ set_red_led_light_state(struct light_device_t* dev,
         	set_red_led_light(dev, NULL, 0);
         	set_red_led_light(dev, &g_notification, brightness);
         } else if(is_lit(&g_battery)) {
+		write_string(RED_LED_TRIGGER_FILE, BATTERY_CHARGING_OR_FULL);
         	set_red_led_light(dev, NULL, 0);
-        	set_red_led_light(dev, &g_battery, brightness);
+        	set_red_led_light(dev, &g_battery, 65535);
         } else {
         	set_red_led_light(dev, &g_notification, brightness);
         }
@@ -273,8 +278,15 @@ set_light_battery(struct light_device_t* dev,
 
     int brightness = rgb_to_brightness(state);
 
-    ALOGD("set_light_battery brightness=%d brightnessMode=%d flashMode=%d flashOnMS=%d flashOffMS=%d",
-    		brightness, state->brightnessMode, state->flashMode, state->flashOnMS, state->flashOffMS);
+	if( brightness > 0 )
+	{
+		g_battery.flashMode = LIGHT_FLASH_HARDWARE;
+		g_battery.flashOnMS = 1;
+		g_battery.flashOffMS = 0;
+	}
+
+  //  ALOGD("set_light_battery brightness=%d brightnessMode=%d flashMode=%d flashOnMS=%d flashOffMS=%d",
+    //		brightness, state->brightnessMode, state->flashMode, state->flashOnMS, state->flashOffMS);
 
     set_red_led_light_state(dev, state, brightness, BATTERY_STATE);
 
@@ -293,8 +305,8 @@ set_light_notifications(struct light_device_t* dev,
 
     int brightness = rgb_to_brightness(state);
 
-    ALOGD("set_light_notifications brightness=%d brightnessMode=%d flashMode=%d flashOnMS=%d flashOffMS=%d",
-    		brightness, state->brightnessMode, state->flashMode, state->flashOnMS, state->flashOffMS);
+  //  ALOGD("set_light_notifications brightness=%d brightnessMode=%d flashMode=%d flashOnMS=%d flashOffMS=%d",
+    //		brightness, state->brightnessMode, state->flashMode, state->flashOnMS, state->flashOffMS);
 
     set_red_led_light_state(dev, state, brightness, NOTIFICATION_STATE);
 
@@ -324,8 +336,8 @@ set_light_attention(struct light_device_t* dev,
 
     int brightness = rgb_to_brightness(state);
 
-    ALOGD("set_light_attention brightness=%d brightnessMode=%d flashMode=%d flashOnMS=%d flashOffMS=%d",
-    		brightness, state->brightnessMode, state->flashMode, state->flashOnMS, state->flashOffMS);
+   // ALOGD("set_light_attention brightness=%d brightnessMode=%d flashMode=%d flashOnMS=%d flashOffMS=%d",
+    //		brightness, state->brightnessMode, state->flashMode, state->flashOnMS, state->flashOffMS);
 
     set_red_led_light_state(dev, state, brightness, ATTENTION_STATE);
 

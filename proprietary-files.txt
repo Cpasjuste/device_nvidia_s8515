@@ -1,47 +1,3 @@
-## todo -> remove libandroid_server.so dependency (lights.ceres.so) -> wip
-lib/libandroid_servers.so
-lib/hw/lights.ceres.so
-
-## todo -> remove libhardware_legacy.so dependency (vibrator) -> wip
-lib/libhardware_legacy.so
-
-## todo -> remove libstagefright* dependency (audio)
-bin/mediaserver
-lib/libmedia.so
-lib/libaudioeffect_jni.so
-lib/libaudioflinger.so
-lib/libaudioutils.so
-lib/libwilhelm.so
-lib/libmediaplayerservice.so
-lib/libstagefrighthw.so
-lib/libstagefright.so
-lib/libstagefright_omx.so
-lib/libstagefright_chromium_http.so
-lib/libstagefright_foundation.so
-lib/libstagefright_amrnb_common.so
-lib/libstagefright_avc_common.so
-lib/libstagefright_enc_common.so
-lib/libstagefright_httplive.so
-lib/libstagefright_soft_aacdec.so
-lib/libstagefright_soft_aacenc.so
-lib/libstagefright_soft_amrdec.so
-lib/libstagefright_soft_amrnbenc.so
-lib/libstagefright_soft_amrwbenc.so
-lib/libstagefright_soft_flacenc.so
-lib/libstagefright_soft_g711dec.so
-lib/libstagefright_soft_gsmdec.so
-lib/libstagefright_soft_h264dec.so
-lib/libstagefright_soft_h264enc.so
-lib/libstagefright_soft_mp3dec.so
-lib/libstagefright_soft_mpeg4dec.so
-lib/libstagefright_soft_mpeg4enc.so
-lib/libstagefright_soft_rawdec.so
-lib/libstagefright_soft_vorbisdec.so
-lib/libstagefright_soft_vpxdec.so
-lib/libstagefright_soft_vpxenc.so
-lib/libstagefright_wfd.so
-lib/libstagefright_yuv.so
-
 ##
 ## proprietary files
 ##
@@ -51,14 +7,23 @@ bin/ussr_setup.sh
 bin/input_cfboost_init.sh
 bin/set_hwui_params.sh
 
-lib/libcutils.so
 lib/libussrd.so
 lib/libardrv_dynamic.so
 lib/libopencv24_tegra.so
 lib/libaudioavp.so
 lib/libcgdrv.so
 lib/libtbb.so
+lib/libstagefrighthw.so
 
+lib/libgov_combinator.so
+lib/libgov_cores.so
+lib/libgov_cpufs.so
+lib/libgov_gpufs.so
+lib/libgov_tbc.so
+lib/libfcamdng.so
+lib/libtinyalsa.so
+
+lib/libcplconnectclient.so
 lib/libnvrm_graphics.so
 lib/libnvrm.so
 lib/libnvapputil.so
@@ -117,32 +82,28 @@ lib/libnvupdater_jni.so
 lib/libnvwinsys.so
 lib/libnvwsi.so
 lib/libnvcontrol_jni.so
-#lib/libnvcpl.so
+lib/libnvcpl.so
+lib/libjni_nvremoteprotopkg.so
+lib/libjni_nvremote.so
 
-#lib/hw/audio.a2dp.default.so
-#lib/hw/audio.primary.default.so
-#lib/hw/audio.r_submix.default.so
-#lib/hw/audio.usb.default.so
-#lib/hw/audio_policy.default.so
+lib/hw/audio.usb.default.so
+lib/hw/audio.a2dp.default.so
 lib/hw/audio.primary.tegra.so
-lib/hw/audio_policy.tegra.so
 lib/hw/hwcomposer.tegra.so
 lib/hw/gralloc.tegra.so
 lib/hw/sensors.ceres.so
-lib/hw/camera.tegra.so
 lib/hw/gps.tegra.so
 lib/hw/nfc.tegra.so
+lib/hw/ts.default.so
 
 lib/egl/egl.cfg
-lib/egl/libGLESv1_CM_tegra.so
 lib/egl/libEGL_tegra.so
-lib/egl/libGLESv1_CM_tegra_impl.so
 lib/egl/libEGL_tegra_impl.so
+lib/egl/libGLESv1_CM_tegra.so
+lib/egl/libGLESv1_CM_tegra_impl.so
 lib/egl/libGLESv2_tegra.so
-lib/egl/libGLES_android.so
 lib/egl/libGLESv2_tegra_impl.so
 
-vendor/lib/hw/power.ceres.so
 vendor/lib/libbt-vendor.so
 vendor/firmware/app/modem.wrapped
 vendor/firmware/app/secondary_boot.wrapped
@@ -176,29 +137,77 @@ bin/nwifup
 bin/factory
 xbin/wifimacaddr
 
+# charging
+bin/charging
+res/images/charging/charger_ov.png
+res/images/charging/charger_p_1.png
+res/images/charging/charger_p_5.png
+res/images/charging/charger_p_9.png
+res/images/charging/charger_p_0.png
+res/images/charging/charger_p_2.png
+res/images/charging/charger_p_6.png
+res/images/charging/charger_p_100.png
+res/images/charging/charger_p_3.png
+res/images/charging/charger_p_7.png
+res/images/charging/charger_p_10.png
+res/images/charging/charger_p_4.png
+res/images/charging/charger_p_8.png
+res/images/lcd_test_00.png
+res/images/lcd_test_01.png
+res/images/lcd_test_02.png
+res/images/lcd_test_03.png
+res/images/lcd_test_04.png
+res/images/lcd_test_05.png
+res/images/lcd_test_06.png
+res/images/lcd_test_07.png
+
 # ril/gps
+bin/icera-crashlogs
 bin/icera_log_serial_arm
 lib/libril-icera.so
 bin/glgps_nvidiaTegra2android
 bin/ceres_mdm_boot_cfg.sh
 bin/agpsd
-etc/gps.conf
+#etc/gps.conf
 etc/gps/gpsconfig.xml
 etc/ril_atc.config
 
+# sensors
+lib/libsensors.base.so
+lib/libsensors.isl29018.so
+lib/libsensors.mpl.so
+lib/libsensors.isl29028.so
+lib/libsensors.nvs_input.so
+
 #
-bin/charging
 bin/akmd8963
 bin/fild
 #bin/init_zram.sh
-bin/powerservice
 bin/cluster
 bin/cluster_get.sh
 bin/cluster_set.sh
 bin/dcc
 bin/hotplug
 bin/mount_debugfs.sh
-bin/wlbwservice
+#bin/wlbwservice
+
+# divers 
+bin/nvcap_test
+bin/nvcgcserver
+bin/nverase.sh
+bin/nv_hciattach
+bin/nvlog_to_file.sh
+bin/rm_ts_server
+bin/usdwatchdog
+lib/libtsechdcp.so
+lib/libtsec_wrapper.so
+lib/librm_ts_service.so
+lib/libwfd_common.so
+lib/librm31080.so
+lib/libwfd_source.so
+lib/libwfd_sink.so
+
+framework/com.nvidia.graphics.jar
 
 etc/permissions/com.nvidia.balancedpower.xml
 etc/permissions/com.nvidia.graphics.xml
@@ -206,29 +215,10 @@ etc/permissions/com.nvidia.miracast.xml
 etc/permissions/com.nvidia.nvsi.xml
 etc/permissions/com.nvidia.nvstereoutils.xml
 
-res/images/charging/charger_p_3.png
-res/images/charging/charger_p_6.png
-res/images/charging/charger_p_5.png
-res/images/charging/charger_p_9.png
-res/images/charging/charger_p_100.png
-res/images/charging/charger_p_8.png
-res/images/charging/charger_p_0.png
-res/images/charging/charger_p_10.png
-res/images/charging/charger_p_4.png
-res/images/charging/charger_p_7.png
-res/images/charging/charger_p_1.png
-res/images/charging/charger_p_2.png
-res/images/charging/charger_ov.png
-
-etc/hdcpsrm/hdcp1x.srm
-etc/hdcpsrm/hdcp2x.srm
-etc/hdcpsrm/hdcp2xtest.srm
-
-etc/apns-conf.xml
 etc/model_frontal.xml
 etc/enctune.conf
-etc/media_profiles.xml
-etc/media_codecs.xml
+#etc/media_profiles.xml
+#etc/media_codecs.xml
 etc/audio_policy.conf
 etc/dhcpcd/dhcpcd.conf
 etc/asound.conf
@@ -239,5 +229,4 @@ usr/idc/sensor00fn11.idc
 usr/idc/raydium_ts.idc
 usr/keylayout/tegra-max98090_Headphone_Jack.kl
 usr/keylayout/gpio-keys.kl
-
 

@@ -1,8 +1,8 @@
-# At this stage main makefiles, including product makefiles,
-# have been read, so all major variables should be available.
-
 LOCAL_PATH := $(call my-dir)
 
-include device/nvidia/s8515/kernel.mk
+include $(CLEAR_VARS)
 
+ALL_PREBUILT += $(INSTALLED_KERNEL_TARGET)
 
+# include the non-open-source counterpart to this file
+-include vendor/nvidia/s8515/AndroidBoardVendor.mk
