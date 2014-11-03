@@ -86,5 +86,5 @@ arch/arm/boot/compressed/vmlinux
 # prevent blobs removal
 !blobs/audio_policy.tegra.so
 !blobs/power.ceres.so
+!blobs/camera.tegra.so
 !nvflash/bootloader.bin
-
