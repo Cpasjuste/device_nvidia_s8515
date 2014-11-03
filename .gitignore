@@ -29,7 +29,7 @@ modules.builtin
 *.bz2
 *.lzma
 *.lzo
-*.patch
+#*.patch
 *.gcno
 
 #
