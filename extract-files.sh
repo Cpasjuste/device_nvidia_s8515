@@ -3,10 +3,8 @@
 VENDOR=nvidia
 DEVICE=s8515
 
-# crappy patch handle
-#cp overlay-patchs/frameworks/base/core/java/android/os/Environment.java ../../../frameworks/base/core/java/android/os/Environment.java
-#cp overlay-patchs/frameworks/av/media/libstagefright/chromium_http/support.cpp ../../../frameworks/av/media/libstagefright/chromium_http/support.cpp
-
+mkdir ../../../.repo/local_manifests
+cp repo-twrp.xml ../../../.repo/local_manifests/
 
 if [ $# -eq 0 ]; then
   SRC=adb

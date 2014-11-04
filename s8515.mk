@@ -32,16 +32,20 @@ LOCAL_PATH := device/nvidia/s8515
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/rootdir/fstab.ceres:root/fstab.ceres \
-	$(LOCAL_PATH)/rootdir/init.ceres.rc:root/init.ceres.rc \
-	$(LOCAL_PATH)/rootdir/init.nv_dev_board.usb.rc:root/init.nv_dev_board.usb.rc \
-	$(LOCAL_PATH)/rootdir/init.icera_ceres.rc:root/init.icera_ceres.rc \
-	$(LOCAL_PATH)/rootdir/init.icera.common.rc:root/init.icera.common.rc \
-	$(LOCAL_PATH)/rootdir/init.modem_icera.rc:root/init.modem_icera.rc \
-	$(LOCAL_PATH)/rootdir/init.icera.phone.rc:root/init.icera.phone.rc \
-	$(LOCAL_PATH)/rootdir/ueventd.ceres.rc:root/ueventd.ceres.rc \
-	$(LOCAL_PATH)/rootdir/init.hdcp.rc:root/init.hdcp.rc \
-	$(LOCAL_PATH)/rootdir/init_charging.rc:root/init_charging.rc
+	$(LOCAL_PATH)/root/fstab.ceres:root/fstab.ceres \
+	$(LOCAL_PATH)/root/init.ceres.rc:root/init.ceres.rc \
+	$(LOCAL_PATH)/root/init.nv_dev_board.usb.rc:root/init.nv_dev_board.usb.rc \
+	$(LOCAL_PATH)/root/init.icera_ceres.rc:root/init.icera_ceres.rc \
+	$(LOCAL_PATH)/root/init.icera.common.rc:root/init.icera.common.rc \
+	$(LOCAL_PATH)/root/init.modem_icera.rc:root/init.modem_icera.rc \
+	$(LOCAL_PATH)/root/init.icera.phone.rc:root/init.icera.phone.rc \
+	$(LOCAL_PATH)/root/ueventd.ceres.rc:root/ueventd.ceres.rc \
+	$(LOCAL_PATH)/root/init.hdcp.rc:root/init.hdcp.rc \
+	$(LOCAL_PATH)/root/init_charging.rc:root/init_charging.rc
+
+# TWRP
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/recovery/twrp.fstab:root/etc/twrp.fstab
 
 # Enable repeatable keys in CWM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -146,6 +150,5 @@ PRODUCT_NAME := full_s8515
 PRODUCT_DEVICE := s8515
 PRODUCT_MODEL := WAX CM11
 PRODUCT_MANUFACTURER := NVIDIA
-
 
 

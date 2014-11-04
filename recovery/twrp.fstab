@@ -1,0 +1,12 @@
+# mount point	fstype		device
+
+/recovery		emmc            /dev/block/platform/sdhci-tegra.3/by-name/SOS	flags=backup=0;display="Recovery"
+/boot			emmc            /dev/block/platform/sdhci-tegra.3/by-name/LNX	flags=backup=1;display="Boot"
+/system			ext4            /dev/block/platform/sdhci-tegra.3/by-name/APP
+/cache			ext4            /dev/block/platform/sdhci-tegra.3/by-name/CAC
+/misc			emmc            /dev/block/platform/sdhci-tegra.3/by-name/MSC
+/staging		emmc            /dev/block/platform/sdhci-tegra.3/by-name/USP
+/data			ext4            /dev/block/platform/sdhci-tegra.3/by-name/UDA
+/external_sd		vfat            /dev/block/platform/sdhci-tegra.2/by-num/p1	flags=display="MicroSD";wipeingui;removable
+#/sdcard			vfat		/dev/block/platform/sdhci-tegra.3/by-name/SD0
+
