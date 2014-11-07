@@ -4,7 +4,5 @@
     <remove-project name="CyanogenMod/android_bootable_recovery" />
     <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-4.4" />
 
-    <!-- fix new cm crap : git fetch https://gerrit.omnirom.org/android_bootable_recovery refs/changes/80/9980/8 && git cherry-pick FETCH_HEAD -->
-
 </manifest>
 

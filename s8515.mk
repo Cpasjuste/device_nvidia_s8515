@@ -145,6 +145,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.selinux=disabled
 
+# LTE, CDMA, GSM/WCDMA
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.telephony.default_cdma_sub=0
+PRODUCT_PROPERTY_OVERRIDES += \
+    telephony.lteOnCdmaDevice=1
+#    ro.telephony.default_network=10 \
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_s8515
 PRODUCT_DEVICE := s8515
