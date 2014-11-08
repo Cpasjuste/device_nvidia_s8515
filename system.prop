@@ -19,4 +19,7 @@ ro.callvibrate.enable=true
 ro.com.google.clientidbase=android-nvidia
 ro.zygote.disable_gl_preload=true
 
+# swapsd @ cpasjuste
+config.swapsd=false
+
 

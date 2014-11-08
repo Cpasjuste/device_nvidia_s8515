@@ -17,11 +17,13 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/storage_settings_title">
 
+	<!-- DISABLED
 	<CheckBoxPreference
-		android:key="key_switch_storage"
-		android:title="Switch SD for apps"
-		android:summaryOn="Using Ext.SD"
-		android:summaryOff="Using Int.SD" />
+		android:key="switch_storage"
+		android:title="Swap sdcard"
+		android:summaryOn="Using Ext. SD"
+		android:summaryOff="Using Int. SD" />
+	-->
 
 <!-- Preference categories are dynamically created based on the list of available storage volumes -->
 
