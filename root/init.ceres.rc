@@ -431,6 +431,10 @@ service fuse_usbdrive /system/bin/sdcard -u 1023 -g 1023 -w 1023 -d /mnt/media_r
     class late_start
     disabled
 
+service swapsd /system/bin/sh /swapsd.sh
+    class core
+    user root
+    oneshot
 
 # bugreport is triggered by the VOLUME-DOWN and VOLUME-UP keys
 service bugreport /system/bin/dumpstate -d -v -o /data/storage/bugreports/bugreport

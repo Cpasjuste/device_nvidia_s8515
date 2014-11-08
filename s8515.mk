@@ -41,8 +41,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/root/init.icera.phone.rc:root/init.icera.phone.rc \
 	$(LOCAL_PATH)/root/ueventd.ceres.rc:root/ueventd.ceres.rc \
 	$(LOCAL_PATH)/root/init.hdcp.rc:root/init.hdcp.rc \
-	$(LOCAL_PATH)/root/init_charging.rc:root/init_charging.rc
-
+	$(LOCAL_PATH)/root/init_charging.rc:root/init_charging.rc \
+	$(LOCAL_PATH)/root/swapsd.sh:root/swapsd.sh
 # TWRP
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/recovery/twrp.fstab:recovery/root/etc/twrp.fstab
