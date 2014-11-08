@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
 
 # TWRP
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/recovery/twrp.fstab:root/etc/twrp.fstab
+	$(LOCAL_PATH)/recovery/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # Enable repeatable keys in CWM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -146,10 +146,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.selinux=disabled
 
 # LTE, CDMA, GSM/WCDMA
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.default_cdma_sub=0
-PRODUCT_PROPERTY_OVERRIDES += \
-    telephony.lteOnCdmaDevice=1
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.telephony.default_cdma_sub=0
+#PRODUCT_PROPERTY_OVERRIDES += \
+#   telephony.lteOnCdmaDevice=1
 #    ro.telephony.default_network=10 \
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
