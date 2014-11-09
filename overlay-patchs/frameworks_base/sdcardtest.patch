@@ -3,10 +3,10 @@ project frameworks/base/
 diff --git a/core/java/android/os/Environment.java b/core/java/android/os/Environment.java
 old mode 100644
 new mode 100755
-index a3350da..f2e2b75
+index a3350da..9953dd2b7
 --- a/core/java/android/os/Environment.java
 +++ b/core/java/android/os/Environment.java
-@@ -112,131 +112,200 @@ public class Environment {
+@@ -112,131 +112,155 @@ public class Environment {
          // TODO: generalize further to create package-specific environment
  
          /** External storage dirs, as visible to vold */
@@ -74,77 +74,32 @@ index a3350da..f2e2b75
 -            mExternalDirsForApp = externalForApp.toArray(new File[externalForApp.size()]);
 +		
 +		boolean swap = SystemProperties.getBoolean( "config.swapsd", false );
-+		if( !swap ) {
 +
-+		    // See storage config details at http://source.android.com/tech/storage/
-+		    String rawExternalStorage = System.getenv(ENV_EXTERNAL_STORAGE);
-+		    String rawEmulatedSource = System.getenv(ENV_EMULATED_STORAGE_SOURCE);
-+		    String rawEmulatedTarget = System.getenv(ENV_EMULATED_STORAGE_TARGET);
++		// STOCK
++		// mExternalDirsForVold[0]=/mnt/shell/emulated/0
++		// mExternalDirsForVold[1]=/storage/sdcard1
++		// mExternalDirsForApp[0]=/storage/emulated/0
++		// mExternalDirsForApp[1]=/storage/sdcard1
++		// mEmulatedDirForDirect=/data/media/0
 +
-+		    String rawMediaStorage = System.getenv(ENV_MEDIA_STORAGE);
-+		    if (TextUtils.isEmpty(rawMediaStorage)) {
-+		        rawMediaStorage = "/data/media";
-+		    }
++		ArrayList<File> externalForVold = Lists.newArrayList();
++		ArrayList<File> externalForApp = Lists.newArrayList();
 +
-+		    ArrayList<File> externalForVold = Lists.newArrayList();
-+		    ArrayList<File> externalForApp = Lists.newArrayList();
-+
-+		    if (!TextUtils.isEmpty(rawEmulatedTarget)) {
-+		        // Device has emulated storage; external storage paths should have
-+		        // userId burned into them.
-+		        final String rawUserId = Integer.toString(userId);
-+		        final File emulatedSourceBase = new File(rawEmulatedSource);
-+		        final File emulatedTargetBase = new File(rawEmulatedTarget);
-+		        final File mediaBase = new File(rawMediaStorage);
-+
-+		        // /storage/emulated/0
-+		        externalForVold.add(buildPath(emulatedSourceBase, rawUserId));
-+		        externalForApp.add(buildPath(emulatedTargetBase, rawUserId));
-+		        // /data/media/0
-+		        mEmulatedDirForDirect = buildPath(mediaBase, rawUserId);
-+
-+		    } else {
-+		        // Device has physical external storage; use plain paths.
-+		        if (TextUtils.isEmpty(rawExternalStorage)) {
-+		            Log.w(TAG, "EXTERNAL_STORAGE undefined; falling back to default");
-+		            rawExternalStorage = "/storage/sdcard0";
-+		        }
-+
-+		        // /storage/sdcard0
-+		        externalForVold.add(new File(rawExternalStorage));
-+		        externalForApp.add(new File(rawExternalStorage));
-+		        // /data/media
-+		        mEmulatedDirForDirect = new File(rawMediaStorage);
-+		    }
-+
-+		    // Splice in any secondary storage paths, but only for owner
-+		    final String rawSecondaryStorage = System.getenv(ENV_SECONDARY_STORAGE);
-+		    if (!TextUtils.isEmpty(rawSecondaryStorage) && userId == UserHandle.USER_OWNER) {
-+		        for (String secondaryPath : rawSecondaryStorage.split(":")) {
-+		            externalForVold.add(new File(secondaryPath));
-+		            externalForApp.add(new File(secondaryPath));
-+		        }
-+		    }
++		if( swap ) {
++			externalForVold.add(new File("/mnt/shell/emulated/0"));
++			externalForVold.add(new File("/storage/sdcard1"));
++			externalForApp.add(new File("/storage/emulated/0"));
++			externalForApp.add(new File("/storage/sdcard1"));
++			mEmulatedDirForDirect = new File("/data/media/0");
 +		} else {
-+
-+			// STOCK
-+			// mExternalDirsForVold[0]=/mnt/shell/emulated/0
-+			// mExternalDirsForVold[1]=/storage/sdcard1
-+			// mExternalDirsForApp[0]=/storage/emulated/0
-+			// mExternalDirsForApp[1]=/storage/sdcard1
-+			// mEmulatedDirForDirect=/data/media/0
-+
-+			ArrayList<File> externalForVold = Lists.newArrayList();
-+			ArrayList<File> externalForApp = Lists.newArrayList();
 +			externalForVold.add(new File("/storage/sdcard1"));
 +			externalForVold.add(new File("/storage/sdcard0"));
 +			externalForApp.add(new File("/storage/sdcard1"));
 +			externalForApp.add(new File("/storage/sdcard0"));
-+
-+			mExternalDirsForVold = externalForVold.toArray(new File[externalForVold.size()]);
-+			mExternalDirsForApp = externalForApp.toArray(new File[externalForApp.size()]);
 +			mEmulatedDirForDirect = new File("/mnt/media_rw/sdcard1");
 +		}
++		mExternalDirsForVold = externalForVold.toArray(new File[externalForVold.size()]);
++		mExternalDirsForApp = externalForApp.toArray(new File[externalForApp.size()]);
          }
  
          @Deprecated
@@ -275,7 +230,7 @@ index a3350da..f2e2b75
          }
      }
  
-@@ -855,3 +924,4 @@ public class Environment {
+@@ -855,3 +879,4 @@ public class Environment {
          return path;
      }
  }
