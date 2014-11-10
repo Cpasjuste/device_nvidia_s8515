@@ -3,7 +3,7 @@ project frameworks/base/
 diff --git a/core/java/android/os/Environment.java b/core/java/android/os/Environment.java
 old mode 100644
 new mode 100755
-index a3350da..92e230b
+index a3350da..eb73b01
 --- a/core/java/android/os/Environment.java
 +++ b/core/java/android/os/Environment.java
 @@ -112,131 +112,138 @@ public class Environment {
@@ -213,11 +213,6 @@ index a3350da..92e230b
          }
      }
  
-@@ -855,3 +862,4 @@ public class Environment {
-         return path;
-     }
- }
-+
 diff --git a/data/etc/platform.xml b/data/etc/platform.xml
 old mode 100644
 new mode 100755
