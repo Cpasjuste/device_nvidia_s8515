@@ -254,15 +254,21 @@ index b3153a9..f000721
 diff --git a/services/java/com/android/server/MountService.java b/services/java/com/android/server/MountService.java
 old mode 100644
 new mode 100755
-index 18344bd..56646a4
+index 18344bd..1775b1e
 --- a/services/java/com/android/server/MountService.java
 +++ b/services/java/com/android/server/MountService.java
-@@ -1328,7 +1328,7 @@ class MountService extends IMountService.Stub
+@@ -1328,7 +1328,13 @@ class MountService extends IMountService.Stub
          }
  
          final UserEnvironment userEnv = new UserEnvironment(user.getIdentifier());
 -        final File path = userEnv.getExternalStorageDirectory();
-+        final File path = new File( "/storage/sdcard0" );//userEnv.getExternalStorageDirectory();
++	File path = null;
++	final boolean swap = SystemProperties.getBoolean( "config.swapsd", false );
++	if( swap ) {
++		path = new File( "/storage/sdcard0" );
++	} else {
++		path = userEnv.getExternalStorageDirectory();
++	}
          final StorageVolume volume = StorageVolume.fromTemplate(mEmulatedTemplate, path, user);
          volume.setStorageId(0);
          addVolumeLocked(volume);

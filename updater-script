@@ -1,7 +1,11 @@
-ui_print("#########################"
+ui_print(" ");
+ui_print(" ");
+ui_print("#########################");
 ui_print("#  CM-11-0 @ Cpasjuste  #");
-ui_print("#########################"
-ui_print("     -> running backuptool..."
+ui_print("#########################");
+ui_print(" ");
+ui_print(" ");
+ui_print("     -> running backuptool...");
 mount("ext4", "EMMC", "/dev/block/platform/sdhci-tegra.3/by-name/APP", "/system");
 package_extract_file("system/bin/backuptool.sh", "/tmp/backuptool.sh");
 package_extract_file("system/bin/backuptool.functions", "/tmp/backuptool.functions");
@@ -9,7 +13,7 @@ set_metadata("/tmp/backuptool.sh", "uid", 0, "gid", 0, "mode", 0755);
 set_metadata("/tmp/backuptool.functions", "uid", 0, "gid", 0, "mode", 0644);
 run_program("/tmp/backuptool.sh", "backup");
 unmount("/system");
-ui_print("     -> preparing installation..."
+ui_print("     -> preparing installation...");
 show_progress(0.500000, 0);
 mount("ext4", "EMMC", "/dev/block/platform/sdhci-tegra.3/by-name/UDA", "/data");
 package_extract_file("system/bin/otasigcheck.sh", "/tmp/otasigcheck.sh");
@@ -18,11 +22,11 @@ set_metadata("/tmp/otasigcheck.sh", "uid", 0, "gid", 0, "mode", 0755);
 run_program("/tmp/otasigcheck.sh");
 sha1_check(read_file("/tmp/releasekey"),"7241e92725436afc79389d4fc2333a2aa8c20230") && abort("Can't install this package on top of incompatible data. Please try another package or run a factory reset");
 unmount("/data");
-ui_print("     -> formating system..."
+ui_print("     -> formating system...");
 format("ext4", "EMMC", "/dev/block/platform/sdhci-tegra.3/by-name/APP", "0", "/system");
 mount("ext4", "EMMC", "/dev/block/platform/sdhci-tegra.3/by-name/APP", "/system");
 package_extract_dir("recovery", "/system");
-ui_print("     -> extracting system..."
+ui_print("     -> extracting system...");
 package_extract_dir("system", "/system");
 symlink("../bin/fsck.f2fs", "/system/bin/dump.f2fs");
 symlink("../xbin/su", "/system/bin/su");
@@ -207,6 +211,10 @@ show_progress(0.200000, 10);
 package_extract_file("boot.img", "/dev/block/platform/sdhci-tegra.3/by-name/LNX");
 show_progress(0.100000, 0);
 unmount("/system");
-ui_print("#########################"
+ui_print(" ");
+ui_print(" ");
+ui_print("#########################");
 ui_print("#      ! ALL DONE !     #");
-ui_print("#########################"
+ui_print("#########################");
+ui_print(" ");
+ui_print(" ");
