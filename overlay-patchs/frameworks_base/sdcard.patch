@@ -3,10 +3,10 @@ project frameworks/base/
 diff --git a/core/java/android/os/Environment.java b/core/java/android/os/Environment.java
 old mode 100644
 new mode 100755
-index a3350da..eb73b01
+index a3350da..fdf840b
 --- a/core/java/android/os/Environment.java
 +++ b/core/java/android/os/Environment.java
-@@ -112,131 +112,138 @@ public class Environment {
+@@ -112,75 +112,50 @@ public class Environment {
          // TODO: generalize further to create package-specific environment
  
          /** External storage dirs, as visible to vold */
@@ -92,9 +92,9 @@ index a3350da..eb73b01
 +			mEmulatedDirForDirect = new File("/data/media/0");
 +		} else {
 +			externalForVold.add(new File("/storage/sdcard1"));
-+			externalForVold.add(new File("/storage/sdcard0"));
++//			externalForVold.add(new File("/storage/sdcard0"));
 +			externalForApp.add(new File("/storage/sdcard1"));
-+			externalForApp.add(new File("/storage/sdcard0"));
++//			externalForApp.add(new File("/storage/sdcard0"));
 +			mEmulatedDirForDirect = new File("/mnt/media_rw/sdcard1");
 +		}
 +		mExternalDirsForVold = externalForVold.toArray(new File[externalForVold.size()]);
@@ -104,111 +104,76 @@ index a3350da..eb73b01
          @Deprecated
          public File getExternalStorageDirectory() {
 -            return mExternalDirsForApp[0];
-+		if( mExternalDirsForApp[0] != null ) {
-+			Log.d( TAG, "getExternalStorageDirectory(): " + mExternalDirsForApp[0].getAbsolutePath() );
-+		}
 +		return mExternalDirsForApp[0];
          }
  
          @Deprecated
          public File getExternalStoragePublicDirectory(String type) {
 -            return buildExternalStoragePublicDirs(type)[0];
-+		File f = buildExternalStoragePublicDirs(type)[0];
-+		if( f != null ) {
-+			Log.d( TAG, "getExternalStoragePublicDirectory("+type+"): " + f.getAbsolutePath() );
-+		}
-+		return f;
++		return buildExternalStoragePublicDirs(type)[0];
          }
  
          public File[] getExternalDirsForVold() {
-+		Log.d( TAG, "getExternalDirsForVold() : " + mExternalDirsForVold[0].getAbsolutePath() );
-             return mExternalDirsForVold;
-         }
- 
-         public File[] getExternalDirsForApp() {
-+		Log.d( TAG, "getExternalDirsForApp() : " + mExternalDirsForApp[0].getAbsolutePath() );
-             return mExternalDirsForApp;
-         }
- 
-         public File getMediaDir() {
-+		Log.d( TAG, "getMediaDir(): " + mEmulatedDirForDirect.getAbsolutePath() );
-             return mEmulatedDirForDirect;
-         }
- 
-         public File[] buildExternalStoragePublicDirs(String type) {
--            return buildPaths(mExternalDirsForApp, type);
-+		File[] files = buildPaths(mExternalDirsForApp, type);
-+		Log.d( TAG, "buildExternalStoragePublicDirs("+type+") : " + files[0].getAbsolutePath() );
-+            return files;
+@@ -200,43 +175,53 @@ public class Environment {
          }
  
          public File[] buildExternalStorageAndroidDataDirs() {
 -            return buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_DATA);
 +		File[] files = buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_DATA);
-+		Log.d( TAG, "buildExternalStorageAndroidDataDirs() : " + files[0].getAbsolutePath() );
 +            return files;
          }
  
          public File[] buildExternalStorageAndroidObbDirs() {
 -            return buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_OBB);
 +		File[] files = buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_OBB);
-+		Log.d( TAG, "buildExternalStorageAndroidObbDirs() : " + files[0].getAbsolutePath() );
 +            return files;
          }
  
          public File[] buildExternalStorageAndroidObbDirsForVold() {
 -            return buildPaths(mExternalDirsForVold, DIR_ANDROID, DIR_OBB);
 +		File[] files = buildPaths(mExternalDirsForVold, DIR_ANDROID, DIR_OBB);
-+		Log.d( TAG, "buildExternalStorageAndroidObbDirsForVold() : " + files[0].getAbsolutePath() );
 +            return files;
          }
  
          public File[] buildExternalStorageAppDataDirs(String packageName) {
 -            return buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_DATA, packageName);
 +		File[] files = buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_DATA, packageName);
-+		Log.d( TAG, "buildExternalStorageAppDataDirs("+packageName+") : " + files[0].getAbsolutePath() );
 +            return files;
          }
  
          public File[] buildExternalStorageAppDataDirsForVold(String packageName) {
 -            return buildPaths(mExternalDirsForVold, DIR_ANDROID, DIR_DATA, packageName);
 +		File[] files = buildPaths(mExternalDirsForVold, DIR_ANDROID, DIR_DATA, packageName);
-+		Log.d( TAG, "buildExternalStorageAppDataDirsForVold("+packageName+") : " + files[0].getAbsolutePath() );
 +            return files;
          }
  
          public File[] buildExternalStorageAppMediaDirs(String packageName) {
 -            return buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_MEDIA, packageName);
 +		File[] files = buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_MEDIA, packageName);
-+		Log.d( TAG, "buildExternalStorageAppMediaDirs("+packageName+") : " + files[0].getAbsolutePath() );
 +            return files;
          }
  
          public File[] buildExternalStorageAppObbDirs(String packageName) {
 -            return buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_OBB, packageName);
 +		File[] files = buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_OBB, packageName);
-+		Log.d( TAG, "buildExternalStorageAppMediaDirs("+packageName+") : " + files[0].getAbsolutePath() );
 +            return files;
          }
  
          public File[] buildExternalStorageAppObbDirsForVold(String packageName) {
 -            return buildPaths(mExternalDirsForVold, DIR_ANDROID, DIR_OBB, packageName);
 +		File[] files = buildPaths(mExternalDirsForVold, DIR_ANDROID, DIR_OBB, packageName);
-+		Log.d( TAG, "buildExternalStorageAppObbDirsForVold("+packageName+") : " + files[0].getAbsolutePath() );
 +            return files;
          }
  
          public File[] buildExternalStorageAppFilesDirs(String packageName) {
 -            return buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_DATA, packageName, DIR_FILES);
 +		File[] files = buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_DATA, packageName, DIR_FILES);
-+		Log.d( TAG, "buildExternalStorageAppFilesDirs("+packageName+") : " + files[0].getAbsolutePath() );
 +            return files;
          }
  
          public File[] buildExternalStorageAppCacheDirs(String packageName) {
 -            return buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_DATA, packageName, DIR_CACHE);
 +		File[] files = buildPaths(mExternalDirsForApp, DIR_ANDROID, DIR_DATA, packageName, DIR_CACHE);
-+		Log.d( TAG, "buildExternalStorageAppCacheDirs("+packageName+") : " + files[0].getAbsolutePath() );
 +            return files;
          }
      }
