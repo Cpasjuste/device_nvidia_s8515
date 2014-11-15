@@ -94,24 +94,24 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/audio/conf/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
 	$(LOCAL_PATH)/audio/conf/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf
 
-# Audio fix
+# Proprietary blobs
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/blobs/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so
-
-# Cam fix
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/blobs/camera.tegra.so:system/lib/hw/camera.tegra.so
-
-# Power fix
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/blobs/power.ceres.so:system/vendor/lib/hw/power.ceres.so \
-	$(LOCAL_PATH)/blobs/powerservice:system/bin/powerservice \
-	$(LOCAL_PATH)/blobs/power.ceres.rc:system/etc/power.ceres.rc
+	$(LOCAL_PATH)/blobs/bin/powerservice:system/bin/powerservice \
+	$(LOCAL_PATH)/blobs/etc/power.ceres.rc:system/etc/power.ceres.rc \
+	$(LOCAL_PATH)/blobs/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
+	$(LOCAL_PATH)/blobs/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
+	$(LOCAL_PATH)/blobs/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
+	$(LOCAL_PATH)/blobs/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
+	$(LOCAL_PATH)/blobs/etc/firmware/tegra14x/nvhost_msenc030.fw:system/etc/firmware/tega14x/nvhost_msenc030.fw \
+	$(LOCAL_PATH)/blobs/etc/firmware/tegra14x/nvhost_tsec.fw:system/etc/firmware/tega14x/nvhost_tsec.fw \
+	$(LOCAL_PATH)/blobs/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
+	$(LOCAL_PATH)/blobs/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
+	$(LOCAL_PATH)/blobs/vendor/lib/hw/power.ceres.so:system/vendor/lib/hw/power.ceres.so
+	
 
 PRODUCT_PACKAGES += \
     audio.r_submix.default \
     com.android.future.usb.accessory
-#    audio.a2dp.default 
 
 # NFC packages
 PRODUCT_PACKAGES += \
@@ -145,17 +145,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.selinux=disabled
 
-# LTE, CDMA, GSM/WCDMA
-#PRODUCT_PROPERTY_OVERRIDES += \
-#    ro.telephony.default_cdma_sub=0
-#PRODUCT_PROPERTY_OVERRIDES += \
-#   telephony.lteOnCdmaDevice=1
-#    ro.telephony.default_network=10 \
-
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_s8515
 PRODUCT_DEVICE := s8515
 PRODUCT_MODEL := WAX CM11
 PRODUCT_MANUFACTURER := NVIDIA
-
-

@@ -111,13 +111,6 @@ vendor/firmware/tlv320aic3206_fw_v1.bin
 vendor/firmware/data/config/audioConfig.bin
 vendor/firmware/data/config/productConfig.bin
 
-etc/firmware/nvavp_os_0ff00000.bin
-etc/firmware/nvavp_os_eff00000.bin
-etc/firmware/nvavp_aud_ucode.bin
-etc/firmware/nvavp_vid_ucode_alt.bin
-etc/firmware/tegra14x/nvhost_msenc030.fw
-etc/firmware/tegra14x/nvhost_tsec.fw
-
 # wifi
 vendor/firmware/bcm43341/fw_bcmdhd.bin
 vendor/firmware/bcm43341/fw_bcmdhd_a0.bin
