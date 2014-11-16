@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">Naam van SHIELD wijzigen</string>
+    <string name="bluetooth_ask_discovery" product="shield">"Een app wil SHIELD <xliff:g id="timeout">%1$d</xliff:g> seconden zichtbaar maken voor andere Bluetooth-apparaten. Toelaten?"</string>
+    <string name="phone_info_label" product="shield">SHIELD-info</string>
+    <string name="roaming_warning_multiuser" product="shield">Wanneer u gegevensroaming toestaat, kunnen er hoge roamingkosten in rekening worden gebracht.\n\nDeze instelling is van invloed op alle gebruikers van deze SHIELD.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">SHIELD coderen</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">Een numerieke PIN-code of wachtwoord vereisen om SHIELD te decoderen wanneer u deze inschakelt</string>
+    <string name="crypt_keeper_desc" product="shield">
+    U kunt uw account, instellingen, gedownloade apps en de bijbehorende gegevens, media en andere bestanden coderen.  Zodra u SHIELD heeft gecodeerd, moet u telkens een pincode of wachtwoord opgeven om SHIELD te decoderen wanneer u deze opstart.  U kunt het coderen van SHIELD uitsluitend ongedaan maken door de fabrieksinstellingen te herstellen, waarbij al uw gegevens worden gewist. \n\nCoderen duurt een uur of langer. U moet beginnen met een geladen accu en SHIELD ingeschakeld houden totdat het coderen is voltooid.  Als u het coderingsproces onderbreekt, zult u uw gegevens geheel of gedeeltelijk verliezen. </string>
+    <string name="crypt_keeper_button_text" product="shield">SHIELD coderen</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    De coderingsbewerking kan niet ongedaan worden gemaakt en als u de bewerking onderbreekt, gaan er gegevens verloren. 
+    Het coderen duurt een uur of langer en SHIELD wordt meerdere keren opnieuw opgestart.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">Wacht terwijl SHIELD wordt gecodeerd. <xliff:g id="percent" example="50">^1</xliff:g>% voltooid.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> Het coderen is onderbroken en kan niet worden voltooid.  Daardoor zijn de gegevens op SHIELD niet meer toegankelijk. \n\n
+      Als u SHIELD weer wilt gebruiken, moet u de fabrieksinstellingen herstellen. 
+      Wanneer u SHIELD instelt na het herstel, krijgt u de mogelijkheid gegevens waarvan u een back-up heeft gemaakt in uw Google-account, terug te zetten.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> deelt de internetverbinding van SHIELD niet meer.</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">Gegevensuitwisseling toestaan wanneer SHIELD een ander apparaat fysiek raakt</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">WAARSCHUWING:  er worden mogelijk extra kosten voor dataverkeer in rekening gebracht.\n\nHet instellen van SHIELD kan aanzienlijke netwerkactiviteit vereisen.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">WAARSCHUWING:  SHIELD kan niet controleren of uw software is bijgewerkt.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD kan geen verbinding maken met dit wifi-netwerk.</string>
+    <string name="dock_audio_summary_none" product="shield">SHIELD niet gedockt</string>
+    <string name="dock_not_found_text" product="shield">U moet SHIELD in het dock plaatsen voordat u audio-instellingen voor het dock kunt instellen.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">Geluid afspelen wanneer SHIELD in het dockstation wordt geplaatst of uit het dockstation wordt verwijderd</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">Geen geluid afspelen wanneer SHIELD in het dock wordt geplaatst of uit het dock wordt verwijderd</string>
+
+    <string name="accelerometer_summary_on" product="shield">Stand automatisch wijzigen als SHIELD wordt gedraaid</string>
+    <string name="accelerometer_summary_off" product="shield">Stand automatisch wijzigen als SHIELD wordt gedraaid</string>
+    <string name="sim_lock_on" product="shield">PIN-code vereist voor gebruik van SHIELD</string>
+    <string name="sim_lock_off" product="shield">PIN-code vereist voor gebruik van SHIELD</string>
+    <string name="device_info_settings" product="shield">SHIELD-status</string>
+
+    <string name="device_status_summary" product="shield">Status van de accu, het netwerk en andere gegevens</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">Alle gegevens op SHIELD wissen</string>
+    <string name="master_clear_desc" product="shield">"Hierdoor worden alle gegevens van het <b>interne geheugen</b> van SHIELD gewist waaronder:\n\n<li>Uw Google-account</li>\n<li>Gegevens en instellingen van systeem en app</li>\n<li>Gedownloade apps</li>"</string>
+    <string name="master_clear_button_text" product="shield">SHIELD resetten</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">Internetverbinding van SHIELD delen</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Internetverbinding van SHIELD delen met 1 apparaat</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Internetverbinding van SHIELD delen met <xliff:g id="connectedDeviceCount">%1$d</xliff:g> apparaten</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">Internetverbinding van SHIELD niet delen</string>
+    <string name="location_street_level" product="shield">Apps toestaan GPS op SHIELD te gebruiken om uw locatie te bepalen</string>
+    <string name="about_settings" product="shield">Informatie over SHIELD</string>
+    <string name="install_all_warning" product="shield">Uw SHIELD en persoonlijke gegevens zijn gevoeliger voor aanvallen door apps van onbekende bronnen.  U gaat ermee akkoord dat alleen u verantwoordelijk bent voor enige schade aan SHIELD of verlies van gegevens die voortkomen uit het gebruik van deze apps.</string>
+    <string name="security_settings_desc" product="shield">Deze app heeft toegang tot de volgende opties op SHIELD:</string>
+    <string name="security_settings_desc_multi" product="shield">Deze app heeft toegang tot de volgende opties op SHIELD. Om de prestaties te verbeteren en het geheugengebruik te beperken, zijn sommige van deze rechten beschikbaar voor <xliff:g id="base_app_name">%1$s</xliff:g> omdat deze wordt uitgevoerd in hetzelfde proces als <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">Naar SHIELD verplaatsen</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Als u deze service stopt, werken bepaalde functies van SHIELD mogelijk pas weer correct nadat u SHIELD heeft uitgeschakeld en weer ingeschakeld.</string>
+    <string name="testing_phone_info" product="shield">SHIELD-informatie</string>
+    <string name="power_idle" product="shield">SHIELD inactief</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">Accu gebruikt wanneer SHIELD inactief is</string>
+    <string name="really_remove_account_message" product="shield">Als u dit account verwijdert, worden ook alle accountberichten, contacten en andere gegevens van SHIELD verwijderd.</string>
+    <string name="remove_account_failed" product="shield">Dit account is vereist voor sommige apps.  U kunt het account alleen verwijderen door de fabriekinstellingen van SHIELD te herstellen (al uw persoonlijke gegevens worden gewist) in Instellingen &gt; Back-up &amp; reset.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Wijzigingen die u aanbrengt in uw accounts op internet worden automatisch naar uw SHIELD gekopieerd.\n\nSommige accounts kunnen de wijzigingen die u op uw SHIELD aanbrengt ook automatisch naar het account op internet kopiëren.  Een Google-account werkt op deze manier.\n\nGa naar \'Instellingen &gt; Accounts\' om te selecteren welke typen gegevens u met elk account wilt synchroniseren.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">Uw mobiele gegevensverbinding wordt uitgeschakeld wanneer de gespecificeerde limiet is bereikt.\n\nAangezien dit gegevensverbruik wordt gemeten door SHIELD en uw provider tot een ander totaal kan komen, kunt u het beste een voorzichtige grens instellen.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">Als u mobiel gegevensgebruik op de achtergrond beperkt, werken sommige apps en services niet, tenzij u verbonden bent met een wifi-netwerk.\n\nDeze instelling is van invloed op alle gebruikers van deze SHIELD.</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: ongeveer <xliff:g id="total" example="128KB">%1$s</xliff:g> gebruikt volgens SHIELD.  Uw provider kan dit anders berekenen.</string>
+    <string name="user_cannot_manage_message" product="shield">Alleen de eigenaar van SHIELD kan gebruikers beheren.</string>
+    <string name="user_confirm_remove_self_message" product="shield">U verliest uw opslagruimte en gegevens op deze SHIELD.  U kunt deze actie niet ongedaan maken.</string>
+    <string name="user_confirm_remove_message" product="shield">De opslagruimte en gegevens van deze gebruiker verdwijnen van deze SHIELD.  U kunt deze actie niet ongedaan maken.</string>
+    <string name="global_change_warning" product="shield">Deze instelling is van invloed op alle gebruikers van deze SHIELD.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      De opslagruimte en gegevens van dit profiel verdwijnen van SHIELD. U kunt deze actie niet ongedaan maken.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      Gegevensuitwisseling toestaan wanneer SHIELD een ander apparaat fysiek raakt
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      Een app wil SHIELD zichtbaar maken voor andere Bluetooth-apparaten. U kunt dit later wijzigen in Bluetooth-instellingen.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      Een app wil Bluetooth inschakelen en SHIELD %1$d seconden zichtbaar maken voor andere apparaten.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      Een app wil Bluetooth inschakelen en SHIELD zichtbaar maken voor andere apparaten. U kunt dit later wijzigen in Bluetooth-instellingen.
+    </string>
+</resources>

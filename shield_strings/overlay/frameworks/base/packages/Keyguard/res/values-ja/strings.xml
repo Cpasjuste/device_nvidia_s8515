@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">SHIELD 内に SIM カードがありません。</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+SHIELD のロック解除に <xliff:g id="number">%d</xliff:g>  回失敗しました。あと <xliff:g id="number">%d</xliff:g>  回失敗すると、SHIELD は工場出荷状態にリセットされ、ユーザーのデータはすべて失われます。
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+SHIELD のロック解除に <xliff:g id="number">%d</xliff:g>  回失敗しました。SHIELD を工場出荷状態にリセットします。
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+ロック解除パターンの入力を <xliff:g id="number">%d</xliff:g>  回間違えました。あと <xliff:g id="number">%d</xliff:g>  回間違えると、SHIELD のロック解除に電子メール アカウントが必要になります。\n\n<xliff:g id="number">%d</xliff:g>  秒後にやり直してください。
+    </string>
+</resources>

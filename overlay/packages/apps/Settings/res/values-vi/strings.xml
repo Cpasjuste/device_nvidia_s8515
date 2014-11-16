@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">Độ sáng đèn LED</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">Nút NVIDIA</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Điều khiển Âm lượng</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">Sử dụng các nút bumper để điều chỉnh âm lượng</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">LB và RB sẽ điều chỉnh âm lượng sau khi nhấn nút âm lượng</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">Xung LED khi thiết bị ở chế độ ngủ</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Việc đóng nắp sẽ khoán ngay lập tức</string>
+    <!-- Message for add user confirmation dialog - long version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_long">Bạn có thể chia sẻ thiết bị này với những người khác bằng cách tạo thêm người dùng. Mỗi người dùng có không gian riêng mà họ có thể tùy chỉnh với các ứng dụng, hình nền riêng, v.v. Người dùng cũng có thể điều chỉnh các cài đặt máy tính bảng ảnh hưởng tới mọi người, chẳng hạn như Wi-Fi.\n\nBất kỳ người dùng nào cũng có thể chấp nhận các quyền của ứng dụng được cập nhật thay mặt tất cả những người dùng khác.</string>
+    <!-- Message for add user confirmation dialog - short version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_short">Bất kỳ người dùng nào cũng có thể chấp nhận các quyền của ứng dụng được cập nhật thay mặt tất cả những người dùng khác.</string>
+
+    <!-- Enable Controller Mapper-->
+     <add-resource type="string" name="controller_mapper_enable" />
+     <string name="controller_mapper_enable">Kích hoạt Gamepad Mapper</string>
+     <add-resource type="string" name="controller_mapper_enable_summary" />
+     <string name="controller_mapper_enable_summary">Ấn giữ nút KHỞI ĐỘNG để khởi động ứng dụng chồng xếp bản đồ</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download" />
+     <string name="controller_mapper_enable_auto_download">Kích hoạt tải xuống tự động</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download_summary" />
+     <string name="controller_mapper_enable_auto_download_summary">Tự động tải bản đồ từ đám mây nếu sẵn có</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">NVIDIA pháp lý</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Thỏa thuận Cấp phép Phần mềm</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Chính sách Riêng tư</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Các Điều khoản Dịch vụ Tegra Experience</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Thông tin Bảo hành</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">Các giấy phép của NVIDIA</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Chế độ toàn màn hình</string>
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Chỉ hiển thị thanh trạng thái ở màn hình trang chủ</string>
+
+    <!-- Category title for Controller Mapper -->
+    <add-resource type="string" name="nv_controller_mapper" />
+    <string name="nv_controller_mapper">Gamepad Mapper </string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">Gửi phản hồi đến NVIDIA</string>
+
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">Ứng dụng</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">Dữ liệu</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">Chuyển ứng dụng tới SHIELD?</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">Chuyển ứng dụng sang thẻ SD?</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">Việc này có thể mất vài phút. Không rút thẻ SD khi thao tác này đang diễn ra.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> dung lượng trống trên SHIELD</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> dung lượng trống trên thẻ SD</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device">Đang chuyển <xliff:g id="pkg_label">%1$s</xliff:g> tới SHIELD...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard">Đang chuyển <xliff:g id="pkg_label">%1$s</xliff:g> sang thẻ SD...</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Chế độ toàn màn hình</string>
+
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Ẩn thanh trạng thái</string>
+
+    <add-resource type="string" name="flscrmode_str_cling_msg_restore_normal" />
+    <string name="flscrmode_str_cling_msg_restore_normal">Gõ mạnh từ phía trên cùng để khôi phục thanh trạng thái.</string>
+    <add-resource type="string" name="flscrmode_str_cling_btn_label_ok" />
+    <string name="flscrmode_str_cling_btn_label_ok">OK</string>
+</resources>
+

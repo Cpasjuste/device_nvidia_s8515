@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">Ο αποθηκευτικός χώρος SHIELD είναι πλήρης.  Διαγράψτε μερικά αρχεία για να δημιουργήσετε ελεύθερο χώρο.</string>
+    <string name="power_dialog" product="shield">Επιλογές SHIELD</string>
+    <string name="shutdown_confirm" product="shield">Το SHIELD θα τερματιστεί.</string>
+    <string name="global_actions" product="shield">Επιλογές SHIELD</string>
+    <string name="permdesc_readSms" product="shield">Επιτρέπει στην εφαρμογή την ανάγνωση μηνυμάτων SMS που είναι αποθηκευμένα στο SHIELD ή στην κάρτα SIM σας.  Αυτό δίνει τη δυνατότητα στην εφαρμογή να διαβάζει όλα τα μηνύματα SMS, ανεξάρτητα από το περιεχόμενο ή το επίπεδο εμπιστευτικότητάς τους.</string>
+    <string name="permdesc_writeSms" product="shield">Επιτρέπει στην εφαρμογή την εγγραφή σε μηνύματα SMS που είναι αποθηκευμένα στο SHIELD ή στην κάρτα SIM σας.  Τυχόν κακόβουλες εφαρμογές ενδέχεται να διαγράψουν τα μηνύματά σας.</string>
+    <string name="permdesc_injectEvents" product="shield">Επιτρέπει στην εφαρμογή την εμφάνιση των δικών της συμβάντων εισόδου (πάτημα πλήκτρων, κλπ.) σε άλλες εφαρμογές.  Τυχόν κακόβουλες εφαρμογές ενδέχεται να χρησιμοποιήσουν αυτή τη δυνατότητα για να εμφανιστούν στο SHIELD.</string>
+    <string name="permdesc_persistentActivity" product="shield">Επιτρέπει στην εφαρμογή να δημιουργεί μόνιμα τμήματα του εαυτού της στη μνήμη.   Αυτό μπορεί να περιορίζει τη μνήμη που διατίθεται σε άλλες εφαρμογές και να καθυστερήσει το SHIELD.</string>
+    <string name="permdesc_clearAppCache" product="shield">Επιτρέπει στην εφαρμογή να εξοικονομήσει αποθηκευτικό χώρο SHIELD διαγράφοντας αρχεία στους καταλόγους προσωρινής μνήμης άλλων εφαρμογών.   Για αυτόν το λόγο, η εκκίνηση άλλων εφαρμογών ενδέχεται να επιβραδυνθεί, καθώς θα πρέπει να ανακτήσουν εκ νέου τα δεδομένα τους.</string>
+    <string name="permdesc_readLogs" product="shield">Επιτρέπει στην εφαρμογή την ανάγνωση των αρχείων καταγραφής του συστήματος.   Έτσι, μπορεί να ανακαλύψει γενικές πληροφορίες σχετικά με τις δραστηριότητές σας στο SHIELD, συμπεριλαμβάνοντας πιθανώς και προσωπικές ή ιδιωτικές πληροφορίες.</string>
+    <string name="permdesc_changeComponentState" product="shield">Επιτρέπει στην εφαρμογή την αλλαγή της κατάστασης ενεργοποίησης κάποιου στοιχείου.  Τυχόν κακόβουλες εφαρμογές μπορούν να χρησιμοποιήσουν αυτή τη δυνατότητα για την απενεργοποίηση σημαντικών δυνατοτήτων του SHIELD.  Αυτή η άδεια θα πρέπει να χρησιμοποιείται προσεκτικά, καθώς είναι πιθανό να θέσει τα στοιχεία εφαρμογών σε κατάσταση αχρηστίας, μη συνοχής και αστάθειας.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Επιτρέπει στην εφαρμογή να εκκινηθεί αμέσως μόλις ολοκληρωθεί η εκκίνηση του συστήματος.  Αυτό ενδέχεται να καθυστερήσει την εκκίνηση του SHIELD και να προκαλέσει γενική μείωση της ταχύτητας λειτουργίας του SHIELD, καθώς η εφαρμογή θα εκτελείται συνεχώς.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Επιτρέπει στην εφαρμογή την αποστολή εκπομπών sticky, οι οποίες παραμένουν μετά το τέλος της εκπομπής.  Η υπερβολική χρήση ενδέχεται να καταστήσει τη λειτουργία του SHIELD αργή ή ασταθή, προκαλώντας τη χρήση μεγάλου τμήματος της μνήμης.</string>
+
+    <string name="permdesc_readContacts" product="shield">Επιτρέπει στην εφαρμογή την ανάγνωση δεδομένων σχετικά με τις επαφές σας που είναι αποθηκευμένες στο SHIELD, συμπεριλαμβανομένης της συχνότητας με την οποία έχετε καλέσει συγκεκριμένα άτομα ή έχετε επικοινωνήσει μαζί τους μέσω ηλεκτρονικού ταχυδρομείου ή άλλου τρόπου.  Αυτή η άδεια δίνει τη δυνατότητα σε εφαρμογές να αποθηκεύουν τα δεδομένα των επαφών σας και οι κακόβουλες εφαρμογές ενδέχεται να μοιράζονται δεδομένα επαφών χωρίς να το γνωρίζετε.</string>
+    <string name="permdesc_writeContacts" product="shield">Επιτρέπει στην εφαρμογή την τροποποίηση των δεδομένων σχετικά με τις επαφές σας που είναι αποθηκευμένες στο SHIELD σας, συμπεριλαμβανομένης της συχνότητας με την οποία έχετε καλέσει συγκεκριμένες επαφές ή έχετε επικοινωνήσει μαζί τους μέσω ηλεκτρονικού ταχυδρομείου ή άλλου τρόπου.  Αυτή η άδεια δίνει τη δυνατότητα σε εφαρμογές να διαγράφουν δεδομένα επαφών.</string>
+    <string name="permdesc_readCallLog" product="shield">Επιτρέπει στην εφαρμογή να διαβάζει το αρχείο καταγραφής κλήσεων του SHIELD σας, συμπεριλαμβανομένων των δεδομένων σχετικά με τις εισερχόμενες και τις εξερχόμενες κλήσεις.  Αυτή η άδεια δίνει τη δυνατότητα στις εφαρμογές να αποθηκεύει τα δεδομένα του αρχείου καταγραφής κλήσεων και οι κακόβουλες εφαρμογές ενδέχεται να μοιράζονται δεδομένα του αρχείου καταγραφής κλήσεων χωρίς να το γνωρίζετε.</string>
+    <string name="permdesc_writeCallLog" product="shield">Επιτρέπει στην εφαρμογή να τροποποιεί το αρχείο καταγραφής κλήσεων του SHIELD σας, συμπεριλαμβανομένων των δεδομένων σχετικά με τις εισερχόμενες και τις εξερχόμενες κλήσεις. 
+        Οι κακόβουλες εφαρμογές μπορεί να το χρησιμοποιήσουν για να διαγράψουν ή να τροποποιήσουν το αρχείο καταγραφής κλήσεων.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Επιτρέπει στην εφαρμογή την ανάγνωση όλων των συμβάντων ημερολογίου που είναι αποθηκευμένα στο SHIELD σας, συμπεριλαμβανομένων εκείνων των φίλων ή των συναδέλφων σας.  Αυτό μπορεί να δίνει τη δυνατότητα στην εφαρμογή να μοιράζεται ή να αποθηκεύει τα δεδομένα του ημερολογίου σας, ανεξάρτητα από το βαθμό εμπιστευτικότητας ή ευαισθησίας τους.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Επιτρέπει στην εφαρμογή την προσθήκη, την κατάργηση και την αλλαγή συμβάντων που μπορείτε να τροποποιήσετε στο SHIELD σας, συμπεριλαμβανομένων εκείνων των φίλων ή των συναδέλφων σας.  Αυτό μπορεί να επιτρέπει στην εφαρμογή να αποστέλλει μηνύματα που φαίνεται ότι προέρχονται από κατόχους ημερολογίων ή να τροποποιεί συμβάντα χωρίς να το γνωρίζουν οι κάτοχοι.</string>
+
+
+
+    <string name="permlab_brick" product="shield">μόνιμη απενεργοποίηση SHIELD</string>
+    <string name="permdesc_brick" product="shield">Επιτρέπει στην εφαρμογή την μόνιμη απενεργοποίηση του SHIELD. Αυτό είναι πολύ επικίνδυνο.</string>
+    <string name="permlab_reboot" product="shield">αναγκαστική επανεκκίνηση SHIELD</string>
+    <string name="permdesc_reboot" product="shield">Επιτρέπει στην εφαρμογή να προκαλέσει αναγκαστική επανεκκίνηση του SHIELD.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">άμεση έναρξη της εγκατάστασης SHIELD CDMA</string>
+    <string name="permlab_wakeLock" product="shield">παρεμπόδιση μετάβασης του SHIELD σε κατάσταση αδράνειας</string>
+    <string name="permdesc_wakeLock" product="shield">Επιτρέπει στην εφαρμογή την παρεμπόδιση της μετάβασης του SHIELD σε κατάσταση αδράνειας.</string>
+    <string name="permlab_devicePower" product="shield">ενεργοποίηση και απενεργοποίηση SHIELD</string>
+    <string name="permdesc_devicePower" product="shield">Επιτρέπει στην εφαρμογή να ενεργοποιήσει ή να απενεργοποιήσει το SHIELD.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">προσαρμογή NVIDIA Tegra CPU</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Επιτρέπει στην εφαρμογή να προσαρμόζει παραμέτρους του NVIDA Tegra CPU.  Αυτό μπορεί να καταναλώνει επιπρόσθετη ισχύ.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Εκτέλεση ως χαμηλού επιπέδου δοκιμή κατασκευαστή, ώστε να επιτρέπεται πλήρης πρόσβαση στο υλικό του SHIELD.  Διαθέσιμο μόνο όταν το SHIELD βρίσκεται σε λειτουργία δοκιμής κατασκευαστή.</string>
+    <string name="permdesc_setTime" product="shield">Επιτρέπει στην εφαρμογή την αλλαγή της ώρας του SHIELD.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Επιτρέπει στην εφαρμογή την αλλαγή της ζώνης ώρας του SHIELD.</string>
+    <string name="permdesc_getAccounts" product="shield">Επιτρέπει στην εφαρμογή τη λήψη της λίστας λογαριασμών που υπάρχουν στο SHIELD.   Μπορεί να περιλαμβάνονται τυχόν λογαριασμοί που δημιουργήθηκαν από εφαρμογές που έχετε εγκαταστήσει.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Επιτρέπει στην εφαρμογή τη λήψη πακέτων που αποστέλλονται σε όλες τις συσκευές σε ένα δίκτυο Wi-Fi, με χρήση διευθύνσεων πολλαπλής διανομής και όχι απλώς στο SHIELD σας.   Χρησιμοποιεί περισσότερη ενέργεια σε σχέση με τη λειτουργία χωρίς πολλαπλή διανομή.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Επιτρέπει στην εφαρμογή τη διαμόρφωση του τοπικού SHIELD Bluetooth, τον εντοπισμό και τη σύζευξη με απομακρυσμένες συσκευές.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Επιτρέπει στην εφαρμογή τη σύνδεση του SHIELD και την αποσύνδεση του SHIELD, από δίκτυα WiMAX.</string>
+    <string name="permdesc_bluetooth" product="shield">Επιτρέπει στην εφαρμογή να προβάλλει τη διαμόρφωση του Bluetooth στο SHIELD, καθώς και να πραγματοποιεί και να αποδέχεται συνδέσεις με συζευγμένες συσκευές.</string>
+    <string name="policydesc_watchLogin" product="shield">Παρακολούθηση του αριθμού λανθασμένων κωδικών πρόσβασης που πληκτρολογούνται κατά το ξεκλείδωμα της οθόνης και κλείδωμα του SHIELD ή διαγραφή όλων των δεδομένων του SHIELD σε περίπτωση πληκτρολόγησης πάρα πολλών εσφαλμένων κωδικών πρόσβασης.</string>
+    <string name="policydesc_wipeData" product="shield">Διαγραφή των δεδομένων του SHIELD χωρίς προειδοποίηση με επαναφορά των εργοστασιακών ρυθμίσεων.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">Δεν υπάρχει κάρτα SIM στο SHIELD.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Σχεδιάσατε εσφαλμένα το μοτίβο ξεκλειδώματος <xliff:g id="number">%d</xliff:g> φορές.  Μετά από <xliff:g id="number">%d</xliff:g> ανεπιτυχείς προσπάθειες ακόμη, θα σας ζητηθεί να ξεκλειδώσετε το SHIELD σας με τη χρήση της σύνδεσής σας Google.\n\nΠροσπαθήστε ξανά σε <xliff:g id="number">%d</xliff:g> δευτερόλεπτα.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Προσπαθήσατε να ξεκλειδώσετε εσφαλμένα το SHIELD <xliff:g id="number">%d</xliff:g> φορές.  Μετά από <xliff:g id="number">%d</xliff:g> ανεπιτυχείς προσπάθειες ακόμη, το SHIELD θα επαναφερθεί στις εργοστασιακές ρυθμίσεις και όλα τα δεδομένα χρήστη θα χαθούν.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Προσπαθήσατε να ξεκλειδώσετε εσφαλμένα το SHIELD <xliff:g id="number">%d</xliff:g> φορές.  Το SHIELD θα επαναφερθεί τώρα στις εργοστασιακές ρυθμίσεις.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Επιτρέπει στην εφαρμογή την τροποποίηση του ιστορικού του προγράμματος περιήγησης ή των σελιδοδεικτών που έχουν αποθηκευτεί στο SHIELD. Αυτό μπορεί να δίνει τη δυνατότητα στην εφαρμογή να διαγράφει ή να τροποποιεί δεδομένα του προγράμματος περιήγησης.   Σημείωση:  αυτή η άδεια ίσως να μην μπορεί να εφαρμοστεί από τρίτα προγράμματα περιήγησης ή άλλες εφαρμογές με δυνατότητες περιήγησης ιστού.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            Η υπηρεσία <xliff:g id="accessibility_service_name">%1$s</xliff:g> απαιτεί ενεργοποίηση της Εξερεύνησης μέσω αφής.  Όταν είναι ενεργοποιημένη η Εξερεύνηση μέσω αφής, μπορείτε να δείτε ή να ακούσετε περιγραφές για τις επιλογές που βρίσκονται κάτω από το δάχτυλό σας ή να κάνετε κινήσεις αλληλεπίδρασης με το SHIELD.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Προσπαθήσατε να ξεκλειδώσετε εσφαλμένα το SHIELD <xliff:g id="number">%d</xliff:g> φορές.  Μετά από <xliff:g id="number">%d</xliff:g> ανεπιτυχείς προσπάθειες ακόμη, το SHIELD θα επαναφερθεί στις εργοστασιακές ρυθμίσεις και όλα τα δεδομένα χρήστη θα χαθούν.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">Προσπαθήσατε να ξεκλειδώσετε εσφαλμένα το SHIELD <xliff:g id="number">%d</xliff:g> φορές.  Το SHIELD θα επαναφερθεί τώρα στις εργοστασιακές ρυθμίσεις.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Σχεδιάσατε εσφαλμένα το μοτίβο ξεκλειδώματος <xliff:g id="number">%d</xliff:g> φορές.  Μετά από <xliff:g id="number">%d</xliff:g> ανεπιτυχείς προσπάθειες ακόμη, θα σας ζητηθεί να ξεκλειδώσετε το SHIELD σας με τη χρήση λογαριασμού ηλεκτρονικού ταχυδρομείου.\n\n Προσπαθήστε ξανά σε <xliff:g id="number">%d</xliff:g> δευτερόλεπτα.</string>
+    <string name="permdesc_transmitIr" product="shield">Επιτρέπει στην εφαρμογή τη χρήση του πομπού υπερύθρων SHIELD.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Επιτρέπει στην εφαρμογή τη ζευγοποίηση με απομακρυσμένες συσκευές χωρίς την αλληλεπίδραση του χρήστη.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      Το SHIELD θα αποσυνδεθεί προσωρινά από το δίκτυο Wi-Fi ενώ είναι συνδεδεμένο με το %1$s
+    </string>
+</resources>

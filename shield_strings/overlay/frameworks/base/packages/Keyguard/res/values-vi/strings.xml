@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">Không có thẻ SIM nào trong SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Bạn đã thử không chính xác để mở khóa SHIELD <xliff:g id="number">%d</xliff:g> lần. Sau thêm <xliff:g id="number">%d</xliff:g> lần thử không thành công nữa, SHIELD sẽ được cài đặt lại về chế độ mặc định khi xuất xưởng và tất cả dữ liệu người dùng sẽ bị mất.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Bạn đã thử không chính xác để mở khóa SHIELD <xliff:g id="number">%d</xliff:g> lần. Bây giờ SHIELD sẽ được cài đặt lại về chế độ mặc định khi xuất xưởng.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Bạn đã vẽ không chính xác hình mở khóa của mình <xliff:g id="number">%d</xliff:g> lần. Sau thêm <xliff:g id="number">%d</xliff:g> lần thử không thành công nữa, bạn sẽ được yêu cầu mở khóa SHIELD bằng cách sử dụng tài khoản email.\n\n Thử lại sau <xliff:g id="number">%d</xliff:g> giây.
+    </string>
+</resources>

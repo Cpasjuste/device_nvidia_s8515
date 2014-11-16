@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Set to the approrpiate resuling string for persist.tegra.panel.rotation -->
+    <string name="config_mirrorModePanelRotation" translatable="false">90</string>
+    <string name="config_consoleModePanelRotation" translatable="false">90</string>
+</resources>
+

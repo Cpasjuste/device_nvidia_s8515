@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lanselrag_lang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="65dp"
+    android:paddingRight="65dp" >
+
+    <TextView
+        android:id="@+id/lansel_welcome"
+        style="@style/HoloTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lansel_title" />
+
+    <View
+        android:id="@+id/lansel_titleline"
+        style="@style/HoloSeparator"
+        android:layout_below="@id/lansel_welcome" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lansel_titleline" >
+
+        <NumberPicker
+            android:id="@+id/language_picker"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <ImageButton
+            android:id="@+id/lansel_next"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:onClick="finish"
+            android:scaleType="fitCenter"
+            android:src="@drawable/arrowbutton" />
+    </RelativeLayout>
+
+</RelativeLayout>

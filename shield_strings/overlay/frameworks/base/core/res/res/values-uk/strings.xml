@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">Пам’ять SHIELD заповнено. Видаліть якісь файли, щоб звільнити місце.</string>
+    <string name="power_dialog" product="shield">Параметри SHIELD</string>
+    <string name="shutdown_confirm" product="shield">SHIELD буде вимкнено.</string>
+    <string name="global_actions" product="shield">Параметри SHIELD</string>
+    <string name="permdesc_readSms" product="shield">Дозволяє програмі читати SMS-повідомлення, збережені в SHIELD чи на SIM-картці.  Це дозволяє програмі читати всі SMS-повідомлення, незалежно від вмісту чи конфіденційності.</string>
+    <string name="permdesc_writeSms" product="shield">Дозволяє програмі записувати SMS-повідомлення, збережені в SHIELD чи на SIM-картці.  Шкідливі програми можуть видаляти ваші повідомлення.</string>
+    <string name="permdesc_injectEvents" product="shield">Дозволяє програмі передавати власні події введення (натискання клавіш тощо) іншим програмам.  Шкідливі програми можуть використовувати це для контролю над SHIELD.</string>
+    <string name="permdesc_persistentActivity" product="shield">Дозволяє програмі робити свої частини сталими в пам’яті.   Це може зменшувати обсяг пам’яті, доступної для інших програм, і сповільнювати SHIELD.</string>
+    <string name="permdesc_clearAppCache" product="shield">Дозволяє програмі звільняти пам’ять SHIELD, видаляючи файли в каталогах кешу інших програм.  Через це інші програми можуть запускатися повільніше, оскільки їм потрібно повторно отримати свої дані.</string>
+    <string name="permdesc_readLogs" product="shield">Дозволяє програмі читати з різних файлів журналу системи.  Це дозволяє дізнаватися загальну інформацію про ваші дії в SHIELD, яка потенційно може містити особисті чи конфіденційні дані.</string>
+    <string name="permdesc_changeComponentState" product="shield">Дозволяє програмі змінювати статус ввімкнення чи вимкнення компонента іншої програми. Шкідливі програми можуть використовувати це для вимкнення важливих характеристик SHIELD. З цим типом дозволу треба поводитися обережно, оскільки компоненти програми можуть стати непридатними, невідповідними чи нестабільними.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Дозволяє програмі запускатися, щойно завантаження системи закінчиться. Це може затримувати запуск SHIELD та дозволяє програмі сповільнювати загальну роботу SHIELD своїм постійним функціонуванням.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Дозволяє програмі надсилати закріплені широкомовні повідомлення, які залишаються після відтворення широкомовного повідомлення. Надмірне використання може сповільнювати роботу SHIELD або порушувати її стабільність, спричиняючи завелике використання пам’яті.</string>
+
+    <string name="permdesc_readContacts" product="shield">Дозволяє програмі читати дані про контакти, які зберігаються у SHIELD, зокрема частоту здійснення викликів, надсилання електронних листів або інших способів спілкування з окремими особами. Такий дозвіл дає програмам змогу зберігати ваші контактні дані.</string>
+    <string name="permdesc_writeContacts" product="shield">Дозволяє програмі змінювати дані про контакти, які зберігаються у SHIELD, зокрема частоту здійснення дзвінків, надсилання електронних листів або інших способів спілкування з окремими особами. Такий дозвіл дає програмам змогу видаляти контактні дані.</string>
+    <string name="permdesc_readCallLog" product="shield">Дозволяє програмі змінювати журнал викликів SHIELD, включно з даними про вхідні та вихідні дзвінки. Такий дозвіл дає програмам змогу зберігати дані журналу викликів.</string>
+    <string name="permdesc_writeCallLog" product="shield">Дозволяє програмі вносити зміни в журнал викликів SHIELD, включно з даними про вхідні та вихідні дзвінки.
+        Шкідливі програми можуть використовувати це для стирання або зміни вашого журналу викликів.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Дозволяє програмі читати всі події календаря, збережені в SHIELD, включно з подіями друзів або співробітників.  Це може дозволити програмі надсилати або зберігати дані календаря, незалежно від конфіденційності або закритості.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Дозволяє програмі додавати, видаляти та змінювати події, які можна редагувати на SHIELD, включно з подіями друзів або співробітників.  Це може дозволити програмі надсилати повідомлення, які надходитимуть ніби від власників календарів, або змінювати події без відома власників.</string>
+
+
+
+    <string name="permlab_brick" product="shield">остаточно вимкнути SHIELD</string>
+    <string name="permdesc_brick" product="shield">Дозволяє програмі остаточно вимикати SHIELD. Це дуже небезпечно.</string>
+    <string name="permlab_reboot" product="shield">примусово перезавантажити SHIELD</string>
+    <string name="permdesc_reboot" product="shield">Дозволяє програмі примусово перезавантажувати SHIELD.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">безпосередньо запустити налаштування CDMA SHIELD</string>
+    <string name="permlab_wakeLock" product="shield">не допустити перехід SHIELD в режим сну</string>
+    <string name="permdesc_wakeLock" product="shield">Дозволяє програмі не допускати перехід SHIELD у режим сну.</string>
+    <string name="permlab_devicePower" product="shield">ввімкнути чи вимкнути SHIELD</string>
+    <string name="permdesc_devicePower" product="shield">Дозволяє програмі вмикати чи вимикати SHIELD.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">регулювати ЦП NVIDIA Tegra</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Дозволяє програмі регулювати параметри ЦП NVIDA Tegra.  Це може споживати додаткове живлення.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Запускає тест виробника на низькому рівні, дозволяючи повний доступ до SHIELD. Доступно лише тоді, коли на SHIELD виконується тест виробника.</string>
+    <string name="permdesc_setTime" product="shield">Дозволяє програмі змінювати час годинника SHIELD.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Дозволяє програмі змінювати часовий пояс SHIELD.</string>
+    <string name="permdesc_getAccounts" product="shield">Дозволяє програмі отримувати список облікових записів, відомих SHIELD.  Він може включати всі облікові записи, створені встановленими програмами.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Дозволяє програмі отримувати пакети, надіслані за допомогою групової адресації на всі пристрої в мережі Wi-Fi, а не лише на SHIELD.  Використовує більше заряду, ніж режим небагатоадресних пакетів.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Дозволяє програмі налаштовувати SHIELD із локальним Bluetooth, а також знаходити віддалені пристрої та створювати з ними пару.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Дозволяє програмі під’єднувати SHIELD до мереж WiMAX і від’єднувати від них.</string>
+    <string name="permdesc_bluetooth" product="shield">Дозволяє програмі переглядати конфігурацію Bluetooth на SHIELD, а також створювати та приймати з’єднання зі спареними пристроями.</string>
+    <string name="policydesc_watchLogin" product="shield">Відстежувати кількість неправильних паролів, введених під час розблокування екрана, і блокувати SHIELD або стирати всі дані SHIELD, якщо введено забагато неправильних паролів.</string>
+    <string name="policydesc_wipeData" product="shield">Стирати дані SHIELD без попередження, відновлюючи заводські налаштування.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">У SHIELD немає SIM-картки.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Ключ розблокування неправильно намальовано <xliff:g id="number">%d</xliff:g> разів. Після <xliff:g id="number">%d</xliff:g> невдалих спроб ви отримаєте запит на розблокування SHIELD за допомогою свого облікового запису Google.\n\nСпробуйте ще через<xliff:g id="number">%d</xliff:g> секунд.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Ви невдало пробували розблокувати SHIELD <xliff:g id="number">%d</xliff:g> разів. Після <xliff:g id="number">%d</xliff:g> невдалих спроб SHIELD відновить заводські налаштування, і всі дані користувача будуть втрачені.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Ви невдало пробували розблокувати SHIELD <xliff:g id="number">%d</xliff:g> разів. SHIELD відновить заводські налаштування.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Дозволяє програмі змінювати історію чи закладки веб-переглядача, збережені в SHIELD. Це може дозволити програмі видаляти чи змінювати дані веб-переглядача.   Зауважте:  цей дозвіл не може застосовуватися веб-переглядачами третіх сторін або іншими програмами з можливостями веб-перегляду.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> хоче ввімкнути функцію дослідження дотиком. Увімкнувши функцію дослідження дотиком, можна чути або бачити опис елемента, розташованого під вашим пальцем, або виконувати жести для взаємодії з SHIELD.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Ви невдало пробували розблокувати SHIELD <xliff:g id="number">%d</xliff:g> разів. Після <xliff:g id="number">%d</xliff:g> невдалих спроб SHIELD відновить заводські налаштування, і всі дані користувача будуть втрачені.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">Ви невдало пробували розблокувати SHIELD <xliff:g id="number">%d</xliff:g> разів. SHIELD відновить заводські налаштування.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Ключ розблокування неправильно намальовано <xliff:g id="number">%d</xliff:g> разів. Після <xliff:g id="number">%d</xliff:g> невдалих спроб ви отримаєте запит на розблокування SHIELD за допомогою облікового запису електронної пошти.\n\n Спробуйте ще через <xliff:g id="number">%d</xliff:g> секунд.</string>
+    <string name="permdesc_transmitIr" product="shield">Дозволяє програмі використовувати інфрачервоний передавач SHIELD.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Дозволяє програмі створювати пару з віддаленими пристроями без участі користувача.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      Під час з’єднання з пристроєм %1$s SHIELD тимчасово від’єднається від мережі Wi-Fi
+    </string>
+</resources>

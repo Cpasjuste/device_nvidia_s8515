@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/PageLayout"  >
+
+     <Button
+        android:id="@+id/acontinue"
+        style="@style/TZ3Button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="next"
+        android:tag="defaultFocus"
+        android:text="@string/nextBtnText">
+    </Button>
+
+    <Button
+        android:id="@+id/backbtn"
+        android:tag="back"
+        style="@style/TZ3Button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="back"
+        android:text="@string/previousBtnText">
+    </Button>
+
+
+</RelativeLayout>

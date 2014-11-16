@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="nv_led_brightness">Яркость индикаторов</string>
+  <string name="nv_nvidia_button">Кнопка NVIDIA</string>
+  <string name="nv_category_controller_volume">Громкость</string>
+  <string name="controller_volume_text">Используйте бамперы для регулировки уровня громкости</string>
+  <string name="controller_volume_summary">Кнопками LB и RB можно будет отрегулировать уровень после нажатия кнопки громкости</string>
+  <string name="controller_pulse_led">Мигание индикатора при переходе устройства в спящий режим</string>
+  <string name="lockpattern_settings_enable_power_button_instantly_locks">Мгновенное блокирование при закрытии крышки</string>
+  <string name="user_add_user_message_long">Если устройством пользуется несколько человек, заведите для них отдельные учетные записи.  В результате у каждого пользователя появится свое пространство, где можно будет установить собственные приложения или обои.  Каждый пользователь также сможет настраивать такие параметры планшета, которые будут затрагивать всех пользователей, например, Wi-Fi.\n\nЛюбой пользователь может дать разрешение на работу обновленного приложения от имени всех остальных пользователей.</string>
+  <string name="user_add_user_message_short">Любой пользователь может дать разрешение на работу обновленного приложения от имени всех остальных пользователей.</string>
+  <string name="controller_mapper_enable">Включить Конфигуратор геймпада</string>
+  <string name="controller_mapper_enable_summary">Нажмите и удерживайте кнопку START, чтобы запустить оверлей конфигуратора управления</string>
+  <string name="controller_mapper_enable_auto_download">Включить автоматическую загрузку</string>
+  <string name="controller_mapper_enable_auto_download_summary">Если доступно, автоматически загружать схему управления из облака</string>
+  <string name="nv_license_title">Юридическая информация NVIDIA</string>
+  <string name="nv_swla">Лицензионное соглашение на использование ПО</string>
+  <string name="nv_privacy">Политика конфиденциальности</string>
+  <string name="nv_tegra_exp_tos">Пользовательское соглашение Tegra Experience</string>
+  <string name="nv_warranty">Информация о гарантийных обязательствах</string>
+  <string name="nv_settings_license_activity_title">Лицензии NVIDIA</string>
+  <string name="fullscreen_mode_title">Полноэкранный режим</string>
+  <string name="fullscreen_mode_text">Скрыть строку состояния</string>
+  <string name="nv_controller_mapper">Конфигуратор геймпада</string>
+  <string name="nv_feedback">Отправить отклик в NVIDIA.</string>
+  <string name="diag_enable">Помогите NVIDIA улучшить работу с SHIELD</string>
+  <string name="move_app_app_label">Приложение</string>
+  <string name="move_app_data_label">Данные</string>
+  <string name="move_app_to_device_dlg_title">Переместить приложение на SHIELD?</string>
+  <string name="move_app_to_sdcard_dlg_title">Переместить приложение на SD-карту?</string>
+  <string name="move_app_dlg_text">Это может занять несколько минут. Не извлекайте SD-карту во время выполнения операции.</string>
+  <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> свободно на SHIELD</string>
+  <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> свободно на SD-карте</string>
+  <string name="move_app_progress_to_device">Перемещение <xliff:g id="pkg_label">%1$s</xliff:g> на SHIELD...</string>
+  <string name="move_app_progress_to_sdcard">Перемещение <xliff:g id="pkg_label">%1$s</xliff:g> на SD-карту...</string>
+  <string name="fullscreen_mode_title">Полноэкранный режим</string>
+  <string name="fullscreen_mode_text">Скрыть строку состояния</string>
+  <string name="flscrmode_str_cling_msg_restore_normal">Проведите пальцем сверху вниз, чтобы восстановить строку состояния.</string>
+  <string name="flscrmode_str_cling_btn_label_ok">OK</string>
+</resources>

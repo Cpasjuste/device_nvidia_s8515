@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">SHIELD nu are card SIM.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Aţi încercat să deblocaţi SHIELD în mod necorespunzător de <xliff:g id="number">%d</xliff:g> ori. După încă <xliff:g id="number">%d</xliff:g> încercări nereuşite, SHIELD va fi resetat la setările prestabilite din fabrică, iar toate datele de utilizator vor fi pierdute.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Aţi încercat să deblocaţi SHIELD în mod necorespunzător de <xliff:g id="number">%d</xliff:g> ori. SHIELD va fi acum resetat la setările prestabilite din fabrică.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Aţi desenat incorect modelul pentru deblocare de <xliff:g id="number">%d</xliff:g> ori. După încă <xliff:g id="number">%d</xliff:g> încercări nereuşite, vi se va solicita să deblocaţi SHIELD cu ajutorul unui cont de e-mail.\n\n Încercaţi din nou în <xliff:g id="number">%d</xliff:g> secunde.
+    </string>
+</resources>

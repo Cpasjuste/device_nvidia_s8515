@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">SHIELD\'da SIM kart yok.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       SHIELD\'ın kilidini <xliff:g id="number">%d</xliff:g> kez yanlış bir şekilde açma girişiminde bulundunuz.   <xliff:g id="number">%d</xliff:g> kez daha başarısız deneme gerçekleştirildiği takdirde, SHIELD fabrika ayarlarına sıfırlanacak ve tüm kullanıcı verileri silinecek.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       SHIELD\'ın kilidini <xliff:g id="number">%d</xliff:g> kez yanlış bir şekilde açma girişiminde bulundunuz. Şimdi SHIELD, varsayılan fabrika ayarlarına sıfırlanacak.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Kilit açma deseninizi <xliff:g id="number">%d</xliff:g> kez yanlış çizdiniz.   <xliff:g id="number">%d</xliff:g> kez daha başarısız deneme gerçekleştirildiği takdirde, bir e-posta hesabı kullanarak SHIELD\'ın kilidini açmanız istenecek.\n\n <xliff:g id="number">%d</xliff:g> saniye içinde tekrar deneyin.
+    </string>
+</resources>

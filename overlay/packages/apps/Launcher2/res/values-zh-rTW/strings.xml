@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="menu_all_apps">所有應用程式</string>
+  <string name="google_folder_name">Google</string>
+  <string name="nvidia_folder_name">NVIDIA</string>
+</resources>

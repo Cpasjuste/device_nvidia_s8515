@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="permlab_nvidiaCPUPower">регулювати ЦП NVIDIA Tegra</string>
+  <string name="permdesc_nvidiaCPUPower">Дозволяє програмі регулювати параметри ЦП NVIDIA Tegra.  Це може споживати додаткове живлення.</string>
+  <string name="global_action_sleep">Режим сну</string>
+  <string name="hdmiAudio">Звук через HDMI</string>
+  <string name="miracastAudio">Звук через Miracast</string>
+  <string name="global_action_restart_title">Перезапустити SHIELD</string>
+  <string name="global_action_restart_message">Перезапуск SHIELD призведе до видалення тимчасових файлів із пам’яті. Бажаєте перезапустити SHIELD зараз?</string>
+  <string name="global_action_restart_progress_message">Перезапуск SHIELD...</string>
+</resources>

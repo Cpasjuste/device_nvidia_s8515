@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="app_name">"SHIELD ヘルプ"</string>
+  <string name="pagetitle">"SHIELD の概要"</string>
+  <string name="pg1_tle">"SHIELD の概要"</string>
+  <string name="pg2_tle">"機能ボタンの使用"</string>
+  <string name="pg3_tle">"選択ボタンの使用"</string>
+  <string name="pg4_tle">"SHIELD のその他の操作方法"</string>
+  <string name="pg0_title">"SHIELD へようこそ"</string>
+  <string name="pg0_text">"下のユーザー ガイド リンクを選択して SHIELD の全機能について学ぶか、先に進んで基本的な機能を確認してください。"</string>
+  <string name="pg1_blktle">"NVIDIA ボタン"</string>
+  <string name="pg1_blktxt">"SHIELD ゲームの起動、新しいゲームの検索、GeForce GTX PC からのゲームのストリーミングを行うには、<b>1 回押します</b>。\n\n電源メニューを開くには、<b>押したままにします</b>。"</string>
+  <string name="pg2_voltle">"音量"</string>
+  <string name="pg2_voltxt">"音量をコントロールするには<b>押します</b>。\n\nミュートにするには<b>押したままにします</b>。"</string>
+  <string name="pg2_backtle">"戻る"</string>
+  <string name="pg2_backtxt">"前の画面に移動します。"</string>
+  <string name="pg2_starttle">"開始"</string>
+  <string name="pg2_hometle">"ホーム"</string>
+  <string name="pg2_hometxt">"Android ホーム画面が開きます。\n\n最近使ったアプリを表示するには、<b>2 回押します</b>。"</string>
+  <string name="pg3_ytle">"Y ボタン"</string>
+  <string name="pg3_ytxt">"ほとんどのアプリで「メニュー」に相当します。"</string>
+  <string name="pg3_xtle">"X ボタン"</string>
+  <string name="pg3_btle">"B ボタン"</string>
+  <string name="pg3_btxt">"ほとんどのアプリで「戻る」または「キャンセル」に相当します。"</string>
+  <string name="pg3_atle">"A ボタン"</string>
+  <string name="pg3_atxt">"ほとんどのアプリで選択した項目がアクティブになります。"</string>
+  <string name="pg4_mtdtle">"マルチタッチ ディスプレイ"</string>
+  <string name="pg4_virtle">"仮想マウス"</string>
+  <string name="pg4_rstxt">"<b>右スティック</b>\nマウスのポインターを移動するために使用します。"</string>
+  <string name="pg4_btntxt">"クリックするには {R.drawable.stickTrigger}<b> または</b> {R.drawable.aButton} を<b>押します</b>。"</string>
+  <string name="blake_pg1_back_title">戻る</string>
+  <string name="blake_pg1_back_txt"><b>タップ</b>して前の画面に移動します。</string>
+  <string name="blake_pg1_home_title">ホーム</string>
+  <string name="blake_pg1_home_txt">"<b>タップ</b> Android ホームを開くには\n\n<b>ダブルタップします</b> 最近使ったアプリを表示するには\n\n<b>長押しします</b> 音声検索付 Google Now を起動するには</string>
+  <string name="blake_pg2_title">NVIDIA ボタンを</string>
+  <string name="blake_pg2_txt"><b>タップ</b>して SHIELD Hub を起動します。新しいゲームを検索したり、SHIELD ゲームを起動したり、GeForce GTX PC からゲームをストリーミングしたりできます。</string>
+  <string name="blake_pg3_title">開始を</string>
+  <string name="blake_pg3_txt">GameStream とゲームパッド マッパーの追加コントロールにアクセスするには長押しします</string>
+  <string name="twitch"><b>Twitch</b></string>
+  <string name="record_and_share"><b>記録と共有</b></string>
+  <string name="virtual_controls"><b>バーチャルコントロール</b></string>
+</resources>

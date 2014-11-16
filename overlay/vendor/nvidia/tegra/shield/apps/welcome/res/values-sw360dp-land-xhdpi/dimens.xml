@@ -1,0 +1,13 @@
+<resources>
+    <!-- Settings tweaked for Console Mode -->
+    <dimen name="header_text_top_margin">20dp</dimen>
+
+    <!-- Settings tweaked for landscape mode -->
+    <dimen name="headerMarginTop">15dp</dimen>
+    <dimen name="textMarginRight">30dp</dimen>
+    <dimen name="textMarginBottom">10dp</dimen>
+    <dimen name="pgleftp">15dp</dimen>
+    <dimen name="pgrightp">15dp</dimen>
+    <dimen name="pgtopp">15dp</dimen>
+    <dimen name="pgbotp">15dp</dimen>
+</resources>

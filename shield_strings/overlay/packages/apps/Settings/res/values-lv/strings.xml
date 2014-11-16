@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">Spēļdatora SHIELD pārsaukšana</string>
+    <string name="bluetooth_ask_discovery" product="shield">"Lietotne spēļdatorā SHIELD vēlas padarīt spēļdatoru SHIELD redzamu citām Bluetooth ierīcēm uz <xliff:g id="timeout">%1$d</xliff:g> sekundēm. Vai atļaut?"</string>
+    <string name="phone_info_label" product="shield">SHIELD informācija</string>
+    <string name="roaming_warning_multiuser" product="shield">Atļaujot datu viesabonēšanu, var rasties ievērojamas viesabonēšanas izmaksas!\n\nŠis iestatījums ietekmē visus spēļdatora SHIELD lietotājus.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">SHIELD šifrēšana</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">Ieslēdzot spēļdatoru SHIELD, ikreiz tiek pieprasīts ciparu PIN kods vai parole šifra noņemšanai.</string>
+    <string name="crypt_keeper_desc" product="shield">
+    Varat šifrēt kontus, iestatījumus, lejupielādētās lietotnes un tajās esošos datus, multivides un citu veidu datnes.  Ja šifrēsiet spēļdatoru SHIELD, ikreiz pēc tā ieslēgšanas būs jāievada ciparu PIN vai parole, lai to atšifrētu. Spēļdatora SHIELD šifrējumu var noņemt, tikai veicot datu atiestatīšanu uz rūpnīcas iestatījumiem, dzēšot visus datus.\n\nŠifrēšana ilgs stundu vai ilgāk. Sāciet ar pilnībā uzlādētu akumulatoru un spēļdatoram SHIELD jābūt pievienotam elektrotīklam, līdz šifrēšana tiek pabeigta. Ja šifrēšanas process tiks pārtraukts, varat zaudēt visus datus.</string>
+    <string name="crypt_keeper_button_text" product="shield">SHIELD šifrēšana</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    Šifrēšanas darbība ir neatgriezeniska; pārtraucot šifrēšanu, dati tiks zaudēti. 
+    Šifrēšana ilgst vienu stundu vai ilgāk, un tās laikā spēļdators SHIELD vairākas reizes restartēsies.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">Gaidiet, kamēr spēļdatora SHIELD šifrēšana ir pabeigta. <xliff:g id="percent" example="50">^1</xliff:g>% pabeigti.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> Šifrēšana tika pārtraukta, un to nevar pabeigt. Jūsu dati spēļdatorā SHIELD vairs nav pieejami.\n\n
+      Lai turpinātu spēļdatora SHIELD lietošanu, atiestatiet rūpnīcas iestatījumus.
+      Pēc atiestatīšanas veicot spēļdatora SHIELD iestatīšanu, jums ir iespēja atjaunot Google kontā saglabātos datus.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> tiks atvienota no spēļdatora SHIELD koplietotā interneta savienojuma.</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">Atļaut datu apmaiņu, kad spēļdators SHIELD saskaras ar citu ierīci</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">BRĪDINĀJUMS!  Mobilo sakaru operators var piemērot papildu maksu par datu pārraidi.\n\nSpēļdatora SHIELD iestatīšanas laikā var ievērojami palielināties tīkla darbības apjoms.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">BRĪDINĀJUMS!  Spēļdators SHIELD nevarēs pārbaudīt, vai jūsu programmatūra ir atjaunināta.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">Spēļdators SHIELD nevarēja izveidot savienojumu ar Wi-Fi tīklu.</string>
+    <string name="dock_audio_summary_none" product="shield">SHIELD nav dokstacijā</string>
+    <string name="dock_not_found_text" product="shield">Pirms dokošanas skaņas iestatīšanas ievietojiet spēļdatoru SHIELD dokstacijā.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">Atskaņot skaņu, kad spēļdatoru SHIELD ievieto vai izņem no dokstacijas</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">Neatskaņot skaņu, kad spēļdatoru SHIELD ievieto vai izņem no dokstacijas</string>
+
+    <string name="accelerometer_summary_on" product="shield">Mainīt orientāciju automātiski, pagriežot spēļdatoru SHIELD</string>
+    <string name="accelerometer_summary_off" product="shield">Mainīt orientāciju automātiski, pagriežot spēļdatoru SHIELD</string>
+    <string name="sim_lock_on" product="shield">Pieprasīt PIN, lai lietotu spēļdatoru SHIELD</string>
+    <string name="sim_lock_off" product="shield">Pieprasīt PIN, lai lietotu spēļdatoru SHIELD</string>
+    <string name="device_info_settings" product="shield">SHIELD statuss</string>
+
+    <string name="device_status_summary" product="shield">Akumulatora un tīkla statuss, kā arī cita informācija</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">Dzēš visus datus spēļdatorā SHIELD</string>
+    <string name="master_clear_desc" product="shield">"Tas dzēsīs visus datus no spēļdatora SHIELD <b>interneta glabātavu</b>, tostarp:\n\n<li>Jūsu Google kontu</li>\n<li>Sistēmas un lietotņu datus un iestatījumus</li>\n<li>Lejupielādētās lietotnes</li>"</string>
+    <string name="master_clear_button_text" product="shield">Atiestatīt SHIELD</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">Spēļdatora SHIELD interneta savienojuma koplietošana</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Spēļdatora SHIELD interneta savienojuma koplietošana ar vienu ierīci</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Spēļdatora SHIELD interneta savienojuma koplietošana ar <xliff:g id="connectedDeviceCount">%1$d</xliff:g> ierīcēm</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">Neveikt spēļdatora SHIELD interneta savienojuma koplietošanu</string>
+    <string name="location_street_level" product="shield">Ļaut lietotnēm izmantot spēļdatorā SHIELD esošo GPS, lai noteiktu jūsu atrašanās vietu.</string>
+    <string name="about_settings" product="shield">Par SHIELD</string>
+    <string name="install_all_warning" product="shield">Lietotnes no nezināmiem avotiem ir īpaši bīstamas jūsu spēļdatoram SHIELD un personīgajiem datiem.  Jūs piekrītat uzņemties visu atbildību par jebkādiem spēļdatora SHIELD bojājumiem vai datu zudumiem, ko var izraisīt šādu lietotņu izmantošana.</string>
+    <string name="security_settings_desc" product="shield">Šai lietotnei jūsu spēļdatorā SHIELD ir šādas piekļuves tiesības:</string>
+    <string name="security_settings_desc_multi" product="shield">Šai lietotnei jūsu spēļdatorā SHIELD ir šādas piekļuves tiesības. Lai uzlabotu veiktspēju un samazinātu atmiņas patēriņu, <xliff:g id="base_app_name">%1$s</xliff:g> ir pieejamas dažas no turpmāk minētajām tiesībām, jo tā darbina tādus pašus procesus kā <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">Pārvietot uz SHIELD</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Ja apturēsiet šā pakalpojuma darbību, dažas spēļdatora SHIELD funkcijas var nedarboties pareizi līdz brīdim, kad tas tiks izslēgts un atkal ieslēgts.</string>
+    <string name="testing_phone_info" product="shield">SHIELD informācija</string>
+    <string name="power_idle" product="shield">SHIELD dīkstāvē</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">Akumulatora lietojums, kad spēļdators SHIELD ir dīkstāvē</string>
+    <string name="really_remove_account_message" product="shield">Noņemot šo kontu, no spēļdatora SHIELD tiks dzēsti arī visi šajā kontā esošie ziņojumi, kontaktpersonas un citi dati!</string>
+    <string name="remove_account_failed" product="shield">Šis konts ir nepieciešams dažām lietotnēm.  To var noņemt, tikai atjaunojot spēļdatora SHIELD rūpnīcas noklusējuma iestatījumus (tādējādi dzēšot visus personīgos datus) sadaļā Iestatījumi &gt; Dublēt un atiestatīt.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Visas tīmekļa kontā veiktās izmaiņas tiks automātiski kopētas uz jūsu spēļdatoru SHIELD.\n\nDaži konti var arī automātiski kopēt visas spēļdatorā SHIELD veiktās izmaiņas uz tīmekļa kontu. Google konts darbojas šādā veidā.\n\nLai izvēlētos sinhronizējamās informācijas veidu katrā kontā, dodieties uz Iestatījumi &gt; Konti.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">Mobilais datu savienojums tiks atspējots, tiklīdz būs sasniegts noteiktais ierobežojums.\n\nTā kā datu lietojuma apjoms tiek aprēķināts spēļdatorā SHIELD un mobilo sakaru operatoru aprēķini par datu lietojumu var atšķirties, ierobežojumu izvēlieties apdomīgi.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">Ja ierobežosiet fona mobilos datus, dažas lietotnes un pakalpojumi nedarbosies, ja nebūsiet izveidojis savienojumu ar Wi-Fi tīklu.\n\nŠis iestatījums ietekmē visus spēļdatora SHIELD lietotājus.</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: par <xliff:g id="total" example="128KB">%1$s</xliff:g> lietojumu saskaņā ar spēļdatora SHIELD mērījumiem. Jūsu pakalpojuma sniedzēja datu lietojuma aprēķini var atšķirties.</string>
+    <string name="user_cannot_manage_message" product="shield">Lietotājus var pārvaldīt tikai spēļdatora SHIELD īpašnieks.</string>
+    <string name="user_confirm_remove_self_message" product="shield">Jūs zaudēsiet savu vidi un spēļdatorā SHIELD saglabātos datus. Šo darbību nevar atsaukt.</string>
+    <string name="user_confirm_remove_message" product="shield">Šī lietotāja vide un dati tiks noņemti no spēļdatora SHIELD. Šo darbību nevar atsaukt.</string>
+    <string name="global_change_warning" product="shield">Šis iestatījums ietekmē visus spēļdatora SHIELD lietotājus.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      Šī profila vide un dati tiks noņemti no spēļdatora SHIELD. Šo darbību nevar atsaukt.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      Atļaut datu apmaiņu, kad spēļdators SHIELD saskaras ar citu ierīci
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      Kāda lietotne mēģina spēļdatoru SHIELD padarīt redzamu citām Bluetooth ierīcēm. To var vēlāk mainīt Bluetooth iestatījumos.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      Kāda lietotne mēģina ieslēgt Bluetooth un uz %1$d sekundēm padarīt spēļdatoru SHIELD redzamu citām ierīcēm.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      Kāda lietotne mēģina ieslēgt Bluetooth un spēļdatoru SHIELD padarīt redzamu citām ierīcēm. To var vēlāk mainīt Bluetooth iestatījumos.
+    </string>
+</resources>

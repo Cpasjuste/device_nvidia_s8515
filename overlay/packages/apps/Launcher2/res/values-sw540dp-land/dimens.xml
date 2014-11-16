@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 201 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+<!-- Workspace padding -->
+    <dimen name="workspace_top_padding_land">25dp</dimen>
+    <dimen name="workspace_left_padding_land">0dp</dimen>
+    <dimen name="workspace_right_padding_land">0dp</dimen>
+    <dimen name="workspace_bottom_padding_land">92dp</dimen>
+
+<!-- CellLayout padding -->
+    <dimen name="cell_layout_top_padding_land">1dp</dimen>
+    <dimen name="cell_layout_left_padding_land">1dp</dimen>
+    <dimen name="cell_layout_right_padding_land">1dp</dimen>
+    <dimen name="cell_layout_bottom_padding_land">1dp</dimen>
+
+<!-- Workspace cell size -->
+    <dimen name="workspace_cell_width_land">116dp</dimen>
+    <dimen name="workspace_cell_height_land">106dp</dimen>
+    <dimen name="workspace_width_gap_land">3dp</dimen>
+    <dimen name="workspace_height_gap_land">26dp</dimen>
+
+<!-- Hotseat -->
+    <dimen name="hotseat_cell_width">88dp</dimen>
+    <dimen name="hotseat_cell_height">82dp</dimen>
+    <dimen name="hotseat_width_gap">44dp</dimen>
+    <dimen name="hotseat_height_gap">-1dp</dimen>
+
+<!-- height of the bottom row of controls -->
+    <dimen name="button_bar_height">90dip</dimen>
+    <dimen name="button_bar_height_plus_padding">92dp</dimen>
+
+
+<!-- Clings -->
+    <dimen name="folderClingMarginTop">50dp</dimen>
+
+<!-- App Customize cell size -->
+    <dimen name="apps_customize_cell_width">118dp</dimen>
+    <dimen name="apps_customize_cell_height">123dp</dimen>
+
+    <dimen name="folder_cell_width">118dp</dimen>
+    <dimen name="folder_cell_height">103dp</dimen>
+
+<!-- The icon size of 76 deals with a bizarre issue that Google Settings is larger than any other icon -->
+    <dimen name="app_icon_size">70dp</dimen>
+    <dimen name="folder_preview_size">80dp</dimen>
+    <dimen name="workspace_icon_text_size">16sp</dimen>
+
+    <!-- The amount that the preview contents are inset from the preview background -->
+
+<!-- Workspace -->
+    <!-- These two values define the left and right margins for the dock divider bar -->
+    <dimen name="workspace_divider_padding_left">40dp</dimen>
+    <dimen name="workspace_divider_padding_right">40dp</dimen>
+    <dimen name="workspace_divider_padding_top">0dp</dimen>
+    <dimen name="workspace_divider_padding_bottom">0dp</dimen>
+
+    <!-- If this is any greater than 32dp, the text will appear below the status bar when you start dragging -->
+    <dimen name="qsb_bar_height">32dp</dimen>
+
+<!-- Drag padding to add to the bottom of drop targets -->
+    <dimen name="drop_target_drag_padding">20dp</dimen>
+
+
+<!-- Because portal animations go beyond the bounds of an icon, we need
+     to make the dock layout slightly larger than the button_bar_height -->
+    <dimen name="button_bar_height_top_padding">4dp</dimen>
+    <dimen name="button_bar_height_bottom_padding">4dp</dimen>
+    <dimen name="button_bar_width_left_padding">0dp</dimen>
+    <dimen name="button_bar_width_right_padding">0dp</dimen>
+
+    <dimen name="app_icon_drawable_padding_land">3dp</dimen>
+    <dimen name="app_icon_padding_top">4dp</dimen>
+
+<!-- The height of the tab bar - if this changes, we should update the
+     external icon width/height above to compensate -->
+    <dimen name="apps_customize_tab_bar_height">44dp</dimen>
+    <dimen name="apps_customize_tab_bar_margin_top">25dp</dimen>
+
+<!-- The width can be 72dp because we don't have L/R padding -->
+    <dimen name="apps_customize_max_gap">18dp</dimen>
+    <dimen name="apps_customize_widget_cell_width_gap">10dp</dimen>
+    <dimen name="apps_customize_widget_cell_height_gap">8dp</dimen>
+
+<!-- Padding applied to AppWidget previews -->
+    <dimen name="app_widget_preview_padding_left">8dp</dimen>
+    <dimen name="app_widget_preview_padding_right">8dp</dimen>
+    <dimen name="app_widget_preview_padding_top">8dp</dimen>
+    <dimen name="app_widget_preview_label_margin_top">4dp</dimen>
+    <dimen name="app_widget_preview_label_margin_left">2dp</dimen>
+    <dimen name="app_widget_preview_label_margin_right">2dp</dimen>
+
+<!-- QSB -->
+    <dimen name="toolbar_button_vertical_padding">8dip</dimen>
+    <dimen name="toolbar_button_horizontal_padding">8dip</dimen>
+
+</resources>

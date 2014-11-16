@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">Lluminositat del LED</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">Botó NVIDIA</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Control de volum</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">Fes servir els botons davanters per ajustar el volum</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">Els botons davanters esquerre (LB) i dret (RB) ajustaran el volum després de prémer el botó del volum</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">El LED s\'encén quan el dispositiu entra en repòs</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">La tapa es bloqueja a l\'instant quan es tanca</string>
+    <!-- Message for add user confirmation dialog - long version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_long">Pots compartir aquest dispositiu amb altres persones si crees usuaris addicionals. Cada usuari té el seu propi espai, que podrà personalitzar amb les seves aplicacions, els seus fons de pantalla i altres elements. Els usuaris també podran ajustar la configuració de la tauleta, com ara la Wi-Fi, que pot afectar altres persones.\n\nQualsevol usuari pot acceptar els permisos actualitzats d\'aplicacions en nom de la resta d\'usuaris.</string>
+    <!-- Message for add user confirmation dialog - short version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_short">Qualsevol usuari pot acceptar permisos actualitzats en nom de la resta d\'usuaris.</string>
+
+    <!-- Enable Controller Mapper-->
+     <add-resource type="string" name="controller_mapper_enable" />
+     <string name="controller_mapper_enable">Activar l\'assignador de botons del gamepad</string>
+     <add-resource type="string" name="controller_mapper_enable_summary" />
+     <string name="controller_mapper_enable_summary">Prem el botó START prolongadament per a iniciar la superposició de l\'assignador de botons.</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download" />
+     <string name="controller_mapper_enable_auto_download">Activa la descàrrega automàtica</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download_summary" />
+     <string name="controller_mapper_enable_auto_download_summary">Descarrega automàticament assignacions de botons del núvol si estan disponibles.</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">Informació legal de NVIDIA</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Acord de llicència de programari</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Política de privacitat</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Termes de servei de Tegra Experience</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Información d\'advertència</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">Llicències de NVIDIA</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Mode de pantalla completa</string>
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Mostrar només la barra d\'estat a les pantalles d\'inici</string>
+
+    <!-- Category title for Controller Mapper -->
+    <add-resource type="string" name="nv_controller_mapper" />
+    <string name="nv_controller_mapper">Assignador de botons</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">Envia els comentaris a NVIDIA</string>
+
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">Aplicació</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">Dades</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">Moure aplicació a SHIELD?</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">Desplaçar a la targeta SD?</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">Això pot trigar uns minuts. No extregui la targeta SD durant aquesta operació.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> d\'espai lliure a SHIELD</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> d\'espai lliure a la targeta SD</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device">S\'està desplaçant <xliff:g id="pkg_label">%1$s</xliff:g> a SHIELD...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard">S\'està desplaçant <xliff:g id="pkg_label">%1$s</xliff:g> a la targeta SD...</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Mode de pantalla completa</string>
+
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Amaga la barra d\'estat</string>
+
+    <add-resource type="string" name="flscrmode_str_cling_msg_restore_normal" />
+    <string name="flscrmode_str_cling_msg_restore_normal">Llisca des de la part superior per a restaurar la barra d\'estat.</string>
+    <add-resource type="string" name="flscrmode_str_cling_btn_label_ok" />
+    <string name="flscrmode_str_cling_btn_label_ok">D\'acord</string>
+</resources>
+

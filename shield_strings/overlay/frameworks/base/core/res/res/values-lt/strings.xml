@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">SHIELD atmintis pilna.  Kad atlaisvintumėte vietos, ištrinkite kelis failus.</string>
+    <string name="power_dialog" product="shield">SHIELD parinktys</string>
+    <string name="shutdown_confirm" product="shield">SHIELD išsijungs.</string>
+    <string name="global_actions" product="shield">SHIELD parinktys</string>
+    <string name="permdesc_readSms" product="shield">Leidžiama programai skaityti SHIELD ar SIM kortelėje saugomus SMS pranešimus.  Taip programai leidžiama skaityti visus SMS pranešimus, neatsižvelgiant į turinį ar konfidencialumą.</string>
+    <string name="permdesc_writeSms" product="shield">Leidžiama programai rašyti į SHIELD ar SIM kortelėje saugomus SMS pranešimus.  Kenkėjiškos programėlės gali ištrinti jūsų pranešimus.</string>
+    <string name="permdesc_injectEvents" product="shield">Leidžiama programai kitoms programoms pateikti savo įvesties įvykius (klavišų paspaudimus ir kt.).  Kenkėjiškos programos gali tai naudoti, kad užvaldytų SHIELD.</string>
+    <string name="permdesc_persistentActivity" product="shield">Leidžiama programai savo dalis įrašyti į atmintį.   Dėl to gali būti apribota kitomis programomis pasiekiama atmintis ir sulėtėti SHIELD veikimas.</string>
+    <string name="permdesc_clearAppCache" product="shield">Leidžiama programai atlaisvinti SHIELD atmintinę ištrinant failus kitų programų talpykloje esančiuose kataloguose.   Todėl kitos programos gali būti lėčiau paleidžiamos, nes joms reikia iš naujo gauti duomenis.</string>
+    <string name="permdesc_readLogs" product="shield">Leidžiama programai skaityti iš įvairių sistemos žurnalų failų.   Taip galima atrasti bendrąją informaciją apie tai, ką darote naudodami SHIELD, galimai įtraukiant asmeninę ar privačią informaciją.</string>
+    <string name="permdesc_changeComponentState" product="shield">Leidžiama programai pakeisti, ar įgalinta kitos programos sudedamoji dalis, ar ne.  Kenkėjiškos programos gali tai naudoti, kad neleistų svarbių SHIELD funkcijų.  Šį leidimą reikia naudoti atsargiai, nes programos sudedamosios dalys gali tapti nenaudojamos, nenuoseklios ar nestabilios.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Leidžiama programai pasileisti, kai baigsis sistemos įkėlimas iš naujo.  Dėl to SHIELD paleidimas gali trukti ilgiau ir programa gali sulėtinti SHIELD, nes ji veiks visada.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Leidžiama programai siųsti užsifiksuojančias transliacijas, kurios išlieka pasibaigus transliacijai.  Per dažnas jų naudojimas gali sulėtinti SHIELD veikimą ar padaryti jį nestabilų verčiant naudoti per daug atminties.</string>
+
+    <string name="permdesc_readContacts" product="shield">Leidžiama programai skaityti duomenis apie SHIELD saugomus kontaktus, įskaitant dažnį, kuriuo konkretiems asmenims skambinote, siuntėte el. laiškus ar bendravote kitais būdais Šis leidimas leidžia programai išsaugoti jūsų kontaktinius duomenis, o kenkėjiškos programos gali dalintis kontaktiniais duomenimis be jūsų žinios.. </string>
+    <string name="permdesc_writeContacts" product="shield">Leidžiama programai keisti duomenis apie SHIELD saugomus kontaktus, įskaitant dažnį, kuriuo konkretiems asmenims skambinote, siuntėte el. laiškus ar bendravote kitais būdais. Šis leidimas leidžia programai ištrinti kontaktinius duomenis.. </string>
+    <string name="permdesc_readCallLog" product="shield">Programai leidžiama skaityti SHIELD skambučių žurnalą, įskaitant duomenis apie priimamus ir atliekamus skambučius.  Šis leidimas suteikia teisę programai išsaugoti skambučių žurnalo duomenis, o kenkėjiškos programos gali bendrinti skambučių žurnalą be jūsų žinios.</string>
+    <string name="permdesc_writeCallLog" product="shield">Programai leidžiama keisti SHIELD skambučių žurnalą, įskaitant duomenis apie priimamus ir atliekamus skambučius. 
+        Kenkėjiškos programos tai gali naudoti, kad ištrintų ar keistų jūsų skambučių žurnalą.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Leidžiama programai skaityti visus SHIELD išsaugotus kalendoriaus įvykius, įskaitant draugų ar bendradarbių įvykius.  Dėl to programai gali būti leidžiama bendrinti ar saugoti kalendoriaus duomenis, neatsižvelgiant į konfidencialumą ar privatumą.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Leidžiama programai pridėti, pašalinti ir keisti įvykius, kuriuos galite keisti SHIELD, įskaitant draugų ir bendradarbių įvykius.  Dėl to programa gali siųsti pranešimus, kurie atrodo lyg būtų siunčiami kalendorių savininkų, arba keisti įvykius be savininko žinios.</string>
+
+
+
+    <string name="permlab_brick" product="shield">visam laikui išjungti SHIELD</string>
+    <string name="permdesc_brick" product="shield">Leidžia programai visam laikui išjungti SHIELD. Tai labai pavojinga.</string>
+    <string name="permlab_reboot" product="shield">Priverstinis SHIELD paleidimas iš naujo</string>
+    <string name="permdesc_reboot" product="shield">Leidžiama programai priversti SHIELD pasileisti iš naujo.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">tiesiogiai pradėti CDMA SHIELD sąranką</string>
+    <string name="permlab_wakeLock" product="shield">neleisti SHIELD užmigti</string>
+    <string name="permdesc_wakeLock" product="shield">Leidžiama programai neleisti SHIELD užmigti.</string>
+    <string name="permlab_devicePower" product="shield">SHIELD įjungimas ir išjungimas</string>
+    <string name="permdesc_devicePower" product="shield">Leidžiama programai įjungti ar išjungti SHIELD.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">sureguliuoti NVIDIA Tegra CPU</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Leidžia programai sureguliuoti NVIDA Tegra CPU parametrus.  Tai gali padidinti energijos sąnaudas.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Paleisti kaip žemo lygio gamintojo bandymą, leidžiant užbaigti prieigą prie aparatinės SHIELD įrangos.  Pasiekiama tik tada, kai SHIELD veikia gamintojo bandymo režimu.</string>
+    <string name="permdesc_setTime" product="shield">Leidžiama programai keisti SHIELD laiką.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Leidžiama programai keisti SHIELD laiko zoną.</string>
+    <string name="permdesc_getAccounts" product="shield">Leidžiama programai gauti SHIELD žinomų paskyrų sąrašą.   Gali būti įtrauktos visos paskyros, sukurtos įdiegtomis programomis.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Leidžiama programai gauti paketus, siunčiamus į visus prie „Wi-Fi“ ryšio tinklo prijungtus įrenginius (ne tik į SHIELD), naudojančius daugiaadresio perdavimo adresus.   Ji suvartoja daugiau energijos nei ne daugiaadresio perdavimo režimas.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Leidžiama programai konfigūruoti vietinį „Bluetooth“ SHIELD ir atrasti bei susieti su nuotoliniais įrenginiais.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Leidžia programai prijungti ir atjungti SHIELD nuo WiMAX tinklų.</string>
+    <string name="permdesc_bluetooth" product="shield">Leidžiama programai peržiūrėti „Bluetooth“ konfigūraciją SHIELD ir užmegzti bei priimti ryšius iš susietų įrenginių.</string>
+    <string name="policydesc_watchLogin" product="shield">Stebimas neteisingai įvestų slaptažodžių skaičius atrakinant ekraną ir užrakinti SHIELD arba ištrinti visus jame esančius duomenis, jei įvedama per daug neteisingų slaptažodžių.</string>
+    <string name="policydesc_wipeData" product="shield">Be įspėjimo ištrinti SHIELD duomenis atkuriant gamyklinius duomenis.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">SHIELD nėra SIM kortelės.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Neteisingai nubrėžėte atrakinimo figūrą <xliff:g id="number">%d</xliff:g> k.  Po dar <xliff:g id="number">%d</xliff:g> nesėmingų bandymų reikės SHIELD atrakinti naudojant „Google“.\n\n Pabandykite dar kartą po <xliff:g id="number">%d</xliff:g> sekundžių.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Jūs nesėkmingai bandėte atrakinti SHIELD <xliff:g id="number">%d</xliff:g> kartus. Po <xliff:g id="number">%d</xliff:g> nesėkmingų bandymų SHIELD nustatymai bus pakeisti į gamyklinius, o visi vartotojo duomenys bus ištrinti.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Jūs nesėkmingai bandėte atrakinti SHIELD <xliff:g id="number">%d</xliff:g> kartus. SHIELD nustatymai bus pakeisti į gamyklinius nustatymus.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Leidžiama programai keisti naršyklės istoriją ar žymes, išsaugotas SHIELD.  Dėl to programai gali būti leidžiama ištrinti ar keisti naršyklės duomenis.   Pastaba:  šis leidimas nesuteikiamas trečiosios šalies naršyklėms ar kitoms programoms, kuriomis galima naršyti žiniatinklį.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            „<xliff:g id="accessibility_service_name">%1$s</xliff:g>“ nori įgalinti naršymą liečiant.  Kai naršymas liečiant bus įjungtas, galėsite išgirsti ar peržiūrėti pirštu liečiamų elementų aprašus arba atlikdami gestus naudoti SHIELD.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Jūs nesėkmingai bandėte atrakinti SHIELD <xliff:g id="number">%d</xliff:g> kartus. Po <xliff:g id="number">%d</xliff:g> nesėkmingų bandymų SHIELD nustatymai bus pakeisti į gamyklinius, o visi vartotojo duomenys bus ištrinti.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">Jūs nesėkmingai bandėte atrakinti SHIELD <xliff:g id="number">%d</xliff:g> kartus. SHIELD nustatymai bus pakeisti į gamyklinius nustatymus.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Neteisingai nubrėžėte atrakinimo figūrą <xliff:g id="number">%d</xliff:g> k.  Po dar <xliff:g id="number">%d</xliff:g> nesėkmingų bandymų turėsite atrakinti SHIELD naudodami savo pašto paskyrą.\n\n Bandykite dar kartą po <xliff:g id="number">%d</xliff:g> sekundžių.</string>
+    <string name="permdesc_transmitIr" product="shield">Leidžia programai naudoti SHIELD infraraudonųjų spindulių siųstuvą.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Leidžia programai susisieti su nuotoliniais įrenginiais neįsikišant vartotojui. </string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      SHIELD bus laikinai atjungtas nuo „Wi-Fi“, kol bus prijungtas prie „%1$s“
+    </string>
+</resources>

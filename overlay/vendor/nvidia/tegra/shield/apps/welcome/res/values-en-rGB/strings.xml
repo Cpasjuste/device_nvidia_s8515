@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="app_name">"SHIELD Help"</string>
+  <string name="pagetitle">"GET TO KNOW YOUR SHIELD"</string>
+  <string name="pg1_tle">"GET TO KNOW YOUR SHIELD"</string>
+  <string name="pg2_tle">"USING THE FUNCTION BUTTONS"</string>
+  <string name="pg3_tle">"USING THE SELECTION BUTTONS"</string>
+  <string name="pg4_tle">"MORE WAYS TO INTERACT WITH SHIELD"</string>
+  <string name="pg0_title">"WELCOME TO SHIELD"</string>
+  <string name="pg0_text">"Learn about all SHIELD features by selecting the user guide link below, or continue on and view the basic functions and features."</string>
+  <string name="pg1_blktle">"NVIDIA BUTTON"</string>
+  <string name="pg1_blktxt">"<b>Press once</b> to launch SHIELD games, find new games, and stream games from your GeForce GTX PC.\n\n<b>Press and hold</b> to open the Power Menu."</string>
+  <string name="pg2_voltle">"VOLUME"</string>
+  <string name="pg2_voltxt">"<b>Press</b> to control volume\n\n<b>Press and hold</b> to mute"</string>
+  <string name="pg2_backtle">"BACK"</string>
+  <string name="pg2_backtxt">"Jumps to the previous screen"</string>
+  <string name="pg2_starttle">"START"</string>
+  <string name="pg2_hometle">"HOME"</string>
+  <string name="pg2_hometxt">"Opens Android Home screen\n\n<b>Double-press</b> to view Recent Apps"</string>
+  <string name="pg3_ytle">"Y BUTTON"</string>
+  <string name="pg3_ytxt">"Menu in most apps"</string>
+  <string name="pg3_xtle">"X BUTTON"</string>
+  <string name="pg3_btle">"B BUTTON"</string>
+  <string name="pg3_btxt">"Back or cancel in most apps"</string>
+  <string name="pg3_atle">"A BUTTON"</string>
+  <string name="pg3_atxt">"Activates the selected item in most apps"</string>
+  <string name="pg4_mtdtle">"MULTI-TOUCH DISPLAY"</string>
+  <string name="pg4_virtle">"VIRTUAL MOUSE"</string>
+  <string name="pg4_rstxt">"<b>Right Stick</b>\nUse to move the mouse pointer"</string>
+  <string name="pg4_btntxt">"<b>Press </b>{R.drawable.stickTrigger}<b> or </b>{R.drawable.aButton} to click"</string>
+  <string name="blake_pg1_back_title">BACK</string>
+  <string name="blake_pg1_back_txt"><b>Tap</b> to jump to the previous screen</string>
+  <string name="blake_pg1_home_title">HOME</string>
+  <string name="blake_pg1_home_txt">"<b>Tap</b> to open Android Home\n\n<b>Double tap</b> to view Recent Apps\n\n<b>Hold</b> to launch Google Now with voice search</string>
+  <string name="blake_pg2_title">NVIDIA BUTTON</string>
+  <string name="blake_pg2_txt"><b>Tap</b> to launch SHIELD Hub. Find new games, launch SHIELD games, and stream games from your GeForce GTX PC.</string>
+  <string name="blake_pg3_title">START</string>
+  <string name="blake_pg3_txt"><b>Hold</b> to access additional controls for GameStream and Gamepad Mapper</string>
+  <string name="twitch"><b>Twitch</b></string>
+  <string name="record_and_share"><b>Record and share</b></string>
+  <string name="virtual_controls"><b>Virtual contols</b></string>
+</resources>

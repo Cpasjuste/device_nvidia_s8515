@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">Chỉ trên SHIELD, chưa được đồng bộ hóa</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      Không thể xuất địa chỉ liên hệ nào. Nếu bạn có danh bạ trên SHIELD, một số nhà cung cấp dữ liệu có thể không cho phép xuất danh bạ từ SHIELD.
+    </string>
+</resources>

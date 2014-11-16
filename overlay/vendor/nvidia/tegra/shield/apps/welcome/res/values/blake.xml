@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <add-resource type="array" name="blake_pages"/>
+    <add-resource type="array" name="blake_buttonbar"/>
+    <add-resource type="array" name="blake_layers"/>
+    <add-resource type="string" name="blake_autofocus"/>
+
+    <string-array name="blake_pages">
+        <item>LayoutFragment:blake_page1</item>
+        <item>LayoutFragment:blake_page2</item>
+        <item>LayoutFragment:blake_page3</item>
+    </string-array>
+    <string-array name="blake_buttonbar">
+        <item>pagezero_btn</item>
+        <item>pagemid_btn</item>
+        <item>pagelast_btn</item>
+    </string-array>
+    <string-array name="blake_layers">
+        <item>buttonbar</item>
+        <item>mainDV</item>
+    </string-array>
+
+    <string name="blake_autofocus">buttonbar</string>
+</resources>
+

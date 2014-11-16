@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">Nimeä SHIELD uudelleen</string>
+    <string name="bluetooth_ask_discovery" product="shield">"SHIELDin sovellus haluaa asettaa SHIELDin muiden Bluetooth-laitteiden tunnistettavaksi <xliff:g id="timeout">%1$d</xliff:g> sekunnin ajaksi. Sallitaanko tämä?"</string>
+    <string name="phone_info_label" product="shield">SHIELDin tiedot</string>
+    <string name="roaming_warning_multiuser" product="shield">Jos sallit tiedonsiirron roaming-tilassa, sinulle voi koitua suuria roaming-maksuja.\n\nTämä asetus vaikuttaa kaikkiin tämän SHIELDin käyttäjiin.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">Salaa SHIELD</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">Vaatii PIN-koodin tai salasanan, jonka avulla SHIELDin salaus puretaan aina kytkiessäsi sen virran päälle</string>
+    <string name="crypt_keeper_desc" product="shield">
+    Voit salata tilisi, asetuksesi, lataamasi sovellukset ja niiden tiedot sekä media- ja muut tiedostot.  Kun SHIELD on salattu, sinun tulee antaa numeerinen PIN-koodi tai salasana poistaaksesi salauksen aina kytkiessäsi laitteen virran päälle.  Voit poistaa SHIELDin salauksen vain palauttamalla siihen tehdasasetukset, jolloin kaikki tietosi poistetaan.\n\nSalaus kestää vähintään tunnin.  Se tulee aloittaa täydellä akulla, ja SHIELDin tulee olla kytkettynä laturiin koko salauksen ajan.  Jos keskeytät salauksen, menetät laitteesi tietoja.</string>
+    <string name="crypt_keeper_button_text" product="shield">Salaa SHIELD</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    Salausta ei voi peruuttaa, ja jos keskeytät sen, menetät tietoja. 
+    Salaus kestää vähintään tunnin, ja sen aikana SHIELD käynnistyy uudelleen useita kertoja.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">Odota, SHIELDiä salataan.  <xliff:g id="percent" example="50">^1</xliff:g> % valmiina.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> Salaus keskeytyi, eikä sitä voi suorittaa loppuun.  Tästä johtuen SHIELDin tietoja ei voi enää käyttää.\n\n 
+      Voit jatkaa SHIELDin käyttöä, kun palautat tehdasasetukset. 
+      Kun olet määrittänyt SHIELDin asetukset tehdasasetusten palautuksen jälkeen, voit palauttaa tiedot, jotka olet varmuuskopioinut Google-tiliisi.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> Laitteelta <xliff:g id="device_name">%1$s</xliff:g> katkaistaan SHIELDin kautta muodostettu Internet-yhteys.</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">Salli tiedonsiirto, kun SHIELD koskettaa toista laitetta</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">VAROITUS:  Voit joutua maksamaan ylimääräisiä tiedonsiirtomaksuja.\n\nSHIELDin asetusten määrittäminen voi vaatia paljon tiedonsiirtoa.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">VAROITUS:  SHIELD ei voi tarkistaa, onko ohjelmisto ajan tasalla.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD ei voi muodostaa yhteyttä tähän Wi-Fi-verkkoon.</string>
+    <string name="dock_audio_summary_none" product="shield">SHIELDiä ei ole telakoitu</string>
+    <string name="dock_not_found_text" product="shield">Telakoi SHIELD, jos haluat määrittää telineen äänet.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">Toista ääni, kun SHIELD liitetään telakkaan tai irrotetaan telakasta</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">Älä toista ääntä, kun SHIELD liitetään telakkaan tai irrotetaan telakasta</string>
+
+    <string name="accelerometer_summary_on" product="shield">Vaihda suuntaa automaattisesti, kun SHIELD käännetään</string>
+    <string name="accelerometer_summary_off" product="shield">Vaihda suuntaa automaattisesti, kun SHIELD käännetään</string>
+    <string name="sim_lock_on" product="shield">Vaadi PIN-koodi, jotta SHIELDiä voi käyttää</string>
+    <string name="sim_lock_off" product="shield">Vaadi PIN-koodi, jotta SHIELDiä voi käyttää</string>
+    <string name="device_info_settings" product="shield">SHIELDin tila</string>
+
+    <string name="device_status_summary" product="shield">Akun ja verkon tila ja muita tietoja</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">Poistaa kaikki SHIELDin tiedot</string>
+    <string name="master_clear_desc" product="shield">"Tämä poistaa kaikki tiedot SHIELDin <b>sisäisestä tallennustilasta</b>, mukaan lukien:\n\n<li>Google-tili</li>\n<li>Järjestelmän ja sovelluksen tiedot ja asetukset</li>\n<li>Ladatut sovellukset</li>"</string>
+    <string name="master_clear_button_text" product="shield">Palauta SHIELD</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">SHIELDin Internet-yhteys jaetaan</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">SHIELDin Internet-yhteys jaettu 1 laitteelle</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">SHIELDin Internet-yhteys jaettu <xliff:g id="connectedDeviceCount">%1$d</xliff:g> laitteelle</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">SHIELDin Internet-yhteyttä ei jaeta</string>
+    <string name="location_street_level" product="shield">Anna sovellusten määrittää sijaintisi SHIELDin GPS:n avulla</string>
+    <string name="about_settings" product="shield">Tietoja SHIELDistä</string>
+    <string name="install_all_warning" product="shield">SHIELD ja henkilötiedot ovat alttiimpia tuntemattomista lähteistä tulevien sovelluksien kautta tapahtuville hyökkäyksille.  Hyväksyt, että olet itse vastuussa mahdollisista SHIELDille aiheutuvista vahingoista tai tietojen menetyksestä, joka voi johtua näiden sovelluksien käytöstä.</string>
+    <string name="security_settings_desc" product="shield">Tämä sovellus voi käyttää seuraavia SHIELDin ominaisuuksia:</string>
+    <string name="security_settings_desc_multi" product="shield">Tämä sovellus voi käyttää seuraavia SHIELDin ominaisuuksia: Tehokkuuden parantamiseksi ja muistin käytön vähentämiseksi <xliff:g id="base_app_name">%1$s</xliff:g> saa käyttää joitakin näistä luvista, koska se käyttää samaa prosessia kuin <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">Siirrä SHIELDiin</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Jos pysäytät palvelun, jotkut SHIELDin toiminnot eivät välttämättä enää toimi oikein, kunnes sammutat laitteen ja käynnistät sen uudelleen.</string>
+    <string name="testing_phone_info" product="shield">SHIELDin tiedot</string>
+    <string name="power_idle" product="shield">SHIELD käyttämätön</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">Akun käyttö SHIELDin ollessa käyttämätön</string>
+    <string name="really_remove_account_message" product="shield">Poistamalla tämän tilin poistat kaikki sen viestit, yhteystiedot ja muut tiedot SHIELDistä.</string>
+    <string name="remove_account_failed" product="shield">Jotkut sovellukset käyttävät tätä tiliä.  Voit poistaa tilin vain palauttamalla SHIELDin tehdasasetukset (tällöin kaikki henkilökohtaiset tietosi poistetaan) kohdassa Asetukset &gt; Varmuuskopiointi &amp; palautus.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Kaikki tileihisi verkossa tekemäsi muutokset kopioidaan SHIELDiin automaattisesti.\n\nJotkut tilit voivat myös automaattisesti kopioida SHIELDillä tehdyt muutokset verkkoon.  Google-tili toimii tällä tavalla.\n\nValitse kunkin tilin synkronoitavat tiedot siirtymällä kohtaan Asetukset &gt; Tilit.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">Mobiiliyhteytesi poistetaan käytöstä, jos määritetty tiedonsiirtoraja saavutetaan.\n\nKoska SHIELD mittaa tiedon käytön ja palveluntarjoaja voi määrittää käytön eri tavalla, harkitse alhaisemman rajan käyttöä.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">Jos rajoitat taustalla tapahtuvaa mobiilitiedonsiirtoa, jotkin sovellukset ja palvelut eivät toimi, ellet ole yhteydessä Wi-Fi-verkkoon.\n\nTämä asetus vaikuttaa kaikkiin tämän SHIELDin käyttäjiin.</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: noin <xliff:g id="total" example="128KB">%1$s</xliff:g> käytetty SHIELDin mittaustietojen mukaan. Palveluntarjoaja voi laskea tiedon käytön eri tavalla.</string>
+    <string name="user_cannot_manage_message" product="shield">Vain SHIELDin omistaja voi hallita käyttäjiä.</string>
+    <string name="user_confirm_remove_self_message" product="shield">Tilasi ja tietosi poistetaan tästä SHIELDistä.  Tätä toimintoa ei voi peruuttaa.</string>
+    <string name="user_confirm_remove_message" product="shield">Tämän käyttäjän tila ja tiedot poistetaan tästä SHIELDistä.  Tätä toimintoa ei voi peruuttaa.</string>
+    <string name="global_change_warning" product="shield">Tämä asetus vaikuttaa kaikkiin tämän SHIELDin käyttäjiin.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      Tämän profiilin tila ja tiedot katoavat SHIELDistä.  Tätä toimintoa ei voi peruuttaa.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      Salli tiedonsiirto, kun SHIELD koskettaa toista laitetta
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      Sovellus haluaa asettaa SHIELDin muiden Bluetooth-laitteiden tunnistettavaksi. Voit muuttaa tätä myöhemmin Bluetooth-asetuksissa.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      Sovellus haluaa ottaa Bluetoothin käyttöön ja tehdä SHIELDin näkyväksi muille laitteille %1$d sekunnin ajaksi.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      Sovellus haluaa ottaa Bluetoothin käyttöön ja tehdä SHIELDin näkyväksi muille laitteille. Voit muuttaa tätä myöhemmin Bluetooth-asetuksissa.
+    </string>
+</resources>

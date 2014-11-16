@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">Console SHIELD uniquement, sans synchronisation</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      Aucun contact ne peut être exporté. Si des contacts sont enregistrés sur votre console SHIELD, il est possible qu\'un fournisseur de données n\'autorise pas l\'exportation de contacts à partir de celle-ci.
+    </string>
+</resources>

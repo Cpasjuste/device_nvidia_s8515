@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">SIM-картка у SHIELD відсутня.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Кількість здійснених невдалих спроб розблокувати SHIELD: <xliff:g id="number">%d</xliff:g>. Коли кількість здійснених невдалих спроб дорівнюватиме <xliff:g id="number">%d</xliff:g>, SHIELD відновить заводські налаштування, і всі дані користувача будуть втрачені.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Кількість здійснених невдалих спроб розблокувати SHIELD: <xliff:g id="number">%d</xliff:g>. SHIELD відновить заводські налаштування.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Кількість випадків неправильного намалювання ключа розблокування: <xliff:g id="number">%d</xliff:g>. Коли кількість здійснених невдалих спроб дорівнюватиме <xliff:g id="number">%d</xliff:g>, вам буде запропоновано розблокувати SHIELD за допомогою облікового запису електронної пошти.\n\n Кількість секунд, через які можна повторити спробу: <xliff:g id="number">%d</xliff:g>.
+    </string>
+</resources>

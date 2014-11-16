@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">ไม่มีซิมการ์ดใน SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       คุณพยายามปลดล็อก SHIELD อย่างไม่ถูกต้องแล้ว <xliff:g id="number">%d</xliff:g> ครั้ง หลังจากความพยายามที่ไม่สำเร็จมากกว่า <xliff:g id="number">%d</xliff:g> ครั้ง SHIELD จะถูกรีเซ็ตเป็นค่าเริ่มต้นและข้อมูลผู้ใช้ทั้งหมดจะสูญหาย
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       คุณพยายามปลดล็อก SHIELD อย่างไม่ถูกต้องแล้ว <xliff:g id="number">%d</xliff:g> ครั้ง SHIELD จะถูกรีเซ็ตเป็นค่าเริ่มต้นตอนนี้
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       คุณวาดรูปแบบการปลดล็อกไม่ถูกต้อง <xliff:g id="number">%d</xliff:g> ครั้ง หลังจากความพยายามที่ไม่สำเร็จมากกว่า <xliff:g id="number">%d</xliff:g> ครั้ง คุณจะถูกขอให้ปลดล็อก SHIELD ของคุณโดยใช้บัญชีอีเมล \n\n ลองอีกครั้งใน <xliff:g id="number">%d</xliff:g> วินาที
+    </string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">Ukladací priestor systému SHIELD je plný. Odstráňte niektoré súbory a uvoľnite miesto.</string>
+    <string name="power_dialog" product="shield">Možnosti systému SHIELD</string>
+    <string name="shutdown_confirm" product="shield">Systém SHIELD sa vypne.</string>
+    <string name="global_actions" product="shield">Možnosti systému SHIELD</string>
+    <string name="permdesc_readSms" product="shield">Umožňuje aplikácii čítať správy SMS uložené v systéme SHIELD alebo na karte SIM. Toto povolenie umožňuje aplikácii čítať správy SMS bez ohľadu na ich obsah alebo dôvernosť.</string>
+    <string name="permdesc_writeSms" product="shield">Umožňuje aplikácii zápis do správ SMS uložených v systéme SHIELD alebo na karte SIM. Škodlivé aplikácie môžu vaše správy odstrániť.</string>
+    <string name="permdesc_injectEvents" product="shield">Umožňuje aplikácii doručiť vlastné udalosti vstupu (stlačenie tlačidiel atď.) ďalším aplikáciám. Škodlivé aplikácie tým môžu prevziať kontrolu nad systémom SHIELD.</string>
+    <string name="permdesc_persistentActivity" product="shield">Umožňuje aplikácii uložiť niektoré svoje časti natrvalo do pamäte.  Môže sa tým obmedziť pamäť dostupná pre ostatné aplikácie a spomaliť systém SHIELD.</string>
+    <string name="permdesc_clearAppCache" product="shield">Umožňuje aplikácii uvoľniť ukladací priestor systému SHIELD odstránením súborov v adresároch vyrovnávacej pamäte iných aplikácií.  To môže viesť k pomalšiemu spúšťaniu iných aplikácií, pretože musia znova načítať svoje údaje.</string>
+    <string name="permdesc_readLogs" product="shield">Umožňuje aplikácii čítať rôzne systémové súbory denníkov.  Toto nastavenie aplikácie umožňuje získať všeobecné informácie o činnostiach, ktoré vykonávate so systémom SHIELD, a ktoré by mohli obsahovať osobné alebo súkromné informácie.</string>
+    <string name="permdesc_changeComponentState" product="shield">Umožňuje aplikácii zmeniť to, či je súčasť inej aplikácie povolená alebo zakázaná. Škodlivé aplikácie môžu pomocou tohto nastavenia vypnúť dôležité funkcie systému SHIELD. Toto povolenie treba používať opatrne, pretože súčasti aplikácie môžete dostať do nepoužiteľného, nekonzistentného alebo nestabilného stavu.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Umožňuje aplikácii spustiť sa hneď po spustení systému. Toto nastavenie môže spomaliť spustenie systému SHIELD a tiež znížiť jeho celkový výkon, pretože aplikácia bude neustále spustená.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Umožňuje aplikácii odosielať trvalé vysielania, ktoré pretrvávajú aj po skončení vysielania. Nadmerné používanie môže systém SHIELD spomaliť alebo spôsobiť jeho nestabilitu, pretože bude používať príliš veľa pamäte.</string>
+
+    <string name="permdesc_readContacts" product="shield">Umožňuje aplikácii čítať údaje o kontaktoch uložených v systéme SHIELD vrátane informácií o frekvencii vašich telefonátov, odoslaných e-mailov alebo iných foriem komunikácie s konkrétnymi osobami. Toto povolenie umožňuje aplikáciám ukladať údaje o kontaktoch. Škodlivé aplikácie môžu údaje o kontaktoch zdieľať bez vášho vedomia.</string>
+    <string name="permdesc_writeContacts" product="shield">Umožňuje aplikácii upraviť údaje o kontaktoch uložených v systéme SHIELD vrátane informácií o frekvencii vašich telefonátov, odoslaných e-mailov alebo iných foriem komunikácie s konkrétnymi osobami. Toto povolenie umožňuje aplikáciám odstraňovať údaje o kontaktoch.</string>
+    <string name="permdesc_readCallLog" product="shield">Umožňuje aplikácii čítať denník hovorov systému SHIELD vrátane údajov o prichádzajúcich a odchádzajúcich hovoroch. Toto povolenie umožňuje aplikáciám ukladať údaje denníka hovorov. Škodlivé aplikácie môžu údaje denníka hovorov zdieľať bez vášho vedomia.</string>
+    <string name="permdesc_writeCallLog" product="shield">Umožňuje aplikácii upraviť denník hovorov systému SHIELD vrátane údajov o prichádzajúcich a odchádzajúcich hovoroch.
+        Škodlivé aplikácie to môžu zneužiť na vymazanie alebo úpravu vášho denníka hovorov.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Umožňuje aplikácii čítať všetky udalosti kalendára uložené v systéme SHIELD vrátane udalostí priateľov alebo spolupracovníkov. Toto povolenie umožňuje aplikácii zdieľať alebo ukladať údaje kalendára bez ohľadu na ich dôvernosť alebo citlivosť.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Umožňuje aplikácii pridávať, odstraňovať alebo meniť udalosti, ktoré môžete v systéme SHIELD upravovať, vrátane udalostí priateľov a spolupracovníkov. Toto povolenie umožňuje aplikácii odosielať správy, ktoré budú zdanlivo prichádzať od vlastníkov kalendára, alebo upravovať udalosti bez vedomia vlastníkov.</string>
+
+
+
+    <string name="permlab_brick" product="shield">natrvalo vypnúť systém SHIELD</string>
+    <string name="permdesc_brick" product="shield">Umožňuje aplikácii natrvalo vypnúť systém SHIELD. Toto je veľmi nebezpečné nastavenie.</string>
+    <string name="permlab_reboot" product="shield">vynútiť reštartovanie systému SHIELD</string>
+    <string name="permdesc_reboot" product="shield">Umožňuje aplikácii vynútiť reštartovanie systému SHIELD.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">priamo spustiť nastavenie CDMA systému SHIELD</string>
+    <string name="permlab_wakeLock" product="shield">zabrániť prechodu systému SHIELD do režimu spánku</string>
+    <string name="permdesc_wakeLock" product="shield">Umožňuje aplikácii zabrániť prechodu systému SHIELD do režimu spánku.</string>
+    <string name="permlab_devicePower" product="shield">zapnúť alebo vypnúť systém SHIELD</string>
+    <string name="permdesc_devicePower" product="shield">Umožňuje aplikácii zapnúť alebo vypnúť systém SHIELD.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">nastaviť procesor NVIDIA Tegra</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Umožňuje aplikácii nastaviť parametre procesora NVIDIA Tegra.  Môžu s tým byť spojené zvýšené požiadavky na výkon.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Umožňuje aplikácii spustenie v režime nízkoúrovňového testu výrobcu a povolí úplný prístup k hardvéru systému SHIELD. K dispozícii iba vtedy, keď je systém SHIELD spustený v režime testovania výrobcu.</string>
+    <string name="permdesc_setTime" product="shield">Umožňuje aplikácii zmeniť čas hodín v systéme SHIELD.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Umožňuje aplikácii zmeniť časové pásmo systému SHIELD.</string>
+    <string name="permdesc_getAccounts" product="shield">Umožňuje aplikácii získať zoznam účtov v systéme SHIELD.  Môžu sem patriť akékoľvek účty vytvorené aplikáciami, ktoré ste nainštalovali.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Umožňuje aplikácii prijímať pakety odoslané do všetkých zariadení v sieti Wi-Fi pomocou viacsmerových adries, nielen pomocou vášho systému SHIELD.  Spotrebuje viac energie ako režim bez viacsmerového vysielania.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Umožňuje aplikácii konfigurovať miestny systém SHIELD s technológiou Bluetooth, vyhľadávať a spárovať vzdialené zariadenia.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Umožňuje aplikácii pripojiť systém SHIELD k sieťam WiMAX a odpojiť ho od nich.</string>
+    <string name="permdesc_bluetooth" product="shield">Umožňuje aplikácii zobraziť informácie o konfigurácii technológie Bluetooth v systéme SHIELD, ako aj vytvárať a prijímať pripojenia k spárovaným zariadeniam.</string>
+    <string name="policydesc_watchLogin" product="shield">Sledovať počet nesprávnych hesiel zadaných pri odomykaní obrazovky a zamknúť systém SHIELD alebo vymazať všetky údaje systému SHIELD v prípade zadania príliš veľkého počtu nesprávnych hesiel.</string>
+    <string name="policydesc_wipeData" product="shield">Bez predchádzajúceho upozornenia zmazať všetky údaje tým, že sa obnovia výrobné nastavenia systému SHIELD.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">V systéme SHIELD nie je žiadna karta SIM.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield"><xliff:g id="number">%d</xliff:g>-krát ste použili nesprávny bezpečnostný vzor. Po ďalších neúspešných pokusoch (<xliff:g id="number">%d</xliff:g>) sa zobrazí výzva na odomknutie systému SHIELD pomocou prihlasovacích údajov Google.\n\nSkúste to znova o <xliff:g id="number">%d</xliff:g> s.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield"><xliff:g id="number">%d</xliff:g>-krát ste sa pokúsili odomknúť systém SHIELD nesprávnym spôsobom. Po ďalších neúspešných pokusoch (<xliff:g id="number">%d</xliff:g>) sa obnovia výrobné nastavenia systému SHIELD a všetky používateľské údaje sa stratia.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield"><xliff:g id="number">%d</xliff:g>-krát ste sa pokúsili odomknúť systém SHIELD nesprávnym spôsobom. V systéme SHIELD sa teraz obnovia predvolené výrobné nastavenia.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Umožňuje aplikácii upraviť históriu prehliadača alebo záložky uložené v systéme SHIELD. Aplikácia s týmto povolením môže vymazať alebo upraviť údaje prehliadača.  Poznámka: Toto povolenie nemôžu vynucovať prehliadače tretích strán ani iné aplikácie umožňujúce prehliadanie webu.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            Služba <xliff:g id="accessibility_service_name">%1$s</xliff:g> požaduje povolenie funkcie Preskúmanie dotykom. Ak je funkcia Preskúmanie dotykom zapnutá, môžete počuť alebo vidieť popisy objektov pod vaším prstom alebo ovládať systém SHIELD gestami.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield"><xliff:g id="number">%d</xliff:g>-krát ste sa pokúsili odomknúť systém SHIELD nesprávnym spôsobom. Po ďalších neúspešných pokusoch (<xliff:g id="number">%d</xliff:g>) sa obnovia výrobné nastavenia systému SHIELD a všetky používateľské údaje sa stratia.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield"><xliff:g id="number">%d</xliff:g>-krát ste sa pokúsili odomknúť systém SHIELD nesprávnym spôsobom. V systéme SHIELD sa teraz obnovia predvolené výrobné nastavenia.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield"><xliff:g id="number">%d</xliff:g>-krát ste použili nesprávny bezpečnostný vzor. Po ďalších neúspešných pokusoch (<xliff:g id="number">%d</xliff:g>) sa zobrazí výzva na odomknutie systému SHIELD pomocou e-mailového účtu.\n\n Počet sekúnd zostávajúcich do ďalšieho pokusu: <xliff:g id="number">%d</xliff:g>.</string>
+    <string name="permdesc_transmitIr" product="shield">Umožňuje aplikácii použiť infračervený vysielač systému SHIELD.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Umožňuje aplikácii párovanie so vzdialenými zariadeniami bez zásahu používateľa.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      Systém SHIELD sa počas pripojenia k zariadeniu %1$s dočasne odpojí od Wi-Fi siete
+    </string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="nv_led_brightness">Яскравість світлодіода</string>
+  <string name="nv_nvidia_button">Кнопка NVIDIA</string>
+  <string name="nv_category_controller_volume">Регулювання гучності</string>
+  <string name="controller_volume_text">Використовувати бампери для регулювання гучності</string>
+  <string name="controller_volume_summary">Ліва і права кнопки контролера будуть регулювати гучність після натискання кнопки гучності</string>
+  <string name="controller_pulse_led">Коли пристрій знаходиться в режимі сну, світлодіод блимає</string>
+  <string name="lockpattern_settings_enable_power_button_instantly_locks">При закритті кришки пристрій миттєво блокується</string>
+  <string name="user_add_user_message_long">Щоб користуватися цим пристроєм спільно, потрібно створити додаткових користувачів. Кожному користувачеві надається власний обсяг пам’яті, який можна використовувати для зберігання програм, фонових малюнків тощо. Користувачі також можуть налаштовувати певні параметри планшетного ПК, які застосовуватимуться до решти користувачів, наприклад Wi-Fi.\n\nКожен користувач може схвалювати дозволи на оновлення програм від імені інших користувачів.</string>
+  <string name="user_add_user_message_short">Кожен користувач може схвалювати дозволи на оновлення програм від імені інших користувачів.</string>
+  <string name="controller_mapper_enable">Активація перетворювача ігрового джойстика</string>
+  <string name="controller_mapper_enable_summary">За допомогою тривалого натиснення кнопки ЗАПУСК запустіть функцію накладання перетворювача</string>
+  <string name="controller_mapper_enable_auto_download">Активація автоматичного завантаження</string>
+  <string name="controller_mapper_enable_auto_download_summary">Автоматичне завантаження перетворювача з хмари (за наявності)</string>
+  <string name="nv_license_title">Правова інформація стосовно NVIDIA</string>
+  <string name="nv_swla">Ліцензійна угода на програмне забезпечення</string>
+  <string name="nv_privacy">Політика конфіденційності</string>
+  <string name="nv_tegra_exp_tos">Умови надання послуг Tegra Experience</string>
+  <string name="nv_warranty">Гарантійна інформація</string>
+  <string name="nv_settings_license_activity_title">Ліцензії NVIDIA</string>
+  <string name="fullscreen_mode_title">Повноекранний режим</string>
+  <string name="fullscreen_mode_text">Сховати рядок стану</string>
+  <string name="nv_controller_mapper">Перетворювач ігрового джойстика</string>
+  <string name="nv_feedback">Надіслати відгук до компанії NVIDIA</string>
+  <string name="diag_enable">Допоможіть NVIDIA зробити SHIELD зручніше</string>
+  <string name="move_app_app_label">Програма</string>
+  <string name="move_app_data_label">Дані</string>
+  <string name="move_app_to_device_dlg_title">Перемістити програму до SHIELD?</string>
+  <string name="move_app_to_sdcard_dlg_title">Перемістити програму на карту SD?</string>
+  <string name="move_app_dlg_text">Вказана дія може зайняти певний час. Не вилучайте карту SD до завершення операції.</string>
+  <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> вільного місця на SHIELD</string>
+  <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> вільного місця на картці SD</string>
+  <string name="move_app_progress_to_device">Триває переміщення <xliff:g id="pkg_label">%1$s</xliff:g> на SHIELD...</string>
+  <string name="move_app_progress_to_sdcard">Триває переміщення <xliff:g id="pkg_label">%1$s</xliff:g> на карту SD...</string>
+  <string name="fullscreen_mode_title">Повноекранний режим</string>
+  <string name="fullscreen_mode_text">Приховати рядок стану</string>
+  <string name="flscrmode_str_cling_msg_restore_normal">Проведіть пальцем згори, щоби відобразити рядок стану.</string>
+  <string name="flscrmode_str_cling_btn_label_ok">OK</string>
+</resources>

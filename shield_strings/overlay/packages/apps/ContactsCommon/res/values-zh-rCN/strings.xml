@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">仅保存在 SHIELD 中，不同步</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+没有可导出的联系人。如果您的 SHIELD 上确实存有联系人信息，可能是某些数据服务提供商不允许从 SHIELD 上导出联系人。
+    </string>
+</resources>

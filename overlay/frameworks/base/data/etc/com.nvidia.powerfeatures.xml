@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2012, NVIDIA CORPORATION.  All rights reserved.e-->
+<permissions>
+    <feature name="nvidia.feature.power_budget_control" />
+    <feature name="nvidia.feature.fan_on_device" />
+</permissions>

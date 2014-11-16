@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">Solo su SHIELD, non sincronizzato</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      Non sono presenti contatti esportabili. Se hai contatti su SHIELD, è possibile che alcuni fornitori di dati non consentano l\'esportazione dei contatti da SHIELD.
+    </string>
+</resources>

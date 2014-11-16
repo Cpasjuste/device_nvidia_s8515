@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">Prostor za pohranu uređaja SHIELD je pun.  Izbrišite nekoliko datoteka kako biste oslobodili prostor.</string>
+    <string name="power_dialog" product="shield">Opcije uređaja SHIELD</string>
+    <string name="shutdown_confirm" product="shield">Uređaj SHIELD će se isključiti.</string>
+    <string name="global_actions" product="shield">Opcije uređaja SHIELD</string>
+    <string name="permdesc_readSms" product="shield">Omogućuje aplikaciji čitanje SMS poruka pohranjenih na uređaju SHIELD ili SIM kartici.  To aplikaciji omogućuje čitanje svih SMS poruka, neovisno o sadržaju ili povjerljivosti.</string>
+    <string name="permdesc_writeSms" product="shield">Omogućuje aplikaciji pisanje u SMS poruke pohranjene na uređaju SHIELD ili SIM kartici.  Zlonamjerne aplikacije mogu izbrisati vaše poruke.</string>
+    <string name="permdesc_injectEvents" product="shield">Omogućuje aplikaciji slanje vlastitih ulaznih događaja (pritiskanje tipki itd.) drugim aplikacijama.  Zlonamjerne aplikacije na taj način mogu preuzeti uređaj SHIELD.</string>
+    <string name="permdesc_persistentActivity" product="shield">Aplikaciji omogućuje trajnu prisutnost nekih njenih dijelova u memoriji.   To može ograničiti dostupnost memorije drugim aplikacijama i usporiti uređaj SHIELD.</string>
+    <string name="permdesc_clearAppCache" product="shield">Aplikacija može osloboditi prostor za pohranu na uređaju SHIELD brisanjem datoteka u direktorijima predmemorije drugih aplikacija.   To može rezultirati sporijim pokretanjem drugih aplikacija jer one moraju ponovo dohvaćati svoje podatke.</string>
+    <string name="permdesc_readLogs" product="shield">Aplikaciji omogućuje čitanje raznih sistemskih datoteka dnevnika.   Tako može otkriti opće informacije o tome što radite na uređaju SHIELD, što potencijalno uključuje osobne ili privatne informacije.</string>
+    <string name="permdesc_changeComponentState" product="shield">Omogućuje aplikaciji da promijeni hoće li komponenta neke druge aplikacije biti omogućena ili neće.  Zlonamjerne aplikacije mogu to upotrijebiti da bi onemogućile važne mogućnosti uređaja SHIELD.  Treba biti oprezan s tom dozvolom jer je moguće dovesti komponente aplikacija u neupotrebljivo, nedosljedno ili nestabilno stanje.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Omogućuje aplikaciji da se sama pokrene čim sustav završi s pokretanjem.  To može produljiti pokretanje uređaja SHIELD i omogućiti aplikaciji da općenito uspori uređaj SHIELD svojim neprekidnim radom.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Aplikaciji omogućuje slanje „ljepljivih“ emitiranja koja se zadržavaju nakon završetka emitiranja.  Prekomjerna upotreba može usporiti uređaj SHIELD ili ga učiniti nestabilnim uzrokujući pretjeranu upotrebu memorije.</string>
+
+    <string name="permdesc_readContacts" product="shield">Aplikaciji omogućuje čitanje podataka o vašim kontaktima pohranjenim na uređaju SHIELD, uključujući učestalost poziva, e-poruka ili drugih načina komunikacije s određenim pojedincima.  Ta dozvola aplikaciji omogućuje spremanje podataka kontakata, a zlonamjerne aplikacije mogu dijeliti podatke kontakata bez vašeg znanja.</string>
+    <string name="permdesc_writeContacts" product="shield">Aplikaciji omogućuje izmjenu podataka o vašim kontaktima pohranjenim na uređaju SHIELD, uključujući učestalost poziva, e-poruka ili drugih načina komunikacije s određenim kontaktima.  Ta dozvola aplikacijama omogućuje brisanje kontaktnih podataka.</string>
+    <string name="permdesc_readCallLog" product="shield">Aplikaciji omogućuje čitanje dnevnika poziva vašeg uređaja SHIELD, uključujući podatke o dolaznim i odlaznim pozivima.  Ta dozvola aplikacijama omogućuje spremanje podataka zapisnika poziva, a zlonamjerne aplikacije mogu dijeliti podatke zapisnika poziva bez vašeg znanja.</string>
+    <string name="permdesc_writeCallLog" product="shield">Aplikaciji omogućuje izmjenu dnevnika poziva vašeg uređaja SHIELD, uključujući podatke o dolaznim i odlaznim pozivima. 
+        Zlonamjerne aplikacije to mogu upotrebljavati za brisanje ili izmjenu vašeg dnevnika poziva.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Aplikaciji omogućuje čitanje svih događaja u kalendaru pohranjenih na uređaju SHIELD, uključujući one vaših prijatelja ili suradnika. To aplikaciji može omogućiti dijeljenje ili spremanje vaših podataka kalendara, neovisno o povjerljivosti ili osjetljivosti.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Aplikaciji omogućuje dodavanje, uklanjanje i promjenu događaja koje možete izmijeniti na uređaju SHIELD, uključujući one od vaših prijatelja ili suradnika.  To aplikaciji može omogućiti slanje poruka koje izgledaju kao da dolaze od vlasnika kalendara ili izmjenu događaja bez znanja vlasnika.</string>
+
+
+
+    <string name="permlab_brick" product="shield">trajno onemogućavanje uređaja SHIELD</string>
+    <string name="permdesc_brick" product="shield">Aplikaciji omogućuje trajno isključivanje uređaja SHIELD.  To je vrlo opasno.</string>
+    <string name="permlab_reboot" product="shield">prisilno ponovno pokretanje uređaja SHIELD</string>
+    <string name="permdesc_reboot" product="shield">Aplikaciji omogućuje prisilno ponovno pokretanje uređaja SHIELD.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">izravno pokretanje postavljanja CDMA uređaja SHIELD</string>
+    <string name="permlab_wakeLock" product="shield">sprečavanje mirovanja uređaja SHIELD</string>
+    <string name="permdesc_wakeLock" product="shield">Aplikaciji omogućuje da spriječi prelazak uređaja SHIELD u mirovanje.</string>
+    <string name="permlab_devicePower" product="shield">uključivanje ili isključivanje uređaja SHIELD</string>
+    <string name="permdesc_devicePower" product="shield">Aplikaciji omogućuje uključivanje i isključivanje uređaja SHIELD.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">podešavanje procesora NVIDIA Tegra</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Aplikaciji omogućuje podešavanje parametara procesora NVIDIA Tegra.  Potrošnja struje time se može povećati.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Pokrenite kao niskorazinski proizvođački test, uz omogućavanje potpunog pristupa hardveru uređaja SHIELD.  Dostupno je samo ako uređaj SHIELD radi u proizvođačkom testnom načinu rada.</string>
+    <string name="permdesc_setTime" product="shield">Aplikaciji omogućuje promjenu vremena na satu uređaja SHIELD.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Aplikaciji omogućuje promjenu vremenske zone na uređaju SHIELD.</string>
+    <string name="permdesc_getAccounts" product="shield">Aplikaciji omogućuje dobivanje popisa računa koje poznaje uređaj SHIELD.   Uključeni mogu biti svi računi koje izrade aplikacije koje ste instalirali.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Aplikaciji omogućuje primanje paketa poslanih na sve uređaje na Wi-Fi mreži putem adresa za višesmjerno slanje, ne samo na vaš uređaj SHIELD.  Potrošnja struje veća je nego u načinu bez višesmjernog slanja.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Aplikaciji omogućuje konfiguraciju lokalnog Bluetootha na uređaju SHIELD i otkrivanje i uparivanje s udaljenim uređajima.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Aplikaciji omogućuje povezivanje uređaja SHIELD s WiMAX mrežama i prekidanje veze uređaja SHIELD s njima.</string>
+    <string name="permdesc_bluetooth" product="shield">Aplikaciji omogućuje pregled konfiguracije Bluetootha na uređaju SHIELD te uspostavljanje i prihvaćanje veza s uparenim uređajima.</string>
+    <string name="policydesc_watchLogin" product="shield">Nadzire broj netočnih zaporki unesenih pri otključavanju zaslona i zaključava uređaj SHIELD ili briše sve podatke na njemu ako je uneseno previše netočnih zaporki.</string>
+    <string name="policydesc_wipeData" product="shield">Vraćanjem tvorničkih postavki briše podatke uređaja SHIELD bez upozorenja.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">U uređaju SHIELD nema SIM kartice.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Netočno ste iscrtali uzorak za otključavanje <xliff:g id="number">%d</xliff:g> puta.  Nakon još <xliff:g id="number">%d</xliff:g> neuspješnih pokušaja zatražit će se otključavanje uređaja SHIELD prijavom na Google.\n\nPokušajte ponovno za <xliff:g id="number">%d</xliff:g> s.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Neispravno ste pokušali otključati uređaj SHIELD <xliff:g id="number">%d</xliff:g> puta.  Nakon još <xliff:g id="number">%d</xliff:g> neuspješnih pokušaja uređaj SHIELD bit će vraćen na tvornički zadano stanje i svi će korisnički podaci biti izgubljeni.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Neispravno ste pokušali otključati uređaj SHIELD <xliff:g id="number">%d</xliff:g> puta.  Uređaj SHIELD sada će biti vraćen na tvornički zadano stanje.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Aplikaciji omogućuje izmjenu povijesti i oznaka preglednika pohranjenih na uređaju SHIELD.  To aplikaciji može omogućiti brisanje ili izmjenu podataka preglednika.   Napomena:  tu dozvolu ne mogu primijeniti preglednici treće strane ili druge aplikacije s mogućnostima pregledavanja weba.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            Usluga <xliff:g id="accessibility_service_name">%1$s</xliff:g> želi omogućiti značajku Istraživanje dodirom.  Kad je značajka Istraživanje dodirom uključena, možete čuti ili vidjeti opise onoga što je pod vašim prstom ili izvršiti pokrete za interakciju s uređajem SHIELD.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Neispravno ste pokušali otključati uređaj SHIELD <xliff:g id="number">%d</xliff:g> puta.  Nakon još <xliff:g id="number">%d</xliff:g> neuspješnih pokušaja uređaj SHIELD bit će vraćen na tvornički zadano stanje i svi će korisnički podaci biti izgubljeni.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">Neispravno ste pokušali otključati uređaj SHIELD <xliff:g id="number">%d</xliff:g> puta.  Uređaj SHIELD sada će biti vraćen na tvornički zadano stanje.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Netočno ste iscrtali uzorak za otključavanje <xliff:g id="number">%d</xliff:g> puta.  Nakon još <xliff:g id="number">%d</xliff:g> neuspješnih pokušaja zatražit će se otključavanje uređaja SHIELD putem računa e-pošte.\n\n Pokušajte ponovno za <xliff:g id="number">%d</xliff:g> s.</string>
+    <string name="permdesc_transmitIr" product="shield">Aplikaciji omogućuje uporabu infracrvenog predajnika na uređaju SHIELD.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Aplikaciji omogućuje uparivanje s daljinskim uređajima bez interakcije korisnika.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      SHIELD će privremeno prekinuti Wi-Fi vezu dok je povezan s uređajem %1$s
+    </string>
+</resources>

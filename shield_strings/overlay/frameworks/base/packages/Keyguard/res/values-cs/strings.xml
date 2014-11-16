@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">V konzoli SHIELD není žádná SIM karta.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Neúspěšně jste pokusili odemknout konzoli SHIELD po <xliff:g id="number">%d</xliff:g> . v řadě. Po <xliff:g id="number">%d</xliff:g> dalších neúspěšných pokusech se v konzoli SHIELD obnoví tovární nastavení a veškerá uživatelská data budou ztracena.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Neúspěšně jste pokusili odemknout konzoli SHIELD po <xliff:g id="number">%d</xliff:g> . v řadě. Konzole SHIELD bude nyní resetována do výchozího továrního nastavení.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Použili jste nesprávné bezpečnostní gesto po <xliff:g id="number">%d</xliff:g> . v řadě. Po <xliff:g id="number">%d</xliff:g> dalších neúspěšných pokusech budete požádáni o odemčení konzole SHIELD pomocí e-mailového účtu.\n\n Zkuste to znovu za <xliff:g id="number">%d</xliff:g> sekund.
+    </string>
+</resources>

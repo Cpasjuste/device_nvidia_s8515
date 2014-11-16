@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">La mémoire du SHIELD est pleine.  Supprimez des fichiers pour libérer de l\'espace.</string>
+    <string name="power_dialog" product="shield">Options du SHIELD</string>
+    <string name="shutdown_confirm" product="shield">Le SHIELD va s\'éteindre.</string>
+    <string name="global_actions" product="shield">Options du SHIELD</string>
+    <string name="permdesc_readSms" product="shield">Permet à l\'application de lire les SMS stockés sur votre SHIELD ou sur la carte SIM.  Cette autorisation lui permet de lire tous les SMS, indépendamment de leur contenu ou de leur caractère confidentiel.</string>
+    <string name="permdesc_writeSms" product="shield">Permet à l\'application d\'enregistrer les SMS stockés sur votre SHIELD ou sur la carte SIM.  Des applications malveillantes peuvent exploiter cette fonctionnalité pour supprimer vos messages.</string>
+    <string name="permdesc_injectEvents" product="shield">Permet à l\'application de fournir ses propres événements d\'entrée (pression de touche, etc.) à d\'autres applications. Des applications malveillantes peuvent exploiter cette fonctionnalité pour prendre le contrôle du SHIELD.</string>
+    <string name="permdesc_persistentActivity" product="shield">Permet à l\'application de rendre certains de ces composants persistants dans la mémoire.   Cette autorisation peut limiter la mémoire disponible pour d\'autres applications et ralentir le SHIELD.</string>
+    <string name="permdesc_clearAppCache" product="shield">Permet à l\'application de libérer de la mémoire de stockage sur le SHIELD en supprimant des fichiers dans les répertoires en cache d\'autres applications.   Cette autorisation peut occasionner un démarrage plus lent de ces applications, dans la mesure où une nouvelle récupération de leurs données est requise.</string>
+    <string name="permdesc_readLogs" product="shield">Permet à l\'application de lire les différents fichiers journaux du système afin   d\'obtenir des informations générales sur la façon dont vous utilisez votre SHIELD. Celles-ci peuvent éventuellement inclure des informations d\'ordre personnel ou privé.</string>
+    <string name="permdesc_changeComponentState" product="shield">Permet à l\'application d\'activer ou de désactiver un composant d\'une autre application.  Des applications malveillantes peuvent exploiter cette fonctionnalité pour désactiver les fonctionnalités principales de votre SHIELD.  Cette autorisation doit être utilisée avec prudence, car elle peut rendre les composants d\'une application instables, voire inutilisables.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Permet à l\'application de se lancer une fois le démarrage du système terminé.  Elle peut rallonger le temps de démarrage du SHIELD et ralentir son fonctionnement global en raison de son exécution continue.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Permet à l\'application d\'envoyer des intentions de diffusion « persistantes », qui perdurent une fois la diffusion terminée.  Une utilisation excessive peut ralentir le SHIELD ou le rendre instable en l\'obligeant à utiliser trop de mémoire.</string>
+
+    <string name="permdesc_readContacts" product="shield">Permet à l\'application de lire les données relatives aux contacts stockés sur votre SHIELD, y compris la fréquence à laquelle vous avez appelé des personnes spécifiques, leur avez envoyé des e-mails ou avez communiqué avec elles par d\'autres moyens.  Cette autorisation permet aux applications d\'enregistrer ces données et des applications malveillantes peuvent les partager à votre insu. </string>
+    <string name="permdesc_writeContacts" product="shield">Permet à l\'application de modifier les données relatives aux contacts stockés sur votre SHIELD, y compris la fréquence à laquelle vous avez appelé des personnes spécifiques, leur avez envoyé des e-mails ou avez communiqué avec elles par d\'autres moyens.  Cette autorisation permet aux applications de supprimer ces données.</string>
+    <string name="permdesc_readCallLog" product="shield">Permet à l\'application de lire le journal d\'appels de votre SHIELD, y compris les données relatives aux appels entrants et sortants.  Cette autorisation permet aux applications d\'enregistrer les données du journal d\'appels et des applications malveillantes peuvent les partager à votre insu. </string>
+    <string name="permdesc_writeCallLog" product="shield">Permet à l\'application de modifier le journal d\'appels de votre SHIELD, y compris les données relatives aux appels entrants et sortants. 
+        Des applications malveillantes peuvent utiliser cette fonctionnalité pour effacer ou modifier votre journal d\'appels.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Permet à l\'application de lire tous les événements d\'agenda stockés sur votre SHIELD, y compris ceux de vos amis ou de vos collègues.  Cette autorisation peut lui permettre de partager ou d\'enregistrer vos données d\'agenda, indépendamment de leur caractère confidentiel ou sensible.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Permet à l\'application d\'ajouter, de supprimer et d\'apporter des modifications aux événements modifiables sur votre SHIELD, y compris ceux de vos amis ou de vos collègues.  Cette autorisation peut lui permettre d\'envoyer des messages qui semblent provenir de propriétaires de l\'agenda ou de modifier les événements à l\'insu des propriétaires.</string>
+
+
+
+    <string name="permlab_brick" product="shield">désactiver le SHIELD de façon permanente</string>
+    <string name="permdesc_brick" product="shield">Permet à l\'application de désactiver le SHIELD de façon permanente. Cette fonctionnalité peut avoir des répercussions très sérieuses.</string>
+    <string name="permlab_reboot" product="shield">forcer le redémarrage du SHIELD</string>
+    <string name="permdesc_reboot" product="shield">Permet à l\'application de forcer le redémarrage du SHIELD.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">démarrer directement la configuration du SHIELD CDMA</string>
+    <string name="permlab_wakeLock" product="shield">empêcher le SHIELD de passer en mode veille</string>
+    <string name="permdesc_wakeLock" product="shield">Permet à l\'application d\'empêcher le SHIELD de passer en mode veille.</string>
+    <string name="permlab_devicePower" product="shield">éteindre ou allumer le SHIELD</string>
+    <string name="permdesc_devicePower" product="shield">Permet à l\'application d\'éteindre et d\'allumer le SHIELD.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">régler l\'unité centrale NVIDIA Tegra</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Permet à l\'application de régler les paramètres de l\'unité centrale NVIDA Tegra.  Cette fonctionnalité peut augmenter la consommation d\'énergie.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Permet d\'exécuter une application en mode test fabricant de faible niveau, autorisant ainsi l\'accès complet au SHIELD.  Cette fonctionnalité est uniquement disponible lorsque le SHIELD est en mode test fabricant.</string>
+    <string name="permdesc_setTime" product="shield">Permet à l\'application de modifier l\'heure du SHIELD.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Permet à l\'application de modifier le fuseau horaire du SHIELD.</string>
+    <string name="permdesc_getAccounts" product="shield">Permet à l\'application d\'obtenir la liste des comptes connus par le SHIELD.   Il peut s\'agir de n\'importe quel compte créé par les applications que vous avez installées.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Permet à l\'application de recevoir des paquets envoyés à tous les appareils (et pas seulement à votre SHIELD) d\'un réseau Wi-Fi qui utilise des adresses de multidiffusion.   Cette autorisation entraîne une consommation d\'énergie supérieure au mode de diffusion simple.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Permet à l\'application de configurer le SHIELD Bluetooth local, d\'identifier des appareils distants et de les associer au SHIELD.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Permet à l\'application de connecter le SHIELD aux réseaux WiMAX et de les en déconnecter.</string>
+    <string name="permdesc_bluetooth" product="shield">Permet à l\'application d\'accéder à la configuration du Bluetooth sur le SHIELD, et d\'établir et accepter des connexions avec les appareils associés.</string>
+    <string name="policydesc_watchLogin" product="shield">Contrôler le nombre de mots de passe incorrects saisis pour le déverrouillage de l\'écran, puis verrouiller le SHIELD ou effacer toutes ses données si le nombre maximal de tentatives de saisie du mot de passe est atteint</string>
+    <string name="policydesc_wipeData" product="shield">Effacer les données du SHIELD sans avertissement, en rétablissant la configuration d\'usine</string>
+    <string name="lockscreen_missing_sim_message" product="shield">Aucune carte SIM n\'est insérée dans le SHIELD.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Vous avez dessiné un schéma de déverrouillage incorrect à <xliff:g id="number">%d</xliff:g> reprises. Après <xliff:g id="number">%d</xliff:g> nouvelles tentatives infructueuses, vous serez invité(e) à déverrouiller votre SHIELD en utilisant votre connexion Google.\n\nVeuillez réessayer dans <xliff:g id="number">%d</xliff:g> secondes.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Vous avez tenté de déverrouiller votre SHIELD à <xliff:g id="number">%d</xliff:g> reprises, sans y parvenir. Après <xliff:g id="number">%d</xliff:g> nouvelles tentatives infructueuses, les paramètres par défaut établis en usine de votre SHIELD seront restaurés et toutes les données utilisateur seront perdues.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Vous avez tenté de déverrouiller votre SHIELD à <xliff:g id="number">%d</xliff:g> reprises, sans y parvenir. Les paramètres par défaut établis en usine de votre SHIELD vont à présent être restaurés.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Permet à l\'application de modifier l\'historique du navigateur ou les favoris enregistrés sur votre SHIELD.  Cette autorisation peut lui permettre d\'effacer ou de modifier les données du navigateur.   Remarque :  cette autorisation peut ne pas être appliquée par les navigateurs d\'éditeurs tiers ou d\'autres applications dotées de fonctions de navigation Web.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> souhaite activer la fonctionnalité Explorer au toucher. Lorsque celle-ci est activée, vous pouvez entendre ou voir les descriptions des éléments que vous sélectionnez, ou bien interagir avec le SHIELD en effectuant certains gestes.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Vous avez tenté de déverrouiller votre SHIELD à <xliff:g id="number">%d</xliff:g> reprises, sans y parvenir. Après <xliff:g id="number">%d</xliff:g> nouvelles tentatives infructueuses, les paramètres par défaut établis en usine de votre SHIELD seront restaurés et toutes les données utilisateur seront perdues.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">Vous avez tenté de déverrouiller votre SHIELD à <xliff:g id="number">%d</xliff:g> reprises, sans y parvenir. Les paramètres par défaut établis en usine de votre SHIELD vont à présent être restaurés.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Vous avez dessiné un schéma de déverrouillage incorrect à <xliff:g id="number">%d</xliff:g> reprises. Après <xliff:g id="number">%d</xliff:g> nouvelles tentatives infructueuses, vous serez invité(e) à déverrouiller votre SHIELD en utilisant un compte de messagerie.\n\n Réessayez dans <xliff:g id="number">%d</xliff:g> secondes.</string>
+    <string name="permdesc_transmitIr" product="shield">Permet à l\'application d\'utiliser l\'émetteur infrarouge de la console SHIELD.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Permet à l\'application de s\'associer aux périphériques distants sans nécessiter l\'intervention de l\'utilisateur.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      La console SHIELD va temporairement se déconnecter du réseau Wi-Fi tant qu\'elle sera connectée à %1$s.
+    </string>
+</resources>

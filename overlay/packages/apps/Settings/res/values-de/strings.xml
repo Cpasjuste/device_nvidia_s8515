@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="nv_led_brightness">LED-Helligkeit</string>
+  <string name="nv_nvidia_button">NVIDIA-Taste</string>
+  <string name="nv_category_controller_volume">Lautstärkeregelung</string>
+  <string name="controller_volume_text">Verwenden Sie die Bumper zum Einstellen der Lautstärke</string>
+  <string name="controller_volume_summary">LB und RB regeln die Lautstärke, wenn zuvor die Lautstärke-Taste gedrückt wurde</string>
+  <string name="controller_pulse_led">Puls-LED bei Gerät im Ruhezustand</string>
+  <string name="lockpattern_settings_enable_power_button_instantly_locks">Zuklappen sperrt Gerät</string>
+  <string name="user_add_user_message_long">Sie können dieses Gerät mit anderen Personen teilen und dazu zusätzliche Nutzer erstellen. Jeder Nutzer hat seinen eigenen Bereich, in dem er unter anderem eigene Apps, Hintergründe usw. installieren kann. Die Nutzer können auch für alle relevante Tablet-Einstellungen (z.B. Wi-Fi-Einstellungen) anpassen.\n\nJeder Nutzer kann für alle anderen Nutzer aktualisierte App-Berechtigungen akzeptieren.</string>
+  <string name="user_add_user_message_short">Jeder Nutzer kann für alle anderen Nutzer aktualisierte App-Berechtigungen akzeptieren.</string>
+  <string name="controller_mapper_enable">Gamepad-Belegungseditor aktivieren</string>
+  <string name="controller_mapper_enable_summary">START-Taste gedrückt halten, um Belegungseditor einzublenden</string>
+  <string name="controller_mapper_enable_auto_download">Automatischen Download aktivieren</string>
+  <string name="controller_mapper_enable_auto_download_summary">Zuordnung bei Verfügbarkeit automatisch aus Cloud herunterladen</string>
+  <string name="nv_license_title">Rechtliche Hinweise von NVIDIA</string>
+  <string name="nv_swla">Softwarelizenzvertrag</string>
+  <string name="nv_privacy">Datenschutzrichtlinie</string>
+  <string name="nv_tegra_exp_tos">Tegra Experience Servicebedingungen</string>
+  <string name="nv_warranty">Garantieinformationen</string>
+  <string name="nv_settings_license_activity_title">NVIDIA Lizenzen</string>
+  <string name="fullscreen_mode_title">Vollbildmodus</string>
+  <string name="fullscreen_mode_text">Statusleiste ausblenden</string>
+  <string name="nv_controller_mapper">Gamepad-Belegungseditor</string>
+  <string name="nv_feedback">Feedback an NVIDIA senden</string>
+  <string name="diag_enable">Helfen Sie NVIDIA, das SHIELD-Erlebnis zu verbessern</string>
+  <string name="move_app_app_label">Anwendung</string>
+  <string name="move_app_data_label">Daten</string>
+  <string name="move_app_to_device_dlg_title">Anwendung auf SHIELD verschieben?</string>
+  <string name="move_app_to_sdcard_dlg_title">Anwendung auf SD-Karte verschieben?</string>
+  <string name="move_app_dlg_text">Dieser Vorgang kann einige Minuten in Anspruch nehmen. Entfernen Sie während dieses Vorgangs nicht die SD-Karte.</string>
+  <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> frei auf SHIELD</string>
+  <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> frei auf SD-Karte</string>
+  <string name="move_app_progress_to_device">Verschieben von <xliff:g id="pkg_label">%1$s</xliff:g> auf SHIELD ...</string>
+  <string name="move_app_progress_to_sdcard">Verschieben von <xliff:g id="pkg_label">%1$s</xliff:g> auf SD-Karte ...</string>
+  <string name="fullscreen_mode_title">Vollbildmodus</string>
+  <string name="fullscreen_mode_text">Statusleiste ausblenden</string>
+  <string name="flscrmode_str_cling_msg_restore_normal">Wischen Sie von oben, um die Statusleiste wiederherzustellen.</string>
+  <string name="flscrmode_str_cling_btn_label_ok">OK</string>
+</resources>

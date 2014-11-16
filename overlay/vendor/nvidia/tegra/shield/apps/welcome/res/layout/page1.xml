@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guide1"
+    style="@style/PageLayout">
+
+    <!-- Vertical line beside text -->
+
+    <View
+        android:id="@+id/p1verLine"
+        android:layout_width="@dimen/linewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pg1bktxt"
+        android:layout_alignTop="@+id/pg1bktle"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/pg1bktle"
+        android:background="#717171" />
+
+
+    <TextView
+        android:id="@+id/pg1bktle"
+        android:layout_width="@dimen/pg1_textWidth"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/pg1_textY"
+        android:text="@string/pg1_blktle"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/mediumtxt" />
+
+    <TextView
+        android:id="@+id/pg1bktxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/pg1bktle"
+        android:layout_below="@id/pg1bktle"
+        android:text="@string/pg1_blktxt"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/smalltxt" />
+
+</RelativeLayout>

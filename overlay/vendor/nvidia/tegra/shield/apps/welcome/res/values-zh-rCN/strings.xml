@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="app_name">"SHIELD 帮助"</string>
+  <string name="pagetitle">"了解您的 SHIELD"</string>
+  <string name="pg1_tle">"了解您的 SHIELD"</string>
+  <string name="pg2_tle">"使用功能按钮"</string>
+  <string name="pg3_tle">"使用选择按钮"</string>
+  <string name="pg4_tle">"与 SHIELD 互动的更多方式 "</string>
+  <string name="pg0_title">"SHIELD 欢迎您"</string>
+  <string name="pg0_text">"选择下面的用户指南链接，了解 SHIELD 的所有功能，或继续并查看基本功能和特色。"</string>
+  <string name="pg1_blktle">"NVIDIA 按钮"</string>
+  <string name="pg1_blktxt">"<b>按一次</b>以启动 SHIELD 游戏、搜索新游戏，并从您的 GeForce GTX PC 上导入游戏。\n\n<b>按住</b>以打开电源键菜单。"</string>
+  <string name="pg2_voltle">"音量"</string>
+  <string name="pg2_voltxt">"<b>按</b>此按钮以控制音量\n\n<b>按住</b>以调成静音"</string>
+  <string name="pg2_backtle">"上一步"</string>
+  <string name="pg2_backtxt">"跳回至上一个屏幕"</string>
+  <string name="pg2_starttle">"开始"</string>
+  <string name="pg2_hometle">"主页"</string>
+  <string name="pg2_hometxt">"打开安卓主界面\n\n<b>双击</b>查看最新应用程序"</string>
+  <string name="pg3_ytle">"Y 按钮"</string>
+  <string name="pg3_ytxt">"大部分应用程序中的‘菜单’"</string>
+  <string name="pg3_xtle">"X 按钮"</string>
+  <string name="pg3_btle">"B 按钮"</string>
+  <string name="pg3_btxt">"大部分应用程序中的‘后退’或‘取消’"</string>
+  <string name="pg3_atle">"A 按钮"</string>
+  <string name="pg3_atxt">"激活大部分应用程序中的选中项"</string>
+  <string name="pg4_mtdtle">"多触点显示器"</string>
+  <string name="pg4_virtle">"虚拟鼠标"</string>
+  <string name="pg4_rstxt">"<b>右摇杆</b>\n用于移动鼠标指针"</string>
+  <string name="pg4_btntxt">"<b>按 </b>{R.drawable.stickTrigger}<b> 或 </b>{R.drawable.aButton}点击"</string>
+  <string name="blake_pg1_back_title">上一步</string>
+  <string name="blake_pg1_back_txt"><b>点击</b>，跳回至上一个屏幕</string>
+  <string name="blake_pg1_home_title">主页</string>
+  <string name="blake_pg1_home_txt">"<b>点击</b> 打开安卓主页\n\n<b>双击</b> 查看最新应用程序\n\n<b>按住，</b> 使用语言搜索马上启动 Google</string>
+  <string name="blake_pg2_title">NVIDIA 按钮</string>
+  <string name="blake_pg2_txt"><b>点击</b>，启动 SHIELD Hub。搜索新游戏、启动 SHIELD 游戏，并从您的 GeForce GTX PC 上导入游戏。</string>
+  <string name="blake_pg3_title">开始</string>
+  <string name="blake_pg3_txt"><b>按住</b>，访问 GameStream 和游戏板映射器的其他控件</string>
+  <string name="twitch"><b>Twitch</b></string>
+  <string name="record_and_share"><b>录制和共享</b></string>
+  <string name="virtual_controls"><b>虚拟控制</b></string>
+</resources>

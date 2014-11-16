@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">Преименовање SHIELD-а</string>
+    <string name="bluetooth_ask_discovery" product="shield">"Апликација на SHIELD-у жели да омогући да SHIELD могу да пронађу други Bluetooth уређаји за <xliff:g id="timeout">%1$d</xliff:g> секунди. Дозволи?"</string>
+    <string name="phone_info_label" product="shield">Информације о SHIELD-у</string>
+    <string name="roaming_warning_multiuser" product="shield">Када омогућите пренос података у ромингу, можете да направите велике трошкове у ромингу!\n\nОво подешавање утиче на све кориснике овог SHIELD-а.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">Шифруј SHIELD</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">Захтева нумерички PIN или лозинку за дешифровање SHIELD-а сваки пут када га укључите</string>
+    <string name="crypt_keeper_desc" product="shield">
+    Можете да шифрујете налоге, подешавања, преузете апликације и њихове податке, медије и друге датотеке. Када будете шифровали SHIELD, потребно је да унесете нумерички PIN или лозинку да бисте га дешифровали сваки пут када га укључите. Не можете да дешифрујете SHIELD осим ако га не вратите на фабричке податке, чиме ћете избрисати све податке.\n\nШифровање траје сат времена или дуже. Потребно је да почнете са напуњеном батеријом и да не искључујете SHIELD док се шифровање не доврши. Ако прекинете процес шифровања, изгубићете све податке или део њих.</string>
+    <string name="crypt_keeper_button_text" product="shield">Шифруј SHIELD</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    Операција шифровања је неопозива и уколико је прекинете, изгубићете податке.
+    Шифровање траје један сат или дуже и у том периоду SHIELD ће се поново покренути неколико пута.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">Сачекајте док се операција шифровања SHIELD-а не заврши. <xliff:g id="percent" example="50">^1</xliff:g>% завршено.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> Шифровање је прекинуто и не може се завршити. Као последица тога, подаци на SHIELD-у више нису доступни.\n\n
+      Да бисте наставили да користите SHIELD, потребно је да га вратите на фабричка подешавања.
+      Када подесите SHIELD након враћања на фабричка подешавања, имаћете прилику да вратите све податке за које сте направили резервне копије на Google налогу.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g>биће искључен из дељења конекције за интернет SHIELD-а</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">Омогућавање размене података када SHIELD додирне други уређај</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">УПОЗОРЕЊЕ: Можете да створите додатне трошкове оператера за пренос података.\n\nПодешавање SHIELD-а може да захтева значајну мрежну активност.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">УПОЗОРЕЊЕ: SHIELD неће моћи да верификује да је софтвер ажуриран.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD није могао да се повеже са овом Wi-Fi мрежом.</string>
+    <string name="dock_audio_summary_none" product="shield">SHIELD није на базној станици</string>
+    <string name="dock_not_found_text" product="shield">Требате да поставите SHIELD на базну станицу пре него што подесите звук базне станице.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">Репродукуј звук приликом постављања SHIELD-а на базну станицу или уклањања са ње</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">Не репродукуј звук приликом постављања SHIELD-а на базну станицу или уклањања са ње</string>
+
+    <string name="accelerometer_summary_on" product="shield">Промени положај аутоматски приликом ротирања SHIELD-а</string>
+    <string name="accelerometer_summary_off" product="shield">Промени положај аутоматски приликом ротирања SHIELD-а</string>
+    <string name="sim_lock_on" product="shield">Захтевај PIN ради употребе SHIELD-а</string>
+    <string name="sim_lock_off" product="shield">Захтевај PIN ради употребе SHIELD-а</string>
+    <string name="device_info_settings" product="shield">Статус SHIELD-а</string>
+
+    <string name="device_status_summary" product="shield">Статус батерије, мреже и остале информације</string>
+    <string name="status_number" product="shield">Број мобилног директоријума</string>
+    <string name="master_clear_summary" product="shield">Брише све податке са SHIELD-а</string>
+    <string name="master_clear_desc" product="shield">"Ово ће обрисати све податке са  <b>унутрашње меморије SHIELD-а</b>, укључујући:\n\n<li>Ваш Google налог</li>\n<li>Податке и подешавања система и апликација</li>\n<li>Преузете апликације</li>"</string>
+    <string name="master_clear_button_text" product="shield">Врати SHIELD на фабричка подешавања</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">Дели интернет везу SHIELD-а</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Интернет веза SHIELD-а се дели са 1 уређајем</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Интернет веза SHIELD-а се дели са <xliff:g id="connectedDeviceCount">%1$d</xliff:g> уређаја</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">Не дели интернет везу SHIELD-а</string>
+    <string name="location_street_level" product="shield">Нека апликације користе GPS на SHIELD-у како би тачно одредиле вашу локацију</string>
+    <string name="about_settings" product="shield">О SHIELD-у</string>
+    <string name="install_all_warning" product="shield">SHIELD и лични подаци су подложнији нападу апликација из непознатих извора. Сагласни сте да сте само ви одговорни за сву штету на SHIELD-у или губитак података до којих може да дође услед коришћења ових апликација.</string>
+    <string name="security_settings_desc" product="shield">Ова апликација може да приступа следећим ставкама на SHIELD-у:</string>
+    <string name="security_settings_desc_multi" product="shield">Ова апликација може да приступа следећим ставкама на SHIELD-у. Како бисте побољшали учинак и смањили употребу меморије, неке од ових дозвола су доступне <xliff:g id="base_app_name">%1$s</xliff:g> зато што их покреће исти процес као <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">Премести на SHIELD</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Ако зауставите овај сервис, неке функције SHIELD-а ће можда престати исправно да функционишу док не искључите и поново укључите SHIELD.</string>
+    <string name="testing_phone_info" product="shield">Информације о SHIELD-у</string>
+    <string name="power_idle" product="shield">SHIELD у стању мировања</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">Потрошња батерије када је SHIELD неактиван</string>
+    <string name="really_remove_account_message" product="shield">Уклањањем овог налога избрисаћете све поруке, контакте и друге податке са SHIELD-а!</string>
+    <string name="remove_account_failed" product="shield">Неке апликације захтевају овај налог. Можете да га уклоните једино ако вратите SHIELD на подразумеване фабричке вредности (чиме бришете све личне податке) у менију Подешавања &gt; Резервна копија и враћање на почетне вредности.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Све промене које обавите на налозима на интернету биће аутоматски копиране на SHIELD.\n\nНеки налози могу и да аутоматски копирају на интернет све промене које обавите на SHIELD-у. Google налог функционише на овај начин.\n\nДа бисте изабрали које ће се врсте информација синхронизовати између сваког налога, идите на Подешавања &gt; Налози.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">Мобилна веза за пренос података биће онемогућена када се достигне назначено ограничење.\n\nПошто SHIELD мери потрошњу података, а оператер може да обрачунава потрошњу на други начин, размотрите коришћење нижег ограничења.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">Ако ограничите позадинске податке за мобилне уређаје, неке апликације и услуге неће функционисати осим ако нисте повезани са Wi-Fi мрежом.\n\nОво подешавање утиче на све кориснике овог SHIELD-а.</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: око <xliff:g id="total" example="128KB">%1$s</xliff:g> искоришћено, као што је SHIELD измерио. Мерење код оператер се може разликовати.</string>
+    <string name="user_cannot_manage_message" product="shield">Само власник SHIELD-а може да управља корисницима.</string>
+    <string name="user_confirm_remove_self_message" product="shield">Изгубићете простор и податке на овом SHIELD-у. Не можете да опозовете ову радњу.</string>
+    <string name="user_confirm_remove_message" product="shield">Простор и подаци овог корисника ће нестати са овог SHIELD-а. Не можете да опозовете ову радњу.</string>
+    <string name="global_change_warning" product="shield">Ово подешавање утиче на све кориснике овог SHIELD-а.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      Простор и подаци овог профила ће нестати са SHIELD-а. Не можете да опозовете ову радњу.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      Омогућавање размене података када SHIELD додирне други уређај
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      Апликација жели да SHIELD учини видљивим на другим Bluetooth уређајима. Ово можете да промените касније у подешавањима опције Bluetooth.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      Апликација жели да укључи Bluetooth и да SHIELD учини видљивим на другим уређајима током %1$d секунди.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      Апликација жели да укључи Bluetooth и да SHIELD учини видљивим на другим уређајима. Ово можете да промените касније у подешавањима опције Bluetooth.
+    </string>
+</resources>

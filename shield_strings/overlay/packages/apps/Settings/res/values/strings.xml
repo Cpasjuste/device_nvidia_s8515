@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">Rename SHIELD</string>
+    <string name="bluetooth_ask_discovery" product="shield">"An app on SHIELD wants to make SHIELD discoverable by other Bluetooth devices for <xliff:g id="timeout">%1$d</xliff:g> seconds. Allow?"</string>
+    <string name="phone_info_label" product="shield">SHIELD info</string>
+    <string name="roaming_warning_multiuser" product="shield">When you allow data roaming, you may incur significant roaming charges!\n\nThis setting affects all users on this SHIELD.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">Encrypt SHIELD</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">
+    Require a numeric PIN or password to decrypt SHIELD each time you
+    power it on</string>
+    <string name="crypt_keeper_desc" product="shield">
+    You can encrypt your accounts, settings, downloaded apps and their data,
+    media, and other files. Once you encrypt SHIELD, you need to type a numeric PIN
+    or password to decrypt it each time you power it on. You can\'t decrypt SHIELD
+    except by performing a factory data reset, erasing all your data.\n\nEncryption takes
+    an hour or more. You must start with a charged battery and keep SHIELD plugged in
+    until encryption is complete. If you interrupt the encryption process, you will lose
+    some or all of your data.</string>
+    <string name="crypt_keeper_button_text" product="shield">Encrypt SHIELD</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    The encryption operation is irreversible and if you interrupt it, you\'ll lose data.
+    Encryption takes an hour or more, during which SHIELD will restart several times.
+    </string>
+    <string name="crypt_keeper_setup_description" product="shield">Wait while SHIELD
+    is encrypted. <xliff:g id="percent" example="50">^1</xliff:g>% complete.</string>
+    <string name="crypt_keeper_failed_summary" product="shield">
+      Encryption was interrupted and can\'t complete. As a result, the data on
+      SHIELD is no longer accessible.
+      \n\n
+      To resume using SHIELD, you need to perform a factory reset.
+      When you set up SHIELD after the reset, you\'ll have an opportunity
+      to restore any data that was backed up to your Google Account.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from sharing SHIELD\'s Internet connection.</string>
+    <string name="nfc_quick_toggle_summary" product="shield">Allow data exchange when SHIELD touches another device</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">WARNING: You may incur extra carrier data charges.\n\nSHIELD setup can require significant network activity.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">WARNING: SHIELD won\'t be able to verify that your software is up to date.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD was unable to connect to this Wi-Fi network.</string>
+    <string name="dock_audio_summary_none" product="shield">SHIELD not docked</string>
+    <string name="dock_not_found_text" product="shield">You need to dock SHIELD before setting up dock audio.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">Play sound when inserting or removing SHIELD from dock</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">Don\'t play sound when inserting or removing SHIELD from dock</string>
+    <string name="accelerometer_summary_on" product="shield">Switch orientation automatically when rotating SHIELD</string>
+    <string name="accelerometer_summary_off" product="shield">Switch orientation automatically when rotating SHIELD</string>
+    <string name="sim_lock_on" product="shield">Require PIN to use SHIELD</string>
+    <string name="sim_lock_off" product="shield">Require PIN to use SHIELD</string>
+    <string name="device_info_settings" product="shield">SHIELD status</string>
+    <string name="device_status_summary" product="shield">Status of the battery, network, and other information</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">Erases all data on SHIELD</string>
+    <string name="master_clear_desc" product="shield">"This will erase all data from SHIELD\'s <b>internal storage</b>, including:\n\n<li>Your Google account</li>\n<li>System and app data and settings</li>\n<li>Downloaded apps</li>"</string>
+    <string name="master_clear_button_text" product="shield">Reset SHIELD</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">Sharing SHIELD\'s Internet connection</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Sharing SHIELD\'s Internet connection to 1 device</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Sharing SHIELD\'s Internet connection to <xliff:g id="connectedDeviceCount">%1$d</xliff:g> devices</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">Not sharing SHIELD\'s Internet connection</string>
+    <string name="location_street_level" product="shield">Let apps use GPS on SHIELD to pinpoint your location</string>
+    <string name="about_settings" product="shield">About SHIELD</string>
+    <string name="install_all_warning" product="shield">Your SHIELD and personal data are more vulnerable to attack by apps
+ from unknown sources. You agree that you are solely responsible for any
+ damage to SHIELD or loss of data that may result from using
+ these apps.</string>
+    <string name="security_settings_desc" product="shield">This app can access the following on SHIELD:</string>
+    <string name="security_settings_desc_multi" product="shield">This app can access the following on SHIELD.
+         In order to improve performance and reduce memory usage, some of these permissions
+         are available to <xliff:g id="base_app_name">%1$s</xliff:g>
+         because it runs in the same process as <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+    <string name="move_app_to_internal" product="shield">Move to SHIELD</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">If you stop this service, some
+        SHIELD features may stop working correctly until you power it off
+        and then on again.</string>
+    <string name="testing_phone_info" product="shield">SHIELD information</string>
+    <string name="power_idle" product="shield">SHIELD idle</string>
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">Battery used when SHIELD is idle</string>
+    <string name="really_remove_account_message" product="shield">Removing this account will delete all of its messages, contacts, and other data from SHIELD!</string>
+    <string name="remove_account_failed" product="shield">This account is required by some apps. You can only remove it by resetting SHIELD to the factory defaults (which deletes all your personal data) in Settings &gt; Backup &amp; reset.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Any changes you make to your accounts on the web will be automatically copied to your SHIELD.\n\nSome accounts may also automatically copy any changes you make on your SHIELD to the web. A Google Account works this way.\n\nTo choose which kinds of information to sync within each account, go to Settings &gt; Accounts.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">Your mobile data connection will be disabled when the specified limit is reached.\n\nBecause SHIELD measures data usage, and your carrier may account for usage differently, consider using a conservative limit.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">If you restrict background mobile data, some apps and services won\'t work unless you\'re connected to a Wi-Fi network.\n\nThis setting affects all users on this SHIELD.</string>
+    <string name="data_usage_total_during_range_mobile" product="shield"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used, as measured by SHIELD. Your carrier\'s data usage accounting may differ.</string>
+    <string name="user_cannot_manage_message" product="shield">Only SHIELD\'s owner can manage users.</string>
+    <string name="user_confirm_remove_self_message" product="shield">You will lose your space and data on this SHIELD. You can\'t undo this action.</string>
+    <string name="user_confirm_remove_message" product="shield">This user\'s space and data will disappear from this SHIELD. You can\'t undo this action.</string>
+    <string name="global_change_warning" product="shield">This setting affects all users on this SHIELD.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      This profile\'s space and data will disappear from SHIELD.
+      You can\'t undo this action.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      Allow data exchange when SHIELD touches another device
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      An app wants to make SHIELD visible to other Bluetooth devices.
+      You can change this later in Bluetooth settings.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      An app wants to turn on Bluetooth and make SHIELD visible
+      to other devices for %1$d seconds.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      An app wants to turn on Bluetooth and make SHIELD visible
+      to other devices. You can change this later in Bluetooth settings.
+    </string>
+</resources>

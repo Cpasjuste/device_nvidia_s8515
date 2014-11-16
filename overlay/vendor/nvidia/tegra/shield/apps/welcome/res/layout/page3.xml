@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guide3">
+
+    <TextView
+        android:id="@+id/pg3btle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/pg3_btextY"
+        android:minWidth="@dimen/pg3_btextX"
+        android:text="@string/pg3_btle"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/mediumtxt" />
+
+    <TextView
+        android:id="@+id/pg3btxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/pg3btle"
+        android:layout_below="@id/pg3btle"
+        android:text="@string/pg3_btxt"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/smalltxt" />
+
+    <View
+        android:layout_width="@dimen/linewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pg3btxt"
+        android:layout_alignTop="@id/pg3btle"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/pg3btle"
+        android:background="#717171" />
+
+    <TextView
+        android:id="@+id/pg3atle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/pg3_atextY"
+        android:minWidth="@dimen/pg3_atextX"
+        android:text="@string/pg3_atle"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/mediumtxt" />
+
+    <TextView
+        android:id="@+id/pg3atxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/pg3atle"
+        android:layout_below="@id/pg3atle"
+        android:text="@string/pg3_atxt"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/smalltxt" />
+
+    <View
+        android:layout_width="@dimen/linewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pg3atxt"
+        android:layout_alignTop="@id/pg3atle"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/pg3atle"
+        android:background="#717171" />
+
+    <TextView
+        android:id="@+id/pg3ytle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/pg3_ytextY"
+        android:gravity="right"
+        android:minWidth="@dimen/pg3_ytextX"
+        android:text="@string/pg3_ytle"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/mediumtxt" />
+
+    <TextView
+        android:id="@+id/pg3ytxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/pg3ytle"
+        android:layout_below="@id/pg3ytle"
+        android:gravity="right"
+        android:text="@string/pg3_ytxt"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/smalltxt" />
+
+    <View
+        android:layout_width="@dimen/linewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pg3ytxt"
+        android:layout_alignTop="@id/pg3ytle"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/pg3ytle"
+        android:background="#717171" />
+
+    <TextView
+        android:id="@+id/pg3xtle"
+        android:layout_width="@dimen/pg3_xtextX"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/pg3_xtextY"
+        android:gravity="right"
+        android:text="@string/pg3_xtle"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/mediumtxt" />
+
+    <View
+        android:layout_width="@dimen/linewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pg3xtle"
+        android:layout_alignTop="@id/pg3xtle"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/pg3xtle"
+        android:background="#717171" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guide0"
+    style="@style/PageLayout">
+
+    <com.nvidia.shield.welcome.layouts.GradientTextView
+        style="@style/MetallicText"
+        android:id="@+id/pg0tle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/pg0_title"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/largetxt" />
+
+    <TextView
+        android:layout_width="@dimen/pg0_tlewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/pg0tle"
+        android:layout_below="@id/pg0tle"
+        android:layout_marginTop="10dp"
+        android:text="@string/pg0_text"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/smalltxt" />
+
+</RelativeLayout>

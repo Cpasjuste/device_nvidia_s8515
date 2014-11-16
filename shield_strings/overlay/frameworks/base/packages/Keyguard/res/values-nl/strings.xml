@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">Geen SIM-kaart in SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       U heeft onjuist geprobeerd om SHIELD <xliff:g id="number">%d</xliff:g> keer te ontgrendelen. Na nog eens <xliff:g id="number">%d</xliff:g> mislukte pogingen worden de fabrieksinstellingen hersteld op SHIELD en gaan alle gebruikersgegevens verloren.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       U heeft onjuist geprobeerd om SHIELD <xliff:g id="number">%d</xliff:g> keer te ontgrendelen. De fabrieksinstellingen worden nu hersteld op SHIELD.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       U heeft uw ontgrendelingspatroon <xliff:g id="number">%d</xliff:g> keer onjuist getekend. Na nog eens <xliff:g id="number">%d</xliff:g> mislukte pogingen wordt u gevraagd SHIELD te ontgrendelen met uw e-mail account.\n\n Probeer het over <xliff:g id="number">%d</xliff:g> seconden opnieuw.
+    </string>
+</resources>

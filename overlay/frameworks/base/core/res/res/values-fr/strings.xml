@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="permlab_nvidiaCPUPower">régler l\'unité centrale NVIDIA Tegra</string>
+  <string name="permdesc_nvidiaCPUPower">Permet à l\'application de régler les paramètres de l\'unité centrale NVIDIA Tegra.  Cette fonctionnalité peut augmenter la consommation d\'énergie.</string>
+  <string name="global_action_sleep">Veille</string>
+  <string name="hdmiAudio">Audio HDMI</string>
+  <string name="miracastAudio">Audio Miracast</string>
+  <string name="global_action_restart_title">Redémarrer SHIELD</string>
+  <string name="global_action_restart_message">Redémarrer votre SHIELD vous permettra de supprimer les fichiers temporaires de la mémoire. Voulez-vous redémarrer maintenant ?</string>
+  <string name="global_action_restart_progress_message">Redémarrage de SHIELD…</string>
+</resources>

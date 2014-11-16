@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">Само в SHIELD, несинхронизиран</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      Няма контакти, позволяващи експортиране. Ако имате контакти в SHIELD, е възможно някои доставчици на данни да не позволяват експортирането им извън него.
+    </string>
+</resources>

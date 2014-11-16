@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">No se ha insertado ninguna tarjeta SIM en SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Has intentado desbloquear SHIELD sin éxito <xliff:g id="number">%d</xliff:g> veces. Después de <xliff:g id="number">%d</xliff:g> intentos fallidos más, SHIELD se reestablecerá a los valores predeterminados de fábrica y se perderán todos los datos de usuario.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Has intentado desbloquear SHIELD sin éxito <xliff:g id="number">%d</xliff:g> veces. SHIELD se restablecerá ahora a los valores predeterminados de fábrica.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Has introducido el patrón de desbloqueo incorrecto <xliff:g id="number">%d</xliff:g> veces. Después de <xliff:g id="number">%d</xliff:g> intentos fallidos más, se te solicitará que uses una cuenta de correo para desbloquear SHIELD.\n\n Inténtalo de nuevo en <xliff:g id="number">%d</xliff:g> segundos.
+    </string>
+</resources>

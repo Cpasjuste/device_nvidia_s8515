@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="permlab_nvidiaCPUPower">调节 NVIDIA Tegra CPU</string>
+  <string name="permdesc_nvidiaCPUPower">允许该应用调节 NVIDIA Tegra CPU 的参数。此操作可能会消耗额外的电力。</string>
+  <string name="global_action_sleep">休眠</string>
+  <string name="hdmiAudio">HDMI 音频</string>
+  <string name="miracastAudio">Miracast 音频</string>
+  <string name="global_action_restart_title">重启 SHIELD</string>
+  <string name="global_action_restart_message">重启您的 SHIELD 将清除内存中的临时文件。是否现在重启 SHIELD？</string>
+  <string name="global_action_restart_progress_message">正在重启 SHIELD...</string>
+</resources>

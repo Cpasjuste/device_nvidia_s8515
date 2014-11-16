@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">LED ryškumas</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">NVIDIA mygtukas</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Garso valdymas</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">Garsą sureguliuokite buferiais</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">LB ir RB sureguliuosite garsą nuspaudus garso mygtuką</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">Kai įrenginys miega, mirksi raudona LED lemputė</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Uždarius dangtelis iškart užsifiksuoja</string>
+    <!-- Message for add user confirmation dialog - long version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_long">Galite bendrinti šį įrenginį su kitais žmonėmis sukurdami papildomų naudotojų. Kiekvienam naudotojui suteikiama atskira vieta, kurią jie gali tinkinti savo programomis, ekrano fonu ir pan. Be to, naudotojai gali koreguoti planšetinio kompiuterio nustatymus, pvz., „Wi-Fi“, kurie turi įtakos visiems.\n\nBet kuris naudotojas gali priimti atnaujintų programų leidimus visų kitų naudotojų vardu.</string>
+    <!-- Message for add user confirmation dialog - short version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_short">Bet kuris naudotojas gali priimti atnaujintų programų leidimus visų kitų naudotojų vardu.</string>
+
+    <!-- Enable Controller Mapper-->
+     <add-resource type="string" name="controller_mapper_enable" />
+     <string name="controller_mapper_enable">Įjungti žaidimų pulto priskyriklį</string>
+     <add-resource type="string" name="controller_mapper_enable_summary" />
+     <string name="controller_mapper_enable_summary">Norėdami paleisti priskyriklio perdangą, paspauskite ir ilgai palaikykite mygtuką „PRADĖTI“ </string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download" />
+     <string name="controller_mapper_enable_auto_download">Įjunkite automatinį atsisiuntimą</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download_summary" />
+     <string name="controller_mapper_enable_auto_download_summary">Jei įmanoma, automatiškai atsisiųskite priskyriklį iš debesijos.</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">NVIDIA teisinė informacija</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Programinės įrangos licencijos sutartis</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Privatumo politika</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">„Tegra Experience“ paslaugos terminai</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Garantijos informacija</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">NVIDIA licencijos</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Viso ekrano būsena</string>
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Būsenos juostą rodyti tik pagrindiniuose ekranuose</string>
+
+    <!-- Category title for Controller Mapper -->
+    <add-resource type="string" name="nv_controller_mapper" />
+    <string name="nv_controller_mapper">Žaidimų pulto priskyriklis</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">Siųsti atsiliepimą į NVIDIA</string>
+
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">Programa</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">Duomenys</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">Perkelti programą į SHIELD?</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">Perkelti programą į SD kortelę?</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">Tai gali trukti keletą minučių. Vykstant šiai operacijai, neišimkite SD kortelės.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> laisvos vietos SHIELD</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> nemokamas SD kortelei</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device">Perkėlimas<xliff:g id="pkg_label">%1$s</xliff:g> į SHIELD...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard">Perkėlimas<xliff:g id="pkg_label">%1$s</xliff:g> į SD kortelę...</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Viso ekrano būsena</string>
+
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Slėpti būsenos juostą</string>
+
+    <add-resource type="string" name="flscrmode_str_cling_msg_restore_normal" />
+    <string name="flscrmode_str_cling_msg_restore_normal">Norėdami atkurti būsenos juostą, braukite nuo viršaus. </string>
+    <add-resource type="string" name="flscrmode_str_cling_btn_label_ok" />
+    <string name="flscrmode_str_cling_btn_label_ok">Gerai</string>
+</resources>
+

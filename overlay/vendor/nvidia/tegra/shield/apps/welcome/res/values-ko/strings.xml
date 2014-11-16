@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="app_name">"SHIELD 도움말"</string>
+  <string name="pagetitle">"SHIELD에 대해 알아보기"</string>
+  <string name="pg1_tle">"SHIELD에 대해 알아보기"</string>
+  <string name="pg2_tle">"기능 버튼 사용하기"</string>
+  <string name="pg3_tle">"선택 버튼 사용하기"</string>
+  <string name="pg4_tle">"SHIELD와 상호작용하는 여러 가지 방법"</string>
+  <string name="pg0_title">"SHIELD 시작하기"</string>
+  <string name="pg0_text">"아래 사용 설명서 링크를 선택하거나 계속 기본 기능과 특징을 확인하여 모든 SHIELD 기능에 대해 자세히 알아보십시오."</string>
+  <string name="pg1_blktle">"NVIDIA 버튼"</string>
+  <string name="pg1_blktxt">"SHIELD 게임 시작하기, 새로운 게임 찾기 및 GeForce GTX PC에서 게임을 스트림하려면 <b>한 번 누릅니다</b>.\n\n전원 메뉴를 열려면 <b>길게 누릅니다</b>."</string>
+  <string name="pg2_voltle">"볼륨"</string>
+  <string name="pg2_voltxt">"볼륨을 조정하려면 <b>누르기</b>\n\n음소거 하려면 <b>길게 누르기</b>"</string>
+  <string name="pg2_backtle">"뒤로"</string>
+  <string name="pg2_backtxt">"이전 화면으로 이동"</string>
+  <string name="pg2_starttle">"시작"</string>
+  <string name="pg2_hometle">"홈"</string>
+  <string name="pg2_hometxt">"Android 홈 화면 열기\n\n최근 앱을 보려면 <b>두 번 누르기</b>"</string>
+  <string name="pg3_ytle">"Y 버튼"</string>
+  <string name="pg3_ytxt">"대부분의 앱에서 메뉴"</string>
+  <string name="pg3_xtle">"X 버튼"</string>
+  <string name="pg3_btle">"B 버튼"</string>
+  <string name="pg3_btxt">"대부분의 앱에서 뒤로 또는 취소"</string>
+  <string name="pg3_atle">"A 버튼"</string>
+  <string name="pg3_atxt">"대부분의 앱에서 선택한 항목 활성화"</string>
+  <string name="pg4_mtdtle">"멀티 터치 디스플레이"</string>
+  <string name="pg4_virtle">"가상 마우스"</string>
+  <string name="pg4_rstxt">"<b>오른쪽 스틱</b>\n마우스 포인터를 이동할 때 사용"</string>
+  <string name="pg4_btntxt">"클릭하려면 {R.drawable.stickTrigger}<b> 또는 </b>{R.drawable.aButton} <b>누르기</b>"</string>
+  <string name="blake_pg1_back_title">뒤로</string>
+  <string name="blake_pg1_back_txt">이전 화면으로 이동하려면 <b>탭</b>하십시오.</string>
+  <string name="blake_pg1_home_title">홈</string>
+  <string name="blake_pg1_home_txt">"<b>Android 홈 화면을 열려면</b> 한 번 누르기\n\n<b>최근 앱을 보려면</b> 두 번 누르기\n\n<b>음성 검색 기능이 있는 Google Now를 실행하려면</b> 길게 누르기</string>
+  <string name="blake_pg2_title">NVIDIA 버튼</string>
+  <string name="blake_pg2_txt">SHIELD 허브를 시작하려면 <b>탭</b>하십시오. GeForce GTX PC로부터 게임 스트리밍, 새로운 게임 검색 및 SHIELD 게임을 즐기실 수 있습니다.</string>
+  <string name="blake_pg3_title">시작</string>
+  <string name="blake_pg3_txt"><b>길게 눌러</b> GameStream 및 Gamepad 매퍼용 추가 컨트롤에 액세스하십시오.</string>
+  <string name="twitch"><b>Twitch</b></string>
+  <string name="record_and_share"><b>녹화 및 공유</b></string>
+  <string name="virtual_controls"><b>가상 컨트롤</b></string>
+</resources>

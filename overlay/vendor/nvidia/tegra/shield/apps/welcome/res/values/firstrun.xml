@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="firstrun_pages">
+        <item>LayoutFragment:page1</item>
+        <item>LayoutFragment:page2</item>
+        <item>LayoutFragment:page3</item>
+        <item>LayoutFragment:page4</item>
+    </string-array>
+    <string-array name="firstrun_buttonbar">
+        <item>pagefirst_btn</item>
+        <item>pagemid_btn</item>
+        <item>pagemid_btn</item>
+        <item>pagelast_btn</item>
+    </string-array>
+    <string-array name="firstrun_layers">
+        <item>buttonbar</item>
+        <item>mainDV</item>
+        <!--
+        <item>firstrun_title_swapper</item>
+        -->
+    </string-array>
+
+    <string name="firstrun_autofocus">buttonbar</string>
+
+    <add-resource type="array" name="firstrun_title_swapper"/>
+    <string-array name="firstrun_title_swapper">
+        <item>title_swapper_other</item>
+        <item>title_swapper_other</item>
+        <item>title_swapper_other</item>
+        <item>title_swapper_other</item>
+    </string-array>
+</resources>
+

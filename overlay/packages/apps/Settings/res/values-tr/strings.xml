@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">LED aydınlık düzeyi</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">NVIDIA Düğmesi</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Ses Düzeyi Denetimi</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">Ses düzeyini ayarlamak için üst tetikleri kullan</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">Ses düğmesine bastıktan sonra LB ve RB düğmeleri ses düzeyini ayarlamakta kullanılır</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">Cihaz uyku modundayken LED\'ler yanıp sönsün</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Kapak kapatıldığında cihaz anında kilitlensin</string>
+    <!-- Message for add user confirmation dialog - long version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_long">Ek kullanıcılar yaratarak bu cihazı başka kişilerle paylaşabilirsiniz. Her kullanıcının kendine ait alanı olur ve bu alanı kendi uygulamaları, duvar kâğıdı vb. ile özelleştirebilir. Kullanıcılar, Kablosuz bağlantı gibi herkesi etkileyebilecek tablet ayarlarını da yapabilirler.\n\nHerhangi bir kullanıcı, güncellenen uygulama izinlerini diğer kullanıcıların adına kabul edebilir.</string>
+    <!-- Message for add user confirmation dialog - short version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_short">Herhangi bir kullanıcı, güncellenen uygulama izinlerini diğer kullanıcıların adına kabul edebilir.</string>
+
+    <!-- Enable Controller Mapper-->
+     <add-resource type="string" name="controller_mapper_enable" />
+     <string name="controller_mapper_enable">Oyun Kumandası Haritalandırmasını Etkinleştir</string>
+     <add-resource type="string" name="controller_mapper_enable_summary" />
+     <string name="controller_mapper_enable_summary">Haritalandırma yer paylaşımını başlatmak için BAŞLAT düğmesine uzun süreli basın</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download" />
+     <string name="controller_mapper_enable_auto_download">Otomatik indirmeye izin ver</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download_summary" />
+     <string name="controller_mapper_enable_auto_download_summary">Varsa Cloud\'dan haritalandırmayı otomatik olarak indir</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">NVIDIA yasal bildirimi</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Yazılım Lisans Sözleşmesi</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Gizlilik İlkesi</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Tegra Experience Hizmet Şartları</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Garanti Bilgileri</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">NVIDIA lisansları</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Tam ekran modu</string>
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Durum çubuğunu sadece ana ekranlarda göster</string>
+
+    <!-- Category title for Controller Mapper -->
+    <add-resource type="string" name="nv_controller_mapper" />
+    <string name="nv_controller_mapper">Oyun Kumandası Haritalandırması</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">NVIDIA\'ya geribildirimde bulunun</string>
+
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">Uygulama</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">Veri</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">Uygulama SHIELD\'a taşınsın mı?</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">Uygulama SD karta taşınsın mı?</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">Bu işlem birkaç dakika sürebilir. İşlem sırasında SD kartı çıkartmayın.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device">Cihaz\'da <xliff:g id="free_storage">%1$s</xliff:g> boş</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard">SD kartta <xliff:g id="free_storage">%1$s</xliff:g> boş</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device"><xliff:g id="pkg_label">%1$s</xliff:g> SHIELD\'a taşınıyor...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard"><xliff:g id="pkg_label">%1$s</xliff:g> SD karta taşınıyor...</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Tam ekran modu</string>
+
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Durum çubuğunu gizle</string>
+
+    <add-resource type="string" name="flscrmode_str_cling_msg_restore_normal" />
+    <string name="flscrmode_str_cling_msg_restore_normal">Durum çubuğunu göstermek için parmağınızı yukarıdan aşağıya doğru sürün.</string>
+    <add-resource type="string" name="flscrmode_str_cling_btn_label_ok" />
+    <string name="flscrmode_str_cling_btn_label_ok">Tamam</string>
+</resources>
+

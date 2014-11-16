@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">אין כרטיס SIM ב-SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       ניסית לבטל את נעילת SHIELD באופן שגוי <xliff:g id="number">%d</xliff:g> פעמים. לאחר עוד <xliff:g id="number">%d</xliff:g> ניסיונות כושלים נוספים, SHIELD יעבור איפוס לברירת המחדל של היצרן וכל נתוני המשתמש יאבדו.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       ניסית לבטל את נעילת SHIELD באופן שגוי <xliff:g id="number">%d</xliff:g> פעמים. SHIELD יתאפס כעת לברירת המחדל של היצרן.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       שרטטת את קו ביטול הנעילה באופן שגוי <xliff:g id="number">%d</xliff:g> פעמים. לאחר עוד <xliff:g id="number">%d</xliff:g> ניסיונות שגויים, תתבקש לבטל את הנעילה של SHIELD באמצעות חשבון דוא\"ל.\n\n נסה שוב בעוד <xliff:g id="number">%d</xliff:g> שניות.
+    </string>
+</resources>

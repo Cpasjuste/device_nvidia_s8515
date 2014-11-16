@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">مخزن SHIELD ممتلئ. احذف بعض الملفات لإخلاء مساحة.</string>
+    <string name="power_dialog" product="shield">خيارات SHIELD</string>
+    <string name="shutdown_confirm" product="shield">سوف يتم إغلاق SHIELD.</string>
+    <string name="global_actions" product="shield">خيارات SHIELD</string>
+    <string name="permdesc_readSms" product="shield">للسماح للتطبيق بقراءة الرسائل النصية القصيرة المخزنة على بطاقة SHIELD أو SIM.  يتيح هذا للتطبيق قراءة جميع الرسائل النصية القصيرة، بغض النظر عن المحتوى أو مدى السرية.</string>
+    <string name="permdesc_writeSms" product="shield">للسماح للتطبيق بكتابة الرسائل النصية القصيرة المخزنة على بطاقة SHIELD أو SIM. يمكن للتطبيقات الضارة حذف الرسائل الخاصة بك.</string>
+    <string name="permdesc_injectEvents" product="shield">للسماح للتطبيق بتسليم أحداث الإدخال الخاصة به (ضغطات المفاتيح وغير ذلك) إلى تطبيقات أخرى.  يمكن أن تستخدم التطبيقات الضارة ذلك للاستحواذ على SHIELD.</string>
+    <string name="permdesc_persistentActivity" product="shield">للسماح للتطبيق بجعل أجزاء منه ثابتة في الذاكرة.   وقد يؤدي هذا إلى تقييد الذاكرة المتاحة للتطبيقات الأخرى مما يؤدي إلى حدوث بطء في SHIELD.</string>
+    <string name="permdesc_clearAppCache" product="shield">للسماح للتطبيق بتفريغ مساحة تخزين SHIELD من خلال حذف الملفات من أدلة ذاكرة التخزين المؤقت للتطبيقات الأخرى.  قد يتسبب هذا في تشغيل التطبيقات الأخرى بشكل أكثر بطئًا حيث يلزمها إعادة استرداد بياناتها.</string>
+    <string name="permdesc_readLogs" product="shield">للسماح للتطبيق بالقراءة من ملفات سجلات النظام المتنوعة.   ويسمح ذلك للتطبيق باكتشاف المعلومات العامة حول ما تفعله بـ SHIELD، ومن المحتمل أن يتضمن معلومات شخصية أو خاصة.</string>
+    <string name="permdesc_changeComponentState" product="shield">للسماح للتطبيق بتغيير ما إذا كان سيتم تمكين مكون لتطبيق آخر أم لا. يمكن أن تستخدم التطبيقات الضارة ذلك لتعطيل قدرات SHIELD المهمة. يجب توخي الحذر عند استخدام هذا الإذن، وذلك لأنه من الممكن أن يؤدي ذلك إلى جعل حالة مكونات التطبيق غير قابلة للاستخدام أو غير متناسقة أو غير مستقرة.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">للسماح للتطبيق ببدء تشغيل نفسه عقب انتهاء النظام من التشغيل.  قد يؤدي ذلك إلى استغراق المزيد من الوقت عند بدء SHIELD والسماح للتطبيق بإبطاء الأداء الإجمالي لـ SHIELD من خلال تشغيله دائمًا.</string>
+    <string name="permdesc_broadcastSticky" product="shield">للسماح للتطبيق بإرسال مجموعات بث مستمرة، والتي تظل بعد انتهاء البث. قد يؤدي الاستخدام بكثرة إلى حدوث بطء أو عدم استقرار في SHIELD من خلال التسبب في استخدامه لمساحة كبيرة للغاية من الذاكرة.</string>
+
+    <string name="permdesc_readContacts" product="shield">للسماح للتطبيق بقراءة بيانات حول جهات الاتصال المخزنة على SHIELD، بما في ذلك مدى تكرار اتصالك بأفراد بعينهم أو مراسلتهم عبر البريد الإلكتروني أو التواصل معهم بطرق أخرى خلافًا لذلك. ويتيح هذا الإذن للتطبيقات حفظ بيانات جهات الاتصال، وقد تشارك التطبيقات الضارة بيانات جهات الاتصال بدون معرفتك.</string>
+    <string name="permdesc_writeContacts" product="shield">للسماح للتطبيق بتعديل البيانات حول جهات الاتصال المخزنة على SHIELD، بما في ذلك مدى تكرار اتصالك بجهات اتصال بعينها أو مراسلتها عبر البريد الإلكتروني أو التواصل معها بأية طريقة أخرى خلافًا لذلك. وقد يتيح هذا الإذن للتطبيقات حذف بيانات جهات الاتصال.</string>
+    <string name="permdesc_readCallLog" product="shield">للسماح للتطبيق بتعديل سجل مكالمات SHIELD، بما في ذلك البيانات عن المكالمات الواردة والصادرة. ويتيح هذا الإذن للتطبيق حفظ بيانات سجل المكالمات، وقد تشارك التطبيقات الضارة بيانات سجل المكالمات بدون معرفتك.</string>
+    <string name="permdesc_writeCallLog" product="shield">للسماح للتطبيق بتعديل سجل مكالمات SHIELD، بما في ذلك البيانات عن المكالمات الواردة والصادرة.
+        وربما تستخدم التطبيقات الضارة هذا لمسح سجل المكالمات أو تعديله.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">للسماح للتطبيق بقراءة جميع أحداث التقويم المخزنة على SHIELD، بما في ذلك أحداث التقويم التابعة للأصدقاء أو زملاء العمل. وقد يتيح هذا للتطبيق مشاركة بيانات التقويم أو حفظها، بغض النظر عن مدى سرية البيانات أو حساسيتها.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">للسماح للتطبيق بإضافة أو إزالة أو تغيير الأحداث التي يمكنك تعديلها على SHIELD، بما في ذلك أحداث الأصدقاء أو زملاء العمل. وقد يتيح هذا للتطبيق إرسال رسائل يبدو أنها واردة من أصحاب التقويم أو تعديل الأحداث بدون معرفة المالكين.</string>
+
+
+
+    <string name="permlab_brick" product="shield">تعطيل SHIELD بصفة دائمة</string>
+    <string name="permdesc_brick" product="shield">السماح للتطبيق بتعطيل SHIELD بصفة دائمة. هذا خطير للغاية.</string>
+    <string name="permlab_reboot" product="shield">فرض إعادة تمهيد SHIELD</string>
+    <string name="permdesc_reboot" product="shield">للسماح للتطبيق بفرض إعادة تمهيد SHIELD.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">بدء إعداد CDMA SHIELD مباشرةً</string>
+    <string name="permlab_wakeLock" product="shield">منع SHIELD من الدخول في وضع السكون</string>
+    <string name="permdesc_wakeLock" product="shield">للسماح للتطبيق بمنع SHIELD من الانتقال إلى وضع السكون.</string>
+    <string name="permlab_devicePower" product="shield">تشغيل SHIELD أو إيقاف تشغيله</string>
+    <string name="permdesc_devicePower" product="shield">للسماح للتطبيق بتشغيل SHIELD أو إيقاف تشغيله.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">ضبط وحدة المعالجة المركزية NVIDIA Tegra</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">السماح للتطبيق بضبط المعاملات الخاصة بوحدة المعالجة المركزية NVIDA Tegra.  قد يؤدي هذا إلى استهلاك طاقة أكبر.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">التشغيل كاختبار للشركة المصنعة من المستوى المنخفض، مما يسمح بإكمال الدخول إلى SHIELD.  لا يتوفر سوى عند تشغيل SHIELD في وضع اختبار المصنِّع.</string>
+    <string name="permdesc_setTime" product="shield">للسماح للتطبيق بتغيير وقت ساعة SHIELD.</string>    
+    <string name="permdesc_setTimeZone" product="shield">السماح للتطبيق بتغيير التوقيت الزمني لـ SHIELD.</string>
+    <string name="permdesc_getAccounts" product="shield">للسماح للتطبيق بالحصول على قائمة بالحسابات التي يعرفها SHIELD.  وقد يتضمن ذلك أية حسابات تم إنشاؤها بواسطة التطبيقات التي ثبتها.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">للمساح للتطبيق بتلقي الحزم التي يتم إرسالها إلى جميع الأجهزة على شبكة Wi-Fi باستخدام عناوين بث متعدد، وليس باستخدام SHIELD فقط.  ويؤدي ذلك إلى استخدام قدر أكبر من الطاقة يفوق وضع البث غير المتعدد.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">للسماح للتطبيق بتهيئة SHIELD البلوتوث المحلي، واكتشاف أجهزة التحكم عن بعد والاقتران بها.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">السماح للتطبيق بالاتصال بـ SHIELD وقطع اتصال SHIELD من شبكات WiMAX.</string>
+    <string name="permdesc_bluetooth" product="shield">للسماح للتطبيق بعرض تهيئة البلوتوث على SHIELD وإجراء اتصالات وقبولها مع الأجهزة المقترنة.</string>
+    <string name="policydesc_watchLogin" product="shield">لمراقبة عدد مرات كتابة كلمات المرور غير الصحيحة عند إلغاء تأمين الشاشة وتأمين SHIELD أو مسح جميع بيانات SHIELD في حالة كتابة الكثير من كلمات المرور غير الصحيحة.</string>
+    <string name="policydesc_wipeData" product="shield">يمكنك محو بيانات SHIELD بدون تحذير، وذلك عبر إجراء إعادة الضبط بحسب بيانات المصنع.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">ليس هناك بطاقة SIM في SHIELD.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">لقد رسمت نقش إلغاء التأمين بطريقة غير صحيحة <xliff:g id="number">%d</xliff:g> مرات. بعد  <xliff:g id="number">%d</xliff:g> محاولات غير ناجحة إضافية، سوف تطالب بإلغاء تأمين SHIELD باستخدام تسجيل الدخول إلى Google.\n\nكرر المحاولة خلال <xliff:g id="number">%d</xliff:g> ثواني.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">لقد حاولت بطريقة غير صحيحة في إلغاء تأمين SHIELD <xliff:g id="number">%d</xliff:g> مرات. بعد <xliff:g id="number">%d</xliff:g> محاولات غير ناجحة إضافية، سيتم إعادة ضبط SHIELD إلى الإعداد الافتراضي للمصنع وسيتم فقد كل بيانات المستخدم.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">لقد حاولت بطريقة غير صحيحة في إلغاء تأمين SHIELD <xliff:g id="number">%d</xliff:g> مرات. سيتم إعادة ضبط SHIELD على الإعداد الافتراضي للمصنع.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">للسماح للتطبيق بتعديل سجل المتصفح أو الإشارات المرجعية المخزنة على SHIELD.  وقد يتيح هذا للتطبيق محو بيانات المتصفح أو تعديلها.  ملاحظة:  لا يجوز فرض هذا الإذن من قِبل متصفحات جهة خارجية أو تطبيقات أخرى تتوفر بها إمكانيات تصفح الويب.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> يريد تمكين Explore by Touch. عند تشغيل ميزة Explore by Touch، سيكون بإمكانك سماع أو مشاهدة أوصاف لما تحت إصبعك أو إجراء إيماءات للتفاعل مع SHIELD.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">لقد حاولت بطريقة غير صحيحة في إلغاء تأمين SHIELD <xliff:g id="number">%d</xliff:g> مرات. بعد <xliff:g id="number">%d</xliff:g> محاولات غير ناجحة إضافية، سيتم إعادة ضبط SHIELD إلى الإعداد الافتراضي للمصنع وسيتم فقد كل بيانات المستخدم.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">لقد حاولت بطريقة غير صحيحة في إلغاء تأمين <xliff:g id="number">%d</xliff:g> مرات. سيتم إعادة ضبط SHIELD على الإعداد الافتراضي للمصنع.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">لقد حاولت بطريقة غير صحيحة في إلغاء تأمين <xliff:g id="number">%d</xliff:g> مرات. بعد <xliff:g id="number">%d</xliff:g> محاولات غير ناجحة إضافية، سيتم إعادة ضبط SHIELD إلى الإعداد الافتراضي للمصنع وسيتم فقد كل بيانات المستخدم. \n\n حاول مرة أخرى خلال <xliff:g id="number">%d</xliff:g> ثواني.</string>
+
+    <string name="permdesc_transmitIr" product="shield">السماح للتطبيق باستخدام مرسل الأشعة تحت الحمراء لـ SHIELD.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">السماح للتطبيق بالاقتران مع الأجهزة البعيدة بدون تدخل المستخدم.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      سيتم قطع اتصال SHIELD مؤقتًا بشبكة Wi-Fi في الوقت الذي يكون فيه متصلاً بـ %1$s
+    </string>
+</resources>

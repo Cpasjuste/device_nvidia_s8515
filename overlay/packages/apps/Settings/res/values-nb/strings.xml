@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">LED-lysstyrke</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">NVIDIA-knapp</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Volumkontroll</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">Bruk bumperne til å justere volumet</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">LB og RB justerer volumet når du trykker på volumknappen</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">Puls-LED når enheten er i hvilemodus</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Når du stenger lokket, låses enheten umiddelbart</string>
+    <!-- Message for add user confirmation dialog - long version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_long">Du kan dele denne enheten med andre personer ved å opprette flere brukere. Hver bruker får sitt eget område som de kan tilpasse med egne apper, bakgrunner osv. Brukere kan også tilpasse innstillinger på nettbrettet som påvirker alle, for eksempel for Wi-Fi.\n\nAlle brukere kan godta oppdaterte apptillatelser på vegne av de andre brukerne.</string>
+    <!-- Message for add user confirmation dialog - short version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_short">Alle brukere kan godta oppdaterte apptillatelser på vegne av de andre brukerne.</string>
+
+    <!-- Enable Controller Mapper-->
+     <add-resource type="string" name="controller_mapper_enable" />
+     <string name="controller_mapper_enable">Aktiver Gamepad-tilordning</string>
+     <add-resource type="string" name="controller_mapper_enable_summary" />
+     <string name="controller_mapper_enable_summary">Hold START-knappen inne for å starte tilordningsoverlegg</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download" />
+     <string name="controller_mapper_enable_auto_download">Aktiver automatisk nedlasting</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download_summary" />
+     <string name="controller_mapper_enable_auto_download_summary">Laster automatisk ned tilordning fra sky om tilgjengelig</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">NVIDIA - juridisk</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Lisensavtale for programvare</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Retningslinjer for personvern</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Tegra Experience - vilkår for bruk</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Garantiinformasjon</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">NVIDIA-lisenser</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Fullskjermmodus</string>
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Viser bare statusfelt på startsidene</string>
+
+    <!-- Category title for Controller Mapper -->
+    <add-resource type="string" name="nv_controller_mapper" />
+    <string name="nv_controller_mapper">Gamepad-tilordning</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">Send tilbakemelding til NVIDIA</string>
+
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">App</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">Data</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">Flytt app til SHIELD?</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">Flytt app til SD-kort?</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">Dette kan ta noen minutter. Ikke ta ut SD-kortet i løpet av handlingen.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> ledig på SHIELD</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> ledig på SD-kort</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device">Flytte <xliff:g id="pkg_label">%1$s</xliff:g> til SHIELD...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard">Flytte <xliff:g id="pkg_label">%1$s</xliff:g> til SD-kort...</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Fullskjermmodus</string>
+
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Skjul statusfelt</string>
+
+    <add-resource type="string" name="flscrmode_str_cling_msg_restore_normal" />
+    <string name="flscrmode_str_cling_msg_restore_normal">Sveip fra toppen for å gjenopprette statusfelt.</string>
+    <add-resource type="string" name="flscrmode_str_cling_btn_label_ok" />
+    <string name="flscrmode_str_cling_btn_label_ok">OK</string>
+</resources>
+

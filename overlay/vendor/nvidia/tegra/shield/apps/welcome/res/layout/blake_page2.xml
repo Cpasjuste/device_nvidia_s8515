@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        android:src="@drawable/blake_pg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/pg2_title"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="423dp"
+            android:text="@string/blake_pg2_title"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/pgtitlesize" />
+
+        <TextView
+            android:id="@+id/pg2_txt"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_alignLeft="@+id/pg2_title"
+            android:layout_below="@id/pg2_title"
+            android:text="@string/blake_pg2_txt"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/pgtextsize" />
+
+        <!-- Vertical line beside text -->
+        <View
+            android:id="@+id/blake_p2verLine"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/pg2_title"
+            android:layout_alignBottom="@+id/pg2_txt"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@+id/pg2_txt"
+            android:background="#77FFFFFF" />
+
+        <!-- Horizontal line beside text -->
+        <View
+            android:layout_width="70dp"
+            android:layout_height="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="64dp"
+            android:layout_toLeftOf="@+id/blake_p2verLine"
+            android:background="#77FFFFFF" />
+    </RelativeLayout>
+</RelativeLayout>
+

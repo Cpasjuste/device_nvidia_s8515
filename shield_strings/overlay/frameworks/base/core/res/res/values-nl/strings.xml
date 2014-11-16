@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">SHIELD-geheugen is vol. Verwijder enkele bestanden om ruimte vrij te maken.</string>
+    <string name="power_dialog" product="shield">SHIELD-opties</string>
+    <string name="shutdown_confirm" product="shield">SHIELD wordt uitgeschakeld.</string>
+    <string name="global_actions" product="shield">SHIELD-opties</string>
+    <string name="permdesc_readSms" product="shield">Hiermee kan de app sms-berichten lezen die zijn opgeslagen op uw SHIELD- of simkaart.  Hiermee kan de app alle sms-berichten lezen, ongeacht inhoud of vertrouwelijkheid.</string>
+    <string name="permdesc_writeSms" product="shield">Hiermee kan de app sms-berichten schrijven die zijn opgeslagen op uw SHIELD- of simkaart.  Schadelijke apps kunnen uw berichten verwijderen.</string>
+    <string name="permdesc_injectEvents" product="shield">Hiermee kan de app de eigen invoergebeurtenissen (zoals toetsaanslagen) aan andere apps doorgeven.  Schadelijke apps kunnen dit gebruiken om SHIELD over te nemen.</string>
+    <string name="permdesc_persistentActivity" product="shield">Hiermee kan de app gedeelten van zichzelf persistent maken in het geheugen.   Dit kan de hoeveelheid geheugen beperken die beschikbaar is voor andere apps, waardoor SHIELD trager kan worden.</string>
+    <string name="permdesc_clearAppCache" product="shield">Hiermee kan de app opslagruimte op SHIELD vrijmaken door bestanden te verwijderen uit de cachemappen van andere apps.   Hierdoor worden andere apps mogelijk langzamer gestart, omdat ze gegevens opnieuw moeten ophalen.</string>
+    <string name="permdesc_readLogs" product="shield">Hiermee kan de app de verschillende logbestanden van het systeem lezen.   De app kan op deze manier algemene informatie achterhalen over uw SHIELD-gebruik, mogelijk inclusief persoonlijke of privé-informatie.</string>
+    <string name="permdesc_changeComponentState" product="shield">Hiermee kan de app wijzigen of een component van een andere app wel of niet is ingeschakeld.  Schadelijke apps kunnen dit gebruiken om belangrijke SHIELD-functies uit te schakelen.  U moet voorzichtig omgaan met deze rechten, aangezien het mogelijk is dat onderdelen van apps onbruikbaar, inconsistent of instabiel worden.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Hiermee kan de app zichzelf laten starten zodra het systeem is opgestart.  Hierdoor kan het langer duren voordat SHIELD is opgestart en een app kan altijd actief zijn, wat SHIELD kan vertragen.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Hiermee kan de app sticky broadcasts verzenden die behouden blijven nadat de broadcast is beëindigd.  Bij overmatig gebruik kan SHIELD traag of instabiel worden omdat er te veel geheugenruimte wordt gebruikt.</string>
+
+    <string name="permdesc_readContacts" product="shield">Hiermee kan de app gegevens lezen over de contacten die zijn opgeslagen op SHIELD, inclusief de frequentie waarmee u heeft gebeld, gemaild of op andere manieren heeft gecommuniceerd met specifieke personen.  Met deze toestemming kunnen apps uw contactgegevens opslaan, en schadelijke apps kunnen zonder uw medeweten contactgegevens delen.</string>
+    <string name="permdesc_writeContacts" product="shield">Hiermee kan de app gegevens wijzigen over de contacten die zijn opgeslagen op SHIELD, inclusief de frequentie waarmee u heeft gebeld, gemaild of op andere manieren heeft gecommuniceerd met specifieke contacten.  Met deze toestemming kunnen apps contactgegevens verwijderen.</string>
+    <string name="permdesc_readCallLog" product="shield">Toestaan dat de app het oproeplogboek van SHIELD aanpast, waaronder gegevens over inkomende en uitgaande oproepen.  Met deze toestemming kunnen apps uw oproeploggegevens opslaan, en schadelijke apps kunnen logoproepgegevens zonder uw medeweten delen.</string>
+    <string name="permdesc_writeCallLog" product="shield">Toestaan dat de app het oproeplogboek van SHIELD aanpast, waaronder gegevens over inkomende en uitgaande oproepen. 
+        Schadelijke apps kunnen hiermee uw oproeplogboek wissen of aanpassen.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Hiermee kan de app alle agenda-afspraken lezen die zijn opgeslagen op SHIELD, inclusief die van vrienden of collega\'s.  De app kan uw agenda delen of uw agendagegevens opslaan, ongeacht vertrouwelijkheid of gevoeligheid.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Hiermee kan de app afspraken toevoegen, verwijderen en wijzigen die u kunt bewerken op SHIELD, inclusief afspraken van vrienden of collega\'s.  Zo kan de app berichten verzenden die afkomstig lijken te zijn van agenda-eigenaren, of afspraken aanpassen zonder medeweten van de eigenaar.</string>
+
+
+
+    <string name="permlab_brick" product="shield">SHIELD permanent uitschakelen</string>
+    <string name="permdesc_brick" product="shield">Laat de app permanent SHIELD uitschakelen. Dit is erg gevaarlijk.</string>
+    <string name="permlab_reboot" product="shield">SHIELD nu opnieuw opstarten</string>
+    <string name="permdesc_reboot" product="shield">Hiermee kan de app SHIELD opnieuw laten opstarten.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">meteen starten met CDMA SHIELD-instelling</string>
+    <string name="permlab_wakeLock" product="shield">voorkomen dat SHIELD overschakelt naar slaapmodus</string>
+    <string name="permdesc_wakeLock" product="shield">Hiermee kan de app voorkomen dat SHIELD overschakelt naar de slaapmodus.</string>
+    <string name="permlab_devicePower" product="shield">SHIELD in- of uitschakelen</string>
+    <string name="permdesc_devicePower" product="shield">Hiermee kan de app SHIELD in- of uitschakelen.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">NVIDIA Tegra CPU aanpassen</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Hiermeen kan de app parameters van de NVIDA Tegra CPU aanpassen.  Dit kan het stroomgebruik vergroten.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Uitvoeren als fabrikanttest op laag niveau, waardoor toegang wordt gegeven tot de hardware van SHIELD.  Alleen beschikbaar als SHIELD zich in de fabrikanttestmodus bevindt.</string>
+    <string name="permdesc_setTime" product="shield">Hiermee kan de app de kloktijd van SHIELD wijzigen.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Hiermee kan de app de tijdzone van SHIELD wijzigen.</string>
+    <string name="permdesc_getAccounts" product="shield">Hiermee krijgt de app toegang tot de lijst met accounts die op SHIELD bekend zijn.   Dit kunnen ook accounts zijn die zijn gemaakt door apps die u heeft geïnstalleerd.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Hiermee kan de app pakketten ontvangen die via multicastadressen naar alle apparaten in een wifi-netwerk worden verzonden, niet alleen naar uw SHIELD.   Het stroomgebruik ligt hierbij hoger dan in de niet-multicastmodus.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Hiermee kan de app de lokale Bluetooth-SHIELD configureren en externe apparaten zoeken en koppelen.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Hiermee kan de app SHIELD verbinden met WiMAX-netwerken en de verbinding daarmee verbreken.</string>
+    <string name="permdesc_bluetooth" product="shield">Hiermee kan de app de Bluetooth-configuratie van SHIELD bekijken en verbindingen met gekoppelde apparaten maken en accepteren.</string>
+    <string name="policydesc_watchLogin" product="shield">Bijhouden hoe vaak onjuiste wachtwoorden worden ingevoerd wanneer het scherm wordt ontgrendeld en SHIELD vergrendelen of alle gegevens op SHIELD wissen als te veel onjuiste wachtwoorden worden ingevoerd.</string>
+    <string name="policydesc_wipeData" product="shield">De gegevens van SHIELD zonder waarschuwing wissen door de fabrieksinstellingen te herstellen.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">Geen SIM-kaart in SHIELD.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">U heeft uw ontgrendelingspatroon <xliff:g id="number">%d</xliff:g> keer onjuist getekend.  Na nog eens <xliff:g id="number">%d</xliff:g> mislukte pogingen wordt u gevraagd uw SHIELD te ontgrendelen met uw aanmeldingsgegevens voor Google.\n\nProbeer het over <xliff:g id="number">%d</xliff:g> seconden opnieuw.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">U heeft onjuist geprobeerd om SHIELD <xliff:g id="number">%d</xliff:g> keer te ontgrendelen.  Na nog eens <xliff:g id="number">%d</xliff:g> mislukte pogingen worden de fabrieksinstellingen hersteld op SHIELD en gaan alle gebruikersgegevens verloren.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">U heeft onjuist geprobeerd om SHIELD <xliff:g id="number">%d</xliff:g>keer te ontgrendelen.  SHIELD wordt nu gereset naar de standaard fabrieksinstelling.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Hiermee kan de app de webgeschiedenis wijzigen in de systeemeigen browser en de bladwijzers die zijn opgeslagen op SHIELD.  Hiermee kan de app browsergegevens wissen of wijzigen.  NB:  deze toestemming kan niet worden geforceerd door andere browsers of andere apps met internetmogelijkheden.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> wil \'Verkennen via aanraking\' inschakelen. Wanneer \'Verkennen via aanraking\' is ingeschakeld, kunt u beschrijvingen beluisteren of bekijken van wat er onder uw vinger staat of aanraakbewerkingen uitvoeren op SHIELD.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">U heeft onjuist geprobeerd om SHIELD <xliff:g id="number">%d</xliff:g> keer te ontgrendelen.  Na nog eens <xliff:g id="number">%d</xliff:g> mislukte pogingen worden de fabrieksinstellingen hersteld op SHIELD en gaan alle gebruikersgegevens verloren.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">U heeft onjuist geprobeerd om SHIELD <xliff:g id="number">%d</xliff:g> keer te ontgrendelen.  SHIELD wordt nu gereset naar de standaard fabrieksinstelling.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">U heeft uw ontgrendelingspatroon <xliff:g id="number">%d</xliff:g> keer onjuist getekend.  Na nog eens <xliff:g id="number">%d</xliff:g> mislukte pogingen wordt u gevraagd uw SHIELD te ontgrendelen met uw e-mail account.\n\n Probeer het over <xliff:g id="number">%d</xliff:g> seconden opnieuw.</string>
+    <string name="permdesc_transmitIr" product="shield">Hiermee kan de app SHIELD\'s infrarood-zender gebruiken.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Hiermee kan de app aan externe apparaten worden gekoppeld zonder interactie van de gebruiker.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      De verbinding met het wifi-netwerk wordt tijdelijk uitgeschakeld terwijl SHIELD verbonden is met %1$s
+    </string>
+</resources>

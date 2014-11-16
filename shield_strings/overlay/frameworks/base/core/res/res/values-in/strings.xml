@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">Penyimpanan SHIELD penuh. Hapus beberapa file untuk mengosongkan ruang.</string>
+    <string name="power_dialog" product="shield">Opsi SHIELD</string>
+    <string name="shutdown_confirm" product="shield">SHIELD akan dimatikan.</string>
+    <string name="global_actions" product="shield">Opsi SHIELD</string>
+    <string name="permdesc_readSms" product="shield">Mengizinkan aplikasi membaca pesan SMS yang tersimpan di SHIELD atau kartu SIM Anda. Izin ini memungkinkan aplikasi membaca semua pesan SMS, terlepas dari konten atau kerahasiaan.</string>
+    <string name="permdesc_writeSms" product="shield">Mengizinkan aplikasi menulis ke pesan SMS yang tersimpan di SHIELD atau kartu SIM Anda. Aplikasi berbahaya dapat menghapus pesan Anda.</string>
+    <string name="permdesc_injectEvents" product="shield">Mengizinkan apl menyampaikan aktivitas masukannya sendiri (penekanan tombol, dll) ke apl lain. Apl berbahaya dapat menggunakan ini untuk mengambil alih SHIELD.</string>
+    <string name="permdesc_persistentActivity" product="shield">Mengizinkan aplikasi membuat bagian dari dirinya sendiri terus-menerus berada dalam memori.  Izin ini dapat membatasi memori yang tersedia untuk aplikasi lain sehingga menjadikan SHIELD lambat.</string>
+    <string name="permdesc_clearAppCache" product="shield">Mengizinkan aplikasi mengosongkan penyimpanan SHIELD dengan menghapus file dalam direktori cache aplikasi lainnya.  Ini dapat menyebabkan aplikasi lain memulai lebih lambat karena perlu mengambil ulang data mereka.</string>
+    <string name="permdesc_readLogs" product="shield">Mengizinkan apl membaca dari berbagai file log sistem.  Izin ini memungkinkan apl menemukan informasi umum tentang hal-hal yang Anda lakukan dengan SHIELD, kemungkinan termasuk informasi pribadi.</string>
+    <string name="permdesc_changeComponentState" product="shield">Mengizinkan apl mengubah apakah komponen apl lain diaktifkan atau tidak. Apl berbahaya dapat menggunakan izin ini untuk menonaktifkan kemampuan SHIELD yang penting. Izin ini harus digunakan dengan hati-hati karena dapat menjadikan komponen apl tidak dapat digunakan, tidak konsisten, atau tidak stabil.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Mengizinkan apl memulai sendiri segera setelah sistem selesai booting. Hal ini dapat memperpanjang waktu yang diperlukan untuk memulai SHIELD dan memungkinkan apl memperlambat kinerja SHIELD secara keseluruhan jika terus berjalan.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Mengizinkan aplikasi mengirim siaran permanen, yang tetap ada setelah siaran berakhir. Penggunaan yang berlebihan dapat membuat SHIELD menjadi lambat atau tidak stabil dengan memicu penggunaan memori yang terlalu banyak.</string>
+
+    <string name="permdesc_readContacts" product="shield">Mengizinkan aplikasi membaca data tentang kontak yang disimpan pada SHIELD, termasuk frekuensi Anda dalam melakukan panggilan, mengirim email, atau berkomunikasi dengan cara lain dengan individu tertentu. Izin ini memungkinkan aplikasi menyimpan data kontak dan aplikasi berbahaya dapat berbagi data kontak tanpa sepengetahuan Anda.</string>
+    <string name="permdesc_writeContacts" product="shield">Mengizinkan aplikasi mengubah data tentang kontak yang tersimpan dalam SHIELD Anda, termasuk frekuensi Anda dalam melakukan panggilan, mengirim email, atau berkomunikasi dengan cara lain dengan kontak tertentu. Izin ini memungkinkan aplikasi menghapus data kontak.</string>
+    <string name="permdesc_readCallLog" product="shield">Mengizinkan apl membaca log panggilan SHIELD, termasuk data tentang panggilan masuk dan keluar. Izin ini memungkinkan aplikasi menyimpan data log panggilan Anda dan aplikasi berbahaya dapat berbagi data log panggilan tanpa sepengetahuan Anda.</string>
+    <string name="permdesc_writeCallLog" product="shield">Mengizinkan apl memodifikasi log panggilan SHIELD, termasuk data tentang panggilan masuk dan keluar.
+        Apl berbahaya dapat menggunakan ini untuk menghapus atau memodifikasi log panggilan Anda.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Mengizinkan aplikasi membaca semua acara kalender yang tersimpan di SHIELD Anda, termasuk milik teman atau rekan kerja. Izin ini memungkinkan aplikasi berbagi atau menyimpan data kalender Anda, terlepas dari kerahasiaan atau sensitivitas.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Mengizinkan aplikasi menambahkan, menghapus, dan mengubah acara yang dapat Anda ubah pada SHIELD, termasuk acara teman atau rekan kerja. Izin ini memungkinkan aplikasi mengirim pesan yang kelihatannya berasal dari pemilik kalender atau mengubah acara tanpa sepengetahuan pemilik.</string>
+
+
+
+    <string name="permlab_brick" product="shield">menonaktifkan SHIELD secara permanen</string>
+    <string name="permdesc_brick" product="shield">Mengizinkan apl menonaktifkan SHIELD secara permanen. Ini sangat berbahaya.</string>
+    <string name="permlab_reboot" product="shield">reboot SHIELD secara paksa</string>
+    <string name="permdesc_reboot" product="shield">Mengizinkan apl memaksa SHIELD melakukan reboot.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">memulai penyiapan SHIELD CDMA secara langsung</string>
+    <string name="permlab_wakeLock" product="shield">mencegah SHIELD tidur</string>
+    <string name="permdesc_wakeLock" product="shield">Mengizinkan apl mencegah SHIELD tidur.</string>
+    <string name="permlab_devicePower" product="shield">daya SHIELD hidup atau mati</string>
+    <string name="permdesc_devicePower" product="shield">Mengizinkan apl menghidupkan atau mematikan SHIELD.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">menyesuaikan CPU NVIDIA Tegra</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Mengizinkan apl menyesuaikan parameter CPU NVIDIA Tegra.  Izin ini dapat menghabiskan lebih banyak daya.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Jalankan sebagai uji pabrikan tingkat rendah dengan mengizinkan akses lengkap ke perangkat keras SHIELD. Hanya tersedia jika SHIELD berjalan dalam mode uji pabrikan.</string>
+    <string name="permdesc_setTime" product="shield">Mengizinkan apl mengubah waktu pada jam SHIELD.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Mengizinkan apl mengubah zona waktu SHIELD.</string>
+    <string name="permdesc_getAccounts" product="shield">Mengizinkan aplikasi mendapatkan daftar akun yang dikenal oleh SHIELD.  Ini mungkin termasuk akun yang dibuat oleh aplikasi yang telah Anda pasang.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Mengizinkan aplikasi menerima paket yang dikirim ke semua perangkat melalui jaringan Wi-Fi menggunakan alamat multicast, bukan hanya SHIELD.  Izin ini akan menggunakan lebih banyak daya daripada mode selain multicast.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Mengizinkan apl mengonfigurasi SHIELD Bluetooth lokal dan menemukan serta menyandingkan dengan perangkat jarak jauh.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Mengizinkan aplikasi menyambungkan SHIELD ke dan memutus SHIELD dari jaringan WiMAX.</string>
+    <string name="permdesc_bluetooth" product="shield">Mengizinkan aplikasi melihat konfigurasi Bluetooth di SHIELD dan membuat serta menerima sambungan dengan perangkat yang disandingkan.</string>
+    <string name="policydesc_watchLogin" product="shield">Pantau jumlah sandi yang salah ketik saat membuka kunci layar dan mengunci SHIELD atau menghapus semua data SHIELD jika sandi yang salah ketik terlalu banyak.</string>
+    <string name="policydesc_wipeData" product="shield">Hapus data SHIELD tanpa peringatan dengan menyetel ulang data pabrik.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">Tidak ada kartu SIM dalam SHIELD.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Anda telah <xliff:g id="number">%d</xliff:g> kali salah menggambar pola pembuka kunci. Setelah <xliff:g id="number">%d</xliff:g> lagi upaya gagal, Anda akan diminta membuka kunci SHIELD menggunakan info masuk Google.\n\nCoba lagi dalam <xliff:g id="number">%d</xliff:g> detik.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Anda telah gagal mencoba membuka kunci SHIELD sebanyak <xliff:g id="number">%d</xliff:g> kali. Setelah <xliff:g id="number">%d</xliff:g> upaya gagal lagi, SHIELD akan disetel ulang ke setelan default pabrik dan semua data pengguna hilang.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Anda telah gagal mencoba membuka kunci SHIELD sebanyak <xliff:g id="number">%d</xliff:g> kali. SHIELD sekarang akan disetel ulang ke setelan default pabrik.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Mengizinkan aplikasi mengubah riwayat atau bookmark Browser yang tersimpan dalam SHIELD. Izin ini memungkinkan aplikasi menghapus atau mengubah data browser.  Catatan: izin ini tidak dapat diberlakukan oleh browser pihak ketiga atau aplikasi lain dengan kemampuan menjelajahi web.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> ingin mengaktifkan Menjelajah dengan Sentuhan. Saat Menjelajah dengan Sentuhan diaktifkan, Anda dapat melihat atau mendengar deskripsi dari apa yang ada di bawah jari Anda atau melakukan gerakan untuk berinteraksi dengan SHIELD.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Anda telah gagal mencoba membuka kunci SHIELD sebanyak <xliff:g id="number">%d</xliff:g> kali. Setelah <xliff:g id="number">%d</xliff:g> upaya gagal lagi, SHIELD akan disetel ulang ke setelan default pabrik dan semua data pengguna hilang.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">Anda telah gagal mencoba membuka kunci SHIELD sebanyak <xliff:g id="number">%d</xliff:g> kali. SHIELD sekarang akan disetel ulang ke setelan default pabrik.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Anda telah <xliff:g id="number">%d</xliff:g> kali salah menggambar pola pembuka kunci. Setelah <xliff:g id="number">%d</xliff:g> lagi upaya gagal, Anda akan diminta membuka kunci SHIELD menggunakan akun email.\n\n Coba lagi dalam <xliff:g id="number">%d</xliff:g> detik.</string>
+    <string name="permdesc_transmitIr" product="shield">Mengizinkan aplikasi untuk menggunakan pemancar infra merah SHIELD.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Mengizinkan aplikasi untuk menyandingkan dengan perangkat jarak jauh tanpa interaksi pengguna.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      Sambungan Wi-Fi SHIELD sementara akan putus sembari tersambung ke %1$s
+    </string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">SHIELD-lageret er fullt.  Slett noen filer for å frigjøre lagringsplass.</string>
+    <string name="power_dialog" product="shield">SHIELD-alternativer</string>
+    <string name="shutdown_confirm" product="shield">SHIELD avsluttes.</string>
+    <string name="global_actions" product="shield">SHIELD-alternativer</string>
+    <string name="permdesc_readSms" product="shield">Lar appen lese tekstmeldinger lagret på SHIELD eller SIM-kortet.  Dette lar appen lese alle tekstmeldingene dine, uavhengig av innhold og konfidensialitet.</string>
+    <string name="permdesc_writeSms" product="shield">Lar appen skrive tekstmeldinger lagret på SHIELD eller SIM-kortet.  Ondsinnede apper kan slette meldingene dine.</string>
+    <string name="permdesc_injectEvents" product="shield">Lar appen levere sine egne inndatahendelser (tastetrykk osv.) til andre apper.  Ondsinnede apper kan bruke dette til å ta over SHIELD.</string>
+    <string name="permdesc_persistentActivity" product="shield">Lar appen gjøre deler av seg selv vedvarende i minnet.   Dette kan begrense minnet for andre apper og gjøre SHIELD treg.</string>
+    <string name="permdesc_clearAppCache" product="shield">Lar appen frigjøre lagringsplass på SHIELD ved å slette filer i bufferkataloger eller andre apper.   Dette kan medføre tregere oppstart av andre apper, siden de må hente inn dataene sine på nytt.</string>
+    <string name="permdesc_readLogs" product="shield">Lar appen lese fra diverse loggfiler på systemet.   Disse inneholder generell informasjon om hva som gjøres med SHIELD, og kan inneholde personlig eller privat informasjon.</string>
+    <string name="permdesc_changeComponentState" product="shield">Lar appen endre hvorvidt en komponent i en annen app er aktivert eller ikke.  Ondsinnede apper kan bruke dette til å deaktivere viktige funksjoner for SHIELD. Denne tillatelsen må brukes med forsiktighet, ettersom det er mulig å få appkomponenter inn i en ubrukelig, inkonsistent eller ustabil tilstand.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Lar appen starte seg selv så snart systemet har startet opp. Dette kan føre til lengre oppstartstid for nettbrettet, i tillegg til at nettbrettet kan bli generelt tregere av at appen alltid kjører. Dette kan gjøre at det tar lengre tid å starte SHIELD og gjøre at appen reduserer denne generelle SHIELD-ytelsen ved alltid å kjøre.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Lar appen sende faste kringkastinger («sticky broadcasts») som blir værende etter at kringkastingen er over.  Overdreven bruk kan gjøre SHIELD treg eller ustabil ved at den bruker for mye minne.</string>
+
+    <string name="permdesc_readContacts" product="shield">Lar appen lese informasjon om kontaktene lagret på SHIELD, inkludert hvor ofte du har ringt, sendt e-post til eller på andre måter kommunisert med spesifikke personer.  Denne tillatelsen lar apper lagre kontaktdata, og skadelige apper kan påføre deg kostnader ved å sende meldinger uten at du vet om det.</string>
+    <string name="permdesc_writeContacts" product="shield">Lar appen endre informasjon om kontaktene lagret på SHIELD, inkludert hvor ofte du har ringt, sendt e-post til eller på andre måter kommunisert med bestemte kontakter.  Denne tillatelsen lar apper slette kontaktdata.</string>
+    <string name="permdesc_readCallLog" product="shield">Lar appen lese SHIELDs anropslogg, inkludert data om innkommende og utgående anrop. Denne tillatelsen gjør at apper kan lagre samtaleloggdata, og skadelige apper kan dele samtaleloggdata uten at du vet om de. </string>
+    <string name="permdesc_writeCallLog" product="shield">Lar appen lese SHIELDs anropslogg, inkludert data om innkommende og utgående anrop.
+        Skadelige apper kan utnytte denne tillatelsen til å slette eller endre samtaleloggen din.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Lar appen lese alle kalenderaktivitetene lagret på SHIELD, inkludert aktiviteter for venner eller kolleger.  Dette kan gjøre at appen deler eller lagrer kalenderinformasjonen din uavhengig av konfidensialitet og sensitivitet.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Lar appen legge til, fjerne og endre aktiviteter du kan redigere på SHIELD, inkludert aktiviteter for venner eller kolleger.  Dette kan gjøre at appen sender meldinger som ser ut som om de kommer fra kalendereiere eller endre aktiviteter uten at eierne vet om det.</string>
+
+
+
+    <string name="permlab_brick" product="shield">deaktivere SHIELD permanent</string>
+    <string name="permdesc_brick" product="shield">Lar appen permanent deaktivere SHIELD. Dette er svært risikabelt.</string>
+    <string name="permlab_reboot" product="shield">tvinge omstart av SHIELD</string>
+    <string name="permdesc_reboot" product="shield">Lar appen tvinge SHIELD til å starte på nytt.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">begynne oppsett av CDMA-SHIELD direkte</string>
+    <string name="permlab_wakeLock" product="shield">hindre SHIELD i å gå over til hvilemodus</string>
+    <string name="permdesc_wakeLock" product="shield">Lar appen hindre SHIELD i å gå over i hvilemodus.</string>
+    <string name="permlab_devicePower" product="shield">slå på eller av SHIELD</string>
+    <string name="permdesc_devicePower" product="shield">Lar appen slå på eller av SHIELD.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">juster NVIDIA Tegra CPU</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Lar appen justere parametere for NVIDA Tegra CPU.  Dette kan føre til ekstra strømforbruk.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Kjøre som en lavnivå-produsenttest, med full tilgang til maskinvaren i SHIELD.  Kun tilgjengelig når SHIELD kjøres i produsenttestmodus.</string>
+    <string name="permdesc_setTime" product="shield">Lar appen endre SHIELDs klokkeslett.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Lar appen endre SHIELDs tidssone.</string>
+    <string name="permdesc_getAccounts" product="shield">Lar appen hente listen over kontoene SHIELD kjenner.   Dette kan inkludere kontoer som er opprettet av apper du har installert.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Lar appen motta pakker som sendes til alle enhetene på et trådløst nettverk ved hjelp av multikastingsadresser, ikke bare SHIELD.  Den bruker mer strøm enn ikke-multikastingmodus.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Lar appen konfigurere den lokale Bluetooth-SHIELD, samt oppdage og koble sammen med eksterne enheter.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Lar appen koble SHIELD til og fra WiMAX-nettverk.</string>
+    <string name="permdesc_bluetooth" product="shield">Lar appen se Bluetooth-konfigurasjonen på SHIELD, samt opprette og godta tilkoblinger med sammenkoblede enheter.</string>
+    <string name="policydesc_watchLogin" product="shield">Overvåk antall feil passordforsøk ved opplåsing av skjerm, og lås SHIELD eller slett alle data fra SHIELD ved for mange feil passordforsøk.</string>
+    <string name="policydesc_wipeData" product="shield">Tilbakestill SHIELDs data uten advarsel, ved å tilbakestille til fabrikkstandard.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">SHIELD mangler SIM-kort.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Du har oppgitt feil opplåsingsmønster <xliff:g id="number">%d</xliff:g> ganger. Etter ytterligere <xliff:g id="number">%d</xliff:g> mislykkede forsøk, blir du bedt om å låse opp SHIELD ved hjelp av Google-påloggingsinformasjonen din..\n\nPrøv igjen om <xliff:g id="number">%d</xliff:g> sekunder.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Du har feilaktig forsøkt å låse opp SHIELD <xliff:g id="number">%d</xliff:g> ganger. Etter <xliff:g id="number">%d</xliff:g> flere mislykkede forsøk, blir SHIELD tilbakestilt til fabrikkinnstillingene, og alle brukerdata går tapt.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Du har feilaktig forsøkt å låse opp SHIELD <xliff:g id="number">%d</xliff:g> ganger. SHIELD vil nå bli tilbakestilt til fabrikkinnstillingene.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Lar appen endre nettleserens logg eller bokmerker lagret på SHIELD.  Dette kan føre til at appen sletter eller endrer nettleserdata.   Vær oppmerksom på at denne tillatelsen kanskje ikke gjelder for alle sosiale nettverk. denne tillatelsen kan ikke håndheves av tredjepartsnettlesere eller andre programmer med nettleserfunksjonalitet.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> ber om aktivering av Utforsk ved å trykke.  Når Utforsk ved å trykke er slått på, kan du høre og se beskrivelser av det som er under fingrene dine eller foreta bevegelser som samhandler med SHIELD. </string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Du har feilaktig forsøkt å låse opp SHIELD <xliff:g id="number">%d</xliff:g> ganger. Etter <xliff:g id="number">%d</xliff:g> flere mislykkede forsøk, blir SHIELD tilbakestilt til fabrikkinnstillingene, og alle brukerdata går tapt.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">Du har feilaktig forsøkt å låse opp SHIELD <xliff:g id="number">%d</xliff:g> ganger. SHIELD vil nå bli tilbakestilt til fabrikkinnstillingene.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Du har oppgitt feil opplåsingsmønster <xliff:g id="number">%d</xliff:g> ganger. Etter ytterligere <xliff:g id="number">%d</xliff:g> mislykkede forsøk, blir du bedt om å låse opp SHIELD ved hjelp av En e-postkonto\n\n. Prøv på nytt om <xliff:g id="number">%d</xliff:g> sekunder.</string>
+    <string name="permdesc_transmitIr" product="shield">Lar appen bruke SHIELDs infrarøde sender.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Lar appen pares med eksterne enheter uten at brukeren må gjøre noe.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      SHIELD frakobles Wi-Fi midlertidig mens den er tilkoblet %1$s
+    </string>
+</resources>

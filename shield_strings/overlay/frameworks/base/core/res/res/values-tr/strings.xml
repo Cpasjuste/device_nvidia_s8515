@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">SHIELD depolama alanı dolu. Yer açmak için bazı dosyaları silin.</string>
+    <string name="power_dialog" product="shield">SHIELD seçenekleri</string>
+    <string name="shutdown_confirm" product="shield">SHIELD kapatılacak.</string>
+    <string name="global_actions" product="shield">SHIELD seçenekleri</string>
+    <string name="permdesc_readSms" product="shield">Uygulamanın, SHIELD veya SIM kartınızda kayıtlı SMS mesajlarını okumasına izin verir. Böylece uygulama, mesajlarınızın içeriği veya gizlilik derecesi ne olursa olsun bütün SMS mesajlarınızı okuyabilir.</string>
+    <string name="permdesc_writeSms" product="shield">Uygulamanın, SHIELD veya SIM kartınızda kayıtlı SMS mesajlarına yazmasına izin verir. Kötü amaçlı uygulamalar mesajlarınızı silebilir.</string>
+    <string name="permdesc_injectEvents" product="shield">Uygulamaya, diğer uygulamalar için kendi giriş işlemlerini (tuşa basma vb.) gönderme izni verir.  Kötü amaçlı uygulamalar SHIELD\'ı ele geçirmek için bunu kullanabilir.</string>
+    <string name="permdesc_persistentActivity" product="shield">Uygulamaya kendisinin bir bölümünü bellekte kalıcı yapma izni verir.   Bu izin, diğer uygulamaların kullanabileceği belleği sınırlandırarak SHIELD\'ın yavaş çalışmasına neden olabilir.</string>
+    <string name="permdesc_clearAppCache" product="shield">Uygulamaya, diğer uygulamaların önbellek dizinlerindeki dosyaları silerek SHIELD depolama alanını boşaltma izni verir.  Bu durum, diğer uygulamaların, verilerini tekrar almalarını gerektireceğinden daha yavaş başlamalarına neden olabilir.</string>
+    <string name="permdesc_readLogs" product="shield">Uygulamaya, sisteme ait çeşitli günlük dosyalarındaki bilgileri okuma izni verir.  Bu izin, uygulamanın, kişisel ve gizli bilgileriniz de dâhil olmak üzere SHIELD ile yaptıklarınızla ilgili genel bilgileri bulmasına olanak verir.</string>
+    <string name="permdesc_changeComponentState" product="shield">Uygulamaya, başka bir uygulamanın bir bileşeninin etkin veya devre dışı olma durumunu değiştirme izni verir. Kötü amaçlı uygulamalar SHIELD\'ın önemli özelliklerini devre dışı bırakmak için bunu kullanabilir. Uygulama bileşenlerini kullanılamaz, tutarsız ya da kararsız hale getirebileceğinden bu izin ayarlanırken dikkat edilmelidir.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Uygulamaya, kendisini sistem açılışı bittikten hemen sonra başlatma izni verir. Bu izin, SHIELD\'ın başlamasının daha uzun sürmesine ve uygulamanın her zaman çalışarak SHIELD\'ı yavaşlatmasına neden olabilir.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Uygulamaya, yayın bittikten sonra da kalan sabit yayınlar gönderme izni verir. Aşırı kullanılması çok fazla bellek harcanmasına neden olarak SHIELD\'ı yavaşlatabilir veya dengesiz hale getirebilir.</string>
+
+    <string name="permdesc_readContacts" product="shield">Uygulamanın, kiminle ne sıklıkta görüştüğünüz, e-posta gönderip aldığınız veya başka herhangi bir şekilde iletişimde bulunduğunuz hakkındaki bilgiler dâhil olmak üzere, SHIELD\'da kayıtlı kişi listenizle ilgili bilgileri okumasına izni verir. Bu izin, uygulamaların, kişi bilgilerinizi kaydetmesine izin verir ve kötü amaçlı uygulamalar, kişi bilgilerinizi, sizin bilginiz olmaksızın başkalarıyla paylaşabilir.</string>
+    <string name="permdesc_writeContacts" product="shield">Uygulamanın, kiminle hangi sıklıkta görüştüğünüz, e-posta gönderip aldığınız veya başka herhangi bir şekilde iletişimde bulunduğunuz hakkındaki bilgiler dâhil olmak üzere, SHIELD\'ınızda kayıtlı kişi listenizle ilgili bilgiler üzerinde değişiklik yapmasına izin verir. Bu izin sayesinde uygulamalar kişi bilgilerini silebilir.</string>
+    <string name="permdesc_readCallLog" product="shield">Uygulamanın, gelen ve giden aramalar hakkındaki bilgiler dâhil olmak üzere, SHIELD\'ın arama günlüğünü okumasına izin verir. Bu izin sayesinde uygulamalar arama günlüğünüzü kaydedebilir ve kötü amaçlı uygulamalar arama günlüğü bilgilerini sizin haberiniz olmaksızın başkalarıyla paylaşabilir.</string>
+    <string name="permdesc_writeCallLog" product="shield">Uygulamanın, gelen ve giden aramalar hakkındaki bilgiler dâhil olmak üzere, SHIELD\'ın arama günlüğü üzerinde değişiklik yapmasına izin verir.
+        Kötü amaçlı uygulamalar bu izni kullanarak çağrı günlüğünüzü silebilir veya değiştirebilir.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Uygulamanın, arkadaşlarınızın ve iş arkadaşlarınızın etkinlikleri de dâhil olmak üzere, SHIELD\'ınızda kayıtlı tüm takvim etkinliklerini okumasına izin verir. Bu izin sayesinde uygulama, ne kadar gizli veya hassas bilgiler söz konusu olursa olsun, takvim bilgilerinizi başkalarıyla paylaşabilir veya kaydedebilir.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Uygulamanın, arkadaşlarınızın veya iş arkadaşlarınızın etkinlikleri de dâhil olmak üzere, SHIELD\'ınızda değiştirebileceğiniz etkinlikler eklemesine, kaldırmasına ve değiştirmesine izin verir. Bu izin sayesinde uygulama, sahibinin haberi olmaksızın, takvim sahiplerinden geliyormuş gibi görünen mesajlar gönderebilir veya değiştirebilir.</string>
+
+
+
+    <string name="permlab_brick" product="shield">SHIELD\'ı kalıcı olarak devre dışı bırak</string>
+    <string name="permdesc_brick" product="shield">Uygulamanın, SHIELD\'ı kalıcı olarak devre dışı bırakmasına izin verir. Bu çok tehlikelidir.</string>
+    <string name="permlab_reboot" product="shield">SHIELD\'ı yeniden başlamaya zorla</string>
+    <string name="permdesc_reboot" product="shield">Uygulamanın, SHIELD\'ı yeniden başlamaya zorlamasına izin verir.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">CDMA SHIELD kurulumunu doğrudan başlat</string>
+    <string name="permlab_wakeLock" product="shield">SHIELD\'ın uyku moduna geçmesini önle</string>
+    <string name="permdesc_wakeLock" product="shield">Uygulamanın, SHIELD\'ın uyku moduna geçmesini önlemesine izin verir.</string>
+    <string name="permlab_devicePower" product="shield">SHIELD\'ı aç veya kapat</string>
+    <string name="permdesc_devicePower" product="shield">Uygulamanın, SHIELD\'ı açmasına veya kapatmasına izin verir.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">NVIDIA Tegra CPU\'yu ayarla</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Uygulamanın, NVIDA Tegra CPU\'nun parametrelerini ayarlamasına izin verir.  Bu yüzden cihazınız daha fazla güç tüketebilir.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">SHIELD\'ın donanımına tam erişim izni veren alt düzey bir üretici testi olarak çalıştır. SHIELD yalnızca üretici test modunda çalıştığı sırada kullanılabilir.</string>
+    <string name="permdesc_setTime" product="shield">Uygulamanın, SHIELD\'ın saatini değiştirmesine izin verir.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Uygulamanın, SHIELD\'ın saat dilimini değiştirmesine izin verir.</string>
+    <string name="permdesc_getAccounts" product="shield">Uygulamanın, SHIELD tarafından bilinen hesapların listesini almasına izin verir.  Bu liste, yüklediğiniz uygulamalar tarafından oluşturulan tüm hesapları içerebilir.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Uygulamanın, çoklu yayın adreslerini kullanarak yalnızca SHIELD\'ınıza değil Wi-Fi ağı üzerindeki tüm cihazlara gönderilen paketleri almasına izin verir.  Çoklu olmayan yayın moduna göre daha fazla güç tüketir.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Uygulamanın, yerel Bluetooth SHIELD\'ı yapılandırmasına ve uzak cihazları keşfedip bunlarla eşleşmesine izin verir.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Uygulamanın, WiMAX ağlarından SHIELD\'a bağlanmasına ve bağlantıyı kesmesine izin verir.</string>
+    <string name="permdesc_bluetooth" product="shield">Uygulamanın, SHIELD\'daki Bluetooth yapılandırmasını görüntülemesine, eşleştirilmiş cihazlarla bağlantı kurmasına ve bu tür bağlantıları kabul etmesine izin verir.</string>
+    <string name="policydesc_watchLogin" product="shield">Ekran kilidini açarken yapılan yanlış parola girme denemelerini izle ve çok fazla sayıda yanlış parola girme denemesi yapılmışsa SHIELD\'ı kilitle veya SHIELD\'daki tüm verileri sil.</string>
+    <string name="policydesc_wipeData" product="shield">Fabrika verilerini sıfırlama işlemi gerçekleştirerek SHIELD\'daki verileri uyarıda bulunmadan silme.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">SHIELD\'da SIM kart yok.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Kilit açma deseninizi <xliff:g id="number">%d</xliff:g> kez yanlış çizdiniz. <xliff:g id="number">%d</xliff:g> kez daha başarısız deneme gerçekleştirildiği takdirde, Google oturum açma bilgilerinizi kullanarak SHIELD\'ınızın kilidini açmanız istenecek.\n\n<xliff:g id="number">%d</xliff:g> saniye içinde tekrar deneyin.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">SHIELD\'ın kilidini <xliff:g id="number">%d</xliff:g> kez yanlış bir şekilde açma girişiminde bulundunuz. <xliff:g id="number">%d</xliff:g> kez daha başarısız deneme gerçekleştirildiği takdirde, SHIELD fabrika ayarlarına sıfırlanacak ve tüm kullanıcı verileri silinecek.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">SHIELD\'ın kilidini <xliff:g id="number">%d</xliff:g> kez yanlış bir şekilde açma girişiminde bulundunuz. Şimdi SHIELD, varsayılan fabrika ayarlarına sıfırlanacak.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Uygulamanın, SHIELD\'da kayıtlı tarayıcı geçmişi ve yer işaretleri üzerinde değişiklik yapmasına izin verir. Bu izin, uygulamanın tarayıcı verilerini silmesine veya değiştirmesine olanak verir.  Not: Bu izin, başka üreticilerin tarayıcıları veya Web\'e göz atma işlevine sahip diğer uygulamalar için geçerli olmayabilir.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g>, Dokunarak Keşfet özelliğini etkinleştirmek istiyor. Dokunarak Keşfet işlevi açık olduğunda, parmağınızın altındaki öğelere ait açıklamaları dinleyebilir veya görebilir veya SHIELD\'la etkileşimde bulunmak için belirli hareketler yapabilirsiniz.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">SHIELD\'ın kilidini <xliff:g id="number">%d</xliff:g> kez yanlış bir şekilde açma girişiminde bulundunuz. <xliff:g id="number">%d</xliff:g> kez daha başarısız deneme gerçekleştirildiği takdirde, SHIELD fabrika ayarlarına sıfırlanacak ve tüm kullanıcı verileri silinecek.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">SHIELD\'ın kilidini <xliff:g id="number">%d</xliff:g> kez yanlış bir şekilde açma girişiminde bulundunuz. Şimdi SHIELD, varsayılan fabrika ayarlarına sıfırlanacak.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Kilit açma deseninizi <xliff:g id="number">%d</xliff:g> kez yanlış çizdiniz. <xliff:g id="number">%d</xliff:g> kez daha başarısız deneme gerçekleştirildiği takdirde, bir e-posta hesabı kullanarak SHIELD\'ınızın kilidini açmanız istenecek.\n\n <xliff:g id="number">%d</xliff:g> saniye içinde tekrar deneyin.</string>
+    <string name="permdesc_transmitIr" product="shield">Uygulamanın, SHIELD\'in kızılötesi aktarıcısını kullanmasına izin verir.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Uygulamanın, kullanıcının müdahalesi olmaksızın uzak cihazlarla eşleştirme yapmasına izin verir.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      SHIELD %1$s adlı cihaza bağlıyken Wi-Fi bağlantısı geçici olarak kesilecektir.
+    </string>
+</resources>

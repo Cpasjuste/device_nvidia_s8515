@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="app_name">"Ajuda do SHIELD"</string>
+  <string name="pagetitle">"INTRODUÇÃO AO SHIELD"</string>
+  <string name="pg1_tle">"INTRODUÇÃO AO SHIELD"</string>
+  <string name="pg2_tle">"UTILIZAR OS BOTÕES DE FUNÇÃO"</string>
+  <string name="pg3_tle">"UTILIZAR OS BOTÕES DE SELECÇÃO"</string>
+  <string name="pg4_tle">"MAIS FORMAS DE INTERAGIR COM O SHIELD"</string>
+  <string name="pg0_title">"BEM-VINDO AO SHIELD"</string>
+  <string name="pg0_text">"Obtenha mais informações sobre todas as funções do SHIELD seleccionando a ligação do manual do utilizador abaixo ou continue e veja as funções e funcionalidades básicas."</string>
+  <string name="pg1_blktle">"BOTÃO NVIDIA"</string>
+  <string name="pg1_blktxt">"<b>Prima uma vez</b> para iniciar jogos do SHIELD, obter jogos novos e transmitir jogos em fluxo do PC GeForce GTX.\n\n<b>Prima sem soltar</b> para abrir o menu avançado."</string>
+  <string name="pg2_voltle">"VOLUME"</string>
+  <string name="pg2_voltxt">"<b>Prima</b> para controlar o volume\n\n<b>Prima sem soltar</b> para anular o som"</string>
+  <string name="pg2_backtle">"ANTERIOR"</string>
+  <string name="pg2_backtxt">"Volta para o ecrã anterior"</string>
+  <string name="pg2_starttle">"INICIAR"</string>
+  <string name="pg2_hometle">"INÍCIO"</string>
+  <string name="pg2_hometxt">"Abre o ecrã inicial do Android\n\n<b>Prima duas vezes</b> para ver Aplicações recentes"</string>
+  <string name="pg3_ytle">"BOTÃO Y"</string>
+  <string name="pg3_ytxt">"Menu na maioria das aplicações"</string>
+  <string name="pg3_xtle">"BOTÃO X"</string>
+  <string name="pg3_btle">"BOTÃO B"</string>
+  <string name="pg3_btxt">"Retroceder ou cancelar na maioria das aplicações"</string>
+  <string name="pg3_atle">"BOTÃO A"</string>
+  <string name="pg3_atxt">"Activa o item seleccionado na maioria das aplicações"</string>
+  <string name="pg4_mtdtle">"ECRÃ MULTITOQUE"</string>
+  <string name="pg4_virtle">"RATO VIRTUAL"</string>
+  <string name="pg4_rstxt">"<b>Manípulo à direita</b>\nUtilize para mover o ponteiro do rato"</string>
+  <string name="pg4_btntxt">"<b>Prima </b>{R.drawable.stickTrigger}<b> ou </b>{R.drawable.aButton} para clicar"</string>
+  <string name="blake_pg1_back_title">ANTERIOR</string>
+  <string name="blake_pg1_back_txt"><b>Toque em</b> para voltar ao ecrã anterior</string>
+  <string name="blake_pg1_home_title">INÍCIO</string>
+  <string name="blake_pg1_home_txt">"<b>Toque </b> para abrir o ecrã inicial de Android\n\n<b>Toque duas vezes</b> para ver Aplicações recentes\n\n<b>Mantenha premido</b> para iniciar o Google Now com pesquisa de voz</string>
+  <string name="blake_pg2_title">BOTÃO NVIDIA</string>
+  <string name="blake_pg2_txt"><b>Toque em</b> para iniciar o SHIELD Hub. Encontre novos jogos, inicie jogos do SHIELD e transfira jogos do seu PC GeForce GTX.</string>
+  <string name="blake_pg3_title">INICIAR</string>
+  <string name="blake_pg3_txt"><b>Toque sem soltar em</b> para aceder a controlos adicionais para GameStream e Mapeador de comando</string>
+  <string name="twitch"><b>Twitch</b></string>
+  <string name="record_and_share"><b>Gravar e partilhar</b></string>
+  <string name="virtual_controls"><b>Controlos virtuais</b></string>
+</resources>

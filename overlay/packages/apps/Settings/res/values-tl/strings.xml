@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">Liwanag ng LED</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">Button ng NVIDIA</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Kontrol ng Volume</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">Gamitin ang mga bumper upang i-adjust ang volume</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">I-a-adjust ng LB at RB ang volume pagkatapos ng pagpindot ng button ng volume</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">Ipa-ilaw ang LED kapag naka-sleep ang device</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Nala-lock agad ang device sa pagsara ng takip</string>
+    <!-- Message for add user confirmation dialog - long version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_long">Maibabahagi mo ang device na ito sa iba pang mga tao sa pamamagitan ng paglikha ng mga karagdagang user. May sariling espasyo ang bawat user, na mako-customize nila gamit ang kanilang sariling apps, wallpaper, at higit pa. Maisasaayos din ng mga user ang mga setting ng tablet tulad ng Wi-Fi na makakaapekto sa lahat.\n\nAng sinumang user ay maaaring tumanggap ng na-update na mga pagpapahintulot sa app sa ngalan ng lahat ng iba pang user.</string>
+    <!-- Message for add user confirmation dialog - short version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_short">Ang sinumang user ay maaaring tumanggap ng na-update na mga pagpapahintulot sa app sa ngalan ng lahat ng iba pang user.</string>
+
+    <!-- Enable Controller Mapper-->
+     <add-resource type="string" name="controller_mapper_enable" />
+     <string name="controller_mapper_enable">I-enable ang Gamepad Mapper</string>
+     <add-resource type="string" name="controller_mapper_enable_summary" />
+     <string name="controller_mapper_enable_summary">Pindutin nang matagal ang button ng START upang ilunsad ang mapper overlay</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download" />
+     <string name="controller_mapper_enable_auto_download">I-enable ang auto download</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download_summary" />
+     <string name="controller_mapper_enable_auto_download_summary">Awtomatikong mag-download ng mapping mula sa cloud kung available</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">NVIDIA legal</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Kasunduan sa Lisensya ng Software</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Patakaran sa Privacy</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Tuntunin ng Serbisyo ng Tegra Experience</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Impormasyon sa Warranty</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">Mga lisensya ng NVIDIA</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Mode na full screen</string>
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Ipakita lang ang status bar sa mga home screen</string>
+
+    <!-- Category title for Controller Mapper -->
+    <add-resource type="string" name="nv_controller_mapper" />
+    <string name="nv_controller_mapper">Gamepad Mapper</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">Ipadala ang feedback sa NVIDIA</string>
+
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">App</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">Data</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">Ilipat ang app sa SHIELD?</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">Ilipat ang app sa SD card?</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">Maaaring magtagal ito ng ilang minuto. Huwag alisin ang SD card sa panahon ng operasyong ito.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> ang free sa SHIELD</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> ang free sa SD card</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device">Inililipat ang <xliff:g id="pkg_label">%1$s</xliff:g> sa SHIELD...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard">Inililipat ang <xliff:g id="pkg_label">%1$s</xliff:g> sa SD card...</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Mode na full screen</string>
+
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Itago ang status bar</string>
+
+    <add-resource type="string" name="flscrmode_str_cling_msg_restore_normal" />
+    <string name="flscrmode_str_cling_msg_restore_normal">Mag-swipe mula sa itaas upang ibalik ang status bar.</string>
+    <add-resource type="string" name="flscrmode_str_cling_btn_label_ok" />
+    <string name="flscrmode_str_cling_btn_label_ok">OK</string>
+</resources>
+

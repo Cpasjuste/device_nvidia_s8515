@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="app_name">"Guida di SHIELD"</string>
+  <string name="pagetitle">"IMPARARE A CONOSCERE SHIELD"</string>
+  <string name="pg1_tle">"IMPARARE A CONOSCERE SHIELD"</string>
+  <string name="pg2_tle">"USO DEI PULSANTI FUNZIONE"</string>
+  <string name="pg3_tle">"USO DEI PULSANTI DI SELEZIONE"</string>
+  <string name="pg4_tle">"ALTRE MODALITÀ DI INTERAZIONE CON SHIELD"</string>
+  <string name="pg0_title">"BENVENUTI IN SHIELD"</string>
+  <string name="pg0_text">"Per conoscere tutte le funzionalità di SHIELD selezionare il collegamento alla guida dell\'utente indicato di seguito oppure continuare per visualizzare le funzioni e le caratteristiche di base."</string>
+  <string name="pg1_blktle">"PULSANTE NVIDIA"</string>
+  <string name="pg1_blktxt">"<b>Premere una volta</b> per avviare i giochi SHIELD, trovare nuovi giochi e trasmettere giochi da un PC con GeForce GTX.\n\n<b>Premere e tenere premuto</b> per aprire il menu di accensione."</string>
+  <string name="pg2_voltle">"VOLUME"</string>
+  <string name="pg2_voltxt">"<b>Premere</b> per controllare il volume.\n\n<b>Premere e tenere premuto</b> per disattivare l\'audio"</string>
+  <string name="pg2_backtle">"INDIETRO"</string>
+  <string name="pg2_backtxt">"Salta alla schermata precedente"</string>
+  <string name="pg2_starttle">"START"</string>
+  <string name="pg2_hometle">"HOME"</string>
+  <string name="pg2_hometxt">"Apre la schermata iniziale Android.\n\n<b>Premere due volte</b> per visualizzare le applicazioni recenti"</string>
+  <string name="pg3_ytle">"PULSANTE Y"</string>
+  <string name="pg3_ytxt">"Accede al menu nella maggior parte delle applicazioni"</string>
+  <string name="pg3_xtle">"PULSANTE X"</string>
+  <string name="pg3_btle">"PULSANTE B"</string>
+  <string name="pg3_btxt">"Corrisponde a \"Indietro\" o \"Annulla\" nella maggior parte delle applicazioni"</string>
+  <string name="pg3_atle">"PULSANTE A"</string>
+  <string name="pg3_atxt">"Attiva l\'oggetto selezionato nella maggior parte delle applicazioni"</string>
+  <string name="pg4_mtdtle">"SCHERMO MULTI-TOUCH"</string>
+  <string name="pg4_virtle">"MOUSE VIRTUALE"</string>
+  <string name="pg4_rstxt">"<b>Levetta destra</b>\nConsente di spostare il puntatore del mouse"</string>
+  <string name="pg4_btntxt">"<b>Premere </b>{R.drawable.stickTrigger}<b> o </b>{R.drawable.aButton} per fare clic"</string>
+  <string name="blake_pg1_back_title">INDIETRO</string>
+  <string name="blake_pg1_back_txt"><b>Tocca</b> per passare alla schermata precedente</string>
+  <string name="blake_pg1_home_title">HOME</string>
+  <string name="blake_pg1_home_txt">"<b>Tocca</b> per aprire la schermata iniziale di Android.\n\n<b>Tocca due volte</b> per visualizzare le applicazioni recenti.\n\n<b>Tieni premuto</b> per avviare Google Now con ricerca vocale</string>
+  <string name="blake_pg2_title">PULSANTE NVIDIA</string>
+  <string name="blake_pg2_txt"><b>Tocca</b> per avviare SHIELD Hub. Trova nuovi giochi, avvia giochi SHIELD e trasmetti giochi da un PC con GeForce GTX.</string>
+  <string name="blake_pg3_title">START</string>
+  <string name="blake_pg3_txt"><b>Tenere premuto</b> per accedere ai controlli aggiuntivi per GameStream e per lo strumento di mappatura del gamepad</string>
+  <string name="twitch"><b>Twitch</b></string>
+  <string name="record_and_share"><b>Registra e condividi</b></string>
+  <string name="virtual_controls"><b>Comandi virtuali</b></string>
+</resources>

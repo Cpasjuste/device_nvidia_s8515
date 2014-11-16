@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">Spēļdators SHIELD - tikai nesinhronizēts</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      Nav eksportējamu kontaktpersonu. Ja kontaktpersonas ir saglabātas spēļdatorā SHIELD, daži datu pakalpojumu sniedzēji var neļaut eksportēt kontaktpersonas no SHIELD.
+    </string>
+</resources>

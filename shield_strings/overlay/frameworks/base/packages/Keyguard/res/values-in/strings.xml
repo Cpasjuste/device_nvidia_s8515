@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">Tidak ada kartu SIM dalam SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Anda telah gagal mencoba membuka kunci SHIELD <xliff:g id="number">%d</xliff:g> kali. Setelah <xliff:g id="number">%d</xliff:g> upaya gagal lagi, SHIELD akan disetel ulang ke setelan default pabrik dan semua data pengguna hilang.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Anda telah gagal mencoba membuka kunci SHIELD <xliff:g id="number">%d</xliff:g> kali. Sekarang SHIELD akan disetel ulang ke setelan default pabrik.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Anda telah salah menggambar pola pembuka kunci <xliff:g id="number">%d</xliff:g> kali. Setelah <xliff:g id="number">%d</xliff:g> upaya gagal lagi, Anda akan diminta membuka kunci SHIELD menggunakan akun email.\n\n Coba lagi dalam <xliff:g id="number">%d</xliff:g> detik.
+    </string>
+</resources>

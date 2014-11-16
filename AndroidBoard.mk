@@ -1,8 +1,11 @@
+# At this stage main makefiles, including product makefiles,
+# have been read, so all major variables should be available.
+
 LOCAL_PATH := $(call my-dir)
 
-include $(CLEAR_VARS)
+ifeq ($(wildcard $(PRODUCT_OUT)/blob),$(PRODUCT_OUT)/blob)
+INSTALLED_RADIOIMAGE_TARGET += $(PRODUCT_OUT)/blob
+endif
 
-ALL_PREBUILT += $(INSTALLED_KERNEL_TARGET)
-
-# include the non-open-source counterpart to this file
--include vendor/nvidia/s8515/AndroidBoardVendor.mk
+include vendor/nvidia/build/kernel.mk
+include vendor/nvidia/build/nv_targets.mk

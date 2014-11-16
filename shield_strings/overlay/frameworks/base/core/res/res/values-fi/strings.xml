@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">SHIELD-tallennustila on täynnä. Vapauta tilaa poistamalla tiedostoja.</string>
+    <string name="power_dialog" product="shield">SHIELD-asetukset</string>
+    <string name="shutdown_confirm" product="shield">SHIELD suljetaan.</string>
+    <string name="global_actions" product="shield">SHIELD-asetukset</string>
+    <string name="permdesc_readSms" product="shield">Sovellus voi lukea tekstiviestit, jotka on tallennettu SHIELDiin tai SIM-kortille. Sovellus voi lukea kaikki tekstiviestit huolimatta niiden arkaluonteisuudesta.</string>
+    <string name="permdesc_writeSms" product="shield">Sovellus voi kirjoittaa tekstiviestit, jotka on tallennettu SHIELDiin tai SIM-kortille. Haitalliset sovellukset voivat poistaa viestejä.</string>
+    <string name="permdesc_injectEvents" product="shield">Antaa sovelluksen käyttää omia syötteitään (kuten näppäinpainalluksia) muissa sovelluksissa.  Haitalliset sovellukset voivat ottaa tällä SHIELDin haltuun.</string>
+    <string name="permdesc_persistentActivity" product="shield">Antaa sovelluksen lisätä omia osiaan muistiin pysyvästi.   Tämä voi rajoittaa muiden sovellusten käytettävissä olevaa muistia ja hidastaa SHIELDin toimintaa.</string>
+    <string name="permdesc_clearAppCache" product="shield">Antaa sovelluksen vapauttaa SHIELDin tallennustilaa poistamalla tiedostoja muiden sovellusten välimuistihakemistosta.   Muut sovellukset voivat käynnistyä hitaammin, koska niiden täytyy noutaa tietonsa uudelleen.</string>
+    <string name="permdesc_readLogs" product="shield">Antaa sovelluksen lukea järjestelmän lokitiedostoja.   Näin sovellus saa yleisiä tietoja siitä, mitä teet SHIELDillä, sekä mahdollisia yksityisiä tai arkaluonteisia tietoja.</string>
+    <string name="permdesc_changeComponentState" product="shield">Antaa sovelluksen muuttaa, onko toisen sovelluksen komponentti käytössä vai ei.  Haitalliset sovellukset voivat käyttää tätä SHIELDin tärkeiden ominaisuuksien käytöstä poistamiseen.  Tämän luvan käyttöönotto edellyttää varovaisuutta, sillä sen avulla sovelluskomponentit on mahdollista saada epäkäytettävään, epäyhtenäiseen tai epävakaaseen tilaan.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Antaa sovelluksen käynnistyä heti, kun laite on käynnistynyt.  Tämä voi pidentää SHIELDin käynnistysaikaa ja hidastaa sen yleistä käyttöä SHIELDin ollessa aina käynnissä.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Antaa sovelluksen lähettää pysyviä lähetyksiä, jotka säilyvät lähetyksen päätyttyä.  Liiallinen käyttö voi tehdä SHIELDistä hitaan tai epävakaan kasvattamalla sen muistinkäyttöä liikaa.</string>
+
+    <string name="permdesc_readContacts" product="shield">Antaa sovelluksen lukea SHIELDiin tallennettuja yhteystietoja sekä tarkastella, kuinka usein olet soittanut, lähettänyt sähköpostia tai muuten viestinyt tiettyjen yhteystietojen kanssa.  Tämän luvan saaneet sovellukset voivat tallentaa yhteystietojasi ja haitalliset sovellukset voivat jakaa yhteystiedot tietämättäsi. </string>
+    <string name="permdesc_writeContacts" product="shield">Antaa sovelluksen muokata SHIELDiin tallennettuja yhteystietoja sekä tarkastella, kuinka usein olet soittanut, lähettänyt sähköpostia tai muuten viestinyt tiettyjen yhteystietojen kanssa.  Tämän luvan saaneet sovellukset voivat poistaa yhteystietoja.</string>
+    <string name="permdesc_readCallLog" product="shield">Antaa sovelluksen lukea SHIELDin puhelulokia, kuten tietoja vastatuista ja soitetuista puheluista.  Tämän luvan saaneet sovellukset voivat tallentaa puhelulokitietojasi ja haitalliset sovellukset voivat jakaa puhelulokin tiedot tietämättäsi. </string>
+    <string name="permdesc_writeCallLog" product="shield">Antaa sovelluksen muokata SHIELDin puhelulokia, kuten tietoja vastatuista ja soitetuista puheluista. 
+        Haitalliset sovellukset voivat käyttää tätä poistamaan puhelulokisi tai muokkaamaan sitä.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Antaa sovelluksen lukea kaikkia SHIELDiin tallennettuja kalenteritapahtumia, myös kavereiden tai työkavereiden tapahtumia.  Sovellus voi jakaa tai tallentaa kalenteritietojasi niiden luottamuksellisuudesta tai arkaluonteisuudesta huolimatta.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Antaa sovelluksen lisätä, poistaa ja muuttaa tapahtumia, joita voit muokata SHIELDillä, mukaan lukien ystävien tai työkavereiden tapahtumat.  Tämä voi antaa sovelluksen lähettää viestejä, jotka näyttävät tulevan kalenterin omistajilta tai muokata tapahtumia omistajien tietämättä. </string>
+
+
+
+    <string name="permlab_brick" product="shield">poista SHIELD käytöstä pysyvästi</string>
+    <string name="permdesc_brick" product="shield">Antaa sovelluksen poistaa SHIELDin pysyvästi käytöstä. Tämä on hyvin vaarallista.</string>
+    <string name="permlab_reboot" product="shield">pakota SHIELD käynnistymään uudelleen</string>
+    <string name="permdesc_reboot" product="shield">Antaa sovelluksen pakottaa SHIELDin käynnistymään uudelleen.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">aloita suoraan CDMA SHIELDin asetuksien määrittäminen</string>
+    <string name="permlab_wakeLock" product="shield">estä SHIELDiä menemästä virransäästötilaan</string>
+    <string name="permdesc_wakeLock" product="shield">Antaa sovelluksen estää SHIELDiä siirtymästä virransäästötilaan.</string>
+    <string name="permlab_devicePower" product="shield">käynnistä tai sammuta SHIELD</string>
+    <string name="permdesc_devicePower" product="shield">Antaa sovelluksen sammuttaa tai käynnistää SHIELDin.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">säädä NVIDIA Tegra -keskusyksikköä</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Antaa sovelluksen säätää NVIDIA Tegra -keskusyksikön parametreja.  Tämä voi viedä enemmän virtaa.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Suorita matalan tason valmistajan testinä, jolloin koko SHIELD-laitteisto on käytettävissä.  Käytettävissä vain, kun SHIELDiä käytetään valmistajan testitilassa.</string>
+    <string name="permdesc_setTime" product="shield">Antaa sovelluksen muuttaa SHIELDin kellonaikaa.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Antaa sovelluksen muuttaa SHIELDin aikavyöhykettä.</string>
+    <string name="permdesc_getAccounts" product="shield">Antaa sovelluksen tarkastella SHIELDiin tallennettuja tilejä.   Näihin voivat kuulua myös asentamiesi sovelluksien luomat tilit.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Antaa sovelluksen vastaanottaa kaikille laitteille, ei vain SHIELDille, Wi-Fi-verkon kautta monilähetystilassa lähetettyjä paketteja.   Tämä käyttää enemmän virtaa kuin tavallinen lähetystila.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Antaa sovelluksen määrittää paikallisen Bluetooth SHIELDin asetukset sekä tunnistaa etälaitteita ja muodostaa niiden kanssa laitepareja.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Antaa sovelluksen muodostaa SHIELDillä yhteyden WiMAX-verkkoon ja katkaista yhteyden.</string>
+    <string name="permdesc_bluetooth" product="shield">Antaa sovelluksen tarkastella SHIELDin Bluetooth-asetuksia sekä muodostaa ja hyväksyä laitepariyhteyksiä.</string>
+    <string name="policydesc_watchLogin" product="shield">Valvoo väärien salasanojen lukumäärää näytön lukituksen poistossa sekä lukitsee SHIELDin tai poistaa kaikki SHIELDin tiedot, jos salasana syötetään väärin liian monta kertaa.</string>
+    <string name="policydesc_wipeData" product="shield">Tyhjennä SHIELDin tiedot varoituksetta palauttamalla tehdasasetukset.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">SHIELDissä ei ole SIM-korttia.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Olet piirtänyt lukituksenpoistokuvion väärin <xliff:g id="number">%d</xliff:g> kertaa.  Jos piirrät kuvion väärin vielä <xliff:g id="number">%d</xliff:g> kertaa, sinua pyydetään poistamaan SHIELDin lukitus Google-sisäänkirjautumisen avulla.\n\nYritä uudelleen <xliff:g id="number">%d</xliff:g> sekunnin kuluttua.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Olet yrittänyt avata SHIELDin lukituksen väärin <xliff:g id="number">%d</xliff:g> kertaa.  Jos teet vielä <xliff:g id="number">%d</xliff:g> epäonnistunutta yritystä, SHIELDiin palautetaan tehdasasetukset ja kaikki käyttäjätiedot häviävät.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Olet yrittänyt avata SHIELDin lukituksen väärin <xliff:g id="number">%d</xliff:g> kertaa.  SHIELD palautetaan nyt tehtaan oletusasetuksiin.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Antaa sovelluksen muokata selaimen historiaa ja SHIELDiin tallennettuja kirjanmerkkejä.  Sovellus voi poistaa tai muokata selaimen tietoja.   Huomautus:  kolmannen osapuolen selaimet tai muut sovellukset, jotka pystyvät selaamaan verkkoa, eivät saa käyttää tätä lupaa.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> haluaa ottaa Tutki koskettamalla -ominaisuuden käyttöön. Kun Tutki koskettamalla on käytössä, näet tai kuulet kuvauksen sormen alla olevista kohteista ja voit käyttää SHIELDiä sormieleiden avulla.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Olet yrittänyt avata SHIELDin lukituksen väärin <xliff:g id="number">%d</xliff:g> kertaa.  Jos teet vielä <xliff:g id="number">%d</xliff:g> epäonnistunutta yritystä, SHIELDiin palautetaan tehdasasetukset ja kaikki käyttäjätiedot häviävät.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">Olet yrittänyt avata SHIELDin lukituksen väärin <xliff:g id="number">%d</xliff:g> kertaa.  SHIELD palautetaan nyt tehtaan oletusasetuksiin.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Olet piirtänyt lukituksenpoistokuvion väärin <xliff:g id="number">%d</xliff:g> kertaa.  Jos piirrät kuvion väärin vielä <xliff:g id="number">%d</xliff:g> kertaa, sinua pyydetään poistamaan SHIELDin lukitus sähköpostitilin avulla.\n\n Yritä uudelleen <xliff:g id="number">%d</xliff:g> sekunnin kuluttua.</string>
+    <string name="permdesc_transmitIr" product="shield">Antaa sovelluksen käyttää SHIELDin infrapunalähetintä.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Antaa sovelluksen muodostaa parin etälaitteiden kanssa ilman käyttäjän toimia.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      SHIELDin yhteys Wi-Fi-verkkoon katkaistaan väliaikaisesti puhelimen ollessa yhdistettynä laitteeseen %1$s
+    </string>
+</resources>

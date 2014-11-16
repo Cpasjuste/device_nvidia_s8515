@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">Keine SIM-Karte in SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Sie haben <xliff:g id="number">%d</xliff:g> Mal erfolglos versucht, SHIELD zu entsperren. Nach <xliff:g id="number">%d</xliff:g> weiteren erfolglosen Versuchen wird SHIELD auf die Werkseinstellungen zurückgesetzt, und alle Benutzerdaten gehen verloren.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Sie haben <xliff:g id="number">%d</xliff:g> Mal erfolglos versucht, SHIELD zu entsperren. SHIELD wird nun auf die Werkseinstellungen zurückgesetzt.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Sie haben Ihr Entsperrungsmuster <xliff:g id="number">%d</xliff:g> Mal erfolglos versucht, SHIELD zu entsperren. Nach <xliff:g id="number">%d</xliff:g> weiteren erfolglosen Versuchen werden Sie aufgefordert, SHIELD mithilfe eines E-Mail-Kontos zu entsperren.\n\n Versuchen Sie es in <xliff:g id="number">%d</xliff:g> Sekunden erneut.
+    </string>
+</resources>

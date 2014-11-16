@@ -1,0 +1,4 @@
+key 102   HOME              WAKE_DROPPED
+key 158   BACK              WAKE_DROPPED
+key 116   STB_POWER         WAKE
+key 143   CHANNEL_DOWN      WAKE

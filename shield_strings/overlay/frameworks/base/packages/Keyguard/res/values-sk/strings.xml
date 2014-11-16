@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">V systéme SHIELD nie je žiadna SIM karta.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       <xliff:g id="number">%d</xliff:g>-krát ste sa pokúsili odomknúť systém SHIELD nesprávnym spôsobom. Po <xliff:g id="number">%d</xliff:g> ďalších neúspešných pokusoch sa v systéme SHIELD obnovia výrobné nastavenia a všetky používateľské údaje sa stratia.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       <xliff:g id="number">%d</xliff:g>-krát ste sa pokúsili odomknúť systém SHIELD nesprávnym spôsobom. V systéme SHIELD sa teraz obnovia predvolené výrobné nastavenia.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       <xliff:g id="number">%d</xliff:g>-krát ste použili nesprávny bezpečnostný vzor. Po <xliff:g id="number">%d</xliff:g> ďalších neúspešných pokusoch sa zobrazí výzva na odomknutie systému SHIELD pomocou e-mailového účtu.\n\n Skúsiť znova o <xliff:g id="number">%d</xliff:g> sekúnd.
+    </string>
+</resources>

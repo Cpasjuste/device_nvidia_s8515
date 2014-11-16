@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">LED fényerő</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">NVIDIA gomb</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Hangerőszabályzás</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">A jobb és bal gomb használata a hangerő beállításához</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">Az LB és RB a hangerőgomb megnyomása után a hangerőt szabályozza</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">LED villogtatása alvó üzemmódban</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">A fedél lezárása azonnal zárol</string>
+    <!-- Message for add user confirmation dialog - long version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_long">Ezt a készüléket további felhasználókat létrehozva megoszthatja más személyekkel. Minden felhasználó rendelkezik saját térrel, amelyet személyre szabhat saját alkalmazásaival, háttérképével stb. A felhasználók módosíthatják a táblagép olyan beállításait is, amelyek mindenkit érintenek, például a Wi-Fi beállításait.\n\nMinden felhasználó elfogadhatja a frissített alkalmazások engedélyeit az összes többi felhasználó nevében.</string>
+    <!-- Message for add user confirmation dialog - short version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_short">Minden felhasználó elfogadhatja a frissített alkalmazások engedélyeit az összes többi felhasználó nevében.</string>
+
+    <!-- Enable Controller Mapper-->
+     <add-resource type="string" name="controller_mapper_enable" />
+     <string name="controller_mapper_enable">Gamepad leképező engedélyezése</string>
+     <add-resource type="string" name="controller_mapper_enable_summary" />
+     <string name="controller_mapper_enable_summary">Nyomja le hosszan a START gombot a leképezőréteg elindításához</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download" />
+     <string name="controller_mapper_enable_auto_download">Automatikus letöltés engedélyezése</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download_summary" />
+     <string name="controller_mapper_enable_auto_download_summary">Leképezés automatikus letöltése a felhőből, ha lehetséges</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">NVIDIA jogi szöveg</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Szoftverlicenc-szerződés</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Adatvédelmi irányelvek</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Tegra Experience szolgáltatási feltételek</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Jótállási információk</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">NVIDIA licencek</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Teljes képernyős mód</string>
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Állapotsor megjelenítése csak a kezdő képernyőkön</string>
+
+    <!-- Category title for Controller Mapper -->
+    <add-resource type="string" name="nv_controller_mapper" />
+    <string name="nv_controller_mapper">Gamepad leképező</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">Küldjön visszajelzést az NVIDIA-nak</string>
+
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">Alkalmazás</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">Adatok</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">Áthelyezi az alkalmazást a SHIELD-re?</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">Áthelyezi az alkalmazást az SD-kártyára?</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">Ez eltarthat pár percig. Ne vegye ki az SD-kártyát a művelet alatt.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> szabad a SHIELD-en</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> szabad az SD-kártyán</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device">A(z) <xliff:g id="pkg_label">%1$s</xliff:g> áthelyezése a SHIELD-re...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard">A(z) <xliff:g id="pkg_label">%1$s</xliff:g> áthelyezése az SD-kártyára...</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Teljes képernyős mód</string>
+
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Állapotsor elrejtése</string>
+
+    <add-resource type="string" name="flscrmode_str_cling_msg_restore_normal" />
+    <string name="flscrmode_str_cling_msg_restore_normal">Húzza az ujját fentről lefelé az állapotsor visszaállításához.</string>
+    <add-resource type="string" name="flscrmode_str_cling_btn_label_ok" />
+    <string name="flscrmode_str_cling_btn_label_ok">OK</string>
+</resources>
+

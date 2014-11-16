@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="permlab_nvidiaCPUPower">dostosowanie procesora NVIDIA Tegra</string>
+  <string name="permdesc_nvidiaCPUPower">Umożliwia aplikacji dostosowanie parametrów procesora NVIDIA Tegra. Może to powodować zużywanie dodatkowej energii.</string>
+  <string name="global_action_sleep">Uśpij</string>
+  <string name="hdmiAudio">Dźwięk HDMI</string>
+  <string name="miracastAudio">Dźwięk Miracast</string>
+  <string name="global_action_restart_title">Uruchom ponownie urządzenie SHIELD</string>
+  <string name="global_action_restart_message">Ponowne uruchomienie urządzenia SHIELD spowoduje usunięcie plików tymczasowych z pamięci. Czy chcesz teraz uruchomić ponownie urządzenie SHIELD?</string>
+  <string name="global_action_restart_progress_message">Ponowne uruchamianie urządzenia SHIELD...</string>
+</resources>

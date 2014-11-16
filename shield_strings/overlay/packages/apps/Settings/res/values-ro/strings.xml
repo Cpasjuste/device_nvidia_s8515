@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">Redenumire SHIELD</string>
+    <string name="bluetooth_ask_discovery" product="shield">"O aplicaţie de pe SHIELD încearcă să facă SHIELD vizibil pentru alte dispozitive Bluetooth pentru <xliff:g id="timeout">%1$d</xliff:g> (de) secunde. Permiteţi?"</string>
+    <string name="phone_info_label" product="shield">Informaţii SHIELD</string>
+    <string name="roaming_warning_multiuser" product="shield">Dacă permiteţi roamingul de date, puteţi acumula cheltuieli considerabile pentru roaming!\n\nAceastă setare afectează toţi utilizatorii de pe acest SHIELD.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">Criptare SHIELD</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">Necesită un cod PIN numeric sau o parolă de decriptare a SHIELD la fiecare pornire a acestuia</string>
+    <string name="crypt_keeper_desc" product="shield">
+    Puteţi să criptaţi conturi, setări, aplicaţii descărcate şi datele acestora, fişiere media şi alte tipuri de fişiere. După criptarea SHIELD, trebuie să introduceţi un cod PIN numeric sau o parolă pentru a-l decripta de fiecare dată când îl porniţi. Nu puteţi decripta SHIELD decât prin resetarea configurării din fabrică, ceea ce va şterge toate datele de pe acesta.\n\nCriptarea poate dura cel puţin o oră. Trebuie să începeţi cu o baterie încărcată şi să ţineţi SHIELD conectat până la finalizarea criptării. Întreruperea procesului de criptare poate duce la pierderea tuturor datelor sau a unor părţi din acestea.</string>
+    <string name="crypt_keeper_button_text" product="shield">Criptare SHIELD</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    Operaţiunea de criptare este ireversibilă şi întreruperea ei va duce la pierderea datelor.
+    Criptarea durează cel puţin o oră, timp în care SHIELD se va reporni de mai multe ori.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">Aşteptaţi până când SHIELD este criptat. Finalizat <xliff:g id="percent" example="50">^1</xliff:g>%.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> Criptarea a fost întreruptă şi nu se poate finaliza. Prin urmare, datele de pe SHIELD dvs. nu mai sunt accesibile.\n\n
+      Pentru a relua utilizarea SHIELD, trebuie să efectuaţi o resetare la valorile din fabrică.
+      Atunci când configuraţi SHIELD după resetare, veţi avea oportunitatea de a restaura datele pentru care s-a creat o copie de rezervă în contul dumneavoastră de Google.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> va fi deconectat de la conexiunea SHIELD la internet.</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">Permiteţi schimbul de date atunci când SHIELD atinge alt dispozitiv</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">AVERTISMENT: puteţi acumula costuri suplimentare pentru date de la operator.\n\nConfigurarea SHIELD poate presupune o activitate semnificativă în reţea.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">AVERTISMENT: SHIELD nu va putea să verifice dacă software-ul este actualizat.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD nu s-a putut conecta la această reţea Wi-Fi.</string>
+    <string name="dock_audio_summary_none" product="shield">SHIELD nu este andocat</string>
+    <string name="dock_not_found_text" product="shield">Trebuie să andocaţi SHIELD înainte de configurarea dispozitivului de andocare audio.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">Doresc să se redea sunet la introducerea sau scoaterea SHIELD din dispozitivul de andocare</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">Nu doresc să se redea sunet la introducerea sau scoaterea SHIELD din dispozitivul de andocare</string>
+
+    <string name="accelerometer_summary_on" product="shield">Doresc comutarea automată a orientării atunci când se roteşte SHIELD</string>
+    <string name="accelerometer_summary_off" product="shield">Doresc comutarea automată a orientării atunci când se roteşte SHIELD</string>
+    <string name="sim_lock_on" product="shield">Utilizarea SHIELD necesită un cod PIN</string>
+    <string name="sim_lock_off" product="shield">Utilizarea SHIELD necesită un cod PIN</string>
+    <string name="device_info_settings" product="shield">Stare SHIELD</string>
+
+    <string name="device_status_summary" product="shield">Starea bateriei, reţeaua şi alte informaţii</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">Şterge toate datele de pe SHIELD</string>
+    <string name="master_clear_desc" product="shield">"Această acţiune va şterge toate datele din <b>stocarea internă</b> a SHIELD, inclusiv:\n\n<li>Contul dvs. Google</li>\n<li>Datele şi setările de sistem şi ale aplicaţiilor</li>\n<li>Aplicaţiile descărcate</li>"</string>
+    <string name="master_clear_button_text" product="shield">Resetare SHIELD</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">Se permite acces la conexiunea de internet a SHIELD</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Se permite acces la conexiunea de internet a SHIELD pentru 1 dispozitiv</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Se permite acces la conexiunea de internet a SHIELD pentru <xliff:g id="connectedDeviceCount">%1$d</xliff:g> dispozitive</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">Nu se permite acces la conexiunea de internet a SHIELD</string>
+    <string name="location_street_level" product="shield">Permiteţi aplicaţiilor să utilizeze GPS de pe SHIELD pentru a indica locaţia dvs.</string>
+    <string name="about_settings" product="shield">Despre SHIELD</string>
+    <string name="install_all_warning" product="shield">SHIELD şi datele dvs. personale sunt mai vulnerabile la un atac din partea aplicaţiilor ce provin din surse necunoscute. Acceptaţi faptul că sunteţi unicul responsabil pentru orice daune aduse SHIELD sau pierderea de date care poate rezulta din utilizarea acestor aplicaţii.</string>
+    <string name="security_settings_desc" product="shield">Această aplicaţie poate accesa pe SHIELD următoarele:</string>
+    <string name="security_settings_desc_multi" product="shield">Această aplicaţie poate accesa pe SHIELD următoarele. Pentru a îmbunătăţi performanţa şi a reduce consumul de memorie, unele dintre aceste permisiuni sunt disponibile pentru <xliff:g id="base_app_name">%1$s</xliff:g>, deoarece aceasta rulează în acelaşi proces ca şi <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">Mutaţi pe SHIELD</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Dacă opriţi acest serviciu, este posibil ca unele funcţii ale SHIELD să nu mai funcţioneze corect decât după ce îl închideţi şi redeschideţi.</string>
+    <string name="testing_phone_info" product="shield">Informaţii despre SHIELD</string>
+    <string name="power_idle" product="shield">SHIELD inactiv</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">Baterie utilizată când SHIELD este inactiv</string>
+    <string name="really_remove_account_message" product="shield">Eliminarea acestui cont va şterge toate mesajele şi persoanele din agendă pe care le cuprinde, precum şi alte date de pe SHIELD!</string>
+    <string name="remove_account_failed" product="shield">Acest cont este necesar pentru unele aplicaţii. Puteţi elimina contul numai prin resetarea SHIELD la setările prestabilite din fabrică (acţiune care şterge toate datele personale), din Setări &gt; Creaţi copie de rezervă şi resetaţi.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Modificările conturilor dvs. pe web vor fi copiate în mod automat pe SHIELD.\n\nUnele conturi pot să copieze, de asemenea, în mod automat toate modificările pe care le efectuaţi pe SHIELD pe web. Un cont Google funcţionează în acest fel.\n\nPentru a alege ce tip de informaţii doriţi să fie sincronizate în fiecare cont, accesaţi Setări &gt; Conturi.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">Conexiunea de date mobile va fi dezactivată la atingerea limitei specificate.\n\nDin moment ce SHIELD măsoară utilizarea de date, iar operatorul poate contabiliza în mod diferit utilizarea, vă recomandăm să utilizaţi o limită estimativă.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">Dacă limitaţi transferul de date mobile în fundal, unele aplicaţii şi servicii nu vor funcţiona decât dacă sunteţi conectat(ă) la o reţea Wi-Fi.\n\nAceastă setare afectează toţi utilizatorii de pe acest SHIELD.</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: aproximativ <xliff:g id="total" example="128KB">%1$s</xliff:g> utilizaţi, conform SHIELD. Contabilizarea operatorului a utilizării de date poate să difere.</string>
+    <string name="user_cannot_manage_message" product="shield">Numai proprietarul SHIELD poate gestiona utilizatorii.</string>
+    <string name="user_confirm_remove_self_message" product="shield">Veţi pierde spaţiul şi datele de pe acest SHIELD. Nu puteţi anula această acţiune.</string>
+    <string name="user_confirm_remove_message" product="shield">Spaţiul şi datele acestui utilizator vor dispărea de pe SHIELD. Nu puteţi anula această acţiune.</string>
+    <string name="global_change_warning" product="shield">Această setare afectează toţi utilizatorii de pe acest SHIELD.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      Spaţiul şi datele acestui profil vor dispărea de pe SHIELD. Nu puteţi anula această acţiune.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      Permiteţi schimbul de date atunci când SHIELD atinge alt dispozitiv
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      O aplicaţie încearcă să facă SHIELD vizibil pentru alte dispozitive Bluetooth. Puteţi modifica acest lucru ulterior din setările Bluetooth.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      O aplicaţie încearcă să activeze Bluetooth şi să facă SHIELD vizibil pentru alte dispozitive timp de %1$d secunde.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      O aplicaţie încearcă să activeze Bluetooth şi să facă SHIELD vizibil pentru alte dispozitive. Puteţi modifica acest lucru ulterior din setările Bluetooth.
+    </string>
+</resources>

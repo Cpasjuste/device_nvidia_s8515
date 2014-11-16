@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="nv_led_brightness">Luminosità LED</string>
+  <string name="nv_nvidia_button">Pulsante NVIDIA</string>
+  <string name="nv_category_controller_volume">Controllo volume</string>
+  <string name="controller_volume_text">Usa i tasti LB e RB per regolare il volume</string>
+  <string name="controller_volume_summary">I tasti LB e RB consentono di regolare il volume dopo aver premuto il pulsante del volume.</string>
+  <string name="controller_pulse_led">LED pulsante con dispositivo in stand-by</string>
+  <string name="lockpattern_settings_enable_power_button_instantly_locks">Blocco immediato con coperchio di chiusura</string>
+  <string name="user_add_user_message_long">Puoi condividere il dispositivo con altre persone creando altri utenti. Ogni utente ha un proprio spazio personalizzabile con applicazioni, sfondo e così via. Gli utenti possono inoltre modificare le impostazioni generali del tablet, come ad esempio il Wi-Fi, che influenzano tutti.\n\nOgni utente può accettare autorizzazioni aggiornate delle app per conto degli altri utenti.</string>
+  <string name="user_add_user_message_short">Ogni utente può accettare autorizzazioni aggiornate delle app per conto degli altri utenti.</string>
+  <string name="controller_mapper_enable">Abilita lo strumento di mappatura per gamepad</string>
+  <string name="controller_mapper_enable_summary">Tenere premuto il pulsante START per avviare l\'interfaccia dello strumento di mappatura</string>
+  <string name="controller_mapper_enable_auto_download">Abilita download automatico</string>
+  <string name="controller_mapper_enable_auto_download_summary">Scarica automaticamente la mappatura dal cloud, se disponibile</string>
+  <string name="nv_license_title">Informazioni legali NVIDIA</string>
+  <string name="nv_swla">Contratto di licenza del software</string>
+  <string name="nv_privacy">Informativa sulla privacy</string>
+  <string name="nv_tegra_exp_tos">Termini di servizio di Tegra Experience</string>
+  <string name="nv_warranty">Informazioni sulla garanzia</string>
+  <string name="nv_settings_license_activity_title">Licenze NVIDIA</string>
+  <string name="fullscreen_mode_title">Modalità schermo intero</string>
+  <string name="fullscreen_mode_text">Nascondi barra di stato</string>
+  <string name="nv_controller_mapper">Strumento di mappatura per gamepad</string>
+  <string name="nv_feedback">Invia feedback a NVIDIA</string>
+  <string name="diag_enable">Aiuta NVIDIA a migliorare SHIELD</string>
+  <string name="move_app_app_label">Applicazione</string>
+  <string name="move_app_data_label">Dati</string>
+  <string name="move_app_to_device_dlg_title">Spostare l\'app su SHIELD?</string>
+  <string name="move_app_to_sdcard_dlg_title">Spostare l\'app sulla scheda SD?</string>
+  <string name="move_app_dlg_text">L\'operazione potrebbe richiedere alcuni minuti. Non rimuovere la scheda SD durante l\'operazione.</string>
+  <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> di spazio libero su SHIELD</string>
+  <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> di spazio libero sulla scheda SD</string>
+  <string name="move_app_progress_to_device">Spostamento di <xliff:g id="pkg_label">%1$s</xliff:g> su SHIELD...</string>
+  <string name="move_app_progress_to_sdcard">Spostamento di <xliff:g id="pkg_label">%1$s</xliff:g> sulla scheda SD...</string>
+  <string name="fullscreen_mode_title">Modalità schermo intero</string>
+  <string name="fullscreen_mode_text">Nascondi barra di stato</string>
+  <string name="flscrmode_str_cling_msg_restore_normal">Scorri il dito dal bordo superiore dello schermo verso il basso per ripristinare la barra di stato.</string>
+  <string name="flscrmode_str_cling_btn_label_ok">OK</string>
+</resources>

@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        android:src="@drawable/blake_pg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- Twitch -->
+        <ImageView
+            android:id="@+id/twitch_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="101.5dp"
+            android:layout_marginLeft="40dp"
+            android:visibility="gone"
+            android:src="@drawable/twitch" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/twitch_icon"
+            android:layout_alignBottom="@+id/twitch_icon"
+            android:layout_toRightOf="@+id/twitch_icon"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/twitch"
+            android:visibility="gone"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/pgtextsize" />
+
+        <!-- Record and Share -->
+        <ImageView
+            android:id="@+id/record_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/twitch_icon"
+            android:layout_below="@+id/twitch_icon"
+            android:layout_marginTop="25dp"
+            android:visibility="gone"
+            android:src="@drawable/record_and_share" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/record_icon"
+            android:layout_alignBottom="@+id/record_icon"
+            android:layout_toRightOf="@+id/record_icon"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/record_and_share"
+            android:visibility="gone"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/pgtextsize" />
+
+        <!-- Virtual Controls -->
+        <ImageView
+            android:id="@+id/controls_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_alignLeft="@+id/record_icon"
+            android:layout_below="@+id/record_icon"
+            android:visibility="gone"
+            android:src="@drawable/virtual_controls" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/controls_icon"
+            android:layout_alignBottom="@+id/controls_icon"
+            android:layout_toRightOf="@+id/controls_icon"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/virtual_controls"
+            android:textColor="#FFFFFFFF"
+            android:visibility="gone"
+            android:textSize="@dimen/pgtextsize" />
+
+        <!-- Start button -->
+        <TextView
+            android:id="@+id/pg3_title"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="116dp"
+            android:layout_marginLeft="635dp"
+            android:text="@string/blake_pg3_title"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/pgtitlesize" />
+
+        <TextView
+            android:id="@+id/pg3_txt"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_alignLeft="@+id/pg3_title"
+            android:layout_below="@id/pg3_title"
+            android:text="@string/blake_pg3_txt"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/pgtextsize" />
+
+        <!-- Vertical line beside text -->
+        <View
+            android:id="@+id/blake_p3verLine"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/pg3_title"
+            android:layout_alignBottom="@+id/pg3_txt"
+            android:layout_marginRight="24dp"
+            android:layout_toLeftOf="@+id/pg3_txt"
+            android:background="#77FFFFFF" />
+
+        <!-- Horizontal line beside text -->
+        <View
+            android:layout_width="59dp"
+            android:layout_height="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="135dp"
+            android:layout_toLeftOf="@+id/blake_p3verLine"
+            android:background="#77FFFFFF" />
+    </RelativeLayout>
+</RelativeLayout>
+

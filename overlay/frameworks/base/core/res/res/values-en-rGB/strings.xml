@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="permlab_nvidiaCPUPower">adjust NVIDIA Tegra CPU</string>
+  <string name="permdesc_nvidiaCPUPower">Allows the app to adjust parameters of the NVIDIA Tegra CPU.  This may consume extra power.</string>
+  <string name="global_action_sleep">Sleep</string>
+  <string name="hdmiAudio">HDMI Audio</string>
+  <string name="miracastAudio">Miracast Audio</string>
+  <string name="global_action_restart_title">Restart SHIELD</string>
+  <string name="global_action_restart_message">Restarting your SHIELD will clear temporary files from memory. Would you like to restart your SHIELD now?</string>
+  <string name="global_action_restart_progress_message">Restarting SHIELD...</string>
+</resources>

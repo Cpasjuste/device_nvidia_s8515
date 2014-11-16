@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Menu item used for apps_customize page -->
+    <add-resource type="string" name="menu_all_apps" />
+    <string name="menu_all_apps">כל היישומים</string>
+</resources>

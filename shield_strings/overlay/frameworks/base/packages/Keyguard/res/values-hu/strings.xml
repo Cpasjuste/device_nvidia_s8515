@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">Nincs SIM kártya a SHIELD-ben.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Helytelenül próbálta feloldani a SHIELD-et <xliff:g id="number">%d</xliff:g> alkalommal. További <xliff:g id="number">%d</xliff:g> sikertelen próbálkozás után a SHIELD visszaáll gyári állapotba, és az összes felhasználói adat törlődik.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Helytelenül próbálta feloldani a SHIELD-et <xliff:g id="number">%d</xliff:g> alkalommal. A SHIELD most visszaáll a gyári állapotba.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Rosszul rajzolta le a feloldási mintát <xliff:g id="number">%d</xliff:g> alkalommal. További <xliff:g id="number">%d</xliff:g> sikertelen próbálkozás után egy e-mail fiók használatával kell feloldania a SHIELD-et.\n\n Újrapróbálkozás <xliff:g id="number">%d</xliff:g> másodpercen belül.
+    </string>
+</resources>

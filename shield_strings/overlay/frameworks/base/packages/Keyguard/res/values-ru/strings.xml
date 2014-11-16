@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">SIM-карта не установлена.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Не удалось разблокировать SHIELD <xliff:g id="number">%d</xliff:g> раз(а). После еще <xliff:g id="number">%d</xliff:g> неверных попыток будут установлены параметры SHIELD по умолчанию, а все пользовательские данные будут удалены.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Не удалось разблокировать SHIELD <xliff:g id="number">%d</xliff:g> раз(а). Будут установлены параметры SHIELD по умолчанию.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Графический ключ неверно указан <xliff:g id="number">%d</xliff:g> раз(а). После еще <xliff:g id="number">%d</xliff:g> неверных попыток вам будет предложено разблокировать SHIELD при помощи учетной записи эл. почты.\n\n Повторите попытку через <xliff:g id="number">%d</xliff:g> сек.
+    </string>
+</resources>

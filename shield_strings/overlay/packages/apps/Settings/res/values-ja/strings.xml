@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">SHIELD の名前変更</string>
+    <string name="bluetooth_ask_discovery" product="shield">"アプリが、<xliff:g id="timeout">%1$d</xliff:g> 秒間他の Bluetooth デバイスにこの SHIELD を表示しようとしています。許可しますか?"</string>
+    <string name="phone_info_label" product="shield">SHIELD 情報</string>
+    <string name="roaming_warning_multiuser" product="shield">データ ローミングを許可すると、高額な通信料が発生することがあります。\n\nこの設定はこの SHIELD 上のすべてのユーザーに影響します。</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">SHIELD の暗号化</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">電源を入れるたびに数値の PIN またはパスワードを入力して SHIELD を復号化する必要がある</string>
+    <string name="crypt_keeper_desc" product="shield">
+アカウント、設定、ダウンロードしたアプリとそのデータ、メディアなどのファイルを暗号化できます。SHIELD を一度暗号化すると、電源を入れるたびに数値の PIN またはパスワードを入力して復号化する必要があります。暗号化を解除するためには、SHIELD を出荷時設定にリセットしてすべてのデータを消去しなければなりません。\n\n暗号化には 1 時間以上かかります。開始する前に完全に充電しておき、暗号化が完了するまで電源を接続したままにする必要があります。暗号化処理を中断すると、データの一部または全部が失われます。</string>
+    <string name="crypt_keeper_button_text" product="shield">SHIELD の暗号化</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+この暗号化操作は元に戻すことができず、途中で中断するとデータが失われます。
+暗号化には 1 時間以上かかり、途中で SHIELD が何度か再起動されます。
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">SHILED の暗号化中です (<xliff:g id="percent" example="50">^1</xliff:g>% 完了)。完了するまでお待ちください。</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> 暗号化処理が中断されて完了できなかったため、SHIELD 上のデータにアクセスできなくなりました。\n\n
+SHIELD の使用を再開するには、SHIELD を出荷時設定にリセットする必要があります。
+リセット後、SHIELD のセットアップの段階で、Google アカウントにバックアップしたデータの復元を選択できます。
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> SHIELD のインターネット接続の共有から <xliff:g id="device_name">%1$s</xliff:g> を切断します。</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">SHIELD が他のデバイスと接触したときのデータ交換を許可する</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">警告: 追加のデータ通信料が発生する可能性があります。\n\nSHIELD のセットアップでは大量のネットワーク処理が必要となる場合があります。</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">警告: ソフトウェアが最新の状態であることを SHIELD が確認できなくなります。</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD からこの Wi-Fi ネットワークに接続できませんでした。</string>
+    <string name="dock_audio_summary_none" product="shield">SHIELD が装着されていません</string>
+    <string name="dock_not_found_text" product="shield">ホルダーの音声を設定するには、SHIELD をホルダーに装着する必要があります。</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">SHIELD のホルダー脱着時に音を鳴らす</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">SHIELD のホルダー脱着時に音を鳴らさない</string>
+
+    <string name="accelerometer_summary_on" product="shield">画面の向きに合わせて縦横表示を切り替える</string>
+    <string name="accelerometer_summary_off" product="shield">画面の向きに合わせて縦横表示を切り替える</string>
+    <string name="sim_lock_on" product="shield">SHIELD 使用時に PIN 入力が必要になります</string>
+    <string name="sim_lock_off" product="shield">SHIELD 使用時に PIN 入力が必要になります</string>
+    <string name="device_info_settings" product="shield">SHIELD ステータス</string>
+
+    <string name="device_status_summary" product="shield">電池やネットワークなどの情報のステータス</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">SHIELD 内のすべてのデータを消去する</string>
+    <string name="master_clear_desc" product="shield">"SHIELD の<b>内部ストレージ</b>から、以下を含むすべてのデータが消去されます。\n\n<li>Google アカウント</li>\n<li>システムおよびアプリのデータと設定</li>\n<li>ダウンロードしたアプリ</li>"</string>
+    <string name="master_clear_button_text" product="shield">SHIELD のリセット</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">SHIELD のインターネット接続を共有</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">SHIELD のインターネット接続を 1 台のデバイスと共有</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">SHIELD のインターネット接続を <xliff:g id="connectedDeviceCount">%1$d</xliff:g> 台のデバイスと共有</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">SHIELD のインターネット接続を共有しない</string>
+    <string name="location_street_level" product="shield">SHIELD で GPS を使用して現在地を特定することをアプリに許可する</string>
+    <string name="about_settings" product="shield">SHIELD のバージョン情報</string>
+    <string name="install_all_warning" product="shield">提供元不明のアプリから SHIELD や個人データが攻撃を受ける可能性が高くなります。このようなアプリの使用により生じる可能性がある SHIELD への損害やデータの損失について、ユーザーご自身が単独で責任を負うことに同意するものとします。</string>
+    <string name="security_settings_desc" product="shield">このアプリは SHIELD 上の以下の項目にアクセスする場合があります。</string>
+    <string name="security_settings_desc_multi" product="shield">このアプリは SHIELD 上の以下の項目にアクセスする場合があります。パフォーマンスの向上とメモリ使用量の削減のために、これらの権限の一部は、<xliff:g id="additional_apps_list">%2$s</xliff:g> と同じプロセスで実行される <xliff:g id="base_app_name">%1$s</xliff:g> でも使用できます。</string>
+
+    <string name="move_app_to_internal" product="shield">SHIELD への移動</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">このサービスを停止すると、電源を一旦オフにして再度オンにするまで、SHIELD の一部の機能が正常に動作しなくなる場合があります。</string>
+    <string name="testing_phone_info" product="shield">SHIELD 情報</string>
+    <string name="power_idle" product="shield">SHIELD アイドル</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">アイドル時の電池使用量</string>
+    <string name="really_remove_account_message" product="shield">このアカウントを削除すると、メール、連絡先などのすべてのデータも SHIELD から削除されます。</string>
+    <string name="remove_account_failed" product="shield">このアカウントは一部のアプリに必要です。アカウントを削除するには、[設定] &gt; [バックアップとリセット] を選択して、SHIELD を出荷時設定にリセットする必要があります (個人データはすべて削除されます)。</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Web でアカウントに加えた変更は、自動的に SHIELD に反映されます。\n\nアカウントによっては、SHIELD で加えた変更が自動的に Web に反映される場合もあります。Google アカウントがこれに該当します。\n\n各アカウント内で同期する情報の種類を選択するには、[設定] &gt; [アカウント] を選択します。</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">モバイル データ接続は、指定の制限に達した場合に無効になります。\n\nSHIELD によって測定されるデータ使用量が携帯通信会社によって同じように解釈されるとは限らないため、制限値には余裕を設けるようにしてください。</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">バックグラウンドのモバイル データを制限すると、アプリやサービスによっては、Wi-Fi ネットワーク未接続時に機能しない場合があります。\n\nこの設定はこの SHIELD 上のすべてのユーザーに影響します。</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: 約 <xliff:g id="total" example="128KB">%1$s</xliff:g> が使用済み。SHIELD による測定値に基づきます。携帯通信会社の利用明細は異なる場合があります。</string>
+    <string name="user_cannot_manage_message" product="shield">ユーザーを管理できるのは SHIELD の所有者のみです。</string>
+    <string name="user_confirm_remove_self_message" product="shield">この SHIELD のスペースとデータが失われます。この操作は元に戻せません。</string>
+    <string name="user_confirm_remove_message" product="shield">このユーザーのスペースとデータが SHIELD から消去されます。この操作は元に戻せません。</string>
+    <string name="global_change_warning" product="shield">この設定はこの SHIELD 上のすべてのユーザーに影響します。</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+このプロファイルのスペースとデータが SHIELD から消去されます。この操作は元に戻せません。
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+SHIELD が他のデバイスと接触したときのデータ交換を許可する
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+アプリが他の Bluetooth デバイスに SHIELD を表示しようとしています。これは後から [Bluetooth 設定] で変更できます。
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+アプリが Bluetooth をオンにして、%1$d 秒間他の Bluetooth デバイスに SHIELD を表示しようとしています。
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+アプリが Bluetooth をオンにして、他のデバイスに SHIELD を表示しようとしています。これは後から [Bluetooth 設定] で変更できます。
+    </string>
+</resources>

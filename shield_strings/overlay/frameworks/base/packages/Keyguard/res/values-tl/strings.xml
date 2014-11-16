@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">Walang SIM card sa SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Sinubukan mong i-unlock ang SHIELD nang mali nang <xliff:g id="number">%d</xliff:g> beses. Pagkatapos ng <xliff:g id="number">%d</xliff:g> pang hindi matagumpay na pagsubok, magre-reset ang SHIELD sa factory default at mawawala ang lahat ng data ng user.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Sinubukan mong i-unlock ang SHIELD nang mali. <xliff:g id="number">%d</xliff:g> beses. Ire-reset ngayon ang SHIELD sa factory default.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Mali mong naguhit ang iyong pattern sa pag-unlock nang <xliff:g id="number">%d</xliff:g> na beses. Pagkatapos ng <xliff:g id="number">%d</xliff:g> pang hindi matagumpay na pagsubok, ipapa-unlock sa iyo ang SHIELD gamit ang isang email account.\n\n Subukang muli pagkatapos ng <xliff:g id="number">%d</xliff:g> (na) segundo.
+    </string>
+</resources>

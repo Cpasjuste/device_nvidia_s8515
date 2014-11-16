@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guide2"
+    style="@style/PageLayout" >
+
+    <TextView
+        android:id="@+id/pg2starttle"
+        android:layout_width="@dimen/pg2_STARTtextX"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/pg2_STARTtextY"
+        android:minWidth="@dimen/pg2_STARTtextX"
+        android:text="@string/pg2_starttle"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/mediumtxt" />
+
+    <View
+        android:layout_width="@dimen/linewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pg2starttle"
+        android:layout_alignTop="@id/pg2starttle"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/pg2starttle"
+        android:background="#717171" />
+
+    <TextView
+        android:id="@+id/pg2hometle"
+        android:layout_width="@dimen/pg2_HOMEtextX"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/pg2_HOMEtextY"
+        android:text="@string/pg2_hometle"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/mediumtxt" />
+
+    <TextView
+        android:id="@+id/pg2hometxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/pg2hometle"
+        android:layout_below="@id/pg2hometle"
+        android:text="@string/pg2_hometxt"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/smalltxt" />
+
+    <View
+        android:layout_width="@dimen/linewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pg2hometxt"
+        android:layout_alignTop="@id/pg2hometle"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/pg2hometle"
+        android:background="#717171" />
+
+    <TextView
+        android:id="@+id/pg2voltle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/pg2_VOLtextY"
+        android:gravity="right"
+        android:minWidth="@dimen/pg2_VOLtextX"
+        android:text="@string/pg2_voltle"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/mediumtxt" />
+
+    <TextView
+        android:id="@+id/pg2voltxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/pg2voltle"
+        android:layout_below="@id/pg2voltle"
+        android:gravity="right"
+        android:text="@string/pg2_voltxt"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/smalltxt" />
+
+    <View
+        android:layout_width="@dimen/linewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pg2voltxt"
+        android:layout_alignTop="@id/pg2voltle"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/pg2voltle"
+        android:background="#717171" />
+
+    <TextView
+        android:id="@+id/pg2backtle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/pg2_BACKtextY"
+        android:gravity="right"
+        android:minWidth="@dimen/pg2_BACKtextX"
+        android:text="@string/pg2_backtle"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/mediumtxt" />
+
+    <TextView
+        android:id="@+id/pg2backtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/pg2backtle"
+        android:layout_below="@id/pg2backtle"
+        android:gravity="right"
+        android:text="@string/pg2_backtxt"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/smalltxt" />
+
+    <View
+        android:layout_width="@dimen/linewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pg2backtxt"
+        android:layout_alignTop="@id/pg2backtle"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/pg2backtle"
+        android:background="#717171" />
+
+</RelativeLayout>

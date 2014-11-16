@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">Ni SIM kartice v SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Nepravilno ste poizkusili odkleniti SHIELD <xliff:g id="number">%d</xliff:g> krat. Po <xliff:g id="number">%d</xliff:g> dodatnih neuspešnih poizkusih bo SHIELD ponastavljen na tovarniške nastavitve in vsi uporabniški podatki bodo izgubljeni.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Nepravilno ste poizkusili odkleniti SHIELD <xliff:g id="number">%d</xliff:g> krat. SHIELD bo zdaj ponastavljen na tovarniške nastavitve.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Nepravilno ste narisali svoj vzorec za odklepanje <xliff:g id="number">%d</xliff:g> krat. Po <xliff:g id="number">%d</xliff:g> dodatnih neuspešnih poizkusih boste pozvani, da odklenete SHIELD z uporabo e-poštnega računa.\n\nPoizkusite znova v <xliff:g id="number">%d</xliff:g> sekundah.
+    </string>
+</resources>

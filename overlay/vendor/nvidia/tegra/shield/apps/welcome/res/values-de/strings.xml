@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="app_name">"SHIELD-Hilfe"</string>
+  <string name="pagetitle">"LERNEN SIE IHREN SHIELD KENNEN"</string>
+  <string name="pg1_tle">"LERNEN SIE IHREN SHIELD KENNEN"</string>
+  <string name="pg2_tle">"VERWENDUNG DER FUNKTIONSTASTEN"</string>
+  <string name="pg3_tle">"VERWENDUNG DER AUSWAHLTASTEN"</string>
+  <string name="pg4_tle">"WEITERE MÖGLICHKEITEN DER INTERAKTION MIT SHIELD"</string>
+  <string name="pg0_title">"WILLKOMMEN BEI SHIELD"</string>
+  <string name="pg0_text">"Lernen Sie alle SHIELD-Funktionen kennen, indem Sie unten den Link zur Bedienungsanleitung auswählen, oder fahren Sie fort und sehen Sie sich die Grundfunktionalität an."</string>
+  <string name="pg1_blktle">"NVIDIA-TASTE"</string>
+  <string name="pg1_blktxt">"<b>Einmal drücken</b>, um SHIELD-Spiele zu starten, neue Spiele zu finden und Spiele von Ihrem GeForce GTX PC zu streamen.\n\n<b>Gedrückt halten</b>, um das Akku-Menü zu öffnen."</string>
+  <string name="pg2_voltle">"LAUTSTÄRKE"</string>
+  <string name="pg2_voltxt">"<b>Drücken</b>, um die Lautstärke zu regeln.\n\n<b>Gedrückt halten</b>, um stumm zu schalten."</string>
+  <string name="pg2_backtle">"ZURÜCK"</string>
+  <string name="pg2_backtxt">"Springt zum vorherigen Bildschirm"</string>
+  <string name="pg2_starttle">"START"</string>
+  <string name="pg2_hometle">"STARTBILDSCHIRM"</string>
+  <string name="pg2_hometxt">"Öffnet den Android-Startbildschirm.\n\n<b>Doppelt drücken</b>, um zuletzt verwendete Anwendungen zu sehen."</string>
+  <string name="pg3_ytle">"Y-TASTE"</string>
+  <string name="pg3_ytxt">"Ruft in den meisten Anwendungen das Menü auf"</string>
+  <string name="pg3_xtle">"X-TASTE"</string>
+  <string name="pg3_btle">"B-TASTE"</string>
+  <string name="pg3_btxt">"Bei den meisten Anwendungen die Funktion \'Zurück\' oder \'Abbrechen\'"</string>
+  <string name="pg3_atle">"A-TASTE"</string>
+  <string name="pg3_atxt">"Aktiviert in den meisten Anwendungen das gewählte Element"</string>
+  <string name="pg4_mtdtle">"MULTI-TOUCH-ANZEIGE"</string>
+  <string name="pg4_virtle">"VIRTUELLE MAUS"</string>
+  <string name="pg4_rstxt">"<b>Rechter Stick</b>\nZum Bewegen des Mauszeigers verwenden"</string>
+  <string name="pg4_btntxt">"<b>Drücken Sie </b>{R.drawable.stickTrigger}<b> oder </b>{R.drawable.aButton} zum Klicken"</string>
+  <string name="blake_pg1_back_title">ZURÜCK</string>
+  <string name="blake_pg1_back_txt"><b>Antippen</b>, um zum vorherigen Bildschirm zu springen</string>
+  <string name="blake_pg1_home_title">STARTBILDSCHIRM</string>
+  <string name="blake_pg1_home_txt">"<b>Tippen</b> zum Öffnen des Android-Startbildschirms\n\n<b>Doppelt tippen</b> zum Anzeigen zuletzt verwendeter Apps\n\n<b>Gedrückt halten</b> zum Starten von Google Now mit Sprachsuche</string>
+  <string name="blake_pg2_title">NVIDIA-TASTE</string>
+  <string name="blake_pg2_txt"><b>Antippen</b>, um SHIELD Hub zu starten. Neue Spiele finden, SHIELD-Spiele starten und Spiele von Ihrem GeForce GTX PC streamen.</string>
+  <string name="blake_pg3_title">START</string>
+  <string name="blake_pg3_txt"><b>Halten</b> um zusätzliche Steuerungen für den GameStream und den Gamepad Mapper aufzurufen</string>
+  <string name="twitch"><b>Twitch</b></string>
+  <string name="record_and_share"><b>Aufzeichnen und Teilen</b></string>
+  <string name="virtual_controls"><b>Virtuelle Steuerung</b></string>
+</resources>

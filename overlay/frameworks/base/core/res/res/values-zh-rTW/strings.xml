@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="permlab_nvidiaCPUPower">調整 NVIDIA Tegra CPU</string>
+  <string name="permdesc_nvidiaCPUPower">允許應用程式調整 NVIDIA Tegra CPU 的參數。這項設定會消耗更多電力。</string>
+  <string name="global_action_sleep">睡眠</string>
+  <string name="hdmiAudio">HDMI 音效</string>
+  <string name="miracastAudio">Miracast 音效</string>
+  <string name="global_action_restart_title">重新啟動 SHIELD</string>
+  <string name="global_action_restart_message">將您的 SHIELD 重新啟動將會從記憶體中清除暫存檔。現在要重新啟動 SHIELD 嗎？</string>
+  <string name="global_action_restart_progress_message">正在重新啟動 SHIELD...</string>
+</resources>

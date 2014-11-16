@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="nv_led_brightness">LED 亮度</string>
+  <string name="nv_nvidia_button">NVIDIA 按钮</string>
+  <string name="nv_category_controller_volume">音量控制</string>
+  <string name="controller_volume_text">使用缓冲键调节音量</string>
+  <string name="controller_volume_summary">LB 和 RB 将在按下音量按键后调节音量</string>
+  <string name="controller_pulse_led">设备休眠时 LED 闪烁</string>
+  <string name="lockpattern_settings_enable_power_button_instantly_locks">关闭机盖后立即锁定</string>
+  <string name="user_add_user_message_long">您可以通过创建新用户来与其他人共享此设备。每个用户都会有自己的空间，其中可以容纳他们自己的应用、壁纸等内容。用户可以调整 Wi-Fi 等会影响到所有用户的平板电脑设置。\n\n任何用户均可代表所有其他用户接受已更新的应用程序权限。</string>
+  <string name="user_add_user_message_short">任何用户均可代表所有其他用户接受已更新的应用程序权限。</string>
+  <string name="controller_mapper_enable">启动游戏板映射器</string>
+  <string name="controller_mapper_enable_summary">长按“开始”按钮，启动映射器覆盖功能</string>
+  <string name="controller_mapper_enable_auto_download">启用自动下载</string>
+  <string name="controller_mapper_enable_auto_download_summary">从云自动下载贴图（如可用）</string>
+  <string name="nv_license_title">NVIDIA 法律条文</string>
+  <string name="nv_swla">软件许可协议</string>
+  <string name="nv_privacy">隐私权政策</string>
+  <string name="nv_tegra_exp_tos">Tegra Experience 服务条款</string>
+  <string name="nv_warranty">保修信息</string>
+  <string name="nv_settings_license_activity_title">NVIDIA 许可</string>
+  <string name="fullscreen_mode_title">全屏模式</string>
+  <string name="fullscreen_mode_text">隐藏状态栏</string>
+  <string name="nv_controller_mapper">游戏板映射器</string>
+  <string name="nv_feedback">将反馈意见发送给 NVIDIA</string>
+  <string name="diag_enable">帮助 NVIDIA 改进 SHIELD 体验</string>
+  <string name="move_app_app_label">应用程序</string>
+  <string name="move_app_data_label">数据</string>
+  <string name="move_app_to_device_dlg_title">将应用程序移至 SHIELD？</string>
+  <string name="move_app_to_sdcard_dlg_title">将应用程序移至 SD 卡？</string>
+  <string name="move_app_dlg_text">可能需要几分钟。在进行此操作时请勿移除 SD 卡。</string>
+  <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> 在 SHIELD 上免费</string>
+  <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> 在 SD 卡免费</string>
+  <string name="move_app_progress_to_device">正在将<xliff:g id="pkg_label">%1$s</xliff:g> 移至 SHIELD…</string>
+  <string name="move_app_progress_to_sdcard">正在将 <xliff:g id="pkg_label">%1$s</xliff:g> 移至 SD 卡…</string>
+  <string name="fullscreen_mode_title">全屏模式</string>
+  <string name="fullscreen_mode_text">隐藏状态栏</string>
+  <string name="flscrmode_str_cling_msg_restore_normal">从顶部滑动以恢复状态栏。</string>
+  <string name="flscrmode_str_cling_btn_label_ok">确定</string>
+</resources>

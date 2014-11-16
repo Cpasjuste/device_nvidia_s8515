@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">Numai pe SHIELD, nesincronizată</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      Nu există persoane din agendă care să poată fi exportate. Dacă aveţi persoane în agenda SHIELD, este posibil ca exportul acestora de pe SHIELD să fie interzis de unii furnizori de date.
+    </string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">SHIELD nėra SIM kortelės.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Jūs nesėkmingai bandėte atrakinti SHIELD<xliff:g id="number">%d</xliff:g> kartų. Po dar<xliff:g id="number">%d</xliff:g> nesėkmingų bandymų SHIELD nuostatos bus pakeistos į gamyklines, o visi vartotojo duomenys bus ištrinti.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Jūs nesėkmingai bandėte atrakinti SHIELD<xliff:g id="number">%d</xliff:g> kartų. SHIELD nuostatos bus pakeistos į gamyklines.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Klaidingai nubraižėte atrakinimo figūrą<xliff:g id="number">%d</xliff:g> kartų. Po dar<xliff:g id="number">%d</xliff:g> nesėkmingų bandymų įrenginys jūsų paprašys atrakinti SHIELD naudojant el. pašto paskyrą.\n\n Bandykite dar kartą po<xliff:g id="number">%d</xliff:g> sekundžių.
+    </string>
+</resources>

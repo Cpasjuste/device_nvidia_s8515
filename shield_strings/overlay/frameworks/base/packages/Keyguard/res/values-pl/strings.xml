@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">Brak karty SIM w urządzeniu SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Próbowano bez powodzenia odblokować urządzenie SHIELD <xliff:g id="number">%d</xliff:g> razy. Po <xliff:g id="number">%d</xliff:g> kolejnych nieudanych próbach urządzenie SHIELD zostanie zresetowane do domyślnych ustawień fabrycznych i wszystkie dane użytkownika zostaną utracone.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Próbowano bez powodzenia odblokować urządzenie SHIELD <xliff:g id="number">%d</xliff:g> razy. Urządzenie SHIELD zostanie teraz zresetowane do domyślnych ustawień fabrycznych.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Niepoprawnie narysowano wzór odblokowania <xliff:g id="number">%d</xliff:g> razy. Po <xliff:g id="number">%d</xliff:g> kolejnych nieudanych próbach użytkownik zostanie poproszony o odblokowanie urządzenia SHIELD przy użyciu konta e-mail.\n\n Spróbuj ponownie za <xliff:g id="number">%d</xliff:g> sekund(y).
+    </string>
+</resources>

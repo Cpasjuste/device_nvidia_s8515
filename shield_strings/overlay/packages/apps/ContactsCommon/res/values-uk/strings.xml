@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">Лише в SHIELD, несинхр.</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      Контакти, які можна експортувати, відсутні. Якщо у SHIELD є контакти, можливо, якийсь постачальник даних заборонив експорт контактів з SHIELD.
+    </string>
+</resources>

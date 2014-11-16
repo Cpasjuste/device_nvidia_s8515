@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">Csak a SHIELD, nem szinkronizált</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      Nincsenek exportálható névjegyek.  Ha vannak névjegyek a SHIELD-en, előfordulhat, hogy az adatszolgáltató nem teszi lehetővé a névjegyek exportálását a SHIELD-ről.
+    </string>
+</resources>

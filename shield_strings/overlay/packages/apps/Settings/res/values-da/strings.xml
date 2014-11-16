@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">Omdøb SHIELD</string>
+    <string name="bluetooth_ask_discovery" product="shield">"En app på SHIELD ønsker at gøre SHIELD synlig for andre Bluetooth-enheder i <xliff:g id="timeout">%1$d</xliff:g> sekunder. Tillad?"</string>
+    <string name="phone_info_label" product="shield">SHIELD-info</string>
+    <string name="roaming_warning_multiuser" product="shield">Når du tillader dataroaming, kan du blive udsat for væsentlige roamingudgifter!\n\nDenne indstilling påvirker alle brugere på denne SHIELD.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">Kryptér SHIELD</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">Kræv en numerisk pinkode eller adgangskode for at dekryptere SHIELD, hver gang du tænder for den</string>
+    <string name="crypt_keeper_desc" product="shield">
+    Du kan kryptere dine konti, indstillinger, downloadede apps og deres data, medier og andre filer.  Når først du har krypteret SHIELD, skal du indtaste en numerisk pinkode eller adgangskode for at dekryptere den, hver gang du tænder for den.  Du kan ikke dekryptere SHIELD, medmindre du udfører en nulstilling af fabriksdata, som sletter alle dine data.\n\nKrypteringen tager mindst en time.  Du skal starte med et fuldt opladet batteri, og SHIELD skal være tilsluttet strøm, indtil krypteringen er gennemført.  Hvis du afbryder krypteringen, mister du nogle eller alle dine data.</string>
+    <string name="crypt_keeper_button_text" product="shield">Kryptér SHIELD</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    Krypteringen kan ikke fortrydes, og hvis du afbryder den, vil du miste data. 
+    Krypteringen tager mindst en time, og i den tid genstartes SHIELD flere gange.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">Vent mens SHIELD krypteres. <xliff:g id="percent" example="50">^1</xliff:g>% færdig.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> Krypteringen blev afbrudt og kan ikke fuldføres.  Som følge heraf er dataene på SHIELD ikke længere tilgængelige.\n\n
+      Hvis du vil genoptage brugen af SHIELD, skal du udføre en nulstilling af fabriksdata. 
+      Når du konfigurerer SHIELD efter nulstillingen, har du mulighed for at gendanne data, der blev sikkerhedskopieret på din Google-konto.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> kobles fra deling af SHIELDs internetforbindelse.</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">Tillad dataudveksling, når SHIELD rører en anden enhed</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">ADVARSEL: Du kan blive udsat for ekstraudgifter til mobilselskabet.\n\nKonfiguration af SHIELD kan kræve en betydelig mængde netværksaktivitet.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">ADVARSEL: SHIELD vil ikke kunne kontrollere, om din software er opdateret.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD kunne ikke oprette forbindelse til dette Wi-Fi-netværk.</string>
+    <string name="dock_audio_summary_none" product="shield">SHIELD er ikke dokket</string>
+    <string name="dock_not_found_text" product="shield">Du skal dokke SHIELD, før du konfigurerer doklyden.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">Afspil lyd, når SHIELD isættes og fjernes fra dok</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">Afspil ikke lyd, når SHIELD isættes og fjernes fra dok</string>
+
+    <string name="accelerometer_summary_on" product="shield">Skift automatisk retning, når SHIELD drejes</string>
+    <string name="accelerometer_summary_off" product="shield">Skift automatisk retning, når SHIELD drejes</string>
+    <string name="sim_lock_on" product="shield">Kræv pinkode for at bruge SHIELD</string>
+    <string name="sim_lock_off" product="shield">Kræv pinkode for at bruge SHIELD</string>
+    <string name="device_info_settings" product="shield">SHIELD-status</string>
+
+    <string name="device_status_summary" product="shield">Status for batteri, netværk og andre oplysninger</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">Sletter alle data på SHIELD</string>
+    <string name="master_clear_desc" product="shield">"Dette vil slette alle data fra SHIELDs <b>interne lager</b>, inklusive:\n\n<li>Din Google-konto</li>\n<li>System- og app-data og -indstillinger</li>\n<li>Downloadede apps</li>"</string>
+    <string name="master_clear_button_text" product="shield">Nulstil SHIELD</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">Deler SHIELDs internetforbindelse</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Deler SHIELDs internetforbindelse med 1 enhed</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Deler SHIELDs internetforbindelse med <xliff:g id="connectedDeviceCount">%1$d</xliff:g> enheder</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">Deler ikke SHIELDs internetforbindelse</string>
+    <string name="location_street_level" product="shield">Tillad, at apps bruger GPS på SHIELD til at fastlå din lokalitet</string>
+    <string name="about_settings" product="shield">Om SHIELD</string>
+    <string name="install_all_warning" product="shield">Dine SHIELD- og personlige data er mere sårbare over for angreb fra apps fra ukendte kilder.  Du accepterer, at du alene er ansvarlig for eventuelle skader på SHIELD eller tab af data, der kan skyldes brug af disse apps.</string>
+    <string name="security_settings_desc" product="shield">Denne app har adgang til følgende på SHIELD:</string>
+    <string name="security_settings_desc_multi" product="shield">Denne app har adgang til følgende på SHIELD. Med henblik på at forbedre ydeevnen og reducere hukommelsesbrug er nogle af disse tilladelser tilgængelige for <xliff:g id="base_app_name">%1$s</xliff:g>, fordi den kører i den samme proces som <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">Flyt til SHIELD</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Hvis du stopper denne tjeneste, kan nogle af SHIELD-funktionerne holde op med at fungere korrekt, indtil du slukker og derefter tænder den igen.</string>
+    <string name="testing_phone_info" product="shield">SHIELD-oplysninger</string>
+    <string name="power_idle" product="shield">SHIELD uvirksom</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">Batteri brugt, når SHIELD ikke er aktiv</string>
+    <string name="really_remove_account_message" product="shield">Hvis du fjerner denne konto, slettes alle tilknyttede beskeder, kontaktpersoner og andre data fra SHIELD!</string>
+    <string name="remove_account_failed" product="shield">Denne konto kræves af nogle apps.  Du kan kun fjerne den ved at nulstille SHIELD til fabriksindstillingerne (hvilket sletter alle dine personlige data) i Indstillinger &gt; Sikkerhedskopiering og nulstilling.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Alle ændringer, som du foretager på dine konti på nettet, vil automatisk blive kopieret til din SHIELD.\n\nDer vil muligvis også være nogle konti, hvor de ændringer, du foretager på SHIELD, automatisk kopieres til nettet.  Sådan fungerer en Google-konto.\n\nDu kan vælge, hvilke former for oplysninger, der skal synkroniseres på hver konto, ved at gå til Indstillinger &gt; Konti.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">Din mobildataforbindelse deaktiveres, når den angivne grænse er nået.\n\nDa dataforbrug måles af SHIELD, og dit mobilselskab muligvis bruger en anden metode til beregning af forbrug, kan du overveje at angive en lav grænse.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">Hvis du begrænser mobildata, der kører i baggrunden, vil nogle apps og tjenester ikke fungere, medmindre du har forbindelse til et Wi-Fi-netværk.\n\nDenne indstilling påvirker alle brugere på denne SHIELD.</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: ca. <xliff:g id="total" example="128KB">%1$s</xliff:g> brugt, som målt af SHIELD. Mobilselskabers beregning af forbrug kan variere.</string>
+    <string name="user_cannot_manage_message" product="shield">Kun ejeren af SHIELD kan administrere brugere.</string>
+    <string name="user_confirm_remove_self_message" product="shield">Du vil miste din plads og dine data på denne SHIELD.  Du kan ikke fortryde denne handling.</string>
+    <string name="user_confirm_remove_message" product="shield">Denne brugers plads og data vil forsvinde fra denne SHIELD.  Du kan ikke fortryde denne handling.</string>
+    <string name="global_change_warning" product="shield">Denne indstilling påvirker alle brugere på denne SHIELD.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      Denne profils plads og data vil forsvinde fra denne SHIELD. Du kan ikke fortryde denne handling.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      Tillad dataudveksling, når SHIELD rører en anden enhed
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      En app ønsker at gøre SHIELD synlig for andre Bluetooth-enheder. Du kan ændre dette senere i Bluetooth-indstillinger.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      En app ønsker at tænde for Bluetooth og gøre SHIELD synlig for andre enheder i %1$d sekunder.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      En app ønsker at tænde for Bluetooth og gøre SHIELD synlig for andre enheder. Du kan ændre dette senere i Bluetooth-indstillinger.
+    </string>
+</resources>

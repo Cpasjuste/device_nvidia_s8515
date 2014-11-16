@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="nv_led_brightness">LED 밝기</string>
+  <string name="nv_nvidia_button">NVIDIA 버튼</string>
+  <string name="nv_category_controller_volume">볼륨 컨트롤</string>
+  <string name="controller_volume_text">범퍼를 사용해 볼륨을 조정합니다.</string>
+  <string name="controller_volume_summary">볼륨 버튼을 누른 후 LB 및 RB로 볼륨을 조정합니다.</string>
+  <string name="controller_pulse_led">장치가 대기 상태인 경우 빨간색이 깜박입니다.</string>
+  <string name="lockpattern_settings_enable_power_button_instantly_locks">뚜껑을 닫으면 즉시 잠금이 실행됩니다.</string>
+  <string name="user_add_user_message_long">새로운 사용자를 추가로 만들어서 이 기기를 공유할 수 있습니다. 각 사용자는 별도의 공간을 갖게 되며 내 앱, 배경화면 등을 맞춤설정할 수 있습니다. 또한 사용자는 모두에게 영향을 미치는 Wi-Fi와 같은 태블릿 설정을 조정할 수도 있습니다.\n\n사용자는 다른 모든 사용자를 대신하여 업데이트된 앱을 수락할 수 있습니다.</string>
+  <string name="user_add_user_message_short">사용자는 다른 모든 사용자를 대신하여 업데이트된 앱을 수락할 수 있습니다.</string>
+  <string name="controller_mapper_enable">게임 패드 매퍼 활성화</string>
+  <string name="controller_mapper_enable_summary">START 단추를 길게 눌러 매퍼 오버레이를 시작</string>
+  <string name="controller_mapper_enable_auto_download">자동 다운로드 활성화</string>
+  <string name="controller_mapper_enable_auto_download_summary">이용 가능한 경우 클라우드에서 자동으로 맵핑을 다운로드</string>
+  <string name="nv_license_title">NVIDIA법적 고지 사항</string>
+  <string name="nv_swla">소프트웨어 라이센스 계약</string>
+  <string name="nv_privacy">개인정보 보호정책</string>
+  <string name="nv_tegra_exp_tos">Tegra Experience 서비스 약관</string>
+  <string name="nv_warranty">보증 정보</string>
+  <string name="nv_settings_license_activity_title">NVIDIA 라이센스</string>
+  <string name="fullscreen_mode_title">전체 화면 모드</string>
+  <string name="fullscreen_mode_text">상태 표시줄 숨기기</string>
+  <string name="nv_controller_mapper">게임 패드 매퍼</string>
+  <string name="nv_feedback">NVIDIA에 피드백 보내기</string>
+  <string name="diag_enable">SHIELD 환경 개선을 위해 NVIDIA에 협력해 주십시오.</string>
+  <string name="move_app_app_label">앱</string>
+  <string name="move_app_data_label">데이터</string>
+  <string name="move_app_to_device_dlg_title">SHIELD로 앱 이동?</string>
+  <string name="move_app_to_sdcard_dlg_title">SD 카드로 앱 이동</string>
+  <string name="move_app_dlg_text">몇 분이 걸릴 수 있습니다. 이 작업 중에는 SD 카드를 빼지 마십시오.</string>
+  <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> 의 SHIELD 저장 공간</string>
+  <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> 의 SD 카드 저장 공간</string>
+  <string name="move_app_progress_to_device">SHIELD로 <xliff:g id="pkg_label">%1$s</xliff:g> 이(가) 이동하는 중...</string>
+  <string name="move_app_progress_to_sdcard">SD 카드로 <xliff:g id="pkg_label">%1$s</xliff:g> 이(가) 이동하는 중...</string>
+  <string name="fullscreen_mode_title">전체 화면 모드</string>
+  <string name="fullscreen_mode_text">상태 표시줄 숨기기</string>
+  <string name="flscrmode_str_cling_msg_restore_normal">상단을 살짝 밀어 상태 표시줄을 복원합니다.</string>
+  <string name="flscrmode_str_cling_btn_label_ok">확인</string>
+</resources>

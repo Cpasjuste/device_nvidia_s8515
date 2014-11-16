@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="low_memory" product="shield">SHIELD storage is full. Delete some files to free space.</string>
+    <string name="power_dialog" product="shield">SHIELD options</string>
+    <string name="shutdown_confirm" product="shield">SHIELD will shut down.</string>
+    <string name="global_actions" product="shield">SHIELD options</string>
+    <string name="permdesc_readSms" product="shield">Allows the app to read SMS
+      messages stored on your SHIELD or SIM card. This allows the app to read all
+      SMS messages, regardless of content or confidentiality.</string>
+    <string name="permdesc_writeSms" product="shield">Allows the app to write
+      to SMS messages stored on your SHIELD or SIM card. Malicious apps
+      may delete your messages.</string>
+    <string name="permdesc_injectEvents" product="shield">Allows the app to deliver
+        its own input events (key presses, etc.) to other apps. Malicious
+        apps may use this to take over SHIELD.</string>
+    <string name="permdesc_persistentActivity" product="shield">Allows the app to make parts of itself persistent in memory.  This can limit memory available to other apps and slow down SHIELD.</string>
+    <string name="permdesc_clearAppCache" product="shield">Allows the app to free SHIELD storage
+        by deleting files in the cache directories of other apps.  This may cause other
+        apps to start up more slowly as they need to re-retrieve their data.</string>
+    <string name="permdesc_readLogs" product="shield">Allows the app to read from the
+        system\'s various log files.  This allows it to discover general
+        information about what you are doing with SHIELD, potentially
+        including personal or private information.</string>
+    <string name="permdesc_changeComponentState" product="shield">Allows the app to change whether a
+        component of another app is enabled or not. Malicious apps may use this
+        to disable important SHIELD capabilities. Care must be used with this permission, as it is
+        possible to get app components into an unusable, inconsistent, or unstable state.
+    </string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Allows the app to
+        have itself started as soon as the system has finished booting.
+        This can make it take longer to start SHIELD and allow the
+        app to slow down overall SHIELD performance by always running.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Allows the app to
+    send sticky broadcasts, which remain after the broadcast ends. Excessive use
+    may make SHIELD slow or unstable by causing it to use too much memory.
+    </string>
+    <string name="permdesc_readContacts" product="shield">Allows the app to read
+      data about your contacts stored on SHIELD, including the frequency
+      with which you\'ve called, emailed, or communicated in other ways with
+      specific individuals. This permission allows apps to save your contact
+      data, and malicious apps may share contact data without your
+      knowledge.</string>
+    <string name="permdesc_writeContacts" product="shield">Allows the app to
+      modify the data about your contacts stored on your SHIELD, including the
+      frequency with which you\'ve called, emailed, or communicated in other ways
+      with specific contacts. This permission allows apps to delete contact
+      data.</string>
+    <string name="permdesc_readCallLog" product="shield">Allows the app to read
+     SHIELD\'s call log, including data about incoming and outgoing calls.
+     This permission allows apps to save your call log data, and malicious apps
+     may share call log data without your knowledge.</string>
+    <string name="permdesc_writeCallLog" product="shield">Allows the app to modify SHIELD\'s call log, including data about incoming and outgoing calls.
+        Malicious apps may use this to erase or modify your call log.</string>
+    <string name="permdesc_readCalendar" product="shield">Allows the app to read
+       all calendar events stored on your SHIELD, including those of friends or
+       co-workers. This may allow the app to share or save your calendar data,
+       regardless of confidentiality or sensitivity.</string>
+    <string name="permdesc_writeCalendar" product="shield">Allows the app to
+     add, remove, and change events that you can modify on your SHIELD, including
+     those of friends or co-workers. This may allow the app to send messages
+     that appear to come from calendar owners, or modify events without the
+     owners\' knowledge.</string>
+    <string name="permlab_brick" product="shield">permanently disable SHIELD</string>
+    <string name="permdesc_brick" product="shield">Allows the app to
+        permanently disable SHIELD. This is very dangerous.</string>
+    <string name="permlab_reboot" product="shield">force SHIELD reboot</string>
+    <string name="permdesc_reboot" product="shield">Allows the app to force SHIELD to reboot.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">directly start CDMA SHIELD setup</string>
+    <string name="permlab_wakeLock" product="shield">prevent SHIELD from sleeping</string>
+    <string name="permdesc_wakeLock" product="shield">Allows the app to prevent SHIELD from going to sleep.</string>
+    <string name="permlab_devicePower" product="shield">power SHIELD on or off</string>
+    <string name="permdesc_devicePower" product="shield">Allows the app to turn
+        SHIELD on or off.</string>
+    <string name="permdesc_factoryTest" product="shield">Run as a low-level manufacturer test,
+        allowing complete access to SHIELD hardware. Only available
+        when SHIELD is running in manufacturer test mode.</string>
+    <string name="permdesc_setTime" product="shield">Allows the app to change SHIELD\'s clock time.</string>
+    <string name="permdesc_setTimeZone" product="shield">Allows the app to change SHIELD\'s time zone.</string>
+    <string name="permdesc_getAccounts" product="shield">Allows the app to get
+      the list of accounts known by SHIELD.  This may include any accounts
+      created by applications you have installed.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Allows the app to receive
+      packets sent to all devices on a Wi-Fi network using multicast addresses,
+      not just your SHIELD.  It uses more power than the non-multicast mode.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Allows the app to
+      configure the local Bluetooth SHIELD, and to discover and pair with remote
+      devices.</string>
+    <string name="permdesc_changeWimaxState" product="shield">Allows the app to
+      connect SHIELD to and disconnect SHIELD from WiMAX networks.</string>
+    <string name="permdesc_bluetooth" product="shield">Allows the app to view the
+      configuration of Bluetooth on SHIELD, and to make and accept
+      connections with paired devices.</string>
+    <string name="policydesc_watchLogin" product="shield">Monitor the number of incorrect passwords
+    typed when unlocking the screen, and lock SHIELD or erase all SHIELD\'s
+    data if too many incorrect passwords are typed.</string>
+    <string name="policydesc_wipeData" product="shield">Erase SHIELD\'s data without warning by performing a factory data reset.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">No SIM card in SHIELD.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">
+        You have incorrectly drawn your unlock pattern <xliff:g id="number">%d</xliff:g> times.
+       After <xliff:g id="number">%d</xliff:g> more unsuccessful attempts,
+       you will be asked to unlock your SHIELD using your Google signin.\n\n
+       Try again in <xliff:g id="number">%d</xliff:g> seconds.
+    </string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">
+       You have incorrectly attempted to unlock SHIELD <xliff:g id="number">%d</xliff:g> times.
+       After <xliff:g id="number">%d</xliff:g> more unsuccessful attempts,
+       SHIELD will be reset to the factory default and all user data will be lost.
+    </string>
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">
+       You have incorrectly attempted to unlock SHIELD <xliff:g id="number">%d</xliff:g> times.
+       SHIELD will now be reset to the factory default.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Allows the
+        app to modify the browser\'s history or bookmarks stored on SHIELD.
+        This may allow the app to erase or modify browser data.  Note: this
+        permission may not be enforced by third-party browsers or other
+        applications with web-browsing capabilities.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield"><xliff:g id="accessibility_service_name">%1$s</xliff:g> wants to enable Explore by Touch.
+            When Explore by Touch is turned on, you can hear or see descriptions of what\'s under
+            your finger or perform gestures to interact with SHIELD.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       You have incorrectly attempted to unlock SHIELD <xliff:g id="number">%d</xliff:g> times.
+       After <xliff:g id="number">%d</xliff:g> more unsuccessful attempts,
+       SHIELD will be reset to the factory default and all user data will be lost.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       You have incorrectly attempted to unlock SHIELD <xliff:g id="number">%d</xliff:g> times.
+       SHIELD will now be reset to the factory default.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       You have incorrectly drawn your unlock pattern <xliff:g id="number">%d</xliff:g> times.
+       After <xliff:g id="number">%d</xliff:g> more unsuccessful attempts,
+       you will be asked to unlock your SHIELD using an email account.\n\n
+       Try again in <xliff:g id="number">%d</xliff:g> seconds.
+    </string>
+    <string name="permdesc_transmitIr" product="shield">Allows the app to use SHIELD\'s infrared transmitter.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Allows the app to pair with remote devices without user interaction.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      SHIELD will temporarily disconnect from Wi-Fi while it\'s connected to %1$s
+    </string>
+</resources>

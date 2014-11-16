@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <add-resource type="string" name="permlab_nvidiaCPUPower" />
+    <string name="permlab_nvidiaCPUPower">juster NVIDIA Tegra CPU</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <add-resource type="string" name="permdesc_nvidiaCPUPower" />
+    <string name="permdesc_nvidiaCPUPower">Tillader, at app\'en kan justere parametre af NVIDA Tegra CPU\'en.  Dette kan bruge ekstra strøm.</string>
+
+    <!-- label for item that turns off power in phone options dialog -->
+    <add-resource type="string" name="global_action_sleep" />
+    <string name="global_action_sleep">Dvale</string>
+
+    <add-resource type="string" name="hdmiAudio" />
+    <string name="hdmiAudio">HDMI-lyd</string>
+
+    <add-resource type="string" name="miracastAudio" />
+    <string name="miracastAudio">Miracast-lyd</string>
+</resources>

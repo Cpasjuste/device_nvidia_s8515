@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">Paměť konzole SHIELD je plná.  Uvolněte místo smazáním některých souborů.</string>
+    <string name="power_dialog" product="shield">Možnosti SHIELD</string>
+    <string name="shutdown_confirm" product="shield">Konzole SHIELD bude vypnuta.</string>
+    <string name="global_actions" product="shield">Možnosti SHIELD</string>
+    <string name="permdesc_readSms" product="shield">Umožňuje aplikaci číst zprávy SMS uložené v konzoli SHIELD nebo na SIM kartě.  Toto oprávnění umožňuje aplikaci číst zprávy SMS bez ohledu na jejich obsah nebo důvěrnost.</string>
+    <string name="permdesc_writeSms" product="shield">Umožňuje aplikaci psát zprávy SMS uložené v konzoli SHIELD nebo na SIM kartě.  Škodlivé aplikace mohou vaše zprávy vymazat.</string>
+    <string name="permdesc_injectEvents" product="shield">Umožňuje aplikaci doručit vlastní vstupní události (stisknutí tlačítek atd.) dalším aplikacím.  Škodlivé aplikace mohou pomocí tohoto oprávnění převzít kontrolu nad konzolí SHIELD.</string>
+    <string name="permdesc_persistentActivity" product="shield">Umožňuje aplikaci uložit některé své části trvale do paměti.   Může to omezit paměť dostupnou pro ostatní aplikace a zpomalit tak konzoli SHIELD.</string>
+    <string name="permdesc_clearAppCache" product="shield">Umožňuje aplikaci uvolnit úložiště v konzoli SHIELD tím, že smaže soubory ve složkách mezipaměti jiných aplikací.   To může způsobit, že se jiné aplikace budou spouštět pomaleji, protože budou potřebovat znovu načíst data.</string>
+    <string name="permdesc_readLogs" product="shield">Umožňuje aplikaci číst různé systémové soubory protokolů.   Toto oprávnění aplikaci umožní získat obecné informace o činnostech s konzolí SHIELD, které by mohly obsahovat osobní či soukromé informace.</string>
+    <string name="permdesc_changeComponentState" product="shield">Umožňuje aplikaci změnit, zda je komponenta jiné aplikace povolena nebo ne.  Škodlivé aplikace mohou toto oprávnění použít k vypnutí důležitých funkcí konzole SHIELD.  Toto oprávnění je třeba používat opatrně, protože může dojít k nepoužitelnosti, nekonzistenci nebo nestabilitě komponent aplikací.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Umožňuje aplikaci spuštění ihned po spuštění systému.  Toto oprávnění může zpomalit spuštění konzole SHIELD a umožnit aplikaci celkově zpomalit konzoli SHIELD, protože bude neustále spuštěna.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Umožňuje aplikaci odesílat trvalá vysílání, která přetrvávají i po skončení vysílání.  Nadměrné používání může konzoli SHIELD zpomalit či způsobit jeho nestabilitu, protože bude používat příliš mnoho paměti.</string>
+
+    <string name="permdesc_readContacts" product="shield">Umožňuje aplikaci číst údaje o kontaktech uložených v konzoli SHIELD, včetně toho, jak často voláte, posíláte e-maily nebo komunikujete jinými způsoby s konkrétními osobami.  Toto oprávnění umožňuje aplikacím ukládat údaje o kontaktech a škodlivým aplikacím sdílet kontaktní údaje bez vašeho vědomí.</string>
+    <string name="permdesc_writeContacts" product="shield">Umožňuje aplikaci upravit údaje o kontaktech uložených v konzoli SHIELD včetně toho, jak často voláte, posíláte e-maily nebo komunikujete jinými způsoby s konkrétními kontakty.  Toto oprávnění aplikacím umožňuje mazat kontaktní údaje.</string>
+    <string name="permdesc_readCallLog" product="shield">Umožňuje aplikaci číst seznam hovorů konzole SHIELD, včetně dat o příchozích a odchozích hovorech.  Toto oprávnění umožňuje aplikacím ukládat údaje ze seznamu hovorů a škodlivým aplikacím sdílet údaje ze seznamu hovorů bez vašeho vědomí.</string>
+    <string name="permdesc_writeCallLog" product="shield">Umožňuje aplikaci upravit seznam hovorů konzole SHIELD, včetně dat o příchozích a odchozích hovorech. 
+        Škodlivé aplikace to mohou zneužít k vymazání nebo změnám seznamu hovorů.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Umožňuje aplikaci číst všechny události kalendáře uložené v konzoli SHIELD, včetně událostí přátel nebo spolupracovníků.  Aplikace s tímto oprávněním může sdílet nebo ukládat údaje v kalendáři bez ohledu na důvěrnost nebo citlivost těchto údajů.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Umožňuje aplikaci přidat, odebrat nebo změnit události, které můžete v konzoli SHIELD upravovat, a to včetně událostí přátel a spolupracovníků.  Toto oprávnění umožňuje aplikaci odesílat zprávy, které budou zdánlivě přicházet od vlastníka kalendáře, nebo upravovat události bez vědomí vlastníka.</string>
+
+
+
+    <string name="permlab_brick" product="shield">trvalé vypnutí konzole SHIELD</string>
+    <string name="permdesc_brick" product="shield">Umožňuje aplikaci trvale vypnout konzoli SHIELD. To je velmi nebezpečné oprávnění.</string>
+    <string name="permlab_reboot" product="shield">vynucení restartování konzole SHIELD</string>
+    <string name="permdesc_reboot" product="shield">Umožňuje aplikaci vynutit restartování konzole SHIELD.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">přímo spustit nastavení konzole SHIELD CDMA</string>
+    <string name="permlab_wakeLock" product="shield">zabránění přechodu konzole SHIELD do režimu spánku</string>
+    <string name="permdesc_wakeLock" product="shield">Umožňuje aplikaci zabránit přechodu konzole SHIELD do režimu spánku.</string>
+    <string name="permlab_devicePower" product="shield">zapnutí či vypnutí konzole SHIELD</string>
+    <string name="permdesc_devicePower" product="shield">Umožňuje aplikaci zapnout či vypnout konzoli SHIELD.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">nastavení procesoru NVIDIA Tegra </string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Umožňuje aplikaci nastavit parametry procesoru NVIDA Tegra.  To může mít za následek větší spotřebu energie.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Umožňuje aplikaci spuštění v režimu nízkoúrovňového testu výrobce a povolí přístup k hardwaru konzole SHIELD.  K dispozici, pouze je-li konzole SHIELD spuštěna v režimu testování výrobce.</string>
+    <string name="permdesc_setTime" product="shield">Umožňuje aplikaci změnit čas v konzoli SHIELD.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Umožňuje aplikaci změnit časové pásmo v konzoli SHIELD.</string>
+    <string name="permdesc_getAccounts" product="shield">Umožňuje aplikaci získat seznam účtů v konzoli SHIELD.   Mohou sem patřit i účty vytvořené aplikacemi, které jste nainstalovali.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Umožňuje aplikaci přijímat pakety odeslané do všech zařízení v síti Wi-Fi nejen pomocí konzole SHIELD, ale i prostřednictvím adres vícesměrového vysílání.   Spotřeba energie je vyšší než u režimu bez vícesměrového vysílání (multicast).</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Umožňuje aplikaci konfigurovat místní rozhraní Bluetooth konzole SHIELD a vyhledávat a párovat vzdálená zařízení.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Umožňuje aplikaci připojovat konzoli SHIELD k sítím WiMAX a odpojovat jej od nich.</string>
+    <string name="permdesc_bluetooth" product="shield">Umožňuje aplikaci zobrazit konfiguraci rozhraní Bluetooth v konzoli SHIELD, vytvářet připojení ke spárovaným zařízením a přijímat tato připojení.</string>
+    <string name="policydesc_watchLogin" product="shield">Sledovat počet nesprávných hesel zadaných při odemykání obrazovky a uzamknout konzoli SHIELD nebo z ní vymazat všechna data, pokud bylo zadáno příliš mnoho nesprávných hesel.</string>
+    <string name="policydesc_wipeData" product="shield">Obnovením továrních dat vymaže bez upozornění všechna data v konzoli SHIELD.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">V konzoli SHIELD není žádná SIM karta.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Již <xliff:g id="NUMBER">%d</xliff:g>krát jste použili nesprávné bezpečnostní gesto. Po dalších <xliff:g id="number">%d</xliff:g> neúspěšných pokusech budete požádáni o odemčení konzole SHIELD pomocí přihlášení na váš účet Google.\n\nZkuste to znovu za <xliff:g id="number">%d</xliff:g> sekund.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Již <xliff:g id="number">%d</xliff:g>krát jste se neúspěšně pokusili odemknout konzoli SHIELD. Po <xliff:g id="number">%d</xliff:g> dalších neúspěšných pokusech se v konzoli SHIELD obnoví tovární nastavení a veškerá uživatelská data budou ztracena.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Již <xliff:g id="number">%d</xliff:g>krát jste se neúspěšně pokusili odemknout konzoli SHIELD. Konzole SHIELD bude nyní resetována do výchozího továrního nastavení.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Umožňuje aplikaci upravit historii prohlížeče nebo záložky uložené v konzoli SHIELD.  Aplikace s tímto oprávněním může vymazat či pozměnit data prohlížeče.   Poznámka:  Pro prohlížeče třetích stran a jiné aplikace umožňující procházení webu toto oprávnění platit nemusí.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            Služba <xliff:g id="accessibility_service_name">%1$s</xliff:g> požaduje povolení funkce Prozkoumání dotykem.  Pokud je funkce Prozkoumání dotykem zapnuta, můžete slyšet nebo vidět popisy objektů pod vaším prstem nebo ovládat konzoli SHIELD gesty.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Již <xliff:g id="number">%d</xliff:g>krát jste se neúspěšně pokusili odemknout konzoli SHIELD. Po <xliff:g id="number">%d</xliff:g> dalších neúspěšných pokusech se v konzoli SHIELD obnoví tovární nastavení a veškerá uživatelská data budou ztracena.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">Již <xliff:g id="number">%d</xliff:g>krát jste se neúspěšně pokusili odemknout konzoli SHIELD. Konzole SHIELD bude nyní resetována do výchozího továrního nastavení.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Již <xliff:g id="NUMBER">%d</xliff:g>krát jste použili nesprávné bezpečnostní gesto. Po <xliff:g id="number">%d</xliff:g> dalších neúspěšných pokusech budete požádáni o odemčení konzole SHIELD pomocí e-mailového účtu.\n\n Zkuste to znovu za <xliff:g id="number">%d</xliff:g> sekund. </string>
+    <string name="permdesc_transmitIr" product="shield">Umožňuje aplikaci použít infračervený vysílač SHIELD.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Umožnuje aplikaci párovat vzdálená zařízení bez zásahu uživatele.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      Konzole SHIELD se při připojení k zařízení %1$s dočasně odpojí od sítě Wi-Fi
+    </string>
+</resources>

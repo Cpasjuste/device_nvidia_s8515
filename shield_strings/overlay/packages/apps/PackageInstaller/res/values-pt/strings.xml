@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="install_failed_cpu_abi_incompatible" product="shield">Este aplicativo não é compatível com o SHIELD.</string>
+    <string name="install_failed_msg" product="shield"><xliff:g id="app_name">%1$s</xliff:g> não pode ser instalado no SHIELD.</string>
+    <string name="unknown_apps_dlg_text" product="shield">Por segurança, o SHIELD é configurado para bloquear a instalação de aplicativos obtidos de fontes desconhecidas.</string>
+</resources>

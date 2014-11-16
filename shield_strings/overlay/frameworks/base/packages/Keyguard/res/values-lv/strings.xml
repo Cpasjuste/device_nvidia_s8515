@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">Spēļdatorā SHIELD nav SIM kartes.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Jūs nesekmīgi mēģinājāt atbloķēt spēļdatoru SHIELD <xliff:g id="number">%d</xliff:g> reizes. Pēc vēl <xliff:g id="number">%d</xliff:g> nesekmīgiem mēģinājumiem spēļdators SHIELD tiks atiestatīts uz rūpnīcas iestatījumiem un visi lietotāja dati tiks zaudēti.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Jūs nesekmīgi mēģinājāt atbloķēt spēļdatoru SHIELD <xliff:g id="number">%d</xliff:g> reizes. Tagad spēļdators SHIELD tiks atiestatīts uz rūpnīcas iestatījumiem.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Jūs nepareizi uzzīmējāt atbloķēšanas kombināciju <xliff:g id="number">%d</xliff:g> reizes. Pēc vēl <xliff:g id="number">%d</xliff:g> nesekmīgiem mēģinājumiem jums būs jāatbloķē spēļdators SHIELD, izmantojot savu e-pasta kontu.\n\n Mēģiniet vēlreiz pēc <xliff:g id="number">%d</xliff:g> sekundēm.
+    </string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">SHIELD 中沒有 SIM 卡。</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+您已嘗試錯誤解鎖 SHIELD<xliff:g id="number">%d</xliff:g> 次。再多嘗試<xliff:g id="number">%d</xliff:g> 次失敗之後，SHIELD 將重設為原廠預設值，而所有的使用者資料都將遺失。
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+您已嘗試錯誤解鎖 SHIELD<xliff:g id="number">%d</xliff:g> 次。SHIELD 現在將會重設為原廠預設值。
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+您的解鎖圖樣已畫錯<xliff:g id="number">%d</xliff:g> 次。再多嘗試<xliff:g id="number">%d</xliff:g> 次失敗之後，您將被要求使用電子郵件帳戶將您的 SHIELD 解鎖。\n\n<xliff:g id="number">%d</xliff:g> 秒後再試一次。
+    </string>
+</resources>

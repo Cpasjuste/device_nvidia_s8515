@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="install_failed_cpu_abi_incompatible" product="shield">이 앱은 SHIELD와 호환되지 않습니다.</string>
+    <string name="install_failed_msg" product="shield"><xliff:g id="app_name">%1$s</xliff:g> 은(는) SHIELD에 설치할 수 없습니다.</string>
+    <string name="unknown_apps_dlg_text" product="shield">보안을 위해, SHIELD는 알 수 없는 출처의 앱 설치를 차단하도록 설정되어 있습니다.</string>
+</resources>

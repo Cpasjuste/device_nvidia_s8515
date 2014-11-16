@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">SHIELD lang, hindi naka-sync</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      Walang mga maaaring i-export na contact.  Kung mayroon kang mga contact sa SHIELD, maaaring hindi pinapayagan ng ilang data provider ang pag-export ng mga contact mula sa SHIELD.
+    </string>
+</resources>

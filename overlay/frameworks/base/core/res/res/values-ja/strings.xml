@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="permlab_nvidiaCPUPower">NVIDIA Tegra CPU の調整</string>
+  <string name="permdesc_nvidiaCPUPower">NVIDIA Tegra CPU のパラメーターを調整することをアプリに許可します。余分な電力が消費される可能性があります。</string>
+  <string name="global_action_sleep">スリープ</string>
+  <string name="hdmiAudio">HDMI オーディオ</string>
+  <string name="miracastAudio">Miracast オーディオ</string>
+  <string name="global_action_restart_title">SHIELD の再起動</string>
+  <string name="global_action_restart_message">SHIELD を再起動すると、テンポラリ ファイルがメモリから消去されます。今すぐ SHIELD を再起動しますか?</string>
+  <string name="global_action_restart_progress_message">SHIELD を再起動しています...</string>
+</resources>

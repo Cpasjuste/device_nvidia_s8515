@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">SHIELD เท่านั้น ไม่ซิงค์</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      ไม่มีรายชื่อที่สามารถส่งออกได้ หากคุณมีรายชื่ออยู่ใน SHIELD ของคุณจริงๆ อาจเป็นเพราะผู้ให้บริการข้อมูลบางรายไม่อนุญาตให้ส่งออกรายชื่อ
+    </string>
+</resources>

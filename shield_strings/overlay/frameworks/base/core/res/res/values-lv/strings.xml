@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">Spēļdatora SHIELD atmiņa ir pilna. Dzēsiet dažas datnes, lai atbrīvotu vietu.</string>
+    <string name="power_dialog" product="shield">Spēļdatora SHIELD opcijas</string>
+    <string name="shutdown_confirm" product="shield">Spēļdators SHIELD izslēgsies.</string>
+    <string name="global_actions" product="shield">Spēļdatora SHIELD opcijas</string>
+    <string name="permdesc_readSms" product="shield">Ļauj lietotnei lasīt spēļdatorā SHIELD vai SIM kartē saglabātās īsziņas. Tas ļauj lietotnei lasīt visas īsziņas, neņemot vērā to saturu vai konfidencialitāti.</string>
+    <string name="permdesc_writeSms" product="shield">Ļauj lietotnei rakstīt spēļdatorā SHIELD vai SIM kartē saglabātajās īsziņās. Ļaunprātīgas lietotnes var dzēst jūsu ziņojumus.</string>
+    <string name="permdesc_injectEvents" product="shield">Ļauj lietotnei rādīt savus ievades notikumus (nospiestos taustiņus u. c.) citās lietotnēs.  Ļaunprātīgas lietotnes to var izmantot, lai pārņemtu spēļdatora SHIELD vadību.</string>
+    <string name="permdesc_persistentActivity" product="shield">Ļauj lietotnei nodrošināt atsevišķu tās daļu nepārtrauktu atrašanos atmiņā.   Tas var ierobežot pieejamo atmiņas daudzumu citām lietotnēm un palēnināt spēļdatora SHIELD darbību.</string>
+    <string name="permdesc_clearAppCache" product="shield">Ļauj lietotnei atbrīvot spēļdatora SHIELD atmiņu, dzēšot datnes citu lietotņu kešatmiņas direktorijos.   Citu lietotņu palaišana var būt lēnāka, jo tajās ir atkārtoti jāizgūst dati.</string>
+    <string name="permdesc_readLogs" product="shield">Ļauj lietotnei lasīt informāciju no dažādām sistēmas žurnāla datnēm.   Šādi lietotne var atrast vispārīgu informāciju par jūsu darbībām spēļdatorā SHIELD, tostarp arī personas vai privātu informāciju.</string>
+    <string name="permdesc_changeComponentState" product="shield">Ļauj lietotnei noteikt, vai tiek iespējots citas lietotnes komponents. Ļaunprātīgas lietotnes to var izmantot, lai atspējotu svarīgas spēļdatora SHIELD iespējas. Izmantojiet šo atļauju uzmanīgi, jo pastāv iespēja, ka lietotnes komponenti var kļūt neizmantojami, neatbilstīgi vai nestabili.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Ļauj lietotnei tikt startētai, tiklīdz sistēma ir pabeigusi sāknēšanu. Šādi spēļdatora SHIELD startēšana var notikt ilgāk, un lietotne, ja tā darbojas nepārtraukti, var palēnināt spēļdatora SHIELD veiktspēju.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Ļauj lietotnei sūtīt piesaistošas apraides, kas tiek saglabātas pēc apraides pabeigšanas.  Pārmērīga izmantošana var palēnināt spēļdatora SHIELD darbību vai padarīt to nestabilu, liekot izmantot pārāk daudz atmiņas.</string>
+
+    <string name="permdesc_readContacts" product="shield">Ļauj lietotnei lasīt datus par spēļdatorā SHIELD saglabātajām kontaktpersonām, tostarp to, cik bieži esat zvanījis, sazinājies pa e-pastu vai citādi sazinājies ar konkrētām personām. Ar šo atļauju lietotnes var saglabāt jūsu kontaktpersonu datus, un ļaunprātīgas lietotnes var kopīgot kontaktpersonu datus bez jūsu atļaujas.</string>
+    <string name="permdesc_writeContacts" product="shield">Ļauj lietotnei mainīt datus par spēļdatorā SHIELD saglabātajām kontaktpersonām, tostarp par zvanu un e-pasta ziņojumu apjomu vai saziņu citos veidos, kas ir veikta ar konkrētām kontaktpersonām.  Ar šo atļauju lietotne var dzēst kontaktpersonu datus.</string>
+    <string name="permdesc_readCallLog" product="shield">Ļauj lietotnei lasīt spēļdatora SHIELD zvanu žurnālu, tostarp ienākošo un izejošo zvanu datus.  Ar šo atļauju lietotnes var saglabāt jūsu zvanu žurnāla datus, un ļaunprātīgas lietotnes var kopīgot zvanu žurnāla datus bez jūsu atļaujas.</string>
+    <string name="permdesc_writeCallLog" product="shield">Ļauj lietotnei modificēt spēļdatora SHIELD zvanu žurnālu, tostarp ienākošo un izejošo zvanu datus. 
+        Ļaunprātīgas lietotnes var to izmantot, lai dzēstu vai pārveidotu jūsu zvanu žurnālu.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Ļauj lietotnei lasīt visus spēļdatorā SHIELD saglabātos kalendāra notikumus, tostarp draugu vai kolēģu notikumus. Tas var ļaut lietotnei kopīgot vai saglabāt jūsu kalendāra datus, neraugoties uz to konfidencialitāti vai sensitivitāti.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Ļauj lietotnei pievienot, noņemt, mainīt notikumus, kurus varat modificēt spēļdatorā SHIELD, tostarp draugu vai kolēģu notikumus. Tas var ļaut lietotnei sūtīt ziņojumus, norādot, ka tos sūta kalendāru īpašnieki, vai pārveidot notikumus bez īpašnieka atļaujas.</string>
+
+
+
+    <string name="permlab_brick" product="shield">neatgriezeniski atspējot spēļdatoru SHIELD</string>
+    <string name="permdesc_brick" product="shield">Ļauj lietotnei neatgriezeniski atspējot spēļdatoru SHIELD. Tas ir ļoti bīstami.</string>
+    <string name="permlab_reboot" product="shield">veikt spēļdatora SHIELD piespiedu atsāknēšanu</string>
+    <string name="permdesc_reboot" product="shield">Ļauj lietotnei veikt spēļdatora SHIELD piespiedu atsāknēšanu.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">tieši sākt CDMA iestatīšanu spēļdatorā SHIELD</string>
+    <string name="permlab_wakeLock" product="shield">novērst spēļdatora SHIELD pāriešanu miega režīmā</string>
+    <string name="permdesc_wakeLock" product="shield">Ļauj lietotnei novērst spēļdatora SHIELD pāriešanu miega režīmā.</string>
+    <string name="permlab_devicePower" product="shield">ieslēgt vai izslēgt spēļdatoru SHIELD</string>
+    <string name="permdesc_devicePower" product="shield">Ļauj lietotnei ieslēgt vai izslēgt spēļdatoru SHIELD.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">koriģēt NVIDIA Tegra CPU</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Ļauj lietotnei mainīt NVIDA Tegra CPU parametrus.  Tas var veicināt enerģijas patēriņu.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Darbina kā zema līmeņa ražotāja testu, atļaujot pilnīgu piekļuvi spēļdatora SHIELD aparatūrai. Pieejama tikai tad, ja spēļdators SHIELD darbojas ražotāja testa režīmā.</string>
+    <string name="permdesc_setTime" product="shield">Ļauj lietotnei mainīt spēļdatora SHIELD pulksteņa laiku.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Ļauj lietotnei mainīt spēļdatora SHIELD laika zonu.</string>
+    <string name="permdesc_getAccounts" product="shield">Ļauj lietotnei iegūt spēļdatora SHIELD zināmo kontu sarakstu.   Tas var iekļaut jebkādus kontus, ko izveidojušas instalētās lietotnes.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Ļauj lietotnei saņemt paketes, kas sūtītas uz visām ierīcēm Wi-Fi tīklā, izmantojot multiraides adreses, nevis tikai jūsu spēļdatoru SHIELD.  Tādējādi tiek patērēts vairāk enerģijas nekā režīmā, kas nav multiraide.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Ļauj lietotnei konfigurēt vietējo spēļdatora SHIELD savienojumu Bluetooth, kā arī atklāt attālas ierīces un savienot tās pārī.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Ļauj lietotnei savienot un atvienot spēļdatoru SHIELD no WiMAX tīkliem.</string>
+    <string name="permdesc_bluetooth" product="shield">Ļauj lietotnei skatīt Bluetooth konfigurāciju spēļdatorā SHIELD, kā arī veidot un pieņemt savienojumus ar pārī savienotām ierīcēm.</string>
+    <string name="policydesc_watchLogin" product="shield">Pārrauga nepareizi ievadīto paroļu skaitu, atbloķējot ekrānu, un bloķē spēļdatoru SHIELD vai dzēš visus spēļdatora SHIELD datus, ja tiek ievadīts pārāk daudz nepareizu paroļu.</string>
+    <string name="policydesc_wipeData" product="shield">Dzēš spēļdatora SHIELD datus bez brīdinājuma, veicot rūpnīcas datu atiestatīšanu.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">Spēļdatorā SHIELD nav SIM kartes.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Atbloķēšanas kombinācija tika nepareizi uzzīmēta <xliff:g id="number">%d</xliff:g> reizes. Pēc <xliff:g id="number">%d</xliff:g> nesekmīgiem mēģinājumiem jums būs jāatbloķē spēļdators SHIELD, piesakoties savā Google kontā.\n\nMēģiniet vēlreiz pēc <xliff:g id="number">%d</xliff:g> sekundēm.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Spēļdatoru SHIELD ir nesekmīgi mēģināts atbloķēt <xliff:g id="number">%d</xliff:g> reizes. Pēc <xliff:g id="number">%d</xliff:g> nesekmīgiem mēģinājumiem spēļdators SHIELD tiks atiestatīts uz rūpnīcas iestatījumiem, un visi lietotāja dati tiks zaudēti.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Spēļdatoru SHIELD ir nesekmīgi mēģināts atbloķēt <xliff:g id="number">%d</xliff:g> reizes. Spēļdators SHIELD tiks atiestatīts uz rūpnīcas iestatījumiem.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Ļauj lietotnei modificēt spēļdatorā SHIELD saglabāto pārlūkprogrammas vēsturi vai grāmatzīmes. Tas var ļaut lietotnei dzēst vai modificēt pārlūkprogrammas datus.   Piezīme:  šo atļauju nevar piemērot trešās puses pārlūkprogrammas vai citas lietojumprogrammas ar tīmekļa pārlūkošanas iespējām.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> vēlas iespējot Atklāt pieskaroties. Ja ir ieslēgta funkcija Atklāt pieskaroties, var dzirdēt vai redzēt tā vienuma aprakstu, virs kura atrodas pirksts, vai veikt žestus, lai mijiedarbotos ar spēļdatoru SHIELD.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Spēļdatoru SHIELD ir nesekmīgi mēģināts atbloķēt <xliff:g id="number">%d</xliff:g> reizes. Pēc <xliff:g id="number">%d</xliff:g> nesekmīgiem mēģinājumiem spēļdators SHIELD tiks atiestatīts uz rūpnīcas iestatījumiem, un visi lietotāja dati tiks zaudēti.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">Spēļdatoru SHIELD ir nesekmīgi mēģināts atbloķēt <xliff:g id="number">%d</xliff:g> reizes. Spēļdators SHIELD tiks atiestatīts uz rūpnīcas iestatījumiem.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Atbloķēšanas kombinācija tika nepareizi uzzīmēta <xliff:g id="number">%d</xliff:g> reizes. Pēc <xliff:g id="number">%d</xliff:g> nesekmīgiem mēģinājumiem jums būs jāatbloķē spēļdators SHIELD ar savu e-pasta kontu.\n\n Mēģiniet vēlreiz pēc <xliff:g id="number">%d</xliff:g> sekundēm.</string>
+    <string name="permdesc_transmitIr" product="shield">Ļauj lietotnei izmantot spēļdatora SHIELD infrasarkano raidītāju.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Ļauj lietotnei izveidot pāra savienojumu ar attālām ierīcēm bez lietotāja mijiedarbības.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      Spēļdators SHIELD tiks īslaicīgi atvienots no Wi-Fi tīkla, kamēr ir izveidots savienojums ar %1$s
+    </string>
+</resources>

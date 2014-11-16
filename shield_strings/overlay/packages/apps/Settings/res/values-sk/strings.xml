@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">Premenovať systém SHIELD</string>
+    <string name="bluetooth_ask_discovery" product="shield">"Aplikácia chce na <xliff:g id="timeout">%1$d</xliff:g> s prepnúť váš systém SHIELD do režimu, v ktorom bude viditeľný pre ostatné zariadenia Bluetooth. Povoliť?"</string>
+    <string name="phone_info_label" product="shield">Informácie o systéme SHIELD</string>
+    <string name="roaming_warning_multiuser" product="shield">Ak povolíte dátové služby pri roamingu, môžu sa účtovať vysoké poplatky za roaming!\n\nToto nastavenie ovplyvní všetkých používateľov tohto systému SHIELD.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">Šifrovať systém SHIELD</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">Pri každom zapnutí systému SHIELD požadovať číselný kód PIN alebo heslo na jeho dešifrovanie</string>
+    <string name="crypt_keeper_desc" product="shield">
+    Svoje účty, nastavenia, prevzaté aplikácie a ich údaje, mediálne a iné súbory môžete šifrovať. Po zašifrovaní systému SHIELD budete musieť pri každom zapnutí zadať číselný kód PIN alebo heslo a dešifrovať ho. Systém SHIELD nie je možné dešifrovať inak ako obnovením výrobných nastavení, čím sa však všetky údaje vymažú.\n\nŠifrovanie môže trvať viac ako hodinu. Systém SHIELD musí mať pred šifrovaním nabitú batériu a po celý čas šifrovania musí byť pripojený k zdroju napájania. Ak proces šifrovania prerušíte, prídete o časť údajov alebo aj o všetky údaje.</string>
+    <string name="crypt_keeper_button_text" product="shield">Šifrovať systém SHIELD</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    Operácia šifrovania je nevratná a ak ju prerušíte, prídete o údaje.
+    Šifrovanie môže trvať viac ako hodinu. V priebehu šifrovania sa systém SHIELD niekoľkokrát reštartuje.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">Počkajte, kým sa šifrovania systému SHIELD dokončí. Dokončené: <xliff:g id="percent" example="50">^1</xliff:g> %.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> Šifrovanie bolo prerušené a nedá sa dokončiť. Výsledkom je, že údaje v systéme SHIELD už nie sú k dispozícii.\n\n
+      Ak chcete ďalej používať systém SHIELD, musíte obnoviť jeho výrobné nastavenia.
+      Po ich obnovení budete mať počas nastavovania systému SHIELD príležitosť obnoviť všetky údaje, ktoré sa zálohovali do svojho účtu Google.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> Zariadenie <xliff:g id="device_name">%1$s</xliff:g> prestane zdieľať internetové pripojenie systému SHIELD.</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">Povoliť výmenu údajov, ak sa systém SHIELD dotýka iného zariadenia</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">UPOZORNENIE: Operátor môže účtovať ďalšie poplatky za prenos dát.\n\nNastavenie systému SHIELD môže vyžadovať prenos značného množstva dát.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">UPOZORNENIE: Systém SHIELD nebude môcť overiť, či je váš softvér aktuálny.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">Systém SHIELD sa k tejto sieti Wi-Fi nedokázal pripojiť.</string>
+    <string name="dock_audio_summary_none" product="shield">Systém SHIELD nie je v doku</string>
+    <string name="dock_not_found_text" product="shield">Pred nastavením zvuku doku v ňom musí byť vložený systém SHIELD.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">Prehrať zvuk pri vkladaní systému SHIELD do doku alebo pri jeho vyberaní</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">Neprehrávať zvuk pri vkladaní systému SHIELD do doku alebo pri jeho vyberaní</string>
+
+    <string name="accelerometer_summary_on" product="shield">Pri otáčaní systému SHIELD automaticky prepínať orientáciu</string>
+    <string name="accelerometer_summary_off" product="shield">Pri otáčaní systému SHIELD automaticky prepínať orientáciu</string>
+    <string name="sim_lock_on" product="shield">Ak chcete použiť systém SHIELD, musíte zadať kód PIN</string>
+    <string name="sim_lock_off" product="shield">Ak chcete použiť systém SHIELD, musíte zadať kód PIN</string>
+    <string name="device_info_settings" product="shield">Stav systému SHIELD</string>
+
+    <string name="device_status_summary" product="shield">Stav batérie, siete a ďalšie informácie</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">Vymaže všetky údaje v systéme SHIELD</string>
+    <string name="master_clear_desc" product="shield">"Táto operácia vymaže všetky údaje z <b>interného ukladacieho priestoru</b> systému SHIELD vrátane:\n\n<li>účtu Google,</li>\n<li>údajov a nastavení systému a aplikácií,</li>\n<li>prevzatých aplikácií.</li>"</string>
+    <string name="master_clear_button_text" product="shield">Obnoviť systém SHIELD</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">Zdieľa internetové pripojenie systému SHIELD</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Internetové pripojenie systému SHIELD zdieľa 1 zariadenie</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Internetové pripojenie systému SHIELD zdieľa viacero zariadení (<xliff:g id="connectedDeviceCount">%1$d</xliff:g>)</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">Nezdieľa sa internetové pripojenie systému SHIELD</string>
+    <string name="location_street_level" product="shield">Umožniť aplikáciám v systéme SHIELD určovať polohu pomocou GPS</string>
+    <string name="about_settings" product="shield">Informácie o systéme SHIELD</string>
+    <string name="install_all_warning" product="shield">Váš systém SHIELD a osobné údaje sú zraniteľnejšie voči útokom aplikácií z neznámych zdrojov. Súhlasíte s tým, že ste výhradne zodpovedný/-á za všetky škody na systéme SHIELD alebo stratu údajov, ktoré môžu vzniknúť v dôsledku používania týchto aplikácií.</string>
+    <string name="security_settings_desc" product="shield">Táto aplikácia môže pristupovať k nasledujúcim funkciám systému SHIELD:</string>
+    <string name="security_settings_desc_multi" product="shield">Táto aplikácia môže pristupovať k nasledujúcim funkciám systému SHIELD. Niektoré z týchto povolení sú s cieľom zlepšenia výkonu a zníženia využívania pamäte k dispozícii aj pre aplikáciu <xliff:g id="base_app_name">%1$s</xliff:g>, ktorá sa spúšťa v rámci rovnakého procesu ako aplikácia <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">Premiestniť do systému SHIELD</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Ak túto službu zastavíte, niektoré funkcie systému SHIELD nemusia fungovať správne, kým ju nevypnete a znova nezapnete.</string>
+    <string name="testing_phone_info" product="shield">Informácie o systéme SHIELD</string>
+    <string name="power_idle" product="shield">Systém SHIELD je nečinný</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">Využitie batérie v stave nečinnosti systému SHIELD</string>
+    <string name="really_remove_account_message" product="shield">Odstránením tohto účtu sa zo systému SHIELD odstránia aj všetky správy, kontakty a ďalšie údaje!</string>
+    <string name="remove_account_failed" product="shield">Niektoré aplikácie vyžadujú tento účet. Odstrániť ich môžete len obnovením predvolených výrobných nastavení systému SHIELD (čím odstránite všetky svoje osobné údaje) v časti Nastavenia &gt; Zálohovať a obnoviť.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Všetky zmeny vykonané v rámci vašich účtov na webe sa automaticky skopírujú do systému SHIELD.\n\nNiektoré účty môžu tiež automaticky skopírovať na web akékoľvek zmeny vykonané v systéme SHIELD. Týmto spôsobom funguje aj účet Google.\n\nTypy informácií, ktoré sa budú v jednotlivých účtoch synchronizovať, môžete nastaviť v časti Nastavenia &gt; Účty.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">Po dosiahnutí stanoveného limitu bude vaše mobilné dátové pripojenie vypnuté.\n\nKeďže sa využitie dát meria pomocou systému SHIELD a operátor môže využitie dát účtovať inak, zvážte nastavenie nižšieho limitu.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">Ak obmedzíte mobilné údaje na pozadí, niektoré aplikácie a služby nebudú fungovať, pokiaľ nebudete mať pripojenie k sieti Wi-Fi.\n\nToto nastavenie ovplyvní všetkých používateľov tohto systému SHIELD.</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: podľa meraní systému SHIELD využitých asi <xliff:g id="total" example="128KB">%1$s</xliff:g>. Operátor môže využitie dát účtovať inak.</string>
+    <string name="user_cannot_manage_message" product="shield">Používateľov môže spravovať iba vlastník systému SHIELD.</string>
+    <string name="user_confirm_remove_self_message" product="shield">Prídete o miesto v pamäti a údaje v tomto systéme SHIELD. Táto akcia sa nedá vrátiť späť.</string>
+    <string name="user_confirm_remove_message" product="shield">Miesto v pamäti a údaje používateľa sa zo systému SHIELD odstránia. Táto akcia sa nedá vrátiť späť.</string>
+    <string name="global_change_warning" product="shield">Toto nastavenie ovplyvní všetkých používateľov tohto systému SHIELD.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      Miesto v pamäti a údaje profilu sa zo systému SHIELD odstránia. Táto akcia sa nedá vrátiť späť.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      Povoliť výmenu údajov, ak sa systém SHIELD dotýka iného zariadenia
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      Niektorá z aplikácií chce prepnúť SHIELD do režimu, v ktorom bude viditeľný pre ostatné zariadenia Bluetooth. Neskôr to môžete zmeniť v nastaveniach Bluetooth.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      Niektorá z aplikácií chce na %1$d s zapnúť Bluetooth a prepnúť SHIELD do režimu, v ktorom bude viditeľný pre ostatné zariadenia.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      Niektorá z aplikácií chce zapnúť Bluetooth a prepnúť SHIELD do režimu, v ktorom bude viditeľný pre ostatné zariadenia. Neskôr to môžete zmeniť v nastaveniach Bluetooth.
+    </string>
+</resources>

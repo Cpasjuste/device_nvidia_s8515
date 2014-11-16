@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">A SHIELD-tárhely megtelt.  Szabadítson fel helyet néhány fájl törlésével.</string>
+    <string name="power_dialog" product="shield">SHIELD-beállítások</string>
+    <string name="shutdown_confirm" product="shield">A SHIELD leáll.</string>
+    <string name="global_actions" product="shield">SHIELD-beállítások</string>
+    <string name="permdesc_readSms" product="shield">Lehetővé teszi az alkalmazás számára a SHIELD-en vagy a SIM kártyán tárolt SMS-ek olvasását.  Így az alkalmazás elolvashatja az összes SMS-t, azok tartalmától és titkos jellegétől függetlenül.</string>
+    <string name="permdesc_writeSms" product="shield">Lehetővé teszi az alkalmazás számára a SHIELD-en vagy a SIM kártyán tárolt SMS-ek írását.  A rosszindulatú alkalmazások törölhetik az üzeneteket.</string>
+    <string name="permdesc_injectEvents" product="shield">Lehetővé teszi az alkalmazás számára saját beviteli eseményeinek (billentyűlenyomások stb.) elküldését más alkalmazásoknak.  A rosszindulatú alkalmazások ennek segítségével átvehetik a SHIELD irányítását.</string>
+    <string name="permdesc_persistentActivity" product="shield">Lehetővé teszi az alkalmazás számára, hogy egyes részeit állandóan a memóriában tárolja.   Ez korlátozhatja a többi alkalmazás számára rendelkezésre álló memóriát, és lelassíthatja a SHIELD-et.</string>
+    <string name="permdesc_clearAppCache" product="shield">Lehetővé teszi az alkalmazás számára, hogy tárhelyet szabadítson fel a SHIELD-en azáltal, hogy fájlokat töröl más alkalmazások gyorsítótáraiból.   Ez a többi alkalmazás lassabb elindulását okozhatja, mert azoknak újra le kell kérniük az adataikat.</string>
+    <string name="permdesc_readLogs" product="shield">Lehetővé teszi az alkalmazás számára, hogy olvassa a rendszer különböző naplófájljait.   Ezáltal az alkalmazás általános információkat deríthet ki arról, hogy Ön mire használja a SHIELD-et, valamint személyes, magánjellegű adatokhoz is hozzájuthat.</string>
+    <string name="permdesc_changeComponentState" product="shield">Lehetővé teszi az alkalmazás számára annak módosítását, hogy más alkalmazások komponensei engedélyezve legyenek-e vagy sem.  A rosszindulatú alkalmazások ezt a SHIELD fontos funkcióinak kikapcsolására használhatják.  Óvatosan kell eljárni az engedély megadásával, mert lehetséges, hogy a komponensek használhatatlanok, inkonzisztensek vagy instabilak lesznek.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Lehetővé teszi az alkalmazás számára, hogy elindítsa magát a rendszerindítás befejezése után.  Ez meghosszabbíthatja a SHIELD elindításának idejét, az állandó futás miatt pedig lelassíthatja a SHIELD-et.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Lehetővé teszi az alkalmazás számára ragadós üzenetek küldését, amelyek a sugárzás után is megmaradnak.  A túlzott használat lelassíthatja vagy instabillá teheti a SHIELD-et a nagymértékű memóriahasználattal.</string>
+
+    <string name="permdesc_readContacts" product="shield">Lehetővé teszi az alkalmazás számára a SHIELD-en tárolt névjegyekre vonatkozó összes adat – például az egyes személyekkel telefonon, e-mailben vagy más módon folytatott kommunikáció gyakoriságára vonatkozó adatok – beolvasását.  Az engedéllyel rendelkező alkalmazások menthetik a névjegyadatokat, és a rosszindulatú alkalmazások az Ön tudta nélkül oszthatják meg a névjegyadatokat.</string>
+    <string name="permdesc_writeContacts" product="shield">Lehetővé teszi az alkalmazás számára a SHIELD-en tárolt névjegyekre vonatkozó adatok – például az egyes személyekkel telefonon, e-mailben vagy más módon folytatott kommunikáció gyakoriságára vonatkozó adatok – módosítását.  Az engedéllyel rendelkező alkalmazás törölheti a névjegyadatokat.</string>
+    <string name="permdesc_readCallLog" product="shield">Lehetővé teszi, hogy az alkalmazás olvassa a SHIELD híváslistáját, beleértve a bejövő és kimenő hívások adatait is.  Az engedéllyel rendelkező alkalmazások menthetik hívásnaplóját, és előfordulhat, hogy a rosszindulatú alkalmazások az Ön tudta nélkül fognak megosztani hívásnaplóadatokat.</string>
+    <string name="permdesc_writeCallLog" product="shield">Lehetővé teszi, hogy az alkalmazás módosítsa a SHIELD híváslistáját, beleértve a bejövő és kimenő hívások adatait is. 
+        A rosszindulatú alkalmazások ezt arra használhatják, hogy híváslistáját töröljék vagy módosítsák.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Lehetővé teszi az alkalmazás számára a SHIELD-en tárolt összes naptári esemény beolvasását, beleértve az ismerősök vagy munkatársak eseményeit is.  Az alkalmazás így megoszthatja vagy elmentheti az Ön naptáradatait azok titkos vagy bizalmas jellegétől függetlenül.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Lehetővé teszi az alkalmazás számára a SHIELD-en módosítható események hozzáadását, törlését vagy módosítását, beleértve az ismerősök vagy munkatársak eseményeit is.  Az engedéllyel rendelkező alkalmazás olyan üzeneteket küldhet, amelyek úgy tűnhetnek, mintha a naptár tulajdonosától származnának, illetve módosíthatja az eseményeket a tulajdonosok tudta nélkül.</string>
+
+
+
+    <string name="permlab_brick" product="shield">a SHIELD végleges letiltása</string>
+    <string name="permdesc_brick" product="shield">Lehetővé teszi, hogy az alkalmazás végleg letiltsa a SHIELD-et. Ez nagyon veszélyes.</string>
+    <string name="permlab_reboot" product="shield">SHIELD újraindításának kényszerítése</string>
+    <string name="permdesc_reboot" product="shield">Lehetővé teszi az alkalmazások számára, hogy kényszerítsék a SHIELD újraindítását.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">a SHIELD CDMA-beállításának közvetlen indítása</string>
+    <string name="permlab_wakeLock" product="shield">SHIELD alvó üzemmódjának megakadályozása</string>
+    <string name="permdesc_wakeLock" product="shield">Lehetővé teszi az alkalmazás számára, hogy megakadályozza, hogy a SHIELD alvó üzemmódra váltson.</string>
+    <string name="permlab_devicePower" product="shield">a SHIELD be- és kikapcsolása</string>
+    <string name="permdesc_devicePower" product="shield">Lehetővé teszi az alkalmazás számára a SHIELD be- és kikapcsolását.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">NVIDIA Tegra CPU beállítása</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Lehetővé teszi az alkalmazás számára az NVIDIA Tegra CPU paramétereinek beállítását.  Ez többletenergiát fogyaszthat.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Alacsony szintű gyári tesztként fut, lehetővé téve a SHIELD összes hardverének elérését.  Csak akkor érhető el, ha a SHIELD gyártói tesztüzemmódban van.</string>
+    <string name="permdesc_setTime" product="shield">Lehetővé teszi az alkalmazás számára, hogy átállítsa a SHIELD óráját.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Lehetővé teszi az alkalmazás számára, hogy átállítsa a SHIELD időzónáját.</string>
+    <string name="permdesc_getAccounts" product="shield">Lehetővé teszi az alkalmazás számára a SHIELD által ismert fiókok listájának lekérését.  Ebbe a telepített alkalmazások által létrehozott fiókok is beleértendők.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Lehetővé teszi az alkalmazás számára, hogy olyan csomagokat fogadjon, amelyeket nem csak a SHIELD-nek, hanem egy Wi-Fi hálózat minden eszközének elküldtek többirányú címek használatával.   Több energiát használ, mint a nem többirányú üzemmód.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Lehetővé teszi az alkalmazás számára, hogy konfigurálja a helyi Bluetooth SHIELD-et, valamint hogy távoli eszközöket fedezzen és azokkal párosítsa magát.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Lehetővé teszi az alkalmazás számára, hogy az a SHIELD-et WiMAX hálózatokhoz csatlakoztassa és azokról leválassza.</string>
+    <string name="permdesc_bluetooth" product="shield">Lehetővé teszi az alkalmazás számára a SHIELD-en lévő Bluetooth beállításainak megtekintését, valamint kapcsolatok kezdeményezését és fogadását a párosított eszközökkel.</string>
+    <string name="policydesc_watchLogin" product="shield">Figyeli a képernyő feloldásakor helytelenül beírt jelszavak számát, és túl sok hibásan beírt jelszó esetén lezárja a SHIELD-et, vagy törli a SHIELD összes adatát.</string>
+    <string name="policydesc_wipeData" product="shield">Figyelmeztetés nélkül törli a SHIELD összes adatát, visszaállítva a gyári adatokat.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">Nincs SIM-kártya a SHIELD-ben.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield"><xliff:g id="number">%d</xliff:g> alkalommal rosszul rajzolta le a feloldási mintát. <xliff:g id="number">%d</xliff:g> további sikertelen próbálkozás után Google bejelentkezési adataival kell feloldania a SHIELD-et.\n\nIsmételt próbálkozás <xliff:g id="number">%d</xliff:g> másodperc múlva.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield"><xliff:g id="number">%d</xliff:g> alkalommal helytelenül próbálta feloldani a SHIELD-et. <xliff:g id="number">%d</xliff:g> további sikertelen próbálkozás után a SHIELD visszaáll gyári állapotba, és az összes felhasználói adat törlődik.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield"><xliff:g id="number">%d</xliff:g> alkalommal helytelenül próbálta feloldani a SHIELD-et. A SHIELD most visszaáll a gyári állapotba.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Lehetővé teszi az alkalmazás számára, hogy módosítsa a böngésző előzményeit vagy a SHIELD-en tárolt könyvjelzőket. Az engedéllyel rendelkező alkalmazás törölheti vagy módosíthatja a böngésző adatait.   Megjegyzés:  előfordulhat, hogy ezt az engedélyt más gyártók böngészői vagy a böngészésre képes egyéb alkalmazások nem léptetik életbe.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            A(z) <xliff:g id="accessibility_service_name">%1$s</xliff:g> be szeretné kapcsolni a Felfedezés érintéssel funkciót. Amikor a Felfedezés érintéssel be van kapcsolva, hallhatja vagy láthatja annak leírását, ami az ujja alatt van, illetve végrehajthat kézmozdulatokat a SHIELD kezeléséhez.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield"><xliff:g id="number">%d</xliff:g> alkalommal helytelenül próbálta feloldani a SHIELD-et. <xliff:g id="number">%d</xliff:g> további sikertelen próbálkozás után a SHIELD visszaáll gyári állapotba, és az összes felhasználói adat törlődik.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield"><xliff:g id="number">%d</xliff:g> alkalommal helytelenül próbálta feloldani a SHIELD-et. A SHIELD most visszaáll a gyári állapotba.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield"><xliff:g id="number">%d</xliff:g> alkalommal rosszul rajzolta le a feloldási mintát. <xliff:g id="number">%d</xliff:g> további sikertelen kísérlet után egy e-mail fiókkal kell feloldania a SHIELD-et.\n\n Próbálja újra <xliff:g id="NUMBER">%d</xliff:g> másodperc múlva.</string>
+    <string name="permdesc_transmitIr" product="shield">Az alkalmazás használhatja a SHIELD infravörös adóját.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Az alkalmazás felhasználói beavatkozás nélkül párosítható távoli eszközökkel.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      A SHIELD ideiglenesen kilép a Wi-Fi hálózatról, míg a(z) %1$s eszközhöz csatlakozik
+    </string>
+</resources>

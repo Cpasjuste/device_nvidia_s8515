@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">SHIELD saja, tidak disinkronkan</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      Tidak ada kontak yang dapat diekspor. Jika Anda menyimpan kontak pada SHIELD, beberapa penyedia data tidak mengizinkan kontak diekspor dari SHIELD.
+    </string>
+</resources>

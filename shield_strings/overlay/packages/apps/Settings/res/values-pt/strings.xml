@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">Renomear o SHIELD</string>
+    <string name="bluetooth_ask_discovery" product="shield">"Um aplicativo no SHIELD deseja torná-lo disponível para dispositivos Bluetooth por <xliff:g id="timeout">%1$d</xliff:g> segundos. Permitir?"</string>
+    <string name="phone_info_label" product="shield">Informações sobre o SHIELD</string>
+    <string name="roaming_warning_multiuser" product="shield">Ao permitir o roaming de dados, você poderá receber cobranças significativas de roaming!\n\nEsta configuração afeta todos os usuários do SHIELD.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">Criptografar o SHIELD</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">Exige um PIN numérico ou senha para desfazer a criptografia do SHIELD cada vez que o mesmo for ligado.</string>
+    <string name="crypt_keeper_desc" product="shield">
+    É possível criptografar contas, configurações, aplicativos baixados e seus dados, mídia e outros arquivos.  Após criptografar o SHIELD, será necessário digitar um PIN numérico ou senha para desfazer a criptografia toda vez que o mesmo for ligado. Não é possível desfazer a criptografia do SHIELD, exceto se for realizada uma restauração de dados de fábrica, apagando todos os dados.\n\nA criptografia leva um hora ou mais. É necessário iniciar com a bateria carregada e manter o SHIELD conectado até que a criptografia seja concluída.  Se o processo de criptografia for interrompido, alguns ou todos os dados serão perdidos.</string>
+    <string name="crypt_keeper_button_text" product="shield">Criptografar o SHIELD</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    A operação de criptografia é irreversível e, se for interrompida, os dados serão perdidos.
+    A criptografia leva cerca de uma hora ou mais, e nesse período o SHIELD será reiniciado várias vezes.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">Aguarde enquanto o SHIELD é criptografado. <xliff:g id="percent" example="50">^1</xliff:g>% concluído.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> A criptografia foi interrompida e não pode ser concluída.  Como resultado, os dados do SHIELD não estão mais acessíveis.\n\n
+      Para voltar a usar o SHIELD, é necessário realizar uma restauração de fábrica.
+      Ao configurar o SHIELD após a restauração, você poderá recuperar todos os dados que foram salvos em backup na Conta do Google.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> será desconectado por compartilhar a conexão de internet do SHIELD.</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">Permite a troca de dados quando o SHIELD tocar em outro dispositivo</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">AVISO:  Você poderá receber cobranças significativas de dados da operadora.\n\nA configuração do SHIELD pode exigir atividade de rede significativa</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">AVISO:  O SHIELD não será capaz de verificar a atualização do software.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">O SHIELD não foi capaz de conectar à rede Wi-Fi.</string>
+    <string name="dock_audio_summary_none" product="shield">O SHIELD não foi encaixado</string>
+    <string name="dock_not_found_text" product="shield">É necessário encaixar o SHIELD antes de configurar o áudio do suporte.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">Reproduzir sons ao inserir ou remover o SHIELD do suporte</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">Não reproduzir sons ao inserir ou remover o SHIELD do suporte</string>
+
+    <string name="accelerometer_summary_on" product="shield">Alternar orientação automaticamente ao girar o SHIELD</string>
+    <string name="accelerometer_summary_off" product="shield">Alternar orientação automaticamente ao girar o SHIELD</string>
+    <string name="sim_lock_on" product="shield">Exigir PIN para usar o SHIELD</string>
+    <string name="sim_lock_off" product="shield">Exigir PIN para usar o SHIELD</string>
+    <string name="device_info_settings" product="shield">Status do SHIELD</string>
+
+    <string name="device_status_summary" product="shield">Status da bateria, rede e outras informações</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">Apaga todos os dados no SHIELD</string>
+    <string name="master_clear_desc" product="shield">"Isso apagará todos os dados do <b>armazenamento interno</b> do SHIELD, incluindo:\n\n<li>A conta do Google</li>\n<li>Dados e configurações do sistema e do aplicativo</li>\n<li>Aplicativos baixados</li>"</string>
+    <string name="master_clear_button_text" product="shield">Reiniciar o SHIELD</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">Compartilhamento da conexão de internet do SHIELD</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Compartilhamento da conexão de internet do SHIELD com 1 dispositivo</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Compartilhamento da conexão de internet do SHIELD com <xliff:g id="connectedDeviceCount">%1$d</xliff:g> dispositivos</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">A conexão de internet do SHIELD não está sendo compartilhada</string>
+    <string name="location_street_level" product="shield">Permitir que os aplicativos usem o GPS do SHIELD para determinar sua posição</string>
+    <string name="about_settings" product="shield">Sobre o SHIELD</string>
+    <string name="install_all_warning" product="shield">O SHIELD e seus dados pessoais são mais vulneráveis a ataques de aplicativos de fontes desconhecidas.  Você concorda que é o único responsável por qualquer dano ao SHIELD ou perda de dados decorrentes do uso desses aplicativos.</string>
+    <string name="security_settings_desc" product="shield">Este aplicativo pode acessar os seguintes itens no SHIELD:</string>
+    <string name="security_settings_desc_multi" product="shield">Este aplicativo pode acessar os seguintes itens no SHIELD. Para melhorar o desempenho e reduzir o uso de memória, algumas destas permissões estão disponíveis para <xliff:g id="base_app_name">%1$s</xliff:g> pois esse aplicativo é executado no mesmo processo que <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">Mover para o SHIELD</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Se este serviço for interrompido, alguns recursos do SHIELD podem parar de funcionar corretamente até que o mesmo seja desligado e ligado novamente.</string>
+    <string name="testing_phone_info" product="shield">Informações sobre o SHIELD</string>
+    <string name="power_idle" product="shield">SHIELD ocioso</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">Bateria usada quando o SHIELD está ocioso</string>
+    <string name="really_remove_account_message" product="shield">A remoção desta conta excluirá todas as mensagens, contatos e outros dados do SHIELD!</string>
+    <string name="remove_account_failed" product="shield">Esta conta é necessária para alguns aplicativos.  Somente é possível removê-la redefinindo o SHIELD para os padrões de fábrica (ação que exclui todos os dados pessoais) em Configurações &gt; Fazer backup e redefinir.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">As alterações feitas nas contas na web serão automaticamente copiadas para o SHIELD.\n\nAlgumas contas também poderão copiar automaticamente as alterações feitas no SHIELD para a web. A conta do Google funciona dessa maneira.\n\nPara escolher que tipos de informações serão sincronizadas com cada conta, acesse Configurações &gt; Contas.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">A conexão de dados móveis será desativada quando o limite especificado for atingido.\n\nComo o uso de dados é calculado pelo SHIELD, e sua operadora pode entender o uso de forma diferente, use um limite moderado.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">Ao restringir os dados móveis em plano de fundo, alguns aplicativos e serviços não funcionarão a menos que estejam conectado a uma rede Wi-Fi.\n\nEsta configuração afeta todos os usuários do SHIELD.  </string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: sobre <xliff:g id="total" example="128KB">%1$s</xliff:g> utilizado, conforme medido pelo SHIELD. A contagem da utilização de dados da operadora pode variar.</string>
+    <string name="user_cannot_manage_message" product="shield">Somente o proprietário do SHIELD pode gerenciar os usuários.</string>
+    <string name="user_confirm_remove_self_message" product="shield">Você perderá o espaço e os dados no SHIELD. Não é possível desfazer esta ação.</string>
+    <string name="user_confirm_remove_message" product="shield">O espaço e os dados do usuário desaparecerão do SHIELD. Não é possível desfazer esta ação.</string>
+    <string name="global_change_warning" product="shield">Esta configuração afeta todos os usuários do SHIELD.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      O espaço e os dados do perfil desaparecerão do SHIELD. Não é possível desfazer esta ação.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      Permite a troca de dados quando o SHIELD tocar em outro dispositivo
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      Um aplicativo quer tornar o SHIELD visível para outros dispositivos Bluetooth. Você pode alterar isto mais tarde nas configurações de Bluetooth.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      Um aplicativo quer ligar o Bluetooth e tornar o SHIELD visível para outros dispositivos por %1$d segundos.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      Um aplicativo quer ligar o Bluetooth e tornar o SHIELD visível para outros dispositivos. Você pode alterar isto mais tarde nas configurações de Bluetooth.
+    </string>
+</resources>

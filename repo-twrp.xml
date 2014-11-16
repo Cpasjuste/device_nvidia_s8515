@@ -1,8 +1,0 @@
-<manifest>
-
-    <!-- replace recovery with twrp -->
-    <remove-project name="CyanogenMod/android_bootable_recovery" />
-    <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-4.4" />
-
-</manifest>
-

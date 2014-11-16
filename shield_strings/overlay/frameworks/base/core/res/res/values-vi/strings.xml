@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">Bộ nhớ SHIELD đă đầy.  Hăy xóa một số tệp để tạo thêm dung lượng.</string>
+    <string name="power_dialog" product="shield">Các tùy chọn SHIELD</string>
+    <string name="shutdown_confirm" product="shield">SHIELD sẽ tắt máy.</string>
+    <string name="global_actions" product="shield">Các tùy chọn SHIELD</string>
+    <string name="permdesc_readSms" product="shield">Cho phép ứng dụng đọc tin nhắn SMS được lưu trữ trên SHIELD hoặc thẻ SIM của bạn.  Việc này cho phép ứng dụng đọc tất cả tin nhắn SMS, bất kể nội dung hay tính bảo mật là ǵ.</string>
+    <string name="permdesc_writeSms" product="shield">Cho phép ứng dụng ghi vào tin nhắn SMS được lưu trữ trên SHIELD hoặc thẻ SIM của bạn.  Ứng dụng độc hại có thể xóa tin nhắn của bạn.</string>
+    <string name="permdesc_injectEvents" product="shield">Cho phép ứng dụng gửi các sự kiện nhập của riêng ứng dụng (số lần nhấn phím, v.v...) đến các ứng dụng khác.  Các ứng dụng độc hại có thể sử dụng quyền này để dành quyền kiểm soát SHIELD.</string>
+    <string name="permdesc_persistentActivity" product="shield">Cho phép ứng dụng tạo sự đồng nhất cho các phần của ḿnh trong bộ nhớ.   Việc này có thể hạn chế bộ nhớ khả dụng đối với các ứng dụng khác và làm chậm SHIELD.</string>
+    <string name="permdesc_clearAppCache" product="shield">Cho phép ứng dụng giải phóng bộ nhớ SHIELD bằng cách xóa các tệp trong thư mục bộ nhớ cache của các ứng dụng khác.   Điều này có thể khiến các ứng dụng khác khởi động chậm hơn v́ chúng cần truy xuất lại dữ liệu.</string>
+    <string name="permdesc_readLogs" product="shield">Cho phép ứng dụng đọc từ nhiều tệp nhật ký khác nhau của hệ thống.   Quyền này cho phép khám phá thông tin chung về việc bạn đang làm gì với SHIELD, có thể bao gồm thông tin cá nhân hoặc riêng tư.</string>
+    <string name="permdesc_changeComponentState" product="shield">Cho phép ứng dụng thay đổi việc có bật cấu phần của ứng dụng khác hay không.  Ứng dụng độc hại có thể sử dụng quyền này để tắt những tính năng quan trọng của SHIELD.  Phải cẩn trọng khi sử dụng quyền này v́ quyền này có thể khiến các cấu phần rơi vào trạng thái không sử dụng được, không đồng nhất hoặc không ổn định.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Cho phép ứng dụng tự khởi chạy ngay khi hệ thống đã khởi động xong.  Quyền này có thể khiến SHIELD mất nhiều thời gian khởi động hơn và cho phép ứng dụng làm chậm toàn bộ SHIELD do ứng dụng luôn chạy.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Cho phép ứng dụng gửi nội dung truyền phát hấp dẫn người xem. Nội dung này sẽ vẫn c̣n sau khi quá tŕnh truyền phát kết thúc. Việc sử dụng quá mức có thể khiến SHIELD chậm hoặc không ổn định vì khiến nó sử dụng quá nhiều bộ nhớ. </string>
+
+    <string name="permdesc_readContacts" product="shield">Cho phép ứng dụng đọc dữ liệu về các liên hệ được lưu trữ trên SHIELD, bao gồm tần suất bạn đă gọi điện, gửi email hoặc liên lạc theo các cách khác với những người cụ thể.  Quyền này cho phép ứng dụng lưu dữ liệu liên lạc của bạn và các ứng dụng độc hại có thể chia sẻ dữ liệu liên lạc mà bạn không biết.</string>
+    <string name="permdesc_writeContacts" product="shield">Cho phép ứng dụng sửa đổi dữ liệu về các địa chỉ liên hệ được lưu trữ trên SHIELD của bạn, bao gồm tần suất mà bạn đă gọi, gửi email hoặc liên lạc theo các cách khác với những địa chỉ liên hệ cụ thể.  Quyền này cho phép ứng dụng xóa dữ liệu liên lạc.</string>
+    <string name="permdesc_readCallLog" product="shield">Cho phép ứng dụng đọc nhật kư cuộc gọi trên SHIELD, bao gồm dữ liệu về các cuộc gọi đến và gọi đi.  Quyền này cho phép ứng dụng lưu dữ liệu nhật kư cuộc gọi cả bạn và các ứng dụng độc hại có thể chia sẻ dữ liệu nhật kư cuộc gọi mà bạn không biết.</string>
+    <string name="permdesc_writeCallLog" product="shield">Cho phép ứng dụng sửa đổi nhật kư cuộc gọi trên SHIELD, bao gồm dữ liệu về các cuộc gọi đến và gọi đi. 
+        Các ứng dụng độc hại có thể sử dụng quyền này để xóa hoặc sửa đổi nhật kư cuộc gọi của bạn.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Cho phép ứng dụng đọc tất cả các sự kiện trên lịch được lưu trữ trên SHIELD của bạn, bao gồm các sự kiện trên lịch của bạn bè hoặc đồng nghiệp.  Việc này có thể cho phép ứng dụng chia sẻ hoặc lưu dữ liệu lịch của bạn, bất kể tính bí mật hay tính nhạy cảm là ǵ.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Cho phép ứng dụng thêm, xóa, thay đổi các sự kiện mà bạn có thể sửa đổi trên SHIELD của ḿnh, bao gồm những sự kiện của bạn bè hoặc đồng nghiệp.  Việc này có thể cho phép ứng dụng gửi tin nhắn dường như đến từ chủ sở hữu lịch hoặc sửa đổi các sự kiện mà chủ sở hữu không biết.</string>
+
+
+
+    <string name="permlab_brick" product="shield">tắt SHIELD vĩnh viễn</string>
+    <string name="permdesc_brick" product="shield">Cho phép ứng dụng vĩnh viễn tắt SHIELD. Điều này rất nguy hiểm.</string>
+    <string name="permlab_reboot" product="shield">buộc SHIELD khởi động lại</string>
+    <string name="permdesc_reboot" product="shield">Cho phép ứng dụng buộc SHIELD khởi động lại.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">trực tiếp bắt đầu thiết lập SHIELD CDMA</string>
+    <string name="permlab_wakeLock" product="shield">ngăn SHIELD chuyển sang chế độ ngủ</string>
+    <string name="permdesc_wakeLock" product="shield">Cho phép ứng dụng ngăn SHIELD chuyển sang chế độ ngủ.</string>
+    <string name="permlab_devicePower" product="shield">bật hoặc tắt điện thoại</string>
+    <string name="permdesc_devicePower" product="shield">Cho phép ứng dụng bật hoặc tắt SHIELD.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">điều chỉnh NVIDIA Tegra CPU</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Cho phép ứng dụng điều chỉnh các thông số của NVIDA Tegra CPU.  Điều này có thể tốn thêm pin.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Chạy dưới dạng thử nghiệm nhà máy cấp thấp, cho phép quyền truy cập hoàn toàn vào phần cứng SHIELD.  Chỉ khả dụng khi SHIELD đang chạy ở chế độ thử nghiệm của nhà sản xuất.</string>
+    <string name="permdesc_setTime" product="shield">Cho phép ứng dụng thay đổi giờ đồng hồ của SHIELD.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Cho phép ứng dụng thay đổi múi giờ của SHIELD.</string>
+    <string name="permdesc_getAccounts" product="shield">Cho phép ứng dụng nhận danh sách các tài khoản mà SHIELD biết.   Danh sách này có thể bao gồm bất kỳ tài khoản nào được tạo bởi các ứng dụng mà bạn đă cài đặt.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Cho phép ứng dụng nhận các gói được gửi đến tất cả các thiết bị trên mạng Wi-Fi sử dụng các địa chỉ phát đa hướng, chứ không phải chỉ SHIELD của bạn.   Chế độ này sử dụng nhiều năng lượng hơn chế độ không phát đa hướng.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Cho phép ứng dụng định cấu h́nh SHIELD Bluetooth cục bộ cũng như phát hiện và ghép nối với các thiết bị từ xa.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Cho phép ứng dụng kết nối SHIELD với, và ngắt kết nối SHIELD khỏi, các mạng WiMAX.</string>
+    <string name="permdesc_bluetooth" product="shield">Cho phép ứng dụng xem cấu h́nh của Bluetooth trên SHIELD và tạo và chấp nhận các kết nối với các thiết bị được ghép nối.</string>
+    <string name="policydesc_watchLogin" product="shield">Theo dõi số mật khẩu nhập không chính xác khi mở khóa màn hình và khóa SHIELD hoặc xóa tất cả dữ liệu của SHIELD nếu quá nhiều mật khẩu không chính xác được nhập.</string>
+    <string name="policydesc_wipeData" product="shield">Xóa dữ liệu trên SHIELD mà không cần cảnh báo, bằng cách thiết lập lại dữ liệu ban đầu.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">Không có thẻ SIM nào trong SHIELD.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Bạn đã <xliff:g id="number">%d</xliff:g> lần vẽ không chính xác h́nh mở khóa của ḿnh.  Sau <xliff:g id="number">%d</xliff:g> lần vẽ không thành công nữa, bạn sẽ bị yêu cầu mở khóa SHIELD bằng cách sử dụng tài khoản đăng nhập qua Google của bạn.\n\nThử lại sau <xliff:g id="number">%d</xliff:g> giây.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Bạn đã nhập không chính xác để mở khóa SHIELD <xliff:g id="number">%d</xliff:g> lần. Sau <xliff:g id="number">%d</xliff:g> lần vẽ không thành công nữa, SHIELD sẽ được cài đặt lại về chế độ mặc định ban đầu và tất cả dữ liệu người dùng sẽ bị mất.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Bạn đã nhập không chính xác để mở khóa SHIELD <xliff:g id="number">%d</xliff:g> lần. Bây giờ SHIELD sẽ được cài đặt lại về chế độ mặc định ban đầu.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Cho phép ứng dụng sửa đổi lịch sử hoặc dấu trang của tŕnh duyệt được lưu trữ trên SHIELD của bạn.  Việc này có thể cho phép ứng dụng xóa hoặc sửa đổi dữ liệu của tŕnh duyệt.   Lưu ư:  quyền này có thể không được thực thi bằng tŕnh duyệt của bên thứ ba hoặc các ứng dụng khác có khả năng duyệt web.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> muốn bật Khám phá bằng cách Chạm.  Khi Khám phá bằng cách Chạm được bật, bạn có thể nghe hoặc xem mô tả về những gì dưới ngón tay bạn hoặc thực hiện cử chỉ để tương tác với SHIELD.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Bạn đã nhập không chính xác để mở khóa SHIELD <xliff:g id="number">%d</xliff:g> lần. Sau <xliff:g id="number">%d</xliff:g> lần vẽ không thành công nữa, SHIELD sẽ được cài đặt lại về chế độ mặc định ban đầu và tất cả dữ liệu người dùng sẽ bị mất.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">Bạn đã nhập không chính xác để mở khóa SHIELD <xliff:g id="number">%d</xliff:g> lần. Bây giờ SHIELD sẽ được cài đặt lại về chế độ mặc định ban đầu.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Bạn đă <xliff:g id="number">%d</xliff:g> lần vẽ không chính xác h́nh mở khóa của ḿnh.  Sau <xliff:g id="number">%d</xliff:g> lần vẽ không thành công nữa, bạn sẽ bị yêu cầu mở khóa SHIELD bằng cách sử dụng tài khoản email.\n\n Hăy thử lại sau <xliff:g id="number">%d</xliff:g> giây.</string>
+    <string name="permdesc_transmitIr" product="shield">Cho phép ứng dụng sử dụng bộ truyền phát hồng ngoại trong SHIELD.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Cho phép ứng dụng ghép đôi với các thiết bị từ xa không cần tương tác người dùng.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      SHIELD sẽ tạm thời ngắt kết nối khỏi Wi-Fi trong khi nó được kết nối với %1$s
+    </string>
+</resources>

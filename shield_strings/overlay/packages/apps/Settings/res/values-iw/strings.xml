@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">שנה שם SHIELD</string>
+    <string name="bluetooth_ask_discovery" product="shield">"יישום מסוים רוצה להפוך את ה-SHIELD שלך לגלוי בפני מכשירי Bluetooth אחרים למשך <xliff:g id="timeout">%1$d</xliff:g> שניות. האם לאשר?"</string>
+    <string name="phone_info_label" product="shield">פרטי SHIELD</string>
+    <string name="roaming_warning_multiuser" product="shield">כשאתה מאפשר נדידה, הדבר עשוי להיות כרוך בעלויות נדידה גבוהות!\n\nהגדרה זו משפיעה על כל המשתמשים ב-SHIELD הזה.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">הצפן SHIELD</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">דרוש PIN מספרי או סיסמה לפענוח נתוני ה-SHIELD בכל הפעלה</string>
+    <string name="crypt_keeper_desc" product="shield">
+    אתה יכול להצפין חשבונות, הגדרות, יישומים שהורדת ונתונים שלהם, מדיה וקבצים אחרים. לאחר שתצפין את SHIELD, בכל פעם שתפעיל אותו תצטרך להקליד קוד PIN מספרי או סיסמה כדי לפענח את הנתונים. לא תוכל לבטל את הצפנת SHIELD, אלא אם תבצע איפוס לנתוני היצרן, שיגרום למחיקת כל הנתונים שלך.\n\nתהליך ההצפנה אורך שעה או יותר. עליך להתחיל את התהליך עם סוללה טעונה ולהשאיר את SHIELD מחובר לחשמל עד השלמת הצפנה. אם תעצור את תהליך ההצפנה, תאבד חלק מהנתונים שלך, או את כולם.</string>
+    <string name="crypt_keeper_button_text" product="shield">הצפן SHIELD</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    פעולת ההצפנה אינה ניתנת לביטול, ואם תפסיק אותה תאבד נתונים.
+    ההצפנה אורכת שעה לפחות, ובמהלך זמן זה SHIELD יופעל מחדש מספר פעמים.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">המתן בזמן הצפנת ה-SHIELD. %<xliff:g id="percent" example="50">^1</xliff:g> הושלמו.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> ההצפנה הופסקה ואין אפשרות להשלים אותה. כתוצאה מכך, לא ניתן עוד לגשת לנתונים ב-SHIELD.\n\n
+      כדי לחזור ולהשתמש ב-SHIELD, עליך לבצע איפוס לנתוני היצרן.
+      כאשר תגדיר את SHIELD לאחר האיפוס, תהיה לך הזדמנות לשחזר נתונים שגובו בחשבון Google שלך.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> ינותק משיתוף החיבור לאינטרנט של SHIELD.</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">אפשר חילופי מידע כאשר SHIELD נוגע במכשיר אחר</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">אזהרה:  הספק עלול לגבות עלויות נתונים נוספות.\n\nהגדרת SHIELD עשויה לצרוך פעילות רבה ברשת.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">אזהרה:  SHIELD לא יוכל לוודא שהתוכנה שלך עדכנית.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD לא הצליח להתחבר לרשת Wi-Fi זו.</string>
+    <string name="dock_audio_summary_none" product="shield">SHIELD לא בעגינה</string>
+    <string name="dock_not_found_text" product="shield">עליך לעגן את SHIELD לפני הגדרת אודיו ממעגן.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">השמע צליל בעת הכנסת SHIELD לעגינה או הוצאתו מעגינה</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">אל תשמיע צליל בעת הכנסת SHIELD לעגינה או הוצאתו מעגינה</string>
+
+    <string name="accelerometer_summary_on" product="shield">שנה כיוון באופן אוטומטי בעת סיבוב SHIELD</string>
+    <string name="accelerometer_summary_off" product="shield">שנה כיוון באופן אוטומטי בעת סיבוב SHIELD</string>
+    <string name="sim_lock_on" product="shield">דרוש PIN כדי להשתמש ב-SHIELD</string>
+    <string name="sim_lock_off" product="shield">דרוש PIN כדי להשתמש ב-SHIELD</string>
+    <string name="device_info_settings" product="shield">מצב SHIELD</string>
+
+    <string name="device_status_summary" product="shield">סטטוס הסוללה, הרשת ומידע אחר</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">מחק את כל הנתונים מ-SHIELD</string>
+    <string name="master_clear_desc" product="shield">"פעולה זו תמחק את כל הנתונים ב<b>אמצעי האחסון הפנימי</b> של SHIELD, כולל:\n\n<li>חשבון Google שלך</li>\n<li>הגדרות ונתוני מערכת ויישומים</li>\n<li>יישומים שהורדת</li>"</string>
+    <string name="master_clear_button_text" product="shield">אפס SHIELD</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">משתף את החיבור לאינטרנט של SHIELD</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">משתף את החיבור לאינטרנט של SHIELD עם מכשיר אחד</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">משתף את החיבור לאינטרנט של SHIELD עם <xliff:g id="connectedDeviceCount">%1$d</xliff:g> מכשירים</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">לא משתף את החיבור לאינטרנט של SHIELD</string>
+    <string name="location_street_level" product="shield">אפשר ליישומים להשתמש ב-GPS ב-SHIELD כדי לאתר את מיקומך</string>
+    <string name="about_settings" product="shield">אודות SHIELD</string>
+    <string name="install_all_warning" product="shield">ה-SHIELD והנתונים האישיים שלך פגיעים יותר להתקפות מצד יישומים ממקורות לא ידועים. אתה מסכים לכך שאתה האחראי הבלעדי לכל נזק שייגרם ל-SHIELD או לאובדן נתונים שעלולים להיגרם בעקבות שימוש ביישומים אלה.</string>
+    <string name="security_settings_desc" product="shield">יישום זה יכול לגשת לפריטים הבאים ב-SHIELD:</string>
+    <string name="security_settings_desc_multi" product="shield">יישום זה יכול לגשת לפריטים הבאים ב-SHIELD. על מנת לשפר את הביצועים ולהפחית את השימוש בזיכרון, חלק מהרשאות אלה זמינות ל-<xliff:g id="base_app_name">%1$s</xliff:g> מפני שהוא פועל באותו תהליך יחד עם <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">העבר ל-SHIELD</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">אם תפסיק שירות זה, תכונות מסוימות של SHIELD עלולות להפסיק לפעול כהלכה עד לכיבוי המכשיר והפעלתו מחדש.</string>
+    <string name="testing_phone_info" product="shield">מידע אודות SHIELD</string>
+    <string name="power_idle" product="shield">SHIELD לא פעיל</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">צריכת סוללה כאשר SHIELD לא פעיל</string>
+    <string name="really_remove_account_message" product="shield">הסרת חשבון זה תגרום למחיקה של כל ההודעות, אנשי הקשר ונתונים נוספים מ-SHIELD!</string>
+    <string name="remove_account_failed" product="shield">יישומים מסוימים מחייבים שימוש בחשבון זה. ניתן להסירו רק על ידי איפוס SHIELD להגדרות ברירת המחדל של היצרן (פעולה זו מוחקת את כל הנתונים האישיים) בנתיב \'הגדרות\' &gt; \'גיבוי ואיפוס\'.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">כל שינוי שתבצע בחשבונך באינטרנט יועתקו אוטומטית אל ה-SHIELD שלך.\n\nחשבונות מסוימים עשויים גם להעתיק אוטומטית אל האינטרנט שינויים שאתה מבצע ב-SHIELD. חשבון Google פועל כך.\n\nכדי לבחור את סוגי הפרטים שיסונכרנו בכל חשבון, עבור אל \'הגדרות\' &gt; \'חשבונות\'.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">חיבור הנתונים שלך בנייד יושבת כאשר תגיע למגבלה שצוינה.\n\nמכיוון שנפח העברת הנתונים נמדד על ידי SHIELD, ומכיוון שייתכן שספק השירות שלך מחשב את נפח העברת הנתונים באופן שונה, מומלץ להשתמש במגבלה מחמירה.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">אם תגביל את נתוני הרקע לנייד, יישומים ושירותים מסוימים לא יפעלו אלא אם אתה מחובר לרשת Wi-Fi‏.\n\nהגדרה זו משפיעה על כל המשתמשים ב-SHIELD הזה.</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: נעשה שימוש ב-<xliff:g id="total" example="128KB">%1$s</xliff:g> בקירוב, לפי המדידה של SHIELD.  ייתכן שספק השירות שלך יחשב את נפח העברת הנתונים באופן שונה.</string>
+    <string name="user_cannot_manage_message" product="shield">רק הבעלים של ה-SHIELD יכול לנהל משתמשים.</string>
+    <string name="user_confirm_remove_self_message" product="shield">תאבד את השטח ואת והנתונים שלך ב-SHIELD הזה.  לא ניתן לבטל פעולה זו.</string>
+    <string name="user_confirm_remove_message" product="shield">השטח והנתונים של משתמש זה ייעלמו מה-SHIELD. לא ניתן לבטל פעולה זו.</string>
+    <string name="global_change_warning" product="shield">הגדרה זו משפיעה על כל המשתמשים ב-SHIELD הזה.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      השטח והנתונים של פרופיל זה ייעלמו מה-SHIELD. לא ניתן לבטל פעולה זו.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      אפשר חילופי מידע כאשר SHIELD נוגע במכשיר אחר
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      יישום רוצה להפוך את SHIELD לגלי להתקני Bluetooth אחרים. ניתן לשנות זאת מאוחר יותר בהגדרות Bluetooth.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      יישום רוצה להפעיל את Bluetooth ולהפוך את SHIELD לגלוי להתקנים אחרים למשך %1$d שניות.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      יישום רוצה להפעיל את Bluetooth ולהפוך את SHIELD לגלוי להתקנים אחרים. ניתן לשנות זאת מאוחר יותר בהגדרות Bluetooth.
+    </string>
+</resources>

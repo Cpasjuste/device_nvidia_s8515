@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">เปลี่ยนชื่อ SHIELD</string>
+    <string name="bluetooth_ask_discovery" product="shield">"แอปใน SHIELD ต้องการทำให้อุปกรณ์บลูทูธอื่นสามารถมองเห็น SHIELD ของคุณได้เป็นเวลา <xliff:g id="timeout">%1$d</xliff:g> วินาที อนุญาตหรือไม่"</string>
+    <string name="phone_info_label" product="shield">ข้อมูลของ SHIELD</string>
+    <string name="roaming_warning_multiuser" product="shield">เมื่อคุณอนุญาตการโรมมิ่งข้อมูล อาจมีการเรียกเก็บค่าใช้จ่ายเพิ่มเติมจำนวนมากในการโรมมิ่ง!\n\nการตั้งค่านี้ส่งผลต่อผู้ใช้ SHIELD ทุกราย</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">เข้ารหัส SHIELD</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">จำเป็นต้องใช้ PIN หรือรหัสผ่านที่เป็นตัวเลขเพื่อถอดรหัส SHIELD ทุกครั้งที่คุณเปิดเครื่อง</string>
+    <string name="crypt_keeper_desc" product="shield">
+    คุณสามารถเข้ารหัสบัญชี การตั้งค่า แอปที่ดาวน์โหลดมาและข้อมูล สื่อ และไฟล์อื่นๆ ของแอปนั้นได้ เมื่อคุณเข้ารหัส SHIELD แล้ว คุณจะต้องพิมพ์รหัส PIN หรือรหัสผ่านที่เป็นตัวเลขเพื่อถอดรหัสในแต่ละครั้งที่คุณเปิดเครื่อง คุณไม่สามารถถอดรหัส SHIELD ได้เว้นแต่จะทำการรีเซ็ตข้อมูลเป็นค่าเริ่มต้น ซึ่งจะเป็นการลบข้อมูลทั้งหมด\n\nการเข้ารหัสใช้เวลาอย่างน้อยหนึ่งชั่วโมงหรือมากกว่า คุณต้องเริ่มต้นด้วยการใช้แบตเตอรี่ที่ชาร์จไฟแล้วและเสียบปลั๊ก SHIELD ไว้จนกว่าการเข้ารหัสจะเสร็จสมบูรณ์ หากมีการขัดจังหวะกระบวนการเข้ารหัส คุณจะสูญเสียข้อมูลบางส่วนหรือทั้งหมดไป</string>
+    <string name="crypt_keeper_button_text" product="shield">เข้ารหัส SHIELD</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    การเข้ารหัสนี้ไม่สามารถย้อนกลับได้และข้อมูลจะสูญหายหากการดำเนินการหยุดชะงัก
+    การเข้ารหัสจะใช้เวลาอย่างน้อยหนึ่งชั่วโมง โดยในระหว่างนั้น SHIELD จะรีสตาร์ทหลายครั้ง
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">รอสักครู่ขณะกำลังเข้ารหัส SHIELD เสร็จสมบูรณ์ <xliff:g id="percent" example="50">^1</xliff:g> เปอร์เซ็นต์</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> การเข้ารหัสถูกขัดจังหวะและไม่สามารถดำเนินการให้เสร็จสิ้น คุณจึงไม่สามารถเข้าถึงข้อมูลในแท็บเล็ตได้อีกต่อไป\n\n
+      ในการใช้งาน SHIELD ต่อ คุณต้องรีเซ็ตข้อมูลเป็นค่าเริ่มต้น
+      เมื่อคุณตั้งค่า SHIELD หลังจากรีเซ็ตแล้ว คุณจะสามารถกู้คืนข้อมูลทั้งหมดที่มีการสำรองไว้ในบัญชี Google ของคุณได้
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> จะถูกตัดการเชื่อมต่อจากการแบ่งปันการเชื่อมต่ออินเทอร์เน็ตของ SHIELD</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">อนุญาตให้มีการแลกเปลี่ยนข้อมูลเมื่อแตะ SHIELD กับอุปกรณ์อื่น</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">คำเตือน: การดำเนินการของคุณอาจมีค่าบริการเพิ่มเติมจากการใช้ข้อมูลของผู้ให้บริการ\n\nการตั้งค่า SHIELD อาจต้องใช้กิจกรรมเครือข่ายที่ใช้ปริมาณข้อมูลสูง</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">คำเตือน: SHIELD จะไม่สามารถตรวจดูได้ว่าซอฟต์แวร์ของคุณเป็นเวอร์ชันล่าสุดหรือไม่</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD ไม่สามารถเชื่อมต่อกับเครือข่าย WiFi นี้</string>
+    <string name="dock_audio_summary_none" product="shield">ไม่ได้วาง SHIELD บนแท่นชาร์จ</string>
+    <string name="dock_not_found_text" product="shield">คุณต้องวาง SHIELD บนแท่นชาร์จก่อนที่จะตั้งค่าเสียงสำหรับใช้บนแท่นชาร์จ</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">เล่นเสียงเมื่อใส่หรือถอด SHIELD ออกจากแท่นชาร์จ</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">ไม่เล่นเสียงเมื่อใส่หรือถอด SHIELD ออกจากแท่นชาร์จ</string>
+
+    <string name="accelerometer_summary_on" product="shield">เปลี่ยนการวางแนวโดยอัตโนมัติเมื่อหมุน SHIELD</string>
+    <string name="accelerometer_summary_off" product="shield">เปลี่ยนการวางแนวโดยอัตโนมัติเมื่อหมุน SHIELD</string>
+    <string name="sim_lock_on" product="shield">ต้องการ PIN ในการใช้ SHIELD</string>
+    <string name="sim_lock_off" product="shield">ต้องการ PIN ในการใช้ SHIELD</string>
+    <string name="device_info_settings" product="shield">สถานะ SHIELD</string>
+
+    <string name="device_status_summary" product="shield">สถานะของแบตเตอรี่ เครือข่าย และข้อมูลอื่น</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">ลบข้อมูลทั้งหมดบน SHIELD</string>
+    <string name="master_clear_desc" product="shield">"ซึ่งจะลบข้อมูลทั้งหมดจาก <b>ที่เก็บข้อมูลภายใน </b> ของ SHIELD ซึ่งรวมถึง:\n\n<li>บัญชี GOOGLE</li>\n<li>การตั้งและข้อมูลของระบบและแอป</li>\n<li>แอปที่ดาวน์โหลด</li>"</string>
+    <string name="master_clear_button_text" product="shield">รีเซ็ต SHIELD</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">กำลังแบ่งปันการเชื่อมต่ออินเตอร์เน็ตของ SHIELD</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">กำลังแบ่งปันอินเทอร์เน็ตของ SHIELD กับอุปกรณ์ 1 เครื่อง</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">กำลังแบ่งปันอินเทอร์เน็ตของ SHIELD กับอุปกรณ์ <xliff:g id="connectedDeviceCount">%1$d</xliff:g> เครื่อง</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">ไม่แบ่งปันการเชื่อมต่ออินเตอร์เน็ตของ SHIELD</string>
+    <string name="location_street_level" product="shield">ให้แอปใช้ GPS ของ SHIELD เพื่อระบุตำแหน่งของคุณ</string>
+    <string name="about_settings" product="shield">เกี่ยวกับ SHIELD</string>
+    <string name="install_all_warning" product="shield">SHIELD และข้อมูลส่วนบุคคลของคุณมีความเสี่ยงยิ่งขึ้นที่จะถูกโจมตีจากแอปที่ไม่รู้จักแหล่งที่มา คุณยอมรับว่าคุณจะเป็นผู้รับผิดชอบแต่เพียงผู้เดียวต่อความเสียหายใดๆ ที่เกิดกับ SHIELD หรือการสูญเสียข้อมูลที่เป็นผลจากการใช้แอปเหล่านี้</string>
+    <string name="security_settings_desc" product="shield">แอปนี้สามารถเข้าถึงสิ่งต่อไปนี้บน SHIELD:</string>
+    <string name="security_settings_desc_multi" product="shield">แอปนี้สามารถเข้าถึงสิ่งต่อไปนี้บน SHIELD: เพื่อปรับปรุงประสิทธิภาพและลดการใช้หน่วยความจำ บางการอนุญาตดังกล่าวพร้อมใช้งานกับ <xliff:g id="base_app_name">%1$s</xliff:g> เนื่องจากทำงานในระบบเดียวกันกับ <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">ย้ายไปยัง SHIELD</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">หากคุณหยุดบริการนี้ คุณลักษณะบางอย่างของ SHIELD อาจทำงานได้ไม่ถูกต้องจนกว่าคุณจะปิดเครื่องแล้วเปิดใหม่อีกครั้ง</string>
+    <string name="testing_phone_info" product="shield">ข้อมูลของ SHIELD</string>
+    <string name="power_idle" product="shield">โหมดพักการทำงานของ SHIELD</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">แบตเตอรี่ที่ใช้เมื่อไม่ได้ใช้งาน SHIELD</string>
+    <string name="really_remove_account_message" product="shield">การนำบัญชีนี้ออกจะเป็นการลบข้อความ รายชื่อ และข้อมูลอื่นๆ ทั้งหมดของบัญชีออกจาก SHIELD!</string>
+    <string name="remove_account_failed" product="shield">แอปบางอย่างต้องใช้บัญชีนี้ คุณสามารถนำบัญชีออกได้ด้วยการรีเซ็ต SHIELD ให้เป็นค่าเริ่มต้นเท่านั้น (ซึ่งจะลบข้อมูลส่วนบุคคลของคุณทั้งหมด) โดยไปที่การตั้งค่า &gt; การสำรองข้อมูลและการรีเซ็ต</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">การเปลี่ยนแปลงใดๆ ที่คุณทำกับบัญชีของคุณบนเว็บจะถูกคัดลอกไปยัง SHIELD ของคุณโดยอัตโนมัติ\n\nบางบัญชีอาจคัดลอกการเปลี่ยนแปลงทั้งหมดที่คุณดำเนินการบน SHIELD ไปยังเว็บโดยอัตโนมัติ บัญชี Google ทำงานเช่นนี้\n\nหากต้องการเลือกว่าจะซิงค์ข้อมูลชนิดใดภายในแต่ละบัญชี ให้ไปที่การตั้งค่า &gt; บัญชี</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">การเชื่อมต่อข้อมูลผ่านมือถือของคุณจะถูกปิดใช้งานเมื่อครบจำนวนจำกัดที่ระบุไว้\n\nเนื่องจาก SHIELD วัดการใช้งานข้อมูล และผู้ให้บริการของคุณอาจมีการบันทึกปริมาณการใช้งานที่แตกต่างออกไป ดังนั้น โปรดเลือกวิธีที่ปลอดภัย</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">หากคุณจำกัดข้อมูลพื้นหลังของมือถือ แอปพลิเคชันและบริการบางอย่างจะไม่ทำงานเว้นแต่คุณจะเชื่อมต่อกับเครือข่าย WiFi\n\nการตั้งค่านี้ส่งผลต่อผู้ใช้ SHIELD นี้ทุกราย</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: ประมาณ <xliff:g id="total" example="128KB">%1$s</xliff:g> ที่ใช้ ตามที่ SHIELD วัดได้ ผู้ให้บริการอาจมีรายละเอียดการใช้ต่างจากนี้</string>
+    <string name="user_cannot_manage_message" product="shield">เฉพาะเจ้าของ SHIELD เท่านั้นที่สามารถจัดการผู้ใช้ได้</string>
+    <string name="user_confirm_remove_self_message" product="shield">พื้นที่และข้อมูลของคุณที่อยู่ใน SHIELD เครื่องนี้จะหายไป คุณไม่สามารถเลิกทำการทำงานนี้ คุณไม่สามารถเลิกทำการทำงานนี้</string>
+    <string name="user_confirm_remove_message" product="shield">พื้นที่และข้อมูลของผู้ใช้รายนี้จะหายไปจาก SHIELD เครื่องนี้ คุณไม่สามารถเลิกทำการทำงานนี้</string>
+    <string name="global_change_warning" product="shield">การตั้งค่านี้ส่งผลต่อผู้ใช้ SHIELD นี้ทุกราย</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      พื้นที่และข้อมูลกำหนดค่าจะหายไปจาก SHIELD คุณไม่สามารถเลิกทำการทำงานนี้
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      อนุญาตให้มีการแลกเปลี่ยนข้อมูลเมื่อแตะ SHIELD กับอุปกรณ์อื่น
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      แอปต้องการให้อุปกรณ์บลูทูธอื่นสามารถมองเห็น SHIELD คุณสามารถเปลี่ยนค่านี้ภายหลังในการตั้งค่า
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      แอปพลิเคชันต้องการเปิดบลูทูธและให้อุปกรณ์อื่นสามารถมองเห็น SHIELD ได้เป็นเวลา %1$d  วินาที
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      แอปพลิเคชันต้องการเปิดบลูทูธและให้อุปกรณ์อื่นสามารถมองเห็น SHIELD ได้ คุณสามารถเปลี่ยนค่านี้ภายหลังในการตั้งค่าบลูทูธ
+    </string>
+</resources>

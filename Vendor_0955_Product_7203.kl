@@ -1,0 +1,28 @@
+# Copyright (c) 2013, NVIDIA CORPORATION.  All rights reserved.
+# NVIDIA Normalized Gamepad
+
+key 304   BUTTON_A
+key 305   BUTTON_B
+key 307   BUTTON_X
+key 308   BUTTON_Y
+key 310   BUTTON_L1
+key 311   BUTTON_R1
+key 314   PROG_RED
+key 315   BUTTON_START
+key 317   BUTTON_THUMBL
+key 318   BUTTON_THUMBR
+
+# NVIDIA gamepad generates 16 bits values for the 6 axis
+# Left (0x00, 0x01) and right (0x03, 0x04) and trigger (0x02, 0x05) analog control stick.
+# The reported value for flat is 128 out of a range from -32767 to 32768, which is absurd.
+# This confuses applications that rely on the flat value because the joystick actually
+# settles in a flat range of +/- 128 or so.
+axis 0x00 X flat 2
+axis 0x01 Y flat 2
+axis 0x02 LTRIGGER flat 2
+axis 0x03 Z flat 2
+axis 0x04 RZ flat 2
+axis 0x05 RTRIGGER flat 2
+
+axis 0x10 HAT_X
+axis 0x11 HAT_Y

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headerMarginTop">15dp</dimen>
+    <dimen name="textMarginRight">30dp</dimen>
+    <dimen name="textMarginBottom">10dp</dimen>
+    <dimen name="header_text_top_margin">20dp</dimen>
+
+    <dimen name="dimpleView_margin">33.5dp</dimen>
+    <dimen name="dimplew">25px</dimen>
+    <dimen name="dimpleh">25px</dimen>
+    <dimen name="dimplem">13px</dimen>
+    <dimen name="landscape_leftpane">830px</dimen>
+    <dimen name="pgleftp">15dp</dimen>
+    <dimen name="pgrightp">15dp</dimen>
+    <dimen name="pgtopp">15dp</dimen>
+    <dimen name="pgbotp">15dp</dimen>
+    <dimen name="dt_paddingbetween">5dp</dimen>
+    <dimen name="dt_tvpadtop">2dp</dimen>
+    <dimen name="dt_nonspinnerpadding">21dp</dimen>
+    <dimen name="dt_spinnerheadermargin">17dp</dimen>
+    <dimen name="dt_spinnertxtmargin">14dp</dimen>
+    <dimen name="dt_smalltextsize">13sp</dimen>
+    <dimen name="dt_bigtextsize">20sp</dimen>
+    <add-resource type="dimen" name="linewidth" />
+    <dimen name="linewidth">1px</dimen>
+    <add-resource type="dimen" name="smalltxt" />
+    <dimen name="smalltxt">14sp</dimen>
+    <add-resource type="dimen" name="mediumtxt" />
+    <dimen name="mediumtxt">19sp</dimen>
+    <add-resource type="dimen" name="largetxt" />
+    <dimen name="largetxt">24sp</dimen>
+    <add-resource type="dimen" name="pg0_tlewidth" />
+    <dimen name="pg0_tlewidth">500dp</dimen>
+    <add-resource type="dimen" name="pg1_textWidth" />
+    <dimen name="pg1_textWidth">182dp</dimen>
+    <add-resource type="dimen" name="pg1_textY" />
+    <dimen name="pg1_textY">50dp</dimen>
+    <add-resource type="dimen" name="pg2_STARTtextX" />
+    <dimen name="pg2_STARTtextX">183dp</dimen>
+    <add-resource type="dimen" name="pg2_STARTtextY" />
+    <dimen name="pg2_STARTtextY">95dp</dimen>
+    <add-resource type="dimen" name="pg2_HOMEtextX" />
+    <dimen name="pg2_HOMEtextX">183dp</dimen>
+    <add-resource type="dimen" name="pg2_HOMEtextY" />
+    <dimen name="pg2_HOMEtextY">150dp</dimen>
+    <add-resource type="dimen" name="pg2_VOLtextX" />
+    <dimen name="pg2_VOLtextX">183dp</dimen>
+    <add-resource type="dimen" name="pg2_VOLtextY" />
+    <dimen name="pg2_VOLtextY">40dp</dimen>
+    <add-resource type="dimen" name="pg2_BACKtextX" />
+    <dimen name="pg2_BACKtextX">183dp</dimen>
+    <add-resource type="dimen" name="pg2_BACKtextY" />
+    <dimen name="pg2_BACKtextY">175dp</dimen>
+    <add-resource type="dimen" name="pg3_ytextX" />
+    <dimen name="pg3_ytextX">197dp</dimen>
+    <add-resource type="dimen" name="pg3_ytextY" />
+    <dimen name="pg3_ytextY">85dp</dimen>
+    <add-resource type="dimen" name="pg3_xtextX" />
+    <dimen name="pg3_xtextX">197dp</dimen>
+    <add-resource type="dimen" name="pg3_xtextY" />
+    <dimen name="pg3_xtextY">160dp</dimen>
+    <add-resource type="dimen" name="pg3_atextX" />
+    <dimen name="pg3_atextX">198dp</dimen>
+    <add-resource type="dimen" name="pg3_atextY" />
+    <dimen name="pg3_atextY">210dp</dimen>
+    <add-resource type="dimen" name="pg3_btextX" />
+    <dimen name="pg3_btextX">198dp</dimen>
+    <add-resource type="dimen" name="pg3_btextY" />
+    <dimen name="pg3_btextY">140dp</dimen>
+    <add-resource type="dimen" name="pg4_mtdtextX" />
+    <dimen name="pg4_mtdtextX">147dp</dimen>
+    <add-resource type="dimen" name="pg4_mtdtextY" />
+    <dimen name="pg4_mtdtextY">63dp</dimen>
+    <add-resource type="dimen" name="pg4_virtextX" />
+    <dimen name="pg4_virtextX">147dp</dimen>
+    <add-resource type="dimen" name="pg4_virtextY" />
+    <dimen name="pg4_virtextY">62dp</dimen>
+    <add-resource type="dimen" name="pg4_btntextX" />
+    <dimen name="pg4_btntextX">136dp</dimen>
+    <add-resource type="dimen" name="pg4_btntextY" />
+    <dimen name="pg4_btntextY">173dp</dimen>
+    <add-resource type="dimen" name="pg4_btntextmarg" />
+    <dimen name="pg4_btntextmarg">11dp</dimen>
+    <add-resource type="dimen" name="button_txt" />
+    <dimen name="button_txt">13sp</dimen>
+    <add-resource type="dimen" name="button_width" />
+    <dimen name="button_width">120dp</dimen>
+</resources>

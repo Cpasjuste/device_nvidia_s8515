@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">حافظه SHIELD پر است. برخی از فایل‌ها را حذف کنید تا فضا آزاد شود.</string>
+    <string name="power_dialog" product="shield">گزینه‌های SHIELD</string>
+    <string name="shutdown_confirm" product="shield">SHIELD خاموش می‌شود.</string>
+    <string name="global_actions" product="shield">گزینه‌های SHIELD</string>
+    <string name="permdesc_readSms" product="shield">به برنامه اجازه می‌دهد پیامک‌های ذخیره شده در SHIELD یا سیم کارت شما را بخواند. به برنامه امکان می‌دهد همه پیامک‌ها را صرفنظر از محتوا یا محرمانه بودن آنها بخواند.</string>
+    <string name="permdesc_writeSms" product="shield">به برنامه امکان می‌دهد پیامک‌های ذخیره شده در SHIELD یا سیم کارت شما را بخواند. برنامه‌های مخرب ممکن است پیام‌هایتان را حذف کنند.</string>
+    <string name="permdesc_injectEvents" product="shield">به برنامه اجازه می‌دهد تا رویدادهای ورودی خود  (فشردن کلیدها و غیره) را به برنامه‌های دیگر تحویل دهد.  برنامه‌های مخرب می‌توانند از این ویژگی برای کنترل  SHIELDاستفاده کنند.</string>
+    <string name="permdesc_persistentActivity" product="shield">به برنامه امکان می‌دهد قسمت‌هایی از خود را در حافظه دائمی کند.   این کار حافظه موجود را برای سایر برنامه‌ها محدود می‌کند و باعث کندی SHIELD می‌شود.</string>
+    <string name="permdesc_clearAppCache" product="shield">به برنامه اجازه می‌دهد که فضای ذخیره سازی SHIELD را از طریق حذف کردن فایل‌ها در دایرکتوری حافظه پنهان سایر برنامه‌ها، آزاد کند.   این کار ممکن است باعث کندی دیگر برنامه‌ها در هنگام راه‌اندازی شود زیرا آنها باید دوباره داده‌های خود را بازیابی کنند.</string>
+    <string name="permdesc_readLogs" product="shield">به برنامه اجازه می‌دهد فایل‌های مختلف گزارش سیستم را بخواند.   با این کار، برنامه اطلاعات کلی مربوط به کاری را که با SHIELD انجام می‌دهید کشف می‌کند، که ممکن است حاوی اطلاعات شخصی و خصوصی باشد.</string>
+    <string name="permdesc_changeComponentState" product="shield">به برنامه اجازه می‌دهد تا فعال بودن یا نبودن اجزای برنامهٔ دیگر را تغییر دهد.  برنامه‌های مخرب می‌توانند از این  ویژگی برای غیرفعا‌سازی قابلیت‌های مهم SHIELD استفاده کنند.  باید دقت کرد که با این مجوز ممکن است وضعیت اجزای برنامه ناپایدار، ناهماهنگ یا غیرقابل استفاده شود.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">به برنامه اجازه می‌دهد تا به محض اتمام راه‌اندازی سیستم خودبخود شروع به کار کند.  این کار ممکن است باعث شود مدت زمان بیشتری صرف شروع به کار SHIELD شود و به برنامه اجازه می‌دهد تا با اجرای همیشگی باعث کندی SHIELD شود.</string>
+    <string name="permdesc_broadcastSticky" product="shield">به برنامه اجازه می‌دهد تا پخش‌های ماندگار را که پس از اتمام پخش باقی می‌مانند ارسال کند. استفاده بیش از حد این ویژگی ممکن است باعث مصرف بیش از حد حافظه و در نتیجه کندی یا ناپایداری SHIELD شود.</string>
+
+    <string name="permdesc_readContacts" product="shield">به برنامه اجازه می‌دهد داده‌های مربوط به مخاطبین ذخیره شده در SHIELD شما را بخواند از جمله، تعداد دفعات تماس‌هایی که برقرار کرده‌اید، ایمیل‌هایی که ارسال کرده‌اید یا به روش‌های دیگری با افراد خاصی ارتباط برقرار کرده‌اید.  این به برنامه‌ها امکان می‌دهد داده‌های مخاطب شما را ذخیره کنند و برنامه‌های مخرب ممکن است داده‌های مخاطب را بدون اطلاع شما به اشتراک بگذارند.</string>
+    <string name="permdesc_writeContacts" product="shield">به برنامه اجازه می‌دهد داده‌های مربوط به مخاطبین ذخیره شده در SHIELD شما را از جمله تعداد تماس‌‌هایی که برقرار کرده‌اید، ایمیل‌هایی که ارسال کرده‌اید یا ارتباطاتی را که به هر شکل با مخاطبین خاصی برقرار کردید تغییر دهد. این مجوز به برنامه‌ها اجازه می‌دهد داده‌های مخاطب را حذف نمایند.</string>
+    <string name="permdesc_readCallLog" product="shield">به برنامه اجازه می‌دهد گزارش تماس SHIELD شما را از جمله داده‌های مربوط به تماس‌های ورودی و خروجی تغییر دهد. این مجوز به برنامه‌ها اجازه می‌دهد داده‌های گزارش تماس شما را ذخیره کنند و برنامه‌های مخرب ممکن است داده‌های گزارش تماس شما را بدون اطلاع شما به اشتراک بگذارند.</string>
+    <string name="permdesc_writeCallLog" product="shield">به برنامه امکان می‌دهد گزارش تماس SHIELD، از جمله داده‌های مربوط به تماس‌های ورودی و خروجی را تغییر دهد.
+        برنامه‌های مخرب ممکن است از این ویژگی برای پاک کردن یا تغییر گزارش تماس شما استفاده کنند.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">به برنامه امکان می‌دهد همه رویدادهای تقویم ذخیره شده در SHIELD شما را بخواند، از جمله رویدادهای دوستان یا همکاران.  این ممکن است به برنامه امکان دهد داده‌های تقویم شما را صرفنظر از محرمانه یا حساس بودن آنها به اشتراک بگذارد یا ذخیره کند.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">به برنامه اجازه می‌دهد رویدادهایی را که می‌توانید در SHIELD خود تغییر دهید، از جمله رویدادهای دوستان یا همکاران خود را، اضافه یا حذف کند یا تغییر دهد.  این ویژگی ممکن است به برنامه اجازه دهد پیام‌هایی را که به نظر می‌رسد از مالکین تقویم رسیده است ارسال نموده یا رویدادها را بدون اطلاع مالک اصلاح کند.</string>
+
+
+
+    <string name="permlab_brick" product="shield">غیرفعال‌سازی دائم SHIELD</string>
+    <string name="permdesc_brick" product="shield">به برنامه امکان می‌دهد SHIELD را به صورت دائم غیرفعال کند. این کار بسیار خطرناک است.</string>
+    <string name="permlab_reboot" product="shield">راه‌اندازی مجدد اجباری SHIELD</string>
+    <string name="permdesc_reboot" product="shield">به برنامه اجازه می‌دهد تا سبب راه‌اندازی مجدد SHIELD شود.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">راه‌اندازی مستقیم تنظیم CDMA SHIELD</string>
+    <string name="permlab_wakeLock" product="shield">ممانعت از به خواب رفتن SHIELD</string>
+    <string name="permdesc_wakeLock" product="shield">به برنامه اجازه می‌دهد تا از غیرفعال‌سازی SHIELD جلوگیری کند.</string>
+    <string name="permlab_devicePower" product="shield">روشن/خاموش کردن SHIELD</string>
+    <string name="permdesc_devicePower" product="shield">به برنامه اجازه می‌دهد SHIELD را روشن یا خاموش کند.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">تنظیم NVIDIA Tegra CPU</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">به برنامه اجازه می‌دهد پارامترهای NVIDIA Tegra CPU را تنظیم کنید.  این ممکن است باعث مصرف بیش از حد نیرو شود.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">اجرا به‌ عنوان تست سازنده سطح پایین، امکان دسترسی کامل به سخت‌افزار SHIELD شما را فراهم می‌آورد. فقط زمانی که SHIELD در حالت تست سازنده در حال اجراست قابل دسترسی است.</string>
+    <string name="permdesc_setTime" product="shield">به برنامه اجازه می‌دهد تا زمان ساعت SHIELD را تغییر دهد.</string>    
+    <string name="permdesc_setTimeZone" product="shield">به برنامه اجازه می‌دهد منطقه زمانی SHIELD را تغییر دهد.</string>
+    <string name="permdesc_getAccounts" product="shield">به برنامه اجازه می‌دهد به لیست حساب‌های شناخته شده توسط SHIELD دسترسی پیدا کند.   این ممکن است حسا‌ب‌های ایجاد شده توسط برنامه‌هایی را که نصب کرده‌اید، شامل شود.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">به برنامه اجازه می‌دهد به دریافت بسته‌های ارسالی به همه دستگاه‌های موجود در شبکه Wi-Fi با استفاده از آدرس‌های پخش چندگانه و نه فقط به SHIELD شما بپردازد.  این از نیروی بیشتری نسبت به حالت پخش غیرچندگانه استفاده می‌کند.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">به برنامه اجازه می‌دهد تا SHIELD بلوتوث محلی را پیکربندی کند، دستگاه‌های راه دور را پیدا کند و با آنها مرتبط شود.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">به برنامه امکان می‌دهدSHIELD  را به شبکه‌های WiMAX متصل و اتصال آن را از این شبکه‌ها قطع کند.</string>
+    <string name="permdesc_bluetooth" product="shield">به برنامه اجازه می‌دهد تا پیکربندی بلوتوث را در SHIELD مشاهده کند و اتصال با دستگاه‌های مرتبط را برقرار کرده و بپذیرد.</string>
+    <string name="policydesc_watchLogin" product="shield">تعداد گذرواژه‌های اشتباه تایپ شده را هنگام بازکردن قفل صفحه کنترل می‌کند، و یا اگر دفعات زیادی گذرواژه اشتباه تایپ شود SHIELD را قفل می‌کند یا همه داده‌های SHIELD را پاک می‌کند.</string>
+    <string name="policydesc_wipeData" product="shield">با انجام بازنشانی به داده‌های کارخانه، داده‌های SHIELD بدون هشدار پاک می‌شود.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">سیم کارت درون SHIELD نیست.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">الگوی بازگشایی قفلتان را <xliff:g id="number">%d</xliff:g> بار اشتباه کشیده‌اید. پس از <xliff:g id="number">%d</xliff:g> بار تلاش ناموفق، از شما درخواست می‌شود با استفاده از ورود به سیستم Google خود، قفلSHIELD  را باز کنید.\n\nپس از <xliff:g id="number">%d</xliff:g> ثانیه دوباره امتحان کنید.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield"><xliff:g id="number">%d</xliff:g> بار سعی داشتید قفل SHIELD را به نحوه نادرستی باز کنید. پس از <xliff:g id="number">%d</xliff:g> بار تلاش ناموفق،SHIELD  به پیش‌فرض کارخانه بازنشانی می‌شود و تمام داده‌های کاربر از بین خواهد رفت.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield"><xliff:g id="number">%d</xliff:g> بار سعی داشتید قفل SHIELD را به نحوه نادرستی باز کنید. SHIELD اکنون به پیش‌فرض کارخانه بازنشانی می‌شود.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">به برنامه اجازه می‌دهد سابقه مرورگر یا نشانک‌های ذخیره شده در SHIELD شما را اصلاح کند. این ویژگی ممکن است به برنامه اجازه دهد داده‌های مرورگر را حذف یا اصلاح کند.  توجه:  این مجوز توسط مرورگرهای شخص ثالث یا سایر برنامه‌های دارای قابلیت های مرور وب قابل اجرا نیست.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> می‌خواهد ?کاوش با لمس?را فعال کند. وقتی «کاوش با لمس» فعال است، می‌توانید توضیحاتی را برای آنچه که زیر انگشت شما است مشاهده کرده یا بشنوید یا برای استفاده از SHIELD از حرکات اشاره استفاده کنید.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield"><xliff:g id="number">%d</xliff:g> بار سعی داشتید قفل SHIELD را به نحوه نادرستی باز کنید. پس از <xliff:g id="number">%d</xliff:g> بار تلاش ناموفق،SHIELD  به پیش‌فرض کارخانه بازنشانی می‌شود و تمام داده‌های کاربر از بین خواهد رفت.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield"><xliff:g id="number">%d</xliff:g> بار سعی داشتید قفل SHIELD را به نحوه نادرستی باز کنید. SHIELD اکنون به پیش‌فرض کارخانه بازنشانی می‌شود.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">الگوی بازگشایی قفلتان را <xliff:g id="number">%d</xliff:g> بار اشتباه کشیده‌اید. پس از <xliff:g id="number">%d</xliff:g> بار تلاش ناموفق دیگر، از شما درخواست می‌شود با استفاده از یک حساب ایمیل قفلSHIELD  را باز کنید.\n\n پس از <xliff:g id="number">%d</xliff:g> ثانیه دوباره امتحان کنید.</string>
+    <string name="permdesc_transmitIr" product="shield">به برنامه اجازه می‌دهد از فرستنده مادون قرمز SHIELD استفاده کند.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">به برنامه اجازه می‌دهد با دستگاه‌های راه‌ دور بدون دخالت کاربر جفت‌ شود.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      SHIELD هنگام اتصال به %1$s، به طور موقت از Wi-Fi قطع خواهد شد.
+    </string>
+</resources>

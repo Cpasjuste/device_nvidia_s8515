@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">SHIELD 儲存空間已滿。請刪除一些檔案，以釋放出可用空間。</string>
+    <string name="power_dialog" product="shield">SHIELD 選項</string>
+    <string name="shutdown_confirm" product="shield">SHIELD 將關機。</string>
+    <string name="global_actions" product="shield">SHIELD 選項</string>
+    <string name="permdesc_readSms" product="shield">允許應用程式讀取 SHIELD 或 SIM 卡上儲存的 SMS 訊息。這允許應用程式讀取所有 SMS 訊息，包括各種內容及機密簡訊。</string>
+    <string name="permdesc_writeSms" product="shield">允許應用程式編寫 SHIELD 或 SIM 卡上儲存的 SMS 訊息。惡意應用程式可能會刪除您的訊息。</string>
+    <string name="permdesc_injectEvents" product="shield">允許應用程式將本身的輸入事件（按鍵等）遞送給其他應用程式。惡意應用程式可能利用此功能來操控 SHIELD。</string>
+    <string name="permdesc_persistentActivity" product="shield">允許應用程式的部分內容常駐在記憶體中。這可以限制其他應用程式可用的記憶體，並且減慢 SHIELD 的運行速度。</string>
+    <string name="permdesc_clearAppCache" product="shield">允許應用程式藉由刪除其他應用程式快取目錄中的檔案以釋放 SHIELD 儲存空間。這可能會使其他應用程式的啟動速度變慢，因為應用程式必須重新擷取資料。</string>
+    <string name="permdesc_readLogs" product="shield">允許應用程式讀取系統的各種記錄檔。這允許應用程式搜尋使用 SHIELD 的一般性資訊，可能包含您的個人或私人資訊。</string>
+    <string name="permdesc_changeComponentState" product="shield">允許應用程式啟用或停用其他應用程式的元件。惡意應用程式可能利用此功能來停用重要的 SHIELD 功能。這項權限可能導致應用程式元件無法使用、不一致或不穩定，因此務必謹慎使用。</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">允許應用程式在系統完成開機程序之後立即自行啟動。這會增加 SHIELD 的開機時間，而且系統會因為一直執行應用程式而減慢 SHIELD 的整體運行速度。</string>
+    <string name="permdesc_broadcastSticky" product="shield">允許應用程式傳送在廣播動作結束之後仍然繼續存在的記憶廣播。過度使用此功能可能導致 SHIELD 使用過多的記憶體，因此使得 SHIELD 的運行速度變慢或不穩定。</string>
+
+    <string name="permdesc_readContacts" product="shield">允許應用程式讀取 SHIELD 上儲存的聯絡人資料，包括您與特定聯絡人通話、傳送電子郵件或使用其他通訊方式的互動頻率。這項權限可讓應用程式儲存您的聯絡人資料，而惡意應用程式可能私自共用聯絡人資料。</string>
+    <string name="permdesc_writeContacts" product="shield">允許應用程式修改 SHIELD 上儲存的聯絡人資料，包括您與特定聯絡人通話、傳送電子郵件或使用其他通訊方式的互動頻率。這項權限可讓應用程式刪除聯絡人資料。</string>
+    <string name="permdesc_readCallLog" product="shield">允許應用程式讀取 SHIELD 的通話記錄，包括來電和撥出電話的相關資料。這項權限可讓應用程式儲存您的通話記錄資料，而惡意應用程式可能私自共用通話記錄資料。</string>
+    <string name="permdesc_writeCallLog" product="shield">允許應用程式修改 SHIELD 的通話記錄，包括來電和撥出電話的相關資料。
+惡意應用程式可能利用此功能來清除或修改您的通話記錄。</string>
+    
+    <string name="permdesc_readCalendar" product="shield">允許應用程式讀取 SHIELD 上儲存的所有日曆活動，包括好友或同事的活動。這項設定會讓應用程式共用或儲存您的日曆資料，甚至包括機密或敏感的資料。</string>
+    
+<string name="permdesc_writeCalendar" product="shield">允許應用程式新增、移除和變更您可以在 SHIELD 上修改的活動，包括好友或同事的活動。這項設定會讓應用程式偽裝日曆擁有者傳送訊息，或私自修改活動。</string>
+
+
+
+    <string name="permlab_brick" product="shield">永久地停用 SHIELD</string>
+    <string name="permdesc_brick" product="shield">允許應用程式永久地停用 SHIELD。這是很危險的。</string>
+    <string name="permlab_reboot" product="shield">強制 SHIELD 重新開機</string>
+    <string name="permdesc_reboot" product="shield">允許應用程式強制 SHIELD 重新開機。</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">直接啟動 CDMA SHIELD 安裝程式</string>
+    <string name="permlab_wakeLock" product="shield">防止 SHIELD 進入睡眠狀態</string>
+    <string name="permdesc_wakeLock" product="shield">允許應用程式防止 SHIELD 進入睡眠狀態。</string>
+    <string name="permlab_devicePower" product="shield">開啟或關閉 SHIELD 電源</string>
+    <string name="permdesc_devicePower" product="shield">允許應用程式開啟或關閉 SHIELD。</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">調整 NVIDIA Tegra CPU</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">允許應用程式調整 NVIDA Tegra CPU 的參數。這項設定會消耗更多電力。</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">允許在以低階製造商測試身分執行時，可具有 SHIELD 硬體的完整存取權限。只有當 SHIELD 以製造商測試模式執行時，才能使用此權限。</string>
+    <string name="permdesc_setTime" product="shield">允許應用程式變更 SHIELD 的時鐘時間。</string>    
+    <string name="permdesc_setTimeZone" product="shield">允許應用程式變更 SHIELD 的時區。</string>
+    <string name="permdesc_getAccounts" product="shield">允許應用程式取得 SHIELD 上所記憶的帳戶清單。這可能包括您安裝的應用程式所建立的任何帳戶。</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">允許應用程式接收透過多點傳送位址傳送給 Wi-Fi 網路上所有裝置（而不只是您的 SHIELD）的封包。這項設定會比非多點傳播模式耗用更多電力。</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">允許應用程式設定本機藍牙 SHIELD，以及搜尋遠端裝置並配對連線。</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">允許應用程式將 SHIELD 與 WiMAX 網路連線和切斷連線。</string>
+    <string name="permdesc_bluetooth" product="shield">允許應用程式查看 SHIELD 的藍牙組態，以及建立和接受與其他配對裝置的連線。</string>
+    <string name="policydesc_watchLogin" product="shield">如果密碼輸入錯誤太多次，監控螢幕解鎖時密碼輸入錯誤的次數，並且鎖定 SHIELD 或清除所有 SHIELD 的資料。</string>
+    <string name="policydesc_wipeData" product="shield">重設為原廠設定，不提出警告就直接清除 SHIELD 的資料。</string>
+    <string name="lockscreen_missing_sim_message" product="shield">SHIELD 中沒有 SIM 卡。</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">您的解鎖圖樣已畫錯 <xliff:g id="number">%d</xliff:g> 次。再嘗試 <xliff:g id="number">%d</xliff:g> 次失敗之後，您將被要求使用您的 Google 登入資訊將您的 SHIELD 解鎖。\n\n<xliff:g id="number">%d</xliff:g> 秒後再試一次。</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">您已嘗試錯誤解鎖 SHIELD <xliff:g id="number">%d</xliff:g> 次。再多嘗試 <xliff:g id="number">%d</xliff:g> 次失敗之後，SHIELD 將重設為原廠預設值，而所有的使用者資料都將遺失。</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">您已嘗試錯誤解鎖 SHIELD <xliff:g id="number">%d</xliff:g> 次。SHIELD 現在將會重設為原廠預設值。
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">允許應用程式修改 SHIELD 上儲存的瀏覽歷程記錄或書籤。這項設定會讓應用程式清除或修改瀏覽資料。注意：這項權限不適用於第三方瀏覽器或其他具備網頁瀏覽功能的應用程式。</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+<xliff:g id="accessibility_service_name">%1$s</xliff:g> 需要啟用「輕觸探索」。開啟「輕觸探索」時，系統會在您的手指輕觸螢幕上的物件時朗讀或顯示說明，您也可以執行手勢來與 SHIELD 互動。</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">您已嘗試錯誤解鎖 SHIELD <xliff:g id="number">%d</xliff:g> 次。再多嘗試 <xliff:g id="number">%d</xliff:g> 次失敗之後，SHIELD 將重設為原廠預設值，而所有的使用者資料都將遺失。</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">您已嘗試錯誤解鎖 SHIELD <xliff:g id="number">%d</xliff:g> 次。SHIELD 現在將會重設為原廠預設值。</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">您的解鎖圖樣已畫錯 <xliff:g id="number">%d</xliff:g> 次。再嘗試 <xliff:g id="number">%d</xliff:g> 次失敗之後，您將被要求使用電子郵件帳戶將您的 SHIELD 解鎖。\n\n<xliff:g id="number">%d</xliff:g> 秒後再試一次。</string>
+    <string name="permdesc_transmitIr" product="shield">允許應用程式使用 SHIELD 的紅外發射器。</string>
+    <string name="permdesc_bluetoothPriv" product="shield">允許應用程式與遠端裝置配對，無需使用者介入。</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+SHIELD 與 %1$s 連線期間將暫時中斷 WiFi 連線
+    </string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">Samo uređaj SHIELD, bez sinkronizacije</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      Nema kontakata koji se mogu izvoziti. Ako na uređaju SHIELD imate kontakte, neki davatelji podataka možda ne dopuštaju izvoz kontakata s uređaja SHIELD.
+    </string>
+</resources>

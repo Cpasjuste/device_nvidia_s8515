@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="nv_led_brightness">LED 明るさ</string>
+  <string name="nv_nvidia_button">NVIDIA ボタン</string>
+  <string name="nv_category_controller_volume">ボリューム コントロール</string>
+  <string name="controller_volume_text">ボリューム調整にバンパーを使用</string>
+  <string name="controller_volume_summary">ボリューム ボタンを押した後は、LB および RB によってボリューム調整されます</string>
+  <string name="controller_pulse_led">端末がスリープ状態のときに LED を点滅</string>
+  <string name="lockpattern_settings_enable_power_button_instantly_locks">端末を閉じたらすぐにロック</string>
+  <string name="user_add_user_message_long">追加ユーザーを作成して、この端末を他のユーザーと共有できます。各ユーザーは各自のスペースを所有でき、アプリや壁紙などを使用してカスタマイズできます。ユーザーは、Wi-Fi など、全ユーザーに影響するタブレット設定も調整できます。\n\nどのユーザーも、更新されたアプリのアクセス許可を自分以外の全ユーザーに代わって承認できます。</string>
+  <string name="user_add_user_message_short">どのユーザーも、更新されたアプリのアクセス許可を自分以外の全ユーザーに代わって承認できます。</string>
+  <string name="controller_mapper_enable">ゲームパッド マッパーの有効化</string>
+  <string name="controller_mapper_enable_summary">START ボタンを長押ししてマッパー オーバーレイを開始する</string>
+  <string name="controller_mapper_enable_auto_download">自動ダウンロードを有効化する</string>
+  <string name="controller_mapper_enable_auto_download_summary">利用可能な場合にマッピングをクラウドから自動的にダウンロードする</string>
+  <string name="nv_license_title">NVIDIA 法的通知</string>
+  <string name="nv_swla">ソフトウェア使用許諾契約書</string>
+  <string name="nv_privacy">プライバシー ポリシー</string>
+  <string name="nv_tegra_exp_tos">Tegra エクスペリエンス サービス規約</string>
+  <string name="nv_warranty">保証情報</string>
+  <string name="nv_settings_license_activity_title">NVIDIA ライセンス</string>
+  <string name="fullscreen_mode_title">フルスクリーン モード</string>
+  <string name="fullscreen_mode_text">ステータス バーを非表示にする</string>
+  <string name="nv_controller_mapper">ゲームパッド マッパー</string>
+  <string name="nv_feedback">NVIDIA にフィードバックを送信する</string>
+  <string name="diag_enable">SHIELD の操作性の向上のために NVIDIA にフィードバックを送る</string>
+  <string name="move_app_app_label">アプリ</string>
+  <string name="move_app_data_label">データ</string>
+  <string name="move_app_to_device_dlg_title">アプリを SHIELD に移動しますか?</string>
+  <string name="move_app_to_sdcard_dlg_title">アプリを SD カードに移動しますか?</string>
+  <string name="move_app_dlg_text">これには数分間かかることがあります。操作の途中で SD カードを取り外さないでください。</string>
+  <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g>  の空き容量が SHIELD にあります</string>
+  <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g>  の空き容量が SD カードにあります</string>
+  <string name="move_app_progress_to_device">SHIELD に <xliff:g id="pkg_label">%1$s</xliff:g>  を移動しています...</string>
+  <string name="move_app_progress_to_sdcard">SD カードに <xliff:g id="pkg_label">%1$s</xliff:g>  を移動しています...</string>
+  <string name="fullscreen_mode_title">フルスクリーン モード</string>
+  <string name="fullscreen_mode_text">ステータス バーを非表示にする</string>
+  <string name="flscrmode_str_cling_msg_restore_normal">ステータス バーを復元するには上からスワイプします。</string>
+  <string name="flscrmode_str_cling_btn_label_ok">OK</string>
+</resources>

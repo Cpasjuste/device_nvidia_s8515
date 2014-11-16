@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">ليس هناك بطاقة SIM في SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       لقد حاولت بطريقة غير صحيحة في إلغاء تأمين SHIELD <xliff:g id="number">%d</xliff:g> مرات. بعد <xliff:g id="number">%d</xliff:g> بعد  محاولات غير ناجحة إضافية، سيتم إعادة ضبط SHIELD إلى الإعداد الافتراضي للمصنع وسيتم فقد كل بيانات المستخدم.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       لقد حاولت بطريقة غير صحيحة في إلغاء تأمين SHIELD <xliff:g id="number">%d</xliff:g> مرات. سيتم إعادة ضبط SHIELD على الإعداد الافتراضي للمصنع.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       لقد حاولت بطريقة غير صحيحة في إلغاء تأمين النمط <xliff:g id="number">%d</xliff:g> مرات. بعد <xliff:g id="number">%d</xliff:g> بعد  محاولات غير ناجحة إضافية، سيُطلب منك إلغاء تأمين SHIELD باستخدام حساب بريد إلكتروني.\n\n كرر المحاولة خلال <xliff:g id="number">%d</xliff:g> ثوان.
+    </string>
+</resources>

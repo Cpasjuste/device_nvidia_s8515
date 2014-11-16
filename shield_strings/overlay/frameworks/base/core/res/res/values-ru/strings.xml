@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">Память SHIELD заполнена. Удалите какие-нибудь файлы, чтобы освободить место.</string>
+    <string name="power_dialog" product="shield">Параметры SHIELD</string>
+    <string name="shutdown_confirm" product="shield">Работа SHIELD будет завершена.</string>
+    <string name="global_actions" product="shield">Параметры SHIELD</string>
+    <string name="permdesc_readSms" product="shield">Приложение сможет просматривать SMS-сообщения, сохраненные на SHIELD или SIM-карте. Приложение сможет просматривать все SMS-сообщения независимо от содержания или параметров конфиденциальности.</string>
+    <string name="permdesc_writeSms" product="shield">Приложение сможет писать в SMS-сообщения, сохраненных на SHIELD или SIM-карте. Вредоносные программы смогут удалять ваши сообщения.</string>
+    <string name="permdesc_injectEvents" product="shield">Приложение сможет передавать собственные входные события (нажатия клавиш и пр.) другим программам.  Вредоносные программы смогут таким образом перехватить управление SHIELD.</string>
+    <string name="permdesc_persistentActivity" product="shield">Приложение сможет постоянно хранить свои компоненты в памяти.   Это может уменьшить объем памяти, доступный другим приложениям, и замедлить работу SHIELD.</string>
+    <string name="permdesc_clearAppCache" product="shield">Разрешает приложению освобождать место в SHIELD, удаляя кэшированные файлы других программ.   В результате другие приложения могут запускаться медленнее, так как им потребуется повторно извлекать необходимые данные.</string>
+    <string name="permdesc_readLogs" product="shield">Приложение сможет считывать информацию из различных системных журналов.  Приложение сможет получать сведения о работе пользователя на SHIELD, в том числе к личной и конфиденциальной информации.</string>
+    <string name="permdesc_changeComponentState" product="shield">Приложение сможет включать и отключать компоненты других программ. Вредоносные программы смогут таким образом отключать важные функции SHIELD. Используйте это разрешение с особой осторожностью, чтобы случайно не нарушить работу компонентов приложения.</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">Приложение сможет запускаться после начальной загрузки системы.  Это может привести к увеличению времени запуска SHIELD и уменьшить его быстродействие в связи с постоянной работой приложения.</string>
+    <string name="permdesc_broadcastSticky" product="shield">Приложение сможет делать несрочные рассылки, которые не удаляются после их отправки.  Злоупотребление этими рассылками может замедлить работу SHIELD или сделать ее нестабильной из-за чрезмерного использования памяти.</string>
+
+    <string name="permdesc_readContacts" product="shield">Приложение сможет просматривать и сохранять все данные о контактах на SHIELD, включая то, как часто вы звоните, отправляете письма и другими способами связываетесь с определенными людьми.  Вредоносные программы смогут передавать данные о контактах без уведомления.</string>
+    <string name="permdesc_writeContacts" product="shield">Приложение сможет изменять сведения о контактах на вашем SHIELD, включая то, как часто вы звоните, отправляете письма и другими способами связываетесь с определенными людьми. С этим разрешением приложения смогут удалять данные о контактах.</string>
+    <string name="permdesc_readCallLog" product="shield">Приложение сможет читать журнал вызовов в SHIELD и данные о входящих и исходящих звонках.  Приложение сможет сохранять данные журнала вызовов, и вредоносные программы смогут передавать их без вашего ведома.</string>
+    <string name="permdesc_writeCallLog" product="shield">Приложение сможет вносить изменения в журнал вызовов в SHIELD и данные о входящих и исходящих звонках. 
+        Вредоносные приложения смогут воспользоваться этим для удаления или изменения информации о звонках.</string>
+    
+    <string name="permdesc_readCalendar" product="shield">Приложение сможет просматривать мероприятия в календаре SHIELD, в том числе добавленные друзьями или коллегами. Это также позволит приложению передавать и сохранять данные календаря независимо от настроек конфиденциальности.</string>
+    
+<string name="permdesc_writeCalendar" product="shield">Приложение сможет добавлять, удалять и изменять мероприятия, доступные для редактирования на SHIELD, включая мероприятия, добавленные друзьями или коллегами. Это позволит приложению рассылать сообщения от имени владельца календаря и изменять мероприятия без его ведома.</string>
+
+
+
+    <string name="permlab_brick" product="shield">полностью отключать SHIELD</string>
+    <string name="permdesc_brick" product="shield">Приложение сможет полностью отключать SHIELD. Это очень опасно.</string>
+    <string name="permlab_reboot" product="shield">принудительно перезагружать SHIELD</string>
+    <string name="permdesc_reboot" product="shield">Приложение сможет принудительно перезагружать SHIELD.</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">напрямую запускать CDMA для SHIELD </string>
+    <string name="permlab_wakeLock" product="shield">препятствовать переключению SHIELD в спящий режим</string>
+    <string name="permdesc_wakeLock" product="shield">Приложение сможет запрещать перевод SHIELD в спящий режим.</string>
+    <string name="permlab_devicePower" product="shield">включать или выключать питание SHIELD</string>
+    <string name="permdesc_devicePower" product="shield">Приложение сможет включать и выключать SHIELD.</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">изменять параметры ЦП NVIDIA Tegra</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">Приложение сможет изменять параметры ЦП NVIDA Tegra.  Это может привести к дополнительному расходу энергии.</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">Выполнять стандартную проверку нижнего уровня, обеспечивающую полный доступ к аппаратному обеспечению SHIELD.  Доступно только в режиме стандартной проверки.</string>
+    <string name="permdesc_setTime" product="shield">Приложение сможет изменять время в параметрах настройки SHIELD.</string>    
+    <string name="permdesc_setTimeZone" product="shield">Приложение сможет изменять часовой пояс в параметрах настройки SHIELD.</string>
+    <string name="permdesc_getAccounts" product="shield">Приложение сможет получить список всех используемых в SHIELD аккаунтов,  в том числе созданных установленными приложениями.</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">Приложение сможет получать пакеты, отправленные всем устройствам в сети Wi-Fi (не только вашему SHIELD) в многоадресной рассылке.   При этом расходуется больше энергии, чем в одноадресном режиме.</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">Приложение сможет настраивать параметры SHIELD с поддержкой Bluetooth, а также обнаруживать удаленные устройства и выполнять сопряжение с ними.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Приложение сможет подключать SHIELD к сетям WiMAX и отключать его от них.</string>
+    <string name="permdesc_bluetooth" product="shield">Приложение сможет просматривать конфигурацию Bluetooth на SHIELD, а также запрашивать и подтверждать соединение с другими устройствами.</string>
+    <string name="policydesc_watchLogin" product="shield">Отслеживать попытки ввода пароля при разблокировке экрана и блокировать SHIELD или удалять с него все данные, если было сделано слишком много таких попыток.</string>
+    <string name="policydesc_wipeData" product="shield">Удалять все данные на SHIELD без предупреждения путем сброса параметров настройки.</string>
+    <string name="lockscreen_missing_sim_message" product="shield">SIM-карта не установлена.</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Вы неверно указали графический ключ следующее количество раз: <xliff:g id="number">%d</xliff:g>.  После <xliff:g id="number">%d</xliff:g> неверных попыток для разблокировки SHIELD потребуется войти в аккаунт Google.\n\nПовторите попытку через <xliff:g id="number">%d</xliff:g> сек.</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Вам не удалось разблокировать SHIELD следующее количество раз: <xliff:g id="number">%d</xliff:g>.  После <xliff:g id="number">%d</xliff:g> неверных попыток параметры настройки SHIELD будут сброшены, а все пользовательские данные удалены.</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Вам не удалось разблокировать SHIELD следующее количество раз: <xliff:g id="number">%d</xliff:g>.  Теперь параметры настройки SHIELD будут сброшены.
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Приложение сможет изменять историю или закладки браузера, сохраненные на SHIELD, а также удалять и изменять данные браузера.  Обратите внимание:  браузеры независимых поставщиков или другие приложения для просмотра веб-страниц могут не применять это разрешение.</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> хочет включить функцию «Изучение касанием». Она позволяет прослушивать или просматривать описание элементов, которых вы касаетесь, и управлять SHIELD с помощью жестов.</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Вам не удалось разблокировать SHIELD следующее количество раз: <xliff:g id="number">%d</xliff:g>.  После <xliff:g id="number">%d</xliff:g> неверных попыток параметры настройки SHIELD будут сброшены, а все пользовательские данные удалены.</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">Вам не удалось разблокировать SHIELD следующее количество раз: <xliff:g id="number">%d</xliff:g>.  Теперь параметры настройки SHIELD будут сброшены.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Вы неверно указали графический ключ следующее количество раз: <xliff:g id="number">%d</xliff:g>.  После <xliff:g id="number">%d</xliff:g> неверных попыток для разблокировки SHIELD потребуется войти в аккаунт эл. почты.\n\n Повторите попытку через <xliff:g id="number">%d</xliff:g>  сек.</string>
+    <string name="permdesc_transmitIr" product="shield">Разрешает приложению использовать инфракрасный передатчик SHIELD.</string>
+    <string name="permdesc_bluetoothPriv" product="shield">Разрешает приложению подключаться к удаленным устройствам без участия пользователя.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+      При подключении к устройству %1$s SHIELD будет временно отключен от сети Wi-Fi
+    </string>
+</resources>

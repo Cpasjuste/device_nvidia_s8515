@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">Inget SIM-kort i SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Du har försökt låsa upp SHIELD på fel sätt <xliff:g id="number">%d</xliff:g> gånger. Efter <xliff:g id="number">%d</xliff:g> ytterligare misslyckades försök kommer SHIELD att återställas till fabriksinställningarna och alla användardata går förlorade.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Du har försökt låsa upp SHIELD på fel sätt <xliff:g id="number">%d</xliff:g> gånger. SHIELD kommer nu att återställas till fabriksinställningarna.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Du har ritat ditt grafiska lösenord på fel sätt <xliff:g id="number">%d</xliff:g> gånger. Efter <xliff:g id="number">%d</xliff:g> ytterligare misslyckade försök kommern du att uppmanas att låsa upp SHIELD med ett e-postkonto.\n\n Försök igen om <xliff:g id="number">%d</xliff:g> sekunder.
+    </string>
+</resources>

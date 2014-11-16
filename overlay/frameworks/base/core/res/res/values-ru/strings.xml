@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="permlab_nvidiaCPUPower">изменять параметры ЦП NVIDIA Tegra</string>
+  <string name="permdesc_nvidiaCPUPower">Приложение сможет изменять параметры ЦП NVIDIA Tegra.  Это может привести к дополнительному расходу энергии.</string>
+  <string name="global_action_sleep">Спящий режим</string>
+  <string name="hdmiAudio">Аудиоустройство HDMI</string>
+  <string name="miracastAudio">Аудиоустройство Miracast</string>
+  <string name="global_action_restart_title">Перезапустить SHIELD</string>
+  <string name="global_action_restart_message">Перезапуск SHIELD приведет к удалению временных файлов из памяти. Перезапустить SHIELD сейчас?</string>
+  <string name="global_action_restart_progress_message">Перезапуск SHIELD...</string>
+</resources>

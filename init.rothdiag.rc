@@ -1,0 +1,84 @@
+Copyright (c) 2013 NVIDIA Corporation.  All Rights Reserved.
+#
+#NVIDIA Corporation and its licensors retain all intellectual property and
+#proprietary rights in and to this software and related documentation.  Any
+#use, reproduction, disclosure or distribution of this software and related
+#documentation without an express license agreement from NVIDIA Corporation
+#is strictly prohibited.
+
+on post-fs-data
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/FCT /mnt/factory rw remount
+
+    mkdir /mnt/factory/touchscreen 0777 system system
+    mkdir /mnt/factory/mpu 0777 system system
+    mkdir /mnt/factory/bluetooth 0777 system system
+
+    export TOUCH_CONF_DIR /mnt/factory/touchscreen
+    export TOUCH_DATA_DIR /mnt/factory/touchscreen
+    export MPU_CONF_DIR /mnt/factory/mpu
+    export MPU_DATA_DIR /mnt/factory/mpu
+
+on boot
+# Disable Launcher Cling
+    setprop ro.test_harness true
+
+# Disable LP0
+    write /sys/power/wake_lock MfgTest
+
+# LED
+    chown system system /sys/class/leds/roth-led/brightness
+    chown system system /sys/class/leds/roth-led/trigger
+    chmod 0666 /sys/class/leds/roth-led/trigger
+
+# Fan Cap Value
+    chmod 0666 /sys/kernel/debug/tegra_fan/temp_control
+    chmod 0666 /sys/kernel/debug/tegra_fan/pwm_cap
+    chmod 0666 /sys/kernel/debug/tegra_fan/target_pwm
+    chmod 0666 /sys/kernel/debug/tegra_fan/tach_enable
+
+# Modify file permission needed by Diag test
+    chmod 0111 /data/mfgtest/CPU_script/power_utils.sh
+    chmod 0111 /data/mfgtest/CPU_script/roth_dvfs.sh
+    chmod 0111 /data/mfgtest/CPU_stress/cpu_screen0
+    chmod 0444 /data/mfgtest/CPU_stress/equake.in
+    chmod 0444 /data/mfgtest/CPU_stress/mcf.in
+    chmod 0111 /data/mfgtest/thermal/burnCortexA15_linux
+    chmod 0111 /data/mfgtest/thermal/EDPVirus_linux
+    chmod 0111 /data/mfgtest/thermal/run.sh
+    chmod 0111 /data/mfgtest/thermal/thermal_test.py
+
+    chmod 0777 /data/apic
+    chmod 0777 /data/apic/egypthd
+    chmod 0444 /data/apic/egypthd/crc.txt
+    chmod 0444 /data/apic/egypthd/rawMemInit.bin
+    chmod 0444 /data/apic/egypthd/rawMemUpdate.bin
+
+#Battery charger register
+    chmod 0444 /d/regmap/0-006b/registers
+
+#Touch calibration
+    chmod 0666 /sys/devices/virtual/misc/raydium_ts/self_test
+
+#Touch parameter
+on property:ro.boot.tp_id=2
+    copy /system/etc/raydium_ts_para_tpk.bin /mnt/factory/touchscreen/raydium_ts_para.bin
+    chown system system /mnt/factory/touchscreen/raydium_ts_para.bin
+
+on property:ro.boot.tp_id=1
+    copy /system/etc/raydium_ts_para_wintek.bin /mnt/factory/touchscreen/raydium_ts_para.bin
+    chown system system /mnt/factory/touchscreen/raydium_ts_para.bin
+
+service stress_test_svc /bin/stress_test.sh
+    class main
+    user root
+    group root
+
+service thorMon /system/bin/runThorMon.sh
+    class main
+    user root
+    group root
+
+service tesseract_svc /system/bin/tesseract.sh
+    class main
+    user root
+    group root

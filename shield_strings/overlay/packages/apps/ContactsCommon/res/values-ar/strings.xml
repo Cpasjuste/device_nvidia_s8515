@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">SHIELD فقط، غير متزامن</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      ليست هناك أية جهات اتصال قابلة للتصدير.  إذا كانت لديك جهات اتصال على SHIELD، فإن بعض موفري البيانات لا يسمحون بتصدير جهات الاتصال من SHIELD.
+    </string>
+</resources>

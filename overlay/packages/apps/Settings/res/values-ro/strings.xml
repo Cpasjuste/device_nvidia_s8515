@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">Luminozitate LED</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">Buton NVIDIA</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Control volum</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">Utilizare butoane „bumpers” pentru a ajusta volumul</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">După apăsarea butonului de volum, LB şi RB vor ajusta volumul</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">LED cu pulsaţie atunci când dispozitivul este în modul inactiv</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Închidere capac pentru blocare imediată</string>
+    <!-- Message for add user confirmation dialog - long version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_long">Puteți să permiteți accesul la acest gadget altor persoane, prin crearea unor utilizatori suplimentari. Fiecare utilizator are propriul spațiu, pe care îl poate personaliza cu propriile sale aplicații, imagini de fundal etc. De asemenea, utilizatorii pot ajusta setările tabletei, cum ar fi setările pentru Wi-Fi, care afectează pe toți ceilalți utilizatori.\n\nOricare utilizator poate accepta permisiunile aplicațiilor actualizate în numele tuturor celorlalți utilizatori.</string>
+    <!-- Message for add user confirmation dialog - short version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_short">Oricare utilizator poate accepta permisiunile aplicaţiilor actualizate în numele tuturor celorlalţi utilizatori.</string>
+
+    <!-- Enable Controller Mapper-->
+     <add-resource type="string" name="controller_mapper_enable" />
+     <string name="controller_mapper_enable">Activare emulator gamepad</string>
+     <add-resource type="string" name="controller_mapper_enable_summary" />
+     <string name="controller_mapper_enable_summary">Apăsaţi lung pe butonul START pentru a lansa suprapunerea emulatorului</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download" />
+     <string name="controller_mapper_enable_auto_download">Activare descărcare automată</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download_summary" />
+     <string name="controller_mapper_enable_auto_download_summary">Descărcare automată a emulărilor din cloud dacă sunt disponibile</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">Informaţii legale NVIDIA</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Contract de Licenţă Software</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Politica privind Confidenţialitatea</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Termeni privind serviciul Tegra Experience</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Informaţii privind garanţia</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">Licenţe NVIDIA</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Mod Ecran complet</string>
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Afişare bară de stare doar în ecranele de pornire</string>
+
+    <!-- Category title for Controller Mapper -->
+    <add-resource type="string" name="nv_controller_mapper" />
+    <string name="nv_controller_mapper">Emulator gamepad</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">Trimitere feedback la NVIDIA</string>
+
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">Aplicaţie</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">Date</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">Mutare aplicaţie pe SHIELD?</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">Mutare aplicaţie pe cardul SD?</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">Acest lucru poate dura câteva minute. Nu scoateţi cardul SD în timpul acestei operaţiuni.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> disponibil pe SHIELD</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> disponibil pe cardul SD</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device">Se mută <xliff:g id="pkg_label">%1$s</xliff:g> pe SHIELD...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard">Se mută <xliff:g id="pkg_label">%1$s</xliff:g> pe cardul SD...</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Mod Ecran complet</string>
+
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Ascundere bara de stare</string>
+
+    <add-resource type="string" name="flscrmode_str_cling_msg_restore_normal" />
+    <string name="flscrmode_str_cling_msg_restore_normal">Glisaţi din partea de sus pentru a restaura bara de stare.</string>
+    <add-resource type="string" name="flscrmode_str_cling_btn_label_ok" />
+    <string name="flscrmode_str_cling_btn_label_ok">OK</string>
+</resources>
+

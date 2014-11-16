@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="install_failed_cpu_abi_incompatible" product="shield">Táto aplikácia nie je kompatibilná so systémom SHIELD.</string>
+    <string name="install_failed_msg" product="shield">Aplikáciu <xliff:g id="app_name">%1$s</xliff:g> sa nepodarilo nainštalovať do systému SHIELD.</string>
+    <string name="unknown_apps_dlg_text" product="shield">Z bezpečnostných dôvodov je SHIELD nastavený tak, aby blokoval inštaláciu aplikácií získaných z neznámych zdrojov.</string>
+</resources>

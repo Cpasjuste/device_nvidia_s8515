@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">Δεν υπάρχει κάρτα SIM στο SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Προσπαθήσατε να ξεκλειδώσετε εσφαλμένα το SHIELD <xliff:g id="number">%d</xliff:g> φορές. Μετά από <xliff:g id="number">%d</xliff:g> ανεπιτυχείς προσπάθειες ακόμη, το SHIELD θα επαναφερθεί στις εργοστασιακές ρυθμίσεις και όλα τα δεδομένα χρήστη θα χαθούν.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Προσπαθήσατε να ξεκλειδώσετε εσφαλμένα το SHIELD <xliff:g id="number">%d</xliff:g> φορές. Το SHIELD θα επαναφερθεί τώρα στις εργοστασιακές ρυθμίσεις.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Σχεδιάσατε εσφαλμένα το μοτίβο ξεκλειδώματος <xliff:g id="number">%d</xliff:g> φορές. Μετά από <xliff:g id="number">%d</xliff:g> ανεπιτυχείς προσπάθειες ακόμη, θα σας ζητηθεί να ξεκλειδώσετε το SHIELD με τη χρήση λογαριασμού email.\n\n Δοκιμάστε ξανά σε <xliff:g id="number">%d</xliff:g> δευτερόλεπτα.
+    </string>
+</resources>

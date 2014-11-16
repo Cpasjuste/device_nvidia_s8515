@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">Kecerahan LED</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">Tombol NVIDIA</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Kendali Volume</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">Gunakan bumper untuk mengatur volume</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">LB dan RB dapat digunakan untuk mengatur volume setelah Anda menekan tombol volume</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">LED berkedip saat perangkat tidur</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Setelah ditutup, perangkat langsung terkunci</string>
+    <!-- Message for add user confirmation dialog - long version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_long">Anda dapat berbagi perangkat ini bersama orang lain dengan membuat pengguna tambahan. Setiap pengguna memiliki ruangnya sendiri yang dapat disesuaikan dengan aplikasinya sendiri, wallpaper, dan sebagainya. Pengguna juga dapat menyesuaikan setelan tablet seperti Wi-Fi yang memengaruhi siapa saja.\n\nSetiap pengguna dapat menerima izin aplikasi yang diperbarui atas nama semua pengguna lain.</string>
+    <!-- Message for add user confirmation dialog - short version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_short">Setiap pengguna dapat menerima izin aplikasi yang diperbarui atas nama semua pengguna lain.</string>
+
+    <!-- Enable Controller Mapper-->
+     <add-resource type="string" name="controller_mapper_enable" />
+     <string name="controller_mapper_enable">Aktifkan Pemeta Gamepad</string>
+     <add-resource type="string" name="controller_mapper_enable_summary" />
+     <string name="controller_mapper_enable_summary">Tekan dan tahan tombol START untuk membuka bidang pemeta</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download" />
+     <string name="controller_mapper_enable_auto_download">Aktifkan unduh otomatis</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download_summary" />
+     <string name="controller_mapper_enable_auto_download_summary">Otomatis unduh pemetaan dari cloud jika tersedia</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">Informasi hukum NVIDIA</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Perjanjian Lisensi Perangkat Lunak</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Kebijakan Privasi</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Ketentuan Layanan Tegra Experience</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Informasi Garansi</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">Lisensi NVIDIA</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Mode layar penuh</string>
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Hanya tampilkan bilah status di layar beranda</string>
+
+    <!-- Category title for Controller Mapper -->
+    <add-resource type="string" name="nv_controller_mapper" />
+    <string name="nv_controller_mapper">Pemeta Gamepad</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">Kirimkan masukan untuk NVIDIA</string>
+
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">Apl</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">Data</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">Pindahkan aplikasi ke SHIELD?</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">Pindahkan aplikasi ke kartu SD?</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">Ini memerlukan beberapa menit. Jangan lepas kartu SD selama operasi ini.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> kosong di SHIELD</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> kosong di kartu SD</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device">Memindahkan <xliff:g id="pkg_label">%1$s</xliff:g> ke SHIELD...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard">Memindahkan <xliff:g id="pkg_label">%1$s</xliff:g> ke kartu SD...</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Mode layar penuh</string>
+
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Sembunyikan bilah status</string>
+
+    <add-resource type="string" name="flscrmode_str_cling_msg_restore_normal" />
+    <string name="flscrmode_str_cling_msg_restore_normal">Sapu dari atas untuk memulihkan bilah status.</string>
+    <add-resource type="string" name="flscrmode_str_cling_btn_label_ok" />
+    <string name="flscrmode_str_cling_btn_label_ok">OKE</string>
+</resources>
+

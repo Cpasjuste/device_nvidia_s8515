@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">Перейменувати SHIELD</string>
+    <string name="bluetooth_ask_discovery" product="shield">"Програма хоче зробити SHIELD видимим для інших пристроїв Bluetooth упродовж <xliff:g id="timeout">%1$d</xliff:g> секунд. Дозволити?"</string>
+    <string name="phone_info_label" product="shield">Інформація про SHIELD</string>
+    <string name="roaming_warning_multiuser" product="shield">Якщо дозволити роумінг даних, з вас може стягуватися значна плата за роумінг!\n\nТаке налаштування впливає на всіх користувачів цієї SHIELD.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">Шифрувати SHIELD</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">Вимагає введення цифрового PIN-коду чи пароля для шифрування SHIELD щоразу при її ввімкненні</string>
+    <string name="crypt_keeper_desc" product="shield">
+    Ви можете шифрувати свої облікові записи, налаштування, завантажені програми та їх дані, медіа-файли й інші файли.  Щойно ви зашифруєте SHIELD, потрібно буде вводити цифровий PIN-код чи пароль для розшифрування її щоразу під час ввімкнення. Ви зможете скасувати шифрування SHIELD, лише відновивши заводські налаштування, що призведе до видалення всіх ваших даних.\n\nШифрування триває не менше години. Перш ніж розпочати процес шифрування, переконайтеся, що акумулятор заряджено, бо SHIELD має перебувати в підключеному стані до завершення шифрування. Якщо перервати процес шифрування, ви можете втратити деякі чи всі свої дані.</string>
+    <string name="crypt_keeper_button_text" product="shield">Шифрувати SHIELD</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    Операція шифрування незворотна, якщо її перервати, ви втратите дані.
+    Шифрування триває годину чи більше, протягом цього часу SHIELD кілька разів перезапуститься.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">Зачекайте, поки SHIELD зашифрується. <xliff:g id="percent" example="50">^1</xliff:g>% виконано.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> Шифрування перервано, його неможливо закінчити. Як наслідок, дані на SHIELD більше не доступні.\n\n
+      Щоб знову користуватися SHIELD, потрібно відновити заводські налаштування.
+      Налаштовуючи SHIELD після відновлення, ви матимете можливість відновити будь-які дані, резервні копії яких було збережено у вашому обліковому записі Google.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> буде від’єднано від доступу через SHIELD до Інтернету.</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">Дозволити обмін даними, коли SHIELD торкнеться іншого пристрою</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">ЗАСТЕРЕЖЕННЯ.  Оператор може стягувати з вас додаткову плату.\n\nДля налаштування SHIELD може знадобитися тривале користування мережею.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">ЗАСТЕРЕЖЕННЯ.  SHIELD не зможе перевірити, чи оновлено ваше програмне забезпечення.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD не зміг під’єднатися до цієї мережі Wi-Fi.</string>
+    <string name="dock_audio_summary_none" product="shield">SHIELD не вставлено в док-станцію</string>
+    <string name="dock_not_found_text" product="shield">Для налаштування звуку док-станції потрібно вставити в неї SHIELD.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">Грати звук під час вставляння чи виймання SHIELD з док-станції.</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">Не грати звук під час вставляння чи виймання SHIELD з док-станції</string>
+
+    <string name="accelerometer_summary_on" product="shield">Автоматично змінювати орієнтацію при повороті SHIELD</string>
+    <string name="accelerometer_summary_off" product="shield">Автоматично змінювати орієнтацію при повороті SHIELD</string>
+    <string name="sim_lock_on" product="shield">Для використання SHIELD потрібен PIN-код</string>
+    <string name="sim_lock_off" product="shield">Для використання SHIELD потрібен PIN-код</string>
+    <string name="device_info_settings" product="shield">Стан SHIELD</string>
+
+    <string name="device_status_summary" product="shield">Стан батареї, мережі та інша інформація</string>
+    <string name="status_number" product="shield">Номер мобільного телефону</string>
+    <string name="master_clear_summary" product="shield">Видаляє всі дані в SHIELD</string>
+    <string name="master_clear_desc" product="shield">"Це видалить усі дані з <b>внутрішньої пам’яті</b>SHIELD, зокрема:\n\n<li>ваш обліковий запис Google</li>\n<li>дані й налаштування системи та програм</li>\n<li>завантажені програми</li>"</string>
+    <string name="master_clear_button_text" product="shield">Відновити налаштування SHIELD</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">Доступ до Інтернету через SHIELD</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Доступ до Інтернету через SHIELD для 1 пристрою</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Доступ до Інтернету через SHIELD для <xliff:g id="connectedDeviceCount">%1$d</xliff:g> пристроїв</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">Немає доступу до Інтернету через SHIELD</string>
+    <string name="location_street_level" product="shield">Дозвольте програмам використовувати GPS на SHIELD для точного визначення вашого місцезнаходження</string>
+    <string name="about_settings" product="shield">Про SHIELD</string>
+    <string name="install_all_warning" product="shield">Ваша SHIELD і особисті дані більш уразливі до атак із боку програм із невідомих джерел. Ви погоджуєтеся з тим, що несете особисту відповідальність за будь-яку заподіяну SHIELD шкоду чи втрату даних унаслідок використання таких програм.</string>
+    <string name="security_settings_desc" product="shield">Ця програма може отримати у SHIELD такі доступи:</string>
+    <string name="security_settings_desc_multi" product="shield">Ця програма може отримати у SHIELD такі доступи. Для поліпшення роботи та зменшення використання пам’яті деякі з цих дозволів доступні для програми <xliff:g id="base_app_name">%1$s</xliff:g>, оскільки вона працює в тому ж процесі, що й програми <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">Перейти до SHIELD</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Якщо припинити роботу цієї служби, деякі функції SHIELD можуть працювати неправильно, поки живлення не буде вимкнено та знову ввімкнено.</string>
+    <string name="testing_phone_info" product="shield">Інформація про SHIELD</string>
+    <string name="power_idle" product="shield">SHIELD в режимі очікування</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">Коли SHIELD знаходиться в режимі очікування, батарея використовується</string>
+    <string name="really_remove_account_message" product="shield">Видалення цього облікового запису призведе до видалення всіх його повідомлень, контактів та інших даних із SHIELD.</string>
+    <string name="remove_account_failed" product="shield">Цей обліковий запис потрібен для деяких програм.  Його можна видалити, лише відновивши заводські налаштування SHIELD (при цьому буде видалено всі ваші особисті дані) в меню Налаштування &gt; Резервне копіювання та скидання.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Будь-які зміни до облікових записів, внесені в Інтернеті, автоматично копіюватимуться на вашу SHIELD.\n\nДеякі облікові записи також можуть автоматично копіювати в Інтернет зміни, внесені на вашу SHIELD.  Так працює обліковий запис Google.\n\nЩоб вибрати типи інформації, які потрібно синхронізувати з обліковими записами, перейдіть у Налаштування &gt; Облікові записи.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">Мобільне передавання даних буде вимкнено в разі досягнення вказаного ліміту.\n\nОскільки методи обліку використання даних SHIELD й оператора можуть відрізнятися, радимо використовувати занижений ліміт.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">Якщо обмежити мобільне передавання даних у фоновому режимі, деякі програми та служби працюватимуть лише під час з’єднання з мережею Wi-Fi.\n\nТаке налаштування впливає на всіх користувачів цієї SHIELD.</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: <xliff:g id="total" example="128KB">%1$s</xliff:g> дані, визначені SHIELD. Дані оператора можуть відрізнятись.</string>
+    <string name="user_cannot_manage_message" product="shield">Лише власник SHIELD може керувати користувачами.</string>
+    <string name="user_confirm_remove_self_message" product="shield">Вашу пам’ять і дані буде видалено з цієї SHIELD. Цю дію не можна відмінити.</string>
+    <string name="user_confirm_remove_message" product="shield">Пам’ять і дані цього користувача буде видалено з цієї SHIELD. Цю дію не можна відмінити.</string>
+    <string name="global_change_warning" product="shield">Це налаштування впливає на всіх користувачів цієї SHIELD.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      Пам\'ять і дані цього профілю буде видалено з SHIELD. Цю дію не можна відмінити.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      Дозволити обмін даними, коли SHIELD торкнеться іншого пристрою
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      Програма намагається зробити SHIELD видимим для інших пристроїв Bluetooth. Вказане налаштування можна змінити пізніше за допомогою параметрів Bluetooth.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      Програма намагається увімкнути Bluetooth та зробити SHIELD видимим для інших пристроїв протягом %1$d секунд.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      Програма намагається увімкнути Bluetooth та зробити SHIELD видимим для інших пристроїв. Вказане налаштування можна змінити пізніше за допомогою параметрів Bluetooth.
+    </string>
+</resources>

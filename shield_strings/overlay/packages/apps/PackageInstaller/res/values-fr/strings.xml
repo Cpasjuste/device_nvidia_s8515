@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="install_failed_cpu_abi_incompatible" product="shield">Cette application n\'est pas compatible avec la console SHIELD.</string>
+    <string name="install_failed_msg" product="shield">Impossible d\'installer <xliff:g id="app_name">%1$s</xliff:g> sur la console SHIELD.</string>
+    <string name="unknown_apps_dlg_text" product="shield">Pour des raisons de sécurité, la console SHIELD est configurée de façon à bloquer l\'installation d\'applications obtenues à partir de sources inconnues.</string>
+</resources>

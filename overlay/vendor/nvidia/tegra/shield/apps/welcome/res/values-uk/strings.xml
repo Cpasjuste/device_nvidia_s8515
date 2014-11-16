@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="app_name">"Довідка SHIELD"</string>
+  <string name="pagetitle">"ЗНАЙОМСТВО З SHIELD"</string>
+  <string name="pg1_tle">"ЗНАЙОМСТВО З SHIELD"</string>
+  <string name="pg2_tle">"ВИКОРИСТАННЯ ФУНКЦІОНАЛЬНИХ КНОПОК"</string>
+  <string name="pg3_tle">"ВИКОРИСТАННЯ КНОПОК ВИБОРУ"</string>
+  <string name="pg4_tle">"БІЛЬШЕ ІНТЕРАКТИВУ З SHIELD"</string>
+  <string name="pg0_title">"ЛАСКАВО ПРОСИМО ДО SHIELD"</string>
+  <string name="pg0_text">"Дізнайтеся про всі можливості SHIELD, клацнувши наведене нижче посилання на посібник користувача. Ви також можете продовжити знайомство з основними функціями та можливостями пристрою."</string>
+  <string name="pg1_blktle">"КНОПКА NVIDIA"</string>
+  <string name="pg1_blktxt">"<b>Натиснення один раз</b> дає змогу запускати ігри SHIELD, знаходити нові та транслювати встановлені ігри з ПК із GeForce GTX.\n\n<b>Натисніть та утримуйте</b>, щоб перейти до меню \"Живлення\"."</string>
+  <string name="pg2_voltle">"ГУЧНІСТЬ"</string>
+  <string name="pg2_voltxt">"<b>Натисніть</b> для зміни гучності\n\n<b>Натисніть та утримуйте</b>, щоб вимкнути звук"</string>
+  <string name="pg2_backtle">"НАЗАД"</string>
+  <string name="pg2_backtxt">"Перехід на попередній екран"</string>
+  <string name="pg2_starttle">"ЗАПУСК"</string>
+  <string name="pg2_hometle">"ДОМАШНІЙ ЕКРАН"</string>
+  <string name="pg2_hometxt">"Відкриває домашній екран Android\n\n<b>Подвійне натиснення</b> - перегляд останніх програм"</string>
+  <string name="pg3_ytle">"КНОПКА Y"</string>
+  <string name="pg3_ytxt">"Виклик меню в більшості програм"</string>
+  <string name="pg3_xtle">"КНОПКА X"</string>
+  <string name="pg3_btle">"КНОПКА B"</string>
+  <string name="pg3_btxt">"Повернутися назад або скасувати в більшості програм"</string>
+  <string name="pg3_atle">"КНОПКА A"</string>
+  <string name="pg3_atxt">"Активація вибраного пункту в більшості програм"</string>
+  <string name="pg4_mtdtle">"ЕКРАН З МУЛЬТИДОТИКОМ"</string>
+  <string name="pg4_virtle">"ВІРТУАЛЬНА МИША"</string>
+  <string name="pg4_rstxt">"<b>Права кнопка контролера</b>\nВикористовується для переміщення курсору миші"</string>
+  <string name="pg4_btntxt">"<b>Натисніть </b>{R.drawable.stickTrigger}<b> або </b>{R.drawable.aButton}, щоб здійснити клацання кнопкою миші"</string>
+  <string name="blake_pg1_back_title">НАЗАД</string>
+  <string name="blake_pg1_back_txt"><b>Торкніться</b>, щоб перейти на попередній екран</string>
+  <string name="blake_pg1_home_title">ДОМАШНІЙ ЕКРАН</string>
+  <string name="blake_pg1_home_txt">"<b>Торкніться,</b> щоб відкрити домашній екран Android\n\n<b>Двічі торкніться,</b> щоб переглянути останні програми\n\n<b>Утримуйте,</b> щоб запустити Google Now з голосовим пошуком</string>
+  <string name="blake_pg2_title">КНОПКА NVIDIA</string>
+  <string name="blake_pg2_txt"><b>Торкніться</b>, щоб запустити SHIELD Hub. Шукайте нові ігри, запускайте ігри SHIELD, а також передавайте потокові ігри зі свого комп’ютера GeForce GTX.</string>
+  <string name="blake_pg3_title">ЗАПУСК</string>
+  <string name="blake_pg3_txt"><b>Утримуйте,</b> щоб отримати доступ до додаткових елементів управління для GameStream та перетворювача ігрового джойстика</string>
+  <string name="twitch"><b>Twitch</b></string>
+  <string name="record_and_share"><b>Запис і надсилання</b></string>
+  <string name="virtual_controls"><b>Віртуальні елементи управління</b></string>
+</resources>

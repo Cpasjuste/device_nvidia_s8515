@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="help_pages">
+        <item>LayoutFragment:page0</item>
+        <item>LayoutFragment:page1</item>
+        <item>LayoutFragment:page2</item>
+        <item>LayoutFragment:page3</item>
+        <item>LayoutFragment:page4</item>
+    </string-array>
+    <string-array name="help_buttonbar">
+        <item>pagezero_btn</item>
+        <item>pagemid_btn</item>
+        <item>pagemid_btn</item>
+        <item>pagemid_btn</item>
+        <item>pagelast_btn</item>
+    </string-array>
+    <string-array name="help_layers">
+        <item>buttonbar</item>
+        <item>mainDV</item>
+    </string-array>
+
+    <string name="help_autofocus">buttonbar</string>
+
+    <add-resource type="array" name="help_title_swapper"/>
+    <string-array name="help_title_swapper">
+        <item>title_swapper_first</item>
+        <item>title_swapper_other</item>
+        <item>title_swapper_other</item>
+        <item>title_swapper_other</item>
+        <item>title_swapper_other</item>
+    </string-array>
+</resources>

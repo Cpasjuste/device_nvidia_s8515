@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Desired screen orientation. An ActivityInfo.SCREEN_ORIENTATION_* value. e.g. 0 => landscape, 1 => portrait, missing => default  -->
+    <add-resource type="integer" name="blake_desired_orientation"/>
+    <integer name="blake_desired_orientation">6</integer> <!-- sensorLandscape: to match the blake pairing app -->
+    <add-resource type="integer" name="firstrun_desired_orientation"/>
+    <integer name="firstrun_desired_orientation">6</integer> <!-- sensorLandscape: we only have landscape assets -->
+    <add-resource type="integer" name="help_desired_orientation"/>
+    <integer name="help_desired_orientation">6</integer> <!-- sensorLandscape: we only have landscape assets -->
+</resources>

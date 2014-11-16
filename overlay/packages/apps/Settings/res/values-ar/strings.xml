@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">سطوع LED</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">زر NVIDIA</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">التحكم في الصوت</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">استخدام مضخات لضبط مستوى الصوت</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">سيقوم LB و RBبضبط مستوى الصوت بعد الضغط على زر مستوى الصوت </string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">اضغط على LED في حالة سكون الجهاز</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">إغلاق lid سيقفل على الفور</string>
+    <!-- Message for add user confirmation dialog - long version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_long">‏يمكنك مشاركة هذا الجهاز مع أشخاص آخرين من خلال إنشاء مستخدمين إضافيين. ويكون لكل مستخدم مساحته التي يمكنه تخصيصها باستخدام تطبيقاته وخلفياته وما إلى ذلك. ويمكن للمستخدمين أيضًا ضبط إعدادات الجهاز اللوحي مثل Wi-Fi والتي تؤثر على إعدادات الجميع.\n\nويمكن لأي مستخدم قبول أذونات التطبيقات المحدّثة نيابة عن جميع المستخدمين الآخرين.</string>
+    <!-- Message for add user confirmation dialog - short version. [CHAR LIMIT=none] -->
+    <string name="user_add_user_message_short">يمكن لأي مستخدم قبول أذونات التطبيقات المحدثة نيابة عن جميع المستخدمين الآخرين.</string>
+
+    <!-- Enable Controller Mapper-->
+     <add-resource type="string" name="controller_mapper_enable" />
+     <string name="controller_mapper_enable">تمكين خارطة لوحة الألعاب</string>
+     <add-resource type="string" name="controller_mapper_enable_summary" />
+     <string name="controller_mapper_enable_summary">اضغط مطولاً على زر البدء \"START\" لتشغيل تراكب الخارطة</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download" />
+     <string name="controller_mapper_enable_auto_download">تمكين التنزيل التلقائي</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download_summary" />
+     <string name="controller_mapper_enable_auto_download_summary">تنزيل التخطيط تلقائياً من الإنترنت إذا كان متاحاً</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">الحالة القانونية لـ NVIDIA</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">اتفاقية ترخيص البرنامج</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">سياسة الخصوصية</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">شروط استخدام Tegra Experience</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">معلومات الضمان</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">تراخيص NVIDIA</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">وضع شاشة ممتلئة</string>
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">عرض شريط الحالة فقط في الشاشات الرئيسية</string>
+
+    <!-- Category title for Controller Mapper -->
+    <add-resource type="string" name="nv_controller_mapper" />
+    <string name="nv_controller_mapper">خارطة لوحة الألعاب</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">إرسال الملاحظات إلى NVIDIA</string>
+
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">التطبيق</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">البيانات</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">نقل التطبيق إلى SHIELD؟</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">نقل التطبيق إلى بطاقة SD؟</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">قد يستغرق هذا دقائق قليلة. لا تقم بإزالة بطاقة SD أثناء هذه العملية.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> مجاني على SHIELD</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> مجاني على بطاقة SD</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device">نقل <xliff:g id="pkg_label">%1$s</xliff:g> إلى SHIELD...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard">نقل <xliff:g id="pkg_label">%1$s</xliff:g> إلى بطاقة SD...</string>
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">وضع شاشة ممتلئة</string>
+
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">إخفاء شريط الحالة</string>
+
+    <add-resource type="string" name="flscrmode_str_cling_msg_restore_normal" />
+    <string name="flscrmode_str_cling_msg_restore_normal">التبديل من الأعلى لاستعادة شريط الحالة.</string>
+    <add-resource type="string" name="flscrmode_str_cling_btn_label_ok" />
+    <string name="flscrmode_str_cling_btn_label_ok">موافق</string>
+</resources>
+

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">Baguhin ang pangalan ng SHIELD</string>
+    <string name="bluetooth_ask_discovery" product="shield">"Nais ng isang app sa SHIELD na gawing nakikita ang SHIELD ng ibang mga Bluetooth device sa loob ng <xliff:g id="timeout">%1$d</xliff:g> (na) segundo. Payagan?"</string>
+    <string name="phone_info_label" product="shield">Impormasyon sa SHIELD</string>
+    <string name="roaming_warning_multiuser" product="shield">Kapag pinayagan mo ang roaming ng data, maaari kang magkaroon ng malalaking singilin sa roaming!\n\nNakakaapekto ang setting na ito sa lahat ng user sa SHIELD na ito.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">I-encrypt ang SHIELD</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">Humingi ng numerong PIN o password upang i-decrypt ang iyong SHIELD sa tuwing i-on mo ito</string>
+    <string name="crypt_keeper_desc" product="shield">
+    Maaari mong i-encrypt ang iyong mga account, setting, na-download na apps at data ng mga ito, media, at iba pang mga file. Sa sandaling i-encrypt mo ang SHIELD, kailangan mong mag-type ng numerong PIN o password upang i-decrypt ito sa tuwing i-o-on mo ito.  Hindi mo maaaring i-decrypt ang SHIELD maliban sa pamamagitan ng pagsasagawa ng factory na pag-reset ng data, na buburahin ang lahat ng iyong data.\n\nTumatagal nang isang oras o higit pa ang pag-encrypt.  Dapat kang magsimula nang naka-charge ang baterya at panatilihing nakasaksak ang SHIELD hanggang sa makumpleto ang pag-encrypt.  Kung iaantala mo ang proseso ng pag-encrypt, mawawala mo ang ilan sa o lahat ng iyong data.</string>
+    <string name="crypt_keeper_button_text" product="shield">I-encrypt ang SHIELD</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    Hindi na mababawi ang pagpapatakbo ng pag-encrypt at kung iaantala mo ito, mawawalan ka ng data.
+    Tumatagal ang pag-encrypt nang isang oras o higit pa, at sa panahong ito magre-restart ang SHIELD nang ilang beses.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">Maghintay habang ine-encrypt ang SHIELD. <xliff:g id="percent" example="50">^1</xliff:g>% na kumpleto.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> Naantala at hindi makumpleto ang pag-encrypt. Bilang resulta, hindi na maa-access ang data sa SHIELD.\n\n
+      Upang ipagpatuloy ang paggamit sa SHIELD, kakailanganin mong magsagawa ng isang factory reset.
+      Kapag na-set up mo ang SHIELD pagkatapos ng pag-reset, magkakaroon ka ng pagkakataong mabalik ang anumang data na naka-back up sa iyong Google Account.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> Mawawala sa pagkakakonekta ang <xliff:g id="device_name">%1$s</xliff:g> sa pagbahagi ng koneksyon sa Internet ng SHIELD.</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">Payagan ang palitan ng data kapag dumikit ang SHIELD sa isa pang device</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">BABALA:  Maaari kang magkaroon ng karagdagang mga singil sa data mula sa carrier.\n\nMaaaring mangailangan ng malaking aktibidad ng network ang pag-setup sa SHIELD.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">BABALA:  Hindi mabe-verify ng SHIELD kung napapanahon ang iyong software.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">Hindi nagawang makakonekta sa Wi-Fi network na ito ang SHIELD.</string>
+    <string name="dock_audio_summary_none" product="shield">Hindi naka-dock ang SHIELD</string>
+    <string name="dock_not_found_text" product="shield">Kailangan mong i-dock ang SHIELD bago mai-set up ang dock audio.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">Magpatugtog ng tunog kapag inilalagay o inaalis ang SHIELD mula sa dock</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">Huwag magpatugtog ng tunog kapag inilalagay o inaalis ang SHIELD mula sa dock</string>
+
+    <string name="accelerometer_summary_on" product="shield">Awtomatikong ilipat ang oryentasyon kapag iniikot ang SHIELD</string>
+    <string name="accelerometer_summary_off" product="shield">Awtomatikong ilipat ang oryentasyon kapag iniikot ang SHIELD</string>
+    <string name="sim_lock_on" product="shield">Humingi ng PIN upang magamit ang SHIELD</string>
+    <string name="sim_lock_off" product="shield">Humingi ng PIN upang magamit ang SHIELD</string>
+    <string name="device_info_settings" product="shield">Katayuan ng SHIELD</string>
+
+    <string name="device_status_summary" product="shield">Katayuan ng baterya, network, at iba pang impormasyon</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">Binubura ang lahat ng data sa SHIELD</string>
+    <string name="master_clear_desc" product="shield">"Buburahin nito ang lahat ng data mula sa <b>panloob na storage</b> ng SHIELD, kabilang ang:\n\n<li>Ang iyong Google account</li>\n<li>System at data ng app at mga setting</li>\n<li>Na-download na apps</li>"</string>
+    <string name="master_clear_button_text" product="shield">I-reset ang SHIELD</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">Pagbahagi sa koneksyon sa Internet ng SHIELD</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Binabahagi ang koneksyon sa Internet ng SHIELD sa 1 device</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Binabahagi ang koneksyon sa Internet ng SHIELD sa <xliff:g id="connectedDeviceCount">%1$d</xliff:g> (na) device</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">Hindi ibinabahagi ang koneksyon sa Internet ng SHIELD</string>
+    <string name="location_street_level" product="shield">Hayaang gamitin ng apps ang GPS sa SHIELD upang matukoy ang iyong lokasyon</string>
+    <string name="about_settings" product="shield">Tungkol sa SHIELD</string>
+    <string name="install_all_warning" product="shield">Mas madaling mapipinsala ang iyong SHIELD at personal na data ng pag-atake ng apps mula sa mga hindi kilalang pinagmulan.  Sumasang-ayon ka na ikaw ang tanging mananagot para sa anumang pinsala sa iyong SHIELD o pagkawala ng data na maaaring magresulta mula sa paggamit ng apps na ito.</string>
+    <string name="security_settings_desc" product="shield">Maaaring i-access ng app na ito ang sumusunod sa SHIELD:</string>
+    <string name="security_settings_desc_multi" product="shield">Maaaring i-access ng app na ito ang sumusunod sa SHIELD. Upang mapabuti ang pagganap at mabawasan ang paggamit ng memory, available ang ilan sa mga pahintulot na ito sa <xliff:g id="BASE_APP_NAME">%1$s</xliff:g> dahil pareho ang proseso ng pagtakbo nito sa <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">Pumunta sa SHIELD</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Kung ihihinto mo ang serbisyong ito, maaaring huminto sa paggana nang tama ang ilang mga tampok ng SHIELD hanggang sa i-off mo ito at pagkatapos i-on muli.</string>
+    <string name="testing_phone_info" product="shield">Impormasyon sa SHIELD</string>
+    <string name="power_idle" product="shield">SHIELD idle</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">Ginamit na baterya kapag idle ang SHIELD</string>
+    <string name="really_remove_account_message" product="shield">Ang pag-aalis ng account na ito ay magtatanggal sa lahat ng mensahe, contact, at iba pang data nito sa SHIELD!</string>
+    <string name="remove_account_failed" product="shield">Kinakailangan ng ilang apps ang account na ito.  Maaari mo lang itong alisin sa pamamagitan ng pag-reset sa SHIELD sa mga default ng factory (na nagtatanggal sa lahat ng iyong personal na data) sa Mga Setting &gt; I-backup at i-reset.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Awtomatikong makokopya sa iyong SHIELD ang anumang pagbabagong ginawa mo sa iyong mga account sa web.\n\nAwtomatiko ring kinokopya ng ilang account ang anumang pagbabagong ginawa mo sa SHIELD sa web.  Gumagana sa ganitong paraan ang isang Google Account.\n\nUpang piliin kung aling uri ng impormasyon ang isi-sync sa loob ng bawat account, pumunta sa Mga Setting &gt; Mga Account.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">Idi-disable ang iyong koneksyon sa mobile data kapag naabot na ang partikular na limitasyon.\n\nDahil sinusukat ng SHIELD ang paggamit ng data, at maaaring iba ang pamamaraan ng pagkukwenta ng iyong carrier para sa paggamit, pag-isipang gumamit ng konserbatibong limitasyon.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">Kung paghihigpitan mo ang background na mobile data, hindi gagana ang ilang apps at serbisyo maliban kung nakakonekta ka sa isang Wi-Fi network.\n\nMakakaapekto ang setting na ito sa lahat ng user sa SHIELD na ito.</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: nagamit na ang tinatayang <xliff:g id="total" example="128KB">%1$s</xliff:g>, ayon sa nasukat ng SHIELD. Maaaring iba ang pagkwenta ng iyong carrier sa paggamit ng data.</string>
+    <string name="user_cannot_manage_message" product="shield">Ang may-ari lang ng SHIELD ang maaaring mamahala ng mga user.</string>
+    <string name="user_confirm_remove_self_message" product="shield">Mawawala mo ang iyong espasyo at data sa SHIELD na ito.  Hindi mo mababawi ang pagkilos na ito.</string>
+    <string name="user_confirm_remove_message" product="shield">Mawawala ang espasyo at data ng user na ito sa SHIELD na ito.  Hindi mo mababawi ang pagkilos na ito.</string>
+    <string name="global_change_warning" product="shield">Nakakaapekto ang setting na ito sa lahat ng user sa SHIELD na ito.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      Mawawala ang espasyo at data ng user na ito sa SHIELD.  Hindi mo maaaring i-undo ang pagkilos na ito.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      Payagan ang palitan ng data kapag dumikit ang SHIELD sa isa pang device
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      Gustong gawing visible ng isang app ang SHIELD sa ibang mga Bluetooth device. Mapapalitan mo ito sa ibang pagkakataon sa mga setting ng Bluetooth.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      Gustong gawing visible ng isang app ang SHIELD sa ibang mga device sa loob ng %1$d (na) segundo.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      Gustong gawing visible ng isang app ang SHIELD sa ibang mga device. Mapapalitan mo ito sa ibang pagkakataon sa mga setting ng Bluetooth.
+    </string>
+</resources>

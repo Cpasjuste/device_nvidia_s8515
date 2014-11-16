@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nvwelcome="http://schemas.android.com/apk/res/com.nvidia.shield.welcome"
+    android:id="@+id/mainVG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <com.nvidia.shield.welcome.layouts.HostViewPager
+        android:id="@+id/mainVP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.nvidia.shield.welcome.layouts.LayoutSwapper
+        android:id="@+id/buttonbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.nvidia.shield.welcome.layouts.DimpleView
+        android:id="@+id/mainDV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimpleView_margin" />
+
+</RelativeLayout>

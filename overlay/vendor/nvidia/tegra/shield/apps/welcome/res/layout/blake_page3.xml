@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        android:src="@drawable/blake_pg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- Start button -->
+        <TextView
+            android:id="@+id/pg3_title"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="423dp"
+            android:text="@string/blake_pg3_title"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/pgtitlesize" />
+
+        <TextView
+            android:id="@+id/pg3_txt"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_alignLeft="@+id/pg3_title"
+            android:layout_below="@id/pg3_title"
+            android:text="@string/blake_pg3_txt"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/pgtextsize" />
+
+        <!-- Vertical line beside text -->
+        <View
+            android:id="@+id/blake_p3verLine"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/pg3_title"
+            android:layout_alignBottom="@+id/pg3_txt"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@+id/pg3_txt"
+            android:background="#77FFFFFF" />
+
+        <!-- Horizontal line beside text -->
+        <View
+            android:layout_width="34dp"
+            android:layout_height="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="70dp"
+            android:layout_toLeftOf="@+id/blake_p3verLine"
+            android:background="#77FFFFFF" />
+    </RelativeLayout>
+</RelativeLayout>
+

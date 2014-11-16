@@ -1,0 +1,32 @@
+<resources>
+    <add-resource type="dimen" name="headerMarginTop"/>
+    <add-resource type="dimen" name="textMarginRight"/>
+    <add-resource type="dimen" name="textMarginBottom"/>
+    <add-resource type="dimen" name="header_text_top_margin"/>
+    <add-resource type="dimen" name="button_txt"/>
+    <add-resource type="dimen" name="button_width"/>
+    <add-resource type="dimen" name="dimpleView_margin"/>
+
+    <add-resource type="string" name="pagetitle"/>
+    <add-resource type="string" name="pg0title"/>
+    <add-resource type="string" name="pg0txt"/>
+    <add-resource type="string" name="pg1title"/>
+    <add-resource type="string" name="pg1txt"/>
+    <add-resource type="string" name="pg2title"/>
+    <add-resource type="string" name="pg2txt"/>
+    <add-resource type="string" name="pg3title"/>
+    <add-resource type="string" name="pg3txt"/>
+    <add-resource type="string" name="blake_pg1_back_title"/>
+    <add-resource type="string" name="blake_pg1_back_txt"/>
+    <add-resource type="string" name="blake_pg1_home_title"/>
+    <add-resource type="string" name="blake_pg1_home_txt"/>
+    <add-resource type="string" name="blake_pg2_title"/>
+    <add-resource type="string" name="blake_pg2_txt"/>
+    <add-resource type="string" name="blake_pg3_title"/>
+    <add-resource type="string" name="blake_pg3_txt"/>
+    <add-resource type="string" name="blake_userman"/>
+    <add-resource type="string" name="twitch"/>
+    <add-resource type="string" name="record_and_share"/>
+    <add-resource type="string" name="virtual_controls"/>
+</resources>
+

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">SHIELD\'ı yeniden adlandır</string>
+    <string name="bluetooth_ask_discovery" product="shield">"SHIELD\'daki bir uygulama, SHIELD\'ın <xliff:g id="timeout">%1$d</xliff:g> saniye boyunca başka Bluetooth cihazlara görünür olmasını istiyor. İzin verilsin mi?"</string>
+    <string name="phone_info_label" product="shield">SHIELD bilgileri</string>
+    <string name="roaming_warning_multiuser" product="shield">Veri dolaşımına izin verdiğinizde, yüksek miktarda dolaşım ücretleri ödemek zorunda kalabilirsiniz!\n\nBu ayar, bu SHIELD\'daki tüm kullanıcılar için geçerli olur.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">SHIELD\'ı şifrele</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">SHIELD\'ın her açılışında şifresinin çözülmesi için sayısal bir PIN veya parola istensin</string>
+    <string name="crypt_keeper_desc" product="shield">
+    Hesaplarınızı, ayarlarınızı, indirilen uygulamalarınızı ve bunlara ait verileri, medyaları ve diğer dosyaları şifreleyebilirsiniz. SHIELD\'ı bir kez şifreledikten sonra, cihazı her açtığınızda şifresini çözmek için sayısal bir PIN veya parola girmeniz gerekir. SHIELD\'daki tüm verilerin silinmesine neden olan, fabrika verilerine sıfırlama işlemini yapmadıkça şifrelemeyi kaldıramazsınız.\n\nŞifreleme işlemi bir saat veya daha uzun sürebilir. İşleme, pil doluyken başlamalısınız ve şifreleme işlemi tamamlanıncaya kadar SHIELD\'ı fişe takılı bırakmalısınız. Şifreleme işlemini yarıda keserseniz, verilerinizin bir kısmını veya tamamını kaybedersiniz.</string>
+    <string name="crypt_keeper_button_text" product="shield">SHIELD\'ı şifrele</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    Şifreleme işlemi geri döndürülemez ve şifreleme sırasında işlemi durdurursanız veri kaybedersiniz.
+    Şifreleme işlemi bir saat veya daha uzun sürebilir ve bu süre içinde SHIELD birkaç kez yeniden başlatılır.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">SHIELD\'ın şifrelenmesi sırasında bekleyin. %<xliff:g id="percent" example="50">^1</xliff:g> tamamlandı.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> Şifreleme işlemi kesintiye uğradı ve tamamlanamıyor. Dolayısıyla, artık SHIELD\'daki verilere erişilemez.\n\n
+      SHIELD\'ı yeniden kullanılabilecek hale getirmek için, fabrika ayarlarına sıfırlamanız gerekir.
+      SHIELD\'ın sıfırlanmasından sonra ayarlarını yaparken, Google hesabınıza yedeklenmiş olan veriler varsa size bunları geri yükleme seçeneği sunulur.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g>, SHIELD\'ın Internet bağlantısı paylaşımından çıkarılacak.</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">SHIELD cihazı başka cihaza dokunduğunda veri alışverişine izin ver</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">UYARI:  Operatörünüz tarafından ek veri aktarım ücreti alınabilir.\n\nSHIELD kurulumu, önemli miktarda ağ etkinliği gerektirebilir.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">UYARI:  SHIELD, yazılımınızın güncel olduğunu doğrulayamayacaktır.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD, bu Wi-Fi ağına bağlanamadı.</string>
+    <string name="dock_audio_summary_none" product="shield">SHIELD yuvaya takılı değil</string>
+    <string name="dock_not_found_text" product="shield">Yuva sesini ayarlamadan önce SIELD\'ı yuvaya takmanız gerekir.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">SHIELD yuvaya yerleştirilirken veya yuvadan çıkarılırken ses çal</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">SHIELD yuvaya yerleştirilirken veya yuvadan çıkarılırken ses çalınmasın</string>
+
+    <string name="accelerometer_summary_on" product="shield">SHIELD\'ı döndürürken yönü otomatik olarak değiştir</string>
+    <string name="accelerometer_summary_off" product="shield">SHIELD\'ı döndürürken yönü otomatik olarak değiştir</string>
+    <string name="sim_lock_on" product="shield">SHIELD\'ı kullanmak için PIN iste</string>
+    <string name="sim_lock_off" product="shield">SHIELD\'ı kullanmak için PIN iste</string>
+    <string name="device_info_settings" product="shield">SHIELD durumu</string>
+
+    <string name="device_status_summary" product="shield">Pilin, ağın durumu ve başka bilgiler</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">SHIELD\'daki tüm verileri siler</string>
+    <string name="master_clear_desc" product="shield">"Bu işlem, SHIELD\'ın <b>dâhili depolama alanından</b> tüm verileri siler. Silinen veriler şunlardır:\n\n<li>Google hesabınız</li>\n<li>Sistem ve uygulama verileri ve ayarları</li>\n<li>İndirilen uygulamalar</li>"</string>
+    <string name="master_clear_button_text" product="shield">SHIELD\'ı Sıfırla</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">SHIELD\'ın Internet bağlantısı paylaşılıyor</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">SHIELD\'ın Internet bağlantısı, 1 cihazla paylaşılıyor</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">SHIELD\'ın Internet bağlantısı <xliff:g id="connectedDeviceCount">%1$d</xliff:g> cihazla paylaşılıyor</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">SHIELD\'ın Internet bağlantısı paylaşılmıyor</string>
+    <string name="location_street_level" product="shield">Uygulamalar konumunuzu tam olarak belirlemek üzere SHIELD\'ın GPS özelliğini kullanabilsin</string>
+    <string name="about_settings" product="shield">SHIELD hakkında</string>
+    <string name="install_all_warning" product="shield">SHIELD\'ınız ve kişisel verileriniz, bilinmeyen kaynaklardan gelen uygulamaların saldırılarına karşı daha savunmasızdır. Bu uygulamaları kullanmanız sonucunda SHIELD\'ın başına gelebilecek her tür hasardan ve veri kaybından yalnızca kendinizin sorumlu olduğunu kabul etmiş olursunuz.</string>
+    <string name="security_settings_desc" product="shield">Bu uygulama, SHIELD\'da şunlara erişebilir:</string>
+    <string name="security_settings_desc_multi" product="shield">Bu uygulama, SHIELD\'da şunlara erişebilir: Performansı iyileştirmek ve bellek kullanımını azaltmak için bu izinlerden bazıları, <xliff:g id="additional_apps_list">%2$s</xliff:g> ile aynı işlemde çalıştığından, <xliff:g id="base_app_name">%1$s</xliff:g> tarafından kullanılabilir:</string>
+
+    <string name="move_app_to_internal" product="shield">SHIELD\'a Taşı</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Bu hizmeti durdurursanız, SHIELD\'ın bazı özellikleri, cihaz kapatılıp yeniden açılmadan düzgün çalışmayabilir.</string>
+    <string name="testing_phone_info" product="shield">SHIELD bilgileri</string>
+    <string name="power_idle" product="shield">SHIELD boşta</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">SHIELD boştayken kullanılan pil</string>
+    <string name="really_remove_account_message" product="shield">Bu hesap kaldırıldığında, bu hesaba ait tüm mesajlar, kişiler ve SHIELD\'daki ilgili diğer veriler de silinecektir!</string>
+    <string name="remove_account_failed" product="shield">Bu hesap, bazı uygulamalar için gereklidir.  Hesabı ancak Ayarlar &gt; Yedekleme ve sıfırlama seçeneğinde SHIELD\'ı varsayılan fabrika ayarlarına sıfırlayarak kaldırabilirsiniz (tüm kişisel bilgileriniz silinir).</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Web üzerinden hesaplarınızda yaptığınız tüm değişiklikler SHIELD\'ınıza otomatik olarak kopyalanır.\n\nBazı hesaplar SHIELD\'da yaptığınız değişiklikleri de Web\'e otomatik olarak kopyalar. Google hesapları bu şekilde çalışır.\n\nHer hesapta hangi türden bilgilerin senkronize edileceğini seçmek için, Ayarlar &gt; Hesaplar seçeneğine gidin.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">Belirtilen limite ulaşıldığında mobil veri bağlantınız devre dışı bırakılacaktır.\n\nVeri kullanımı SHIELD tarafından hesaplandığından, operatörünüzün kullanım hesaplaması farklı olabilir. O yüzden biraz daha düşük bir sınır belirlemeniz mantıklı olabilir.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">Arka plan mobil verilerini kısıtlarsanız, Wi-Fi ağına bağlanmadığınız sürece bazı uygulamalar ve hizmetler çalışmaz.\n\nBu ayar, bu SHIELD\'daki tüm kullanıcılar için geçerli olur.</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: SHIELD tarafından hesaplandığı kadarıyla, yaklaşık <xliff:g id="total" example="128KB">%1$s</xliff:g> kullanıldı. Operatörünüzün veri kullanımı hesaplaması farklı olabilir.</string>
+    <string name="user_cannot_manage_message" product="shield">Kullanıcıları, yalnızca SHIELD\'ın sahibi yönetebilir.</string>
+    <string name="user_confirm_remove_self_message" product="shield">Bu SHIELD\'daki alanınızı ve verilerinizi kaybedeceksiniz. Bu işlemi geri alamazsınız.</string>
+    <string name="user_confirm_remove_message" product="shield">Bu kullanıcının alanı ve verileri bu SHIELD\'dan silinecek. Bu işlemi geri alamazsınız.</string>
+    <string name="global_change_warning" product="shield">Bu ayar, bu SHIELD\'daki tüm kullanıcılar için geçerli olur.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      Bu profilin alanı ve verileri SHIELD\'dan silinecek. Bu işlemi geri alamazsınız.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      SHIELD cihazı başka cihaza dokunduğunda veri alışverişine izin ver
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      Bir uygulama, SHIELD\'ı başka Bluetooth cihazlara görünür kılmak istiyor. Bu ayarı daha sonra Bluetooth ayarlarından değiştirebilirsiniz.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      Bir uygulama, Bluetooth\'u açmak ve SHIELD\'ı %1$d saniye boyunca diğer cihazlara görünür kılmak istiyor.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      Bir uygulama, Bluetooth\'u açmak ve SHIELD\'ı başka cihazlara görünür kılmak istiyor. Bu ayarı daha sonra Bluetooth ayarlarından değiştirebilirsiniz.
+    </string>
+</resources>

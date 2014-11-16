@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">A SHIELD átnevezése</string>
+    <string name="bluetooth_ask_discovery" product="shield">"A SHIELD egy alkalmazása <xliff:g id="timeout">%1$d</xliff:g> másodpercre szeretné felfedezhetővé tenni a SHIELD-et más Bluetooth-eszközök számára. Engedélyezi?"</string>
+    <string name="phone_info_label" product="shield">SHIELD-információk</string>
+    <string name="roaming_warning_multiuser" product="shield">Az adatbarangolás engedélyezése jelentős díjnövekedéssel járhat!\n\nEz a beállítás minden felhasználót érint ezen a SHIELD-en.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">SHIELD titkosítása</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">A SHIELD titkosításának feloldásához kérjen minden bekapcsoláskor egy számokból álló PIN kódot vagy jelszót</string>
+    <string name="crypt_keeper_desc" product="shield">
+    Titkosíthatja fiókjait, beállításait, letöltött alkalmazásait és azok adatait, illetve média- és egyéb fájljait.  Ha titkosítja a SHIELD-et, akkor minden bekapcsolásakor be kell írnia egy numerikus PIN kódot vagy jelszót a titkosítás feloldásához.  A SHIELD titkosítását csak a gyári adatok visszaállításával tudja visszavonni, ami minden adatát törli.\n\nA titkosítás legalább egy órát vesz igénybe.  Feltöltött akkumulátorral kezdjen hozzá, és a titkosítás befejezéséig hagyja a töltőn a SHIELD-et.  Ha megszakítja a titkosítási folyamatot, elveszíti adatait vagy azok egy részét.</string>
+    <string name="crypt_keeper_button_text" product="shield">SHIELD titkosítása</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    A titkosítási művelet visszafordíthatatlan. Ha megszakítja, adatokat veszít. 
+    A titkosítás legalább egy órát vesz igénybe, és közben a SHIELD többször újra fog indulni.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">Várjon, amíg a SHIELD titkosítása be nem fejeződik. <xliff:g id="percent" example="50">^1</xliff:g>% kész.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> A titkosítás megszakadt, és nem lehet befejezni.  Emiatt a SHIELD-en tárolt adatok többé nem érhetők el.\n\n
+      A SHIELD használatának folytatásához vissza kell állítania a gyári adatokat.
+      Amikor a visszaállítás után beállítja a SHIELD-et, lehetősége lesz minden olyan adat visszaállítására, amelyet korábban Google-fiókjába mentett.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> A(z) <xliff:g id="DEVICE_NAME">%1$s</xliff:g> le lesz választva a SHIELD megosztott internetkapcsolatáról.</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">Tegye lehetővé az adatcserét, ha a SHIELD érintkezik egy másik eszközzel</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">FIGYELEM:  Előfordulhat, hogy szolgáltatója további adatforgalmi díjakat számít fel.\n\nA SHIELD beállítása jelentős hálózati forgalmat igényelhet.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">FIGYELEM:  A SHIELD nem tudja ellenőrizni, hogy a szoftver naprakész-e.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">A SHIELD nem tudott csatlakozni ehhez a Wi-Fi hálózathoz.</string>
+    <string name="dock_audio_summary_none" product="shield">A SHIELD nincs dokkolva</string>
+    <string name="dock_not_found_text" product="shield">A dokkolási hang beállítása előtt dokkolnia kell a SHIELD-et.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">Hang lejátszása a SHIELD dokkolóba helyezésekor és kivételekor</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">Ne játsszon le hangot a SHIELD dokkolóba helyezésekor és kivételekor</string>
+
+    <string name="accelerometer_summary_on" product="shield">Tájolás automatikus váltása a SHIELD forgatásakor</string>
+    <string name="accelerometer_summary_off" product="shield">Tájolás automatikus váltása a SHIELD forgatásakor</string>
+    <string name="sim_lock_on" product="shield">PIN kód kérése a SHIELD használatához</string>
+    <string name="sim_lock_off" product="shield">PIN kód kérése a SHIELD használatához</string>
+    <string name="device_info_settings" product="shield">SHIELD állapota</string>
+
+    <string name="device_status_summary" product="shield">Az eszköz akkumulátorának és a hálózatnak az állapota, valamint egyéb információk</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">Törli az összes adatot a SHIELD-ről</string>
+    <string name="master_clear_desc" product="shield">"Ez a művelet az összes adatot törli a SHIELD <b>belső memóriájából</b>, beleértve a következőket:\n\n<li>Az Ön Google-fiókja</li>\n<li>Rendszer- és alkalmazásadatok és -beállítások</li>\n<li>Letöltött alkalmazások</li>"</string>
+    <string name="master_clear_button_text" product="shield">A SHIELD alaphelyzetbe állítása</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">A SHIELD internetkapcsolatának megosztása</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">A SHIELD internetkapcsolatának megosztása 1 eszközzel</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">A SHIELD internetkapcsolatának megosztása <xliff:g id="connectedDeviceCount">%1$d</xliff:g> eszközzel</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">A SHIELD internetkapcsolat-megosztásának letiltása</string>
+    <string name="location_street_level" product="shield">Engedélyezze az alkalmazások számára a SHIELD GPS-ének használatát a tartózkodási helyének meghatározásához</string>
+    <string name="about_settings" product="shield">A SHIELD ismertetése</string>
+    <string name="install_all_warning" product="shield">A SHIELD és a személyes adatok jobban ki vannak téve az ismeretlen forrásból származó alkalmazások támadásainak.  Ön elfogadja, hogy kizárólag Ön a felelős a SHIELD-en bekövetkező minden olyan kárért vagy adatvesztésért, amely ezen alkalmazások használatából fakad.</string>
+    <string name="security_settings_desc" product="shield">Ez az alkalmazás a következőkhöz fér hozzá a SHIELD-en:</string>
+    <string name="security_settings_desc_multi" product="shield">Ez az alkalmazás a következőkhöz fér hozzá a SHIELD-en. A teljesítmény javítása és a memóriahasználat csökkentése érdekében ezen engedélyek némelyike elérhető a(z) <xliff:g id="base_app_name">%1$s</xliff:g> számára, mert az biztonságos folyamatban fut mint <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">Áthelyezés a SHIELD-re</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Ha leállítja ezt a szolgáltatást, a SHIELD néhány funkciója hibásan működhet, amíg ki, majd újra be nem kapcsolja azt.</string>
+    <string name="testing_phone_info" product="shield">SHIELD-információk</string>
+    <string name="power_idle" product="shield">SHIELD inaktív</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">Akkumulátorhasználat, amikor a SHIELD inaktív</string>
+    <string name="really_remove_account_message" product="shield">A fiók eltávolítása az összes üzenetet, névjegyet és egyéb adatot is törli a SHIELD-ről!</string>
+    <string name="remove_account_failed" product="shield">Ez a fiók szükséges egyes alkalmazások számára.  Csak a SHIELD gyári beállításainak visszaállításával távolíthatja el (ez törli az összes személyes adatát) a Beállítások &gt; Biztonsági mentés és visszaállítás menüpontban.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Az interneten végrehajtott fiókmódosítások automatikusan megjelennek SHIELD-en is.\n\nEgyes fiókok esetében ez fordítva is igaz.  A Google-fiókok is az utóbbi módon működnek.\n\nHa szeretné kiválasztani, hogy mi legyen szinkronizálva az egyes fiókokon belül, menjen a Beállítások &gt; Fiókok lehetőségre.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">A mobilhálózat adatkapcsolatát a rendszer letiltja a megadott korlát elérésekor.\n\nMivel az adathasználatot a SHIELD méri, és a szolgáltató mérése eltérhet ettől, célszerű óvatosabb korlátot beállítani.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">Ha korlátozza a háttérben futó mobil adatátvitelt, bizonyos alkalmazások és szolgáltatások nem fognak működni, amíg nem kapcsolódik Wi-Fi hálózathoz.\n\nEz a beállítás minden felhasználót érint ezen a SHIELD eszközön.</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: kb. <xliff:g id="total" example="128KB">%1$s</xliff:g> felhasználva, a SHIELD mérése alapján. A szolgáltató által mért érték ettől eltérhet. </string>
+    <string name="user_cannot_manage_message" product="shield">Csak a SHIELD tulajdonosa kezelheti a felhasználókat.</string>
+    <string name="user_confirm_remove_self_message" product="shield">Az Ön tárhelye és adatai el fognak tűnni a SHIELD-ről.  Ezt a műveletet nem lehet visszavonni.</string>
+    <string name="user_confirm_remove_message" product="shield">A felhasználó tárhelye és adatai el fognak tűnni a SHIELD-ről.  Ezt a műveletet nem lehet visszavonni.</string>
+    <string name="global_change_warning" product="shield">Ez a beállítás minden felhasználót érint ezen a SHIELD eszközön.</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+      A profil tárhelye és adatai el fognak tűnni a SHIELD-ről. Ezt a műveletet nem lehet visszavonni.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      Tegye lehetővé az adatcserét, ha a SHIELD érintkezik egy másik eszközzel
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      Egy alkalmazás láthatóvá akarja tenni a SHIELD-et más Bluetooth-eszközök számára. Ezt később módosíthatja a Bluetooth-beállításokban. 
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      Egy alkalmazás be akarja kapcsolni a Bluetooth-t, és %1$d másodpercre láthatóvá akarja tenni a SHIELD-et más eszközök számára.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      Egy alkalmazás be akarja kapcsolni a Bluetooth-t, és láthatóvá akarja tenni a SHIELD-et más eszközök számára. Ezt később módosíthatja a Bluetooth-beállításokban. 
+    </string>
+</resources>

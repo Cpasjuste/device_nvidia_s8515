@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">Přejmenovat SHIELD</string>
+    <string name="bluetooth_ask_discovery" product="shield">"Aplikace v konzoli SHIELD požaduje zviditelnění konzole SHIELD pro ostatní zařízení Bluetooth <xliff:g id="timeout">%1$d</xliff:g> sekund. Povolit?"</string>
+    <string name="phone_info_label" product="shield">Informace o SHIELD</string>
+    <string name="roaming_warning_multiuser" product="shield">Pokud aktivujete datový roaming, mohou vám být za roaming účtovány nemalé poplatky!\n\nToto nastavení ovlivní všechny uživatele této konzole SHIELD.</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">Šifrování konzole SHIELD</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">Při každém zapnutí konzole SHIELD vyžadovat kód PIN nebo heslo za účelem dešifrování</string>
+    <string name="crypt_keeper_desc" product="shield">
+    Účty, nastavení, stažené aplikace a jejich data, média a jiné soubory můžete zašifrovat.  Po zašifrování konzole SHIELD je třeba při každém zapnutí zadat číselný kód PIN nebo heslo, kterým ho opět dešifrujete.  Zašifrování konzole SHIELD lze zrušit pouze resetováním továrních dat, při kterém budou vymazána všechna vaše data.\n\nProces zašifrování trvá hodinu i více.  Začněte s nabitou baterií a ponechte konzoli SHIELD připojenou ke zdroji napájení, dokud se šifrování nedokončí.  Pokud proces šifrování přerušíte, může dojít ke ztrátě některých nebo všech vašich dat.</string>
+    <string name="crypt_keeper_button_text" product="shield">Šifrování konzole SHIELD</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+    Zašifrování je nevratné, a pokud ho přerušíte, budou vaše data ztracena. 
+    Šifrování trvá hodinu a více. V jeho průběhu se konzole SHIELD několikrát restartuje.
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">Počkejte, než bude konzole SHIELD zašifrována.  <xliff:g id="percent" example="50">^1</xliff:g>% dokončeno.</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> Šifrování bylo přerušeno a nelze je dokončit.  V důsledku toho již nebudou údaje v konzoli SHIELD přístupné.\n\n
+      Chcete-li konzoli SHIELD opět začít používat, je potřeba obnovit tovární nastavení. 
+      Po obnově budete moci v průběhu nastavení konzole SHIELD obnovit všechna data, která jsou zálohována na vašem účtu Google.
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> Zařízení <xliff:g id="device_name">%1$s</xliff:g> bude odpojeno od sdíleného internetového připojení této konzole SHIELD.</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">Povolit výměnu dat, pokud se konzole SHIELD dotkne jiného zařízení</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">UPOZORNĚNÍ:  Může dojít k tomu, že vám operátor bude účtovat vyšší poplatky než obvykle.\n\nNastavení konzole SHIELD může vyžadovat přenos nemalého množství dat.</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">UPOZORNĚNÍ:  Konzole SHIELD nebude moci ověřit, zda je váš software aktuální.</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">Konzoli SHIELD se nepodařilo připojit k této bezdrátové síti.</string>
+    <string name="dock_audio_summary_none" product="shield">Konzole SHIELD není vložena do doku</string>
+    <string name="dock_not_found_text" product="shield">Chcete-li nastavit zvuk doku, musíte konzoli SHIELD vložit do doku.</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">Přehrát zvuk při vkládání nebo vyjímání konzole SHIELD z doku</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">Nepřehrávat zvuk při vkládání nebo vyjímání konzole SHIELD z doku</string>
+
+    <string name="accelerometer_summary_on" product="shield">Při otáčení konzole SHIELD automaticky přepínat orientaci</string>
+    <string name="accelerometer_summary_off" product="shield">Při otáčení konzole SHIELD automaticky přepínat orientaci</string>
+    <string name="sim_lock_on" product="shield">K použití konzole SHIELD je vyžadován kód PIN</string>
+    <string name="sim_lock_off" product="shield">K použití konzole SHIELD je vyžadován kód PIN</string>
+    <string name="device_info_settings" product="shield">Stav konzole SHIELD</string>
+
+    <string name="device_status_summary" product="shield">Stav baterie, sítě a další údaje</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">Vymaže všechna data v konzoli SHIELD</string>
+    <string name="master_clear_desc" product="shield">"Tato akce smaže veškerá data z <b>interního úložiště</b> konzole SHIELD, mimo jiné následující:\n\n<li>váš účet Google,</li>\n<li>nastavení a data systému a aplikací,</li>\n<li>stažené aplikace.</li>"</string>
+    <string name="master_clear_button_text" product="shield">Resetovat konzoli SHIELD</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">Internetové připojení konzole SHIELD je sdíleno.</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Internetové připojení konzole SHIELD je sdíleno s 1 zařízením.</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Internetové připojení konzole SHIELD je sdíleno s <xliff:g id="connectedDeviceCount">%1$d</xliff:g> zařízeními.</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">Internetové připojení konzole SHIELD není sdíleno.</string>
+    <string name="location_street_level" product="shield">Povolit aplikacím v konzoli SHIELD určovat vaší polohu pomocí GPS</string>
+    <string name="about_settings" product="shield">O konzoli SHIELD</string>
+
+    <string name="install_all_warning" product="shield">Vaše konzole SHIELD a osobní údaje jsou zranitelnější vůči útoku aplikací, které pochází z neznámých zdrojů.  Souhlasíte s tím, že jste výhradně odpovědní za případné škody na konzoli SHIELD a ztráty dat způsobené používáním těchto aplikací.</string>
+    <string name="security_settings_desc" product="shield">Tato aplikace má přístup k následujícím funkcím konzole SHIELD:</string>
+    <string name="security_settings_desc_multi" product="shield">Tato aplikace má přístup k následujícím funkcím konzole SHIELD. Chcete-li zvýšit výkon a snížit využití paměti, některá tato oprávnění jsou dostupná v aplikaci <xliff:g id="base_app_name">%1$s</xliff:g>, která se spouští v rámci stejného procesu jako aplikace <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <string name="move_app_to_internal" product="shield">Přesunout do konzole SHIELD</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Pokud tuto službu zastavíte, může se stát, že některé funkce konzole SHIELD nebudou fungovat správně, dokud ji nevypnete a opět nezapnete.</string>
+    <string name="testing_phone_info" product="shield">Informace konzoli SHIELD</string>
+
+    <string name="power_idle" product="shield">Konzole SHIELD v nečinnosti</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">Využití baterie v pohotovostním režimu konzole SHIELD</string>
+    <string name="really_remove_account_message" product="shield">Odebráním účtu smažete z konzole SHIELD také všechny zprávy, kontakty a další data tohoto účtu.</string>
+    <string name="remove_account_failed" product="shield">Některé aplikace tento účet vyžadují.  Můžete jej odebrat pouze tím, že v konzoli SHIELD v nabídce Nastavení &gt; Zálohovat a obnovit obnovíte tovární nastavení (vymažete tak všechna svá osobní data).</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Změny, které v rámci svých účtů provedete na webu, se automaticky zkopírují do konzole SHIELD.\n\nNěkteré účty také automaticky zkopírují změny provedené v konzoli SHIELD na web.  Tímto způsobem funguje například účet Google.\n\nTypy informací, které se budou v jednotlivých účtech synchronizovat, nastavíte v části Nastavení &gt; Účty.</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">Po dosažení stanoveného limitu bude datové připojení k síti zakázáno.\n\nProtože přenesená data měří konzole SHIELD a operátor je může účtovat odlišně, je vhodné nastavit nízký limit.</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">Pokud omezíte používání mobilních datových přenosů na pozadí, budou některé aplikace a služby fungovat, pouze když budete připojeni k síti Wi-Fi.\n\nToto nastavení ovlivní všechny uživatele této konzole SHIELD.</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>:  podle měření konzole SHIELD využito asi <xliff:g id="total" example="128KB">%1$s</xliff:g>. Operátor může využití dat účtovat odlišně.</string>
+    <string name="user_cannot_manage_message" product="shield">Uživatele smí spravovat pouze vlastník konzole SHIELD.</string>
+    <string name="user_confirm_remove_self_message" product="shield">Přijdete o místo a data v této konzoli SHIELD.  Tuto akci nelze vrátit zpět.</string>
+    <string name="user_confirm_remove_message" product="shield">Místo v paměti a data uživatele budou z konzole SHIELD smazána.  Tuto akci nelze vrátit zpět.</string>
+    <string name="global_change_warning" product="shield">Toto nastavení ovlivní všechny uživatele této konzole SHIELD.</string>
+
+    <string name="user_profile_confirm_remove_message" product="shield">
+      Místo v paměti a data tohoto profilu budou z konzole SHIELD smazána.  Tuto akci nelze vrátit zpět.
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+      Povolit výměnu dat, pokud se konzole SHIELD dotkne jiného zařízení
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+      Aplikace požaduje zviditelnění konzole SHIELD pro ostatní zařízení Bluetooth. Svoji volbu můžete později změnit v nabídce nastavení Bluetooth.
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+      Aplikace požaduje zapnutí Bluetooth a zviditelnění konzole SHIELD pro ostatní zařízení na %1$d sekund.
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+      Aplikace požaduje zapnutí Bluetooth a zviditelnění konzole SHIELD pro ostatní zařízení. Svoji volbu můžete později změnit v nabídce nastavení Bluetooth.
+    </string>
+</resources>

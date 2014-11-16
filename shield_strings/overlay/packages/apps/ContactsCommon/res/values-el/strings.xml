@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">Μόνο SHIELD, χωρίς συγχρονισμό</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+      Δεν υπάρχουν επαφές προς εξαγωγή.  Εάν υπάρχουν επαφές στο SHIELD, ορισμένοι πάροχοι δεδομένων μπορεί να μην επιτρέπουν την εξαγωγή από το SHIELD.
+    </string>
+</resources>

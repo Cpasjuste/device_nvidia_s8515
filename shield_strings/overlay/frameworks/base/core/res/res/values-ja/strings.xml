@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="low_memory" product="shield">SHIELD のストレージに空き領域がありません。ファイルを削除して空き領域を確保してください。</string>
+    <string name="power_dialog" product="shield">SHIELD オプション</string>
+    <string name="shutdown_confirm" product="shield">SHIELD の電源を切ります。</string>
+    <string name="global_actions" product="shield">SHIELD オプション</string>
+    <string name="permdesc_readSms" product="shield">SHIELD または SIM カードに保存されている SMS メッセージの読み取りをアプリに許可します。これにより、すべての SMS メッセージをコンテンツや機密性に関係なくアプリから読み取ることができるようになります。</string>
+    <string name="permdesc_writeSms" product="shield">SHIELD または SIM カードに保存されている SMS メッセージの書き込みをアプリに許可します。この許可を悪意のあるアプリに利用されると、メッセージが削除される恐れがあります。</string>
+    <string name="permdesc_injectEvents" product="shield">入力イベント (キーを押すなど) を他のアプリに伝えることをアプリに許可します。この許可を悪意のあるアプリに利用されると、SHIELD が乗っ取られる恐れがあります。</string>
+    <string name="permdesc_persistentActivity" product="shield">アプリにその一部をメモリに常駐させることを許可します。これにより他のアプリが使用できるメモリが制限されるため、SHIELD の動作が遅くなることがあります。</string>
+    <string name="permdesc_clearAppCache" product="shield">他のアプリのキャッシュ ディレクトリからファイルを削除して SHIELD のストレージ領域を解放することをアプリに許可します。他のアプリはデータを再取得する必要があるため、これにより他のアプリの起動が遅れる場合があります。</string>
+    <string name="permdesc_readLogs" product="shield">システムの各種ログ ファイルの読み取りをアプリに許可します。許可すると、アプリは SHIELD の使用に関する全般的な情報を特定できるようになります。これには、個人情報や非公開情報が含まれる可能性があります。</string>
+    <string name="permdesc_changeComponentState" product="shield">別のアプリのコンポーネントの有効/無効を変更することをアプリに許可します。この許可を悪意のあるアプリに利用されると、SHIELD の重要な機能が無効にされる恐れがあります。アプリのコンポーネントが利用できなくなったり、整合性が取れなくなったり、不安定な状態になったりする恐れがあるので、許可には注意が必要です。</string>
+    <string name="permdesc_receiveBootCompleted" product="shield">システムの起動後に自動的に起動することをアプリに許可します。許可すると、SHIELD の起動時間が長くなったり、アプリが常に実行されるために SHIELD の全般的なパフォーマンスが低速化したりする可能性があります。</string>
+    <string name="permdesc_broadcastSticky" product="shield">配信が終了してもメモリに残る sticky ブロードキャストの配信をアプリに許可します。この許可を使用し過ぎると、メモリの使用量が増えて SHIELD の動作が遅くなったり不安定になったりする恐れがあります。</string>
+
+    <string name="permdesc_readContacts" product="shield">SHIELD に保存されている連絡先に関するデータの読み取りをアプリに許可します。このデータには、電話、メール、または他の手段で特定の相手と連絡をとった頻度も含まれます。これにより、アプリに連絡先データの保存を許可することになり、悪意のあるアプリによって知らないうちに連絡先データが共有される恐れがあります。</string>
+    <string name="permdesc_writeContacts" product="shield">SHIELD に保存されている連絡先に関するデータの変更をアプリに許可します。このデータには、電話、メール、または他の手段で特定の相手と連絡をとった頻度も含まれます。これにより、アプリに連絡先データの削除を許可することになります。</string>
+    <string name="permdesc_readCallLog" product="shield">SHIELD の通話履歴 (着信や発信のデータなど) の読み取りをアプリに許可します。これにより、アプリに通話履歴データの保存を許可することになり、悪意のあるアプリによって知らないうちに通話履歴データが共有される恐れがあります。</string>
+    <string name="permdesc_writeCallLog" product="shield">SHIELD の通話履歴 (着信や発信のデータなど) の変更をアプリに許可します。
+この許可を悪意のあるアプリに利用されると、通話履歴が消去または変更される恐れがあります。</string>
+    
+    <string name="permdesc_readCalendar" product="shield">SHIELD に保存されているカレンダーの予定 (友だちや同僚の予定も含めすべて) を読み取ることをアプリに許可します。これにより、アプリがカレンダーのデータを機密性に関係なく共有または保存できるようになる可能性があります。</string>
+    
+<string name="permdesc_writeCalendar" product="shield">ユーザーが SHIELD から編集できる予定 (友だちや同僚の予定も含む) を追加、削除、変更することをアプリに許可します。これによりアプリは、カレンダーの所有者から発信されたかのようなメッセージを送信したり、所有者の知らないうちに予定を変更したりできるようになる可能性があります。</string>
+
+
+
+    <string name="permlab_brick" product="shield">SHIELD を完全に無効化</string>
+    <string name="permdesc_brick" product="shield">SHIELD を完全に無効にすることをアプリに許可します。この許可は危険です。</string>
+    <string name="permlab_reboot" product="shield">SHIELD の強制再起動</string>
+    <string name="permdesc_reboot" product="shield">SHIELD の強制的な再起動をアプリに許可します。</string>
+    <string name="permlab_performCdmaProvisioning" product="shield">CDMA SHIELD のセットアップを直接開始</string>
+    <string name="permlab_wakeLock" product="shield">SHIELD のスリープを無効化</string>
+    <string name="permdesc_wakeLock" product="shield">SHIELD のスリープを無効にすることをアプリに許可します。</string>
+    <string name="permlab_devicePower" product="shield">SHIELD の電源オン/オフ</string>
+    <string name="permdesc_devicePower" product="shield">SHIELD の電源のオン/オフをアプリに許可します。</string>
+    <string name="permlab_nvidiaCPUPower" product="shield">NVIDIA Tegra CPU の調整</string>
+    <string name="permdesc_nvidiaCPUPower" product="shield">NVIDIA Tegra CPU のパラメーターを調整することをアプリに許可します。余分な電力が消費される可能性があります。</string>
+
+
+    <string name="permdesc_factoryTest" product="shield">SHIELD ハードウェアへのアクセスを完全に許可して、低レベルのメーカー テストを実行します。メーカーのテスト モードで SHIELD を実行しているときにのみ利用できます。</string>
+    <string name="permdesc_setTime" product="shield">SHIELD の時刻の変更をアプリに許可します。</string>    
+    <string name="permdesc_setTimeZone" product="shield">SHIELD のタイムゾーンの変更をアプリに許可します。</string>
+    <string name="permdesc_getAccounts" product="shield">SHIELD で認識されているアカウントのリストの取得をアプリに許可します。これには、インストールしたアプリによって作成されたアカウントも含まれます。</string>
+    <string name="permdesc_changeWifiMulticastState" product="shield">マルチキャスト アドレスを使用して、この SHIELD だけでなく Wi-Fi ネットワーク上のすべてのデバイスに送信されたパケットを受信することをアプリに許可します。マルチキャスト以外のモードよりも電池の消費量が大きくなります。</string>
+    <string name="permdesc_bluetoothAdmin" product="shield">ローカルの Bluetooth SHIELD を設定することと、リモート端末を検出してペアに設定することをアプリに許可します。</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">SHIELD の WiMAX ネットワークへの接続と切断をアプリに許可します。</string>
+    <string name="permdesc_bluetooth" product="shield">SHIELD の Bluetooth 設定を表示すること、ペアの端末に接続すること/ペアの端末からの接続を受け入れることをアプリに許可します。</string>
+    <string name="policydesc_watchLogin" product="shield">画面のロック解除に正しくないパスワードを入力した回数を監視し、回数が多すぎる場合は SHIELD をロックするか SHIELD のデータをすべて消去します。</string>
+    <string name="policydesc_wipeData" product="shield">警告せずにデータの初期化を実行して SHIELD 内のデータを消去します。</string>
+    <string name="lockscreen_missing_sim_message" product="shield">SHIELD 内に SIM カードがありません。</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">ロック解除パターンの入力を <xliff:g id="number">%d</xliff:g> 回間違えました。あと <xliff:g id="number">%d</xliff:g> 回間違えると、SHIELD のロック解除に Google へのログインが必要になります。\n\n<xliff:g id="number">%d</xliff:g> 秒後にやり直してください。</string>
+
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">SHIELD のロック解除に <xliff:g id="number">%d</xliff:g> 回失敗しました。あと <xliff:g id="number">%d</xliff:g> 回失敗すると、SHIELD は工場出荷状態にリセットされ、ユーザーのデータはすべて失われます。</string>
+
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">SHIELD のロック解除に <xliff:g id="number">%d</xliff:g> 回失敗しました。SHIELD を工場出荷状態にリセットします。
+    </string>
+    <string name="permdesc_writeHistoryBookmarks" product="shield">SHIELD に保存されているブラウザーの履歴やブックマークの変更をアプリに許可します。これにより、アプリがブラウザー データを消去または変更できるようになる可能性があります。メモ: この許可は、サードパーティ製ブラウザーや Web ブラウズ機能を備えた他のアプリでは適用されない可能性があります。</string>
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+<xliff:g id="accessibility_service_name">%1$s</xliff:g> がタッチガイドをオンにしようとしています。タッチガイドをオンにすると、指の位置にあるアイテムの説明を読み上げたり表示したりできます。</string>
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">SHIELD のロック解除に <xliff:g id="number">%d</xliff:g> 回失敗しました。あと <xliff:g id="number">%d</xliff:g> 回失敗すると、SHIELD は工場出荷状態にリセットされ、ユーザーのデータはすべて失われます。</string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">SHIELD のロック解除に <xliff:g id="number">%d</xliff:g> 回失敗しました。SHIELD を工場出荷状態にリセットします。</string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">ロック解除パターンの入力を <xliff:g id="number">%d</xliff:g> 回間違えました。あと <xliff:g id="number">%d</xliff:g> 回間違えると、SHIELD のロック解除に電子メール アカウントが必要になります。\n\n<xliff:g id="number">%d</xliff:g> 秒後にやり直してください。</string>
+    <string name="permdesc_transmitIr" product="shield">SHIELD の赤外線トランスミッターの使用をアプリに許可します。</string>
+    <string name="permdesc_bluetoothPriv" product="shield">ユーザーとのインタラクションなしにリモート デバイスをペアに設定することをアプリに許可します。</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="shield">
+SHIELD が %1$s に接続されている間は一時的に Wi-Fi 接続が解除されます。
+    </string>
+</resources>

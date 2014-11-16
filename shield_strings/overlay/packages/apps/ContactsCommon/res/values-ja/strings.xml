@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_phone" product="shield">SHIELD のみ (非同期)</string>
+    <string name="composer_has_no_exportable_contact" product="shield">
+エクスポートできる連絡先がありません。SHIELD に連絡先がある場合でも、データ プロバイダーによっては連絡先を SHIELD からエクスポートできないことがあります。
+    </string>
+</resources>

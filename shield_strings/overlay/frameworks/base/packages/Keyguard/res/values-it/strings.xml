@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">Nessuna SIM presente nel dispositivo SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       <xliff:g id="number">%d</xliff:g> tentativi errati di sblocco di SHIELD. Dopo altri <xliff:g id="number">%d</xliff:g> tentativi falliti, SHIELD verrà sottoposto a un ripristino dati di fabbrica e tutti i dati utente andranno persi.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       <xliff:g id="number">%d</xliff:g> tentativi errati di sblocco di SHIELD. SHIELD verrà sottoposto a un ripristino dati di fabbrica.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       <xliff:g id="number">%d</xliff:g> tentativi errati di inserimento della sequenza di sblocco. Dopo altri <xliff:g id="number">%d</xliff:g> tentativi falliti, ti verrà chiesto di sbloccare SHIELD con un account e-mail.\n\n Riprova tra <xliff:g id="number">%d</xliff:g> secondi.
+    </string>
+</resources>

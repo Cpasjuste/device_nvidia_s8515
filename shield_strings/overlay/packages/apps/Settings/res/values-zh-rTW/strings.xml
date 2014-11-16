@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_rename_device" product="shield">重新命名 SHIELD</string>
+    <string name="bluetooth_ask_discovery" product="shield">"SHIELD 上的一個應用程式希望使 SHIELD 可在 <xliff:g id="timeout">%1$d</xliff:g> 秒鐘之後被其他 Bluetooth 裝置發現。要允許嗎？"</string>
+    <string name="phone_info_label" product="shield">SHIELD 資訊</string>
+    <string name="roaming_warning_multiuser" product="shield">當您允許使用數據漫遊服務時，您可能需要支付龐大的漫遊費用！\n\n此設定會影響 SHIELD 上的所有使用者。</string>
+    <string name="crypt_keeper_encrypt_title" product="shield">加密 SHIELD</string>
+    <string name="crypt_keeper_encrypt_summary" product="shield">每一次開起 SHIELD 電源之後，需要輸入數字 PIN 或密碼才能解密。</string>
+    <string name="crypt_keeper_desc" product="shield">
+您可以將帳戶、設定、已下載的應用程式及其資料、媒體和其他檔案加密。一旦您將 SHIELD 加密，就必須在每一次開啟電源時輸入數字 PIN 或密碼才能解密。除非您執行原廠資料重設，將您的所有資料清除，否則便無法將 SHIELD 解密。\n\n加密過程可能需要 1 個小時以上的時間。加密前必須先將電池充滿電，並且在過程中讓 SHIELD 持續連接電源，直到加密完成為止。如果您中斷加密流程，您將會失去您的某些或所有資料。</string>
+    <string name="crypt_keeper_button_text" product="shield">加密 SHIELD</string>
+    <string name="crypt_keeper_final_desc" product="shield">
+您無法取消加密操作，如果過程中斷，您的資料將會遺失。
+加密過程可能需要 1 個小時以上的時間，您的 SHIELD 會在這期間重新啟動數次。
+    </string>
+
+    <string name="crypt_keeper_setup_description" product="shield">在 SHIELD 進行加密時稍候。<xliff:g id="percent" example="50">^1</xliff:g>% 完成。</string>
+    <string name="crypt_keeper_failed_summary" product="shield"> 加密過程中斷，無法完成。因此，您再也不能存取 SHIELD 上的資料。\n\n
+若要繼續使用 SHIELD，您需要執行原廠重設。
+當您將 SHIELD 重設之後進行設定時，會有機會將所有備份資料還原至您的 Google 帳戶。
+    </string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> 將切斷與共用 SHIELD 的網際網路連線。</string>
+
+    <string name="nfc_quick_toggle_summary" product="shield">允許當 SHIELD 與其他裝置接觸時交換資料</string>
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">警告﹕您可能需要支付額外的資料傳輸費用。\n\nSHIELD 安裝程式可能需要大量的網路活動。</string>
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">警告﹕SHIELD 無法驗證您的軟體是否為最新版本。</string>
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD 無法連接至這個 Wi-Fi 網路。</string>
+    <string name="dock_audio_summary_none" product="shield">SHIELD 並未固定</string>
+    <string name="dock_not_found_text" product="shield">您必須先將 SHIELD 固定於底座上，才能設定底座音效。</string>
+    <string name="dock_sounds_enable_summary_on" product="shield">將 SHIELD 置入或移出底座時播放音效</string>
+    <string name="dock_sounds_enable_summary_off" product="shield">將 SHIELD 置入或移出底座時不要播放音效</string>
+
+    <string name="accelerometer_summary_on" product="shield">當旋轉 SHIELD 時自動切換瀏覽模式</string>
+    <string name="accelerometer_summary_off" product="shield">當旋轉 SHIELD 時自動切換瀏覽模式</string>
+    <string name="sim_lock_on" product="shield">需要 PIN 才能使用 SHIELD</string>
+    <string name="sim_lock_off" product="shield">需要 PIN 才能使用 SHIELD</string>
+    <string name="device_info_settings" product="shield">SHIELD 狀態</string>
+
+    <string name="device_status_summary" product="shield">電池、網路狀態及其他資訊</string>
+    <string name="status_number" product="shield">MDN</string>
+    <string name="master_clear_summary" product="shield">清除 SHIELD 上的所有資料</string>
+    <string name="master_clear_desc" product="shield">"這將會從 SHIELD 的以下<b>內部儲存裝置</b>清除所有資料：\n\n<li>您的 Google 帳戶</li>\n<li>系統和應用程式資料及設定</li>\n<li>下載應用程式</li>"</string>
+    <string name="master_clear_button_text" product="shield">重設 SHIELD</string>
+    <string name="bluetooth_tethering_available_subtext" product="shield">共用 SHIELD 的網際網路連線</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">與 1 個裝置共用 SHIELD 的網際網路連線</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">與 <xliff:g id="connectedDeviceCount">%1$d</xliff:g> 個裝置共用 SHIELD 的網際網路連線</string>
+    <string name="bluetooth_tethering_off_subtext" product="shield">未共用這個 SHIELD 的網際網路連線</string>
+    <string name="location_street_level" product="shield">允許應用程式使用 SHIELD 上的 GPS 來找出您的精確位置</string>
+    <string name="about_settings" product="shield">關於 SHIELD</string>
+    <string name="install_all_warning" product="shield">來歷不明的應用程式更有可能會損害您的 SHIELD 及個人資料。如因使用這些應用程式導致 SHIELD 受損或資料遺失，請自行負責。</string>
+    <string name="security_settings_desc" product="shield">這個應用程式可存取 SHIELD 上的下列項目：</string>
+    <string name="security_settings_desc_multi" product="shield">這個應用程式可存取您 SHIELD 上的下列項目。由於能夠與 <xliff:g id="additional_apps_list">%2$s</xliff:g> 以相同的流程執行，為了增進效能與降低記憶體使用量，<xliff:g id="base_app_name">%1$s</xliff:g> 可以使用其中某些權限：</string>
+
+    <string name="move_app_to_internal" product="shield">移至 SHIELD</string>
+    <string name="runningservicedetails_stop_dlg_text" product="shield">如果您停用這項服務，SHIELD 上的某些功能可能無法正常運作，待您重新開機之後才會恢復正常。</string>
+    <string name="testing_phone_info" product="shield">SHIELD 資訊</string>
+    <string name="power_idle" product="shield">SHIELD 閒置中</string>
+
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <string name="battery_desc_standby" product="shield">當 SHIELD 閒置時的耗電量</string>
+    <string name="really_remove_account_message" product="shield">移除帳戶之後，SHIELD 上所有的訊息、聯絡人和其他資料將全部遭到刪除！</string>
+    <string name="remove_account_failed" product="shield">某些應用程式需要使用這個帳戶。若要移除帳戶，您必須在「設定 &gt; 備份與重設」中將 SHIELD 重設為原廠預設值（系統會刪除您所有的個人資料）。</string>
+    <string name="data_usage_auto_sync_on_dialog" product="shield">您在網路上對帳戶進行的任何變更都會自動複製到您的 SHIELD。\n\n某些帳戶也可能自動將您在 SHIELD 上進行的所有變更複製到網路上。Google 帳戶就是這樣運作。\n\n若要選擇要在每個帳戶內同步處理哪種資訊，前往「設定 &gt; 帳戶」。</string>
+    <string name="data_usage_limit_dialog_mobile" product="shield">達到指定的流量上限時，系統會停用您的行動資料連線。\n\n因為 SHIELD 計算資料使用量，而且您的行動通訊業者對於使用量的計算方式可能有所不同，因此考慮使用傳統限制。</string>
+    <string name="data_usage_restrict_background_multiuser" product="shield">如果您限制背景行動資料傳輸量，則必須連接至 WiFi 網路，某些應用程式和服務才能運作。\n\n此設定會影響此 SHIELD 上的所有使用者。</string>
+
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>：根據 SHIELD 計算，已使用大約 <xliff:g id="total" example="128KB">%1$s</xliff:g>。您的行動通訊業者對於資料使用量的計算方式可能會有所不同。</string>
+    <string name="user_cannot_manage_message" product="shield">只有 SHIELD 的擁有者可以管理使用者。</string>
+    <string name="user_confirm_remove_self_message" product="shield">您將會失去在此 SHIELD 上的可用空間和資料。您無法復原這個動作。</string>
+    <string name="user_confirm_remove_message" product="shield">這位使用者在此 SHIELD 上的可用空間和資料將會消失。您無法復原這個動作。</string>
+    <string name="global_change_warning" product="shield">此設定會影響此 SHIELD 上的所有使用者。</string>
+    <string name="user_profile_confirm_remove_message" product="shield">
+這個設定檔在此 SHIELD 上的可用空間和資料將會消失。您無法復原這個動作。
+    </string>
+    <string name="restriction_nfc_enable_summary" product="shield">
+允許當 SHIELD 與其他裝置接觸時交換資料
+    </string>
+    <string name="bluetooth_ask_lasting_discovery" product="shield">
+有一個應用程式想要讓其他藍芽裝置能夠看見 SHIELD。您日後可在「藍芽設定」中進行變更。
+    </string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="shield">
+有一個應用程式想要開啟藍牙，讓其他裝置能夠看見 SHIELD %1$d 秒鐘。
+    </string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="shield">
+有一個應用程式想要開啟藍牙，讓其他裝置能夠看見 SHIELD。您日後可在「藍芽設定」中進行變更。
+    </string>
+</resources>

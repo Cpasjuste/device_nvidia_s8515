@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_missing_sim_message" product="shield">Aucune carte SIM n\'est insérée dans la console SHIELD.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">
+       Vous avez tenté de déverrouiller votre console SHIELD de façon incorrecte à <xliff:g id="number">%d</xliff:g> reprises. Après <xliff:g id="number">%d</xliff:g> nouvelles tentatives infructueuses, les paramètres par défaut établis en usine de votre console SHIELD seront restaurés et toutes les données utilisateur seront perdues.
+    </string>
+    <string name="kg_failed_attempts_now_wiping" product="shield">
+       Vous avez tenté de déverrouiller votre console SHIELD de façon incorrecte à <xliff:g id="number">%d</xliff:g> reprises. Les paramètres par défaut établis en usine de votre console SHIELD vont à présent être restaurés.
+    </string>
+    <string name="kg_failed_attempts_almost_at_login" product="shield">
+       Vous avez dessiné un schéma de déverrouillage incorrect à <xliff:g id="number">%d</xliff:g> reprises. Après <xliff:g id="number">%d</xliff:g> nouvelles tentatives infructueuses, il vous sera demandé de déverrouiller la console SHIELD en utilisant un compte de messagerie.\n\n Veuillez réessayer dans <xliff:g id="number">%d</xliff:g> secondes.
+    </string>
+</resources>

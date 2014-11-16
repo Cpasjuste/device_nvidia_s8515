@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="headerMarginTop">15dp</dimen>
+    <dimen name="textMarginRight">30dp</dimen>
+</resources>

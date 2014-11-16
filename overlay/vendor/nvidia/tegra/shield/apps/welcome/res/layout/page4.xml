@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guide4"
+    style="@style/PageLayout" >
+
+    <TextView
+        android:id="@+id/pg4virtle"
+        android:layout_width="@dimen/pg4_virtextX"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/pg4_virtextY"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/pg4_virtle"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/mediumtxt" />
+
+    <TextView
+        android:id="@+id/pg4rstxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/pg4virtle"
+        android:layout_below="@id/pg4virtle"
+        android:text="@string/pg4_rstxt"
+        android:textColor="#FFFFFFFF"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/smalltxt" />
+
+    <View
+        android:layout_width="@dimen/linewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pg4rstxt"
+        android:layout_alignTop="@id/pg4rstxt"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/pg4rstxt"
+        android:background="#717171" />
+
+    <com.nvidia.shield.welcome.layouts.IconTextView
+        android:id="@+id/pg4btntxt"
+        android:layout_width="@dimen/pg4_btntextX"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/pg4_btntextmarg"
+        android:layout_marginTop="@dimen/pg4_btntextY"
+        android:text="@string/pg4_btntxt"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/smalltxt"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="@dimen/linewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pg4btntxt"
+        android:layout_alignTop="@id/pg4btntxt"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/pg4btntxt"
+        android:background="#717171" />
+
+    <TextView
+        android:id="@+id/pg4mtdtle"
+        android:layout_width="@dimen/pg4_mtdtextX"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/pg4_mtdtextY"
+        android:gravity="right"
+        android:text="@string/pg4_mtdtle"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/mediumtxt" />
+
+    <View
+        android:layout_width="@dimen/linewidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pg4mtdtle"
+        android:layout_alignTop="@id/pg4mtdtle"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/pg4mtdtle"
+        android:background="#717171" />
+
+</RelativeLayout>

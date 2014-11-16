@@ -19,180 +19,211 @@
 
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
+    <!-- XXXXX NOTE THE FOLLOWING RESOURCES USE THE WRONG NAMING CONVENTION.
+         Please don't copy them, copy anything else. -->
 
-    <!-- The default iface on which to monitor data use -->
-    <string name="config_datause_iface">rmnet0</string>
-
-    <string-array translatable="false" name="config_tether_usb_regexs">
-    <item>"rndis0"</item>
-    </string-array>
-
-    <string-array translatable="false" name="config_tether_wifi_regexs">
-        <item>"wlan0"</item>
-    </string-array>
-
-    <!-- Array of ConnectivityManager.TYPE_xxxx values allowable for tethering -->
-    <!-- Common options are [1, 4] for TYPE_WIFI and TYPE_MOBILE_DUN or
-                      <!== [0,1,5,7] for TYPE_MOBILE, TYPE_WIFI, TYPE_MOBILE_HIPRI and TYPE_BLUETOOTH -->
-    <integer-array translatable="false" name="config_tether_upstream_types">
-        <item>0</item>
-        <item>1</item>
-        <item>5</item>
-        <item>7</item>
-    </integer-array>
-
-    <!-- List of regexpressions describing the interface (if any) that represent tetherable
-                  bluetooth interfaces.  If the device doesn't want to support tethering over bluetooth this
-         should be empty. -->
-    <string-array translatable="false" name="config_tether_bluetooth_regexs">
-        <item>"bt-pan"</item>
-    </string-array>
-
-    <!-- An Array of "[Connection name],[ConnectivityManager.TYPE_xxxx],
-                  [associated radio-type],[priority],[restoral-timer(ms)],[dependencyMet]  -->
-    <!-- the 5th element "resore-time" indicates the number of milliseconds to delay
-                  before automatically restore the default connection.  Set -1 if the connection
-         does not require auto-restore. -->
-    <!-- the 6th element indicates boot-time dependency-met value. -->
+    <!-- This string array should be overridden by the device to present a list of network
+         attributes.  This is used by the connectivity manager to decide which networks can coexist
+         based on the hardware -->
+    <!-- An Array of "[Connection name],[ConnectivityManager connection type],
+         [associated radio-type],[priority]  -->
     <string-array translatable="false" name="networkAttributes">
-        <item>"wifi,1,1,2,-1,true"</item>
-        <item>"mobile,0,0,0,-1,true"</item>
-        <item>"mobile_mms,2,0,4,60000,true"</item>
-        <item>"mobile_supl,3,0,4,60000,true"</item>
-        <item>"mobile_dun,4,0,4,60000,true"</item>
-        <item>"bluetooth,7,7,1,-1,true"</item>
-        <item>"mobile_hipri,5,0,5,60000,true"</item>
-        <item>"ethernet,9,9,3,-1,true"</item>
-    </string-array> 
+        <item>"wifi,1,1,1,-1,true"</item>
+        <item>"bluetooth,7,7,0,-1,true"</item>
+        <item>"ethernet,9,9,2,-1,true"</item>
+    </string-array>
 
-    <!-- An Array of "[ConnectivityManager connectionType],
-                  [# simultaneous connection types]"  -->
+    <!-- This array should be overridden by the device to present a list of radio
+         attributes. This is used by the connectivity manager to decide which networks
+         can coexist based on the hardware. -->
+    <!-- An array of "[ConnectivityManager connectionType],
+                      [# simultaneous connection types]" -->
     <string-array translatable="false" name="radioAttributes">
         <item>"1,1"</item>
-        <item>"0,1"</item>
         <item>"7,1"</item>
         <item>"9,0"</item>
     </string-array>
 
-    <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
+    <!-- List of regexpressions describing the interface (if any) that represent tetherable
+         USB interfaces.  If the device doesn't want to support tething over USB this should
+         be empty.  An example would be "usb.*" -->
+    <string-array translatable="false" name="config_tether_usb_regexs">
+        <item>"rndis0"</item>
+    </string-array>
 
-    <!-- Regex of wired ethernet ifaces -->
-    <string translatable="false" name="config_ethernet_iface_regex">(eth|usb)\\d</string>
+    <!-- Array of allowable ConnectivityManager network types for tethering -->
+     <integer-array translatable="false" name="config_tether_upstream_types">
+         <item>0</item>
+         <item>1</item>
+         <item>5</item>
+         <item>7</item>
+    </integer-array>
 
+    <!-- List of regexpressions describing the interface (if any) that represent tetherable
+         Wifi interfaces.  If the device doesn't want to support tethering over Wifi this
+         should be empty.  An example would be "softap.*" -->
+    <string-array translatable="false" name="config_tether_wifi_regexs">
+        <item>"wlan0"</item>
+    </string-array>
+
+    <!-- List of regexpressions describing the interface (if any) that represent tetherable
+    Bluetooth interfaces.  If the device doesn't want to support tethering over bluetooth this
+    should be empty. -->
+    <string-array translatable="false" name="config_tether_bluetooth_regexs">
+        <item>"bt-pan"</item>
+    </string-array>
+
+    <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
+         Software implementation will be used if config_hardware_auto_brightness_available is not set -->
+    <bool name="config_automatic_brightness_available">false</bool>
+
+    <!-- Indicate whether closing the lid causes the device to go to sleep and opening
+         it causes the device to wake up.
+         The default is false. -->
+    <bool name="config_lidControlsSleep">true</bool>
+
+    <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
+         The N entries of this array define N  1 zones as follows:
+
+         Zone 0:        0 <= LUX < array[0]
+         Zone 1:        array[0] <= LUX < array[1]
+         ...
+         Zone N:        array[N - 1] <= LUX < array[N]
+         Zone N + 1     array[N] <= LUX < infinity
+
+         Must be overridden in platform specific overlays -->
+    <integer-array name="config_autoBrightnessLevels">
+        <item>10</item>
+        <item>160</item>
+        <item>320</item>
+        <item>640</item>
+        <item>1280</item>
+    </integer-array>
+
+    <!-- Array of output values for LCD backlight corresponding to the LUX values
+         in the config_autoBrightnessLevels array.  This array should have size one greater
+         than the size of the config_autoBrightnessLevels array.
+         This must be overridden in platform specific overlays -->
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>30</item>
+        <item>100</item>
+        <item>130</item>
+        <item>170</item>
+        <item>200</item>
+        <item>250</item>
+    </integer-array>
+
+    <!-- Array of output values for button backlight corresponding to the LUX values
+         in the config_autoBrightnessLevels array.  This array should have size one greater
+         than the size of the config_autoBrightnessLevels array.
+         This must be overridden in platform specific overlays -->
+    <integer-array name="config_autoBrightnessButtonBacklightValues">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <!-- Array of output values for keyboard backlight corresponding to the LUX values
+         in the config_autoBrightnessLevels array.  This array should have size one greater
+         than the size of the config_autoBrightnessLevels array.
+         This must be overridden in platform specific overlays -->
+    <integer-array name="config_autoBrightnessKeyboardBacklightValues">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <!-- This device is not "voice capable"; it's data-only. -->
+    <bool name="config_voice_capable">false</bool>
+
+    <!-- This device does not allow sms service. -->
+    <bool name="config_sms_capable">false</bool>
+    <!-- Max space (in MB) allocated to DownloadManager to store the downloaded files
+         if they are to be stored in DownloadManager's data dir,
+         which typically is /data/data/com.android.providers.downloads/files. -->
+    <integer name="config_downloadDataDirSize">200</integer>
+
+    <!-- When the free space available in DownloadManager's data dir falls
+         below the percentage value specified by this param, DownloadManager
+         starts removing files to try to make percentage of available
+         free space above this threshold value. -->
+    <integer name="config_downloadDataDirLowSpaceThreshold">10</integer>
+
+    <!-- When a database query is executed, the results retuned are paginated
+         in pages of size (in KB) indicated by this value -->
+    <integer name="config_cursorWindowSize">2048</integer>
+
+    <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+
+    <!-- Enable electronBeam animation instead of fading off. -->
+    <bool name="config_animateScreenLights">false</bool>
+
+    <!-- Boolean indicating whether the wifi chipset supports background scanning mechanism.
+         This mechanism allows the host to remain in suspend state and the dongle to actively
+         scan and wake the host when a configured SSID is detected by the dongle. This chipset
+         capability can provide power savings when wifi needs to be always kept on.
+         The driver commands needed to support the feature are BGSCAN-START and BGSCAN-STOP -->
     <bool name="config_wifi_background_scan_support">true</bool>
 
-    <bool name="config_disableMenuKeyInLockScreen">true</bool>
+    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
+         autodetected from the Configuration. -->
+    <bool name="config_showNavigationBar">false</bool>
 
-    <bool name="config_automatic_brightness_available">true</bool>
+    <!-- Integer indicating wpa_supplicant scan interval in milliseconds -->
+    <integer translatable="false" name="config_wifi_supplicant_scan_interval">60000</integer>
 
-    <integer-array name="config_autoBrightnessLevels">
-        <item>13</item>
-        <item>26</item>
-        <item>66</item>
-        <item>82</item>
-        <item>133</item>
-        <item>166</item>
-        <item>266</item>
-        <item>300</item>
-        <item>433</item>
-        <item>466</item>
-        <item>600</item>
-        <item>650</item>
-        <item>867</item>
-        <item>900</item>
-        <item>1300</item>
-        <item>2200</item>
-        <item>6000</item>
-        <item>9000</item>
-    </integer-array>
+    <!-- Flag indicating that the media framework should allow changing
+         master volume stream and nothing else . -->
+    <bool name="config_useMasterVolume">false</bool>
 
-    <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>20</item>
-        <item>30</item>
-        <item>50</item>
-        <item>70</item>
-        <item>80</item>
-        <item>90</item>
-        <item>100</item>
-        <item>120</item>
-        <item>139</item>
-        <item>151</item>
-        <item>154</item>
-        <item>161</item>
-        <item>169</item>
-        <item>174</item>
-        <item>176</item>
-        <item>202</item>
-        <item>221</item>
-        <item>241</item>
-        <item>255</item>
-    </integer-array>
+    <!-- If this flag is true, then config_hasPermanentMenuKey will determin
+         whether a device has a permanent menu key or not. -->
+    <bool name="config_forceSetPermanentMenuKey">true</bool>
 
-    <integer-array name="config_autoBrightnessButtonBacklightValues">
-        <item>50</item>
-        <item>70</item>
-        <item>90</item>
-        <item>110</item>
-        <item>130</item>
-        <item>150</item>
-        <item>170</item>
-        <item>190</item>
-        <item>210</item>
-        <item>230</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-    </integer-array>
+    <!-- Whether a device has a permanent menu key or not. This flag is valid only
+         when config_forceSetPermanentMenuKey is set to true. -->
+    <bool name="config_hasPermanentMenuKey">false</bool>
 
-    <integer-array name="config_autoBrightnessKeyboardBacklightValues">
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-    </integer-array>
+    <integer name="config_longPressOnHomeBehavior">2</integer>
 
-    <!-- Boolean indicating if current platform supports BLE peripheral mode -->
-    <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
+    <integer name="config_doubleTapOnHomeBehavior">1</integer>
 
-    <integer name="config_deviceHardwareKeys">7</integer>
+    <!--  Maximum number of supported users -->
+    <integer name="config_multiuserMaximumUsers">8</integer>
 
-    <!-- Whether WiFi display is supported by this device.
-         There are many prerequisites for this feature to work correctly.
-         Here are a few of them:
-         * The WiFi radio must support WiFi P2P.
-         * The WiFi radio must support concurrent connections to the WiFi display and
-           to an access point.
-         * The Audio Flinger audio_policy.conf file must specify a rule for the "r_submix"
-           remote submix module.  This module is used to record and stream system
-           audio output to the WiFi display encoder in the media server.
-         * The remote submix module "audio.r_submix.default" must be installed on the device.
-         * The device must be provisioned with HDCP keys (for protected content).
-    -->
-    <bool name="config_enableWifiDisplay">true</bool>
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+        <!-- The standard AOSP fused location provider -->
+        <item>com.android.location.fused</item>
+        <!-- The GMS Network Location Provider -->
+        <item>com.google.android.location</item>
+    </string-array>
 
-    <!-- Device supports LED flashlight -->
-    <bool name="config_enableTorch">true</bool>
+    <!--  LED on time for low-battery LED warning  -->
+    <integer name="config_notificationsBatteryLedOn">500</integer>
 
+    <!--  LED off time for low-battery LED warning  -->
+    <integer name="config_notificationsBatteryLedOff">500</integer>
+
+    <!-- Whether enable controller mapper -->
+    <bool name="config_controllerMapper">true</bool>
+
+    <!-- Whether enable sleep button in power menu -->
+    <add-resource type="bool" name="config_enableSleepButtonInPowerMenu"/>
+    <bool name="config_enableSleepButtonInPowerMenu">true</bool>
+
+    <!--Config to enable tegraoverlay-->
+    <add-resource type="bool" name="enable_tegraOverlay" />
+    <bool name="enable_tegraOverlay">true</bool>
+
+    <!--Shield-only variable for "android version easter egg" layout padding-->
+    <add-resource type="integer" name="platlogo_padding" />
+    <integer name="platlogo_padding">0</integer>
 </resources>

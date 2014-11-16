@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="custom" product="shield">
+自定义（无法在 SHIELD 上自定义）
+    </string>
+</resources>

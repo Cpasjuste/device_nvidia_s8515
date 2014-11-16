@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="app_name">"SHIELD 說明"</string>
+  <string name="pagetitle">"認識您的 SHIELD"</string>
+  <string name="pg1_tle">"認識您的 SHIELD"</string>
+  <string name="pg2_tle">"使用功能按鈕"</string>
+  <string name="pg3_tle">"使用選擇按鈕"</string>
+  <string name="pg4_tle">"更多與 SHIELD 互動的方法"</string>
+  <string name="pg0_title">"歡迎使用 SHIELD"</string>
+  <string name="pg0_text">"選取下面的使用者指南連結以瞭解所有 SHIELD 功能，或是繼續檢視基本的功能和特性。"</string>
+  <string name="pg1_blktle">"NVIDIA 按鈕"</string>
+  <string name="pg1_blktxt">"<b>按一下</b>以啟動 SHIELD 遊戲，尋找新遊戲，並從您的 GeForce GTX PC 串流遊戲。\n\n<b>按住不放</b>以開啟「電源」功能表。"</string>
+  <string name="pg2_voltle">"音量"</string>
+  <string name="pg2_voltxt">"<b>按下</b>以控制音量\n\n<b>按住不放</b>以靜音"</string>
+  <string name="pg2_backtle">"上一步"</string>
+  <string name="pg2_backtxt">"跳到上一個螢幕"</string>
+  <string name="pg2_starttle">"開始"</string>
+  <string name="pg2_hometle">"首頁"</string>
+  <string name="pg2_hometxt">"打開「Android 首頁」螢幕\n\n<b>連按兩下</b>以檢視「最近的應用程式」"</string>
+  <string name="pg3_ytle">"Y 按鈕"</string>
+  <string name="pg3_ytxt">"大多數應用程式中的功能表"</string>
+  <string name="pg3_xtle">"X 按鈕"</string>
+  <string name="pg3_btle">"B 按鈕"</string>
+  <string name="pg3_btxt">"大多數應用程式中的上一步或取消"</string>
+  <string name="pg3_atle">"A 按鈕"</string>
+  <string name="pg3_atxt">"啟動大多數應用程式中的選定項目"</string>
+  <string name="pg4_mtdtle">"多點觸控顯示器"</string>
+  <string name="pg4_virtle">"虛擬滑鼠"</string>
+  <string name="pg4_rstxt">"<b>右搖桿</b>\n用來移動滑鼠指標"</string>
+  <string name="pg4_btntxt">"<b>按 </b>{R.drawable.stickTrigger}<b> 或 </b>{R.drawable.aButton} 以點按"</string>
+  <string name="blake_pg1_back_title">後退</string>
+  <string name="blake_pg1_back_txt"><b>點選</b>以跳到上一個畫面</string>
+  <string name="blake_pg1_home_title">首頁</string>
+  <string name="blake_pg1_home_txt">"<b>點選</b> 以打開「Android 首頁」\n\n<b>點兩下</b> 以檢視「最近使用的應用程式」\n\n<b>按住不放</b> 以啟動 Google Now 及語言搜尋功能</string>
+  <string name="blake_pg2_title">NVIDIA 按鈕</string>
+  <string name="blake_pg2_txt"><b>點選</b>以啟動 SHIELD Hub。尋找新遊戲、啟動 SHIELD 遊戲以及從您的 GeForce GTX 電腦串流遊戲。</string>
+  <string name="blake_pg3_title">開始</string>
+  <string name="blake_pg3_txt"><b>按住</b>以存取 GameStream 和遊戲台對應程式的其他控制項</string>
+  <string name="twitch"><b>Twitch</b></string>
+  <string name="record_and_share"><b>錄製和共享</b></string>
+  <string name="virtual_controls"><b>虛擬控制</b></string>
+</resources>
