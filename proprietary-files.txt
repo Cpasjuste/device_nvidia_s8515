@@ -89,6 +89,7 @@ lib/libjni_nvremote.so
 lib/hw/audio.usb.default.so
 lib/hw/audio.a2dp.default.so
 lib/hw/audio.primary.tegra.so
+lib/hw/audio.r_submix.default.so
 lib/hw/hwcomposer.tegra.so
 lib/hw/gralloc.tegra.so
 lib/hw/sensors.ceres.so
@@ -117,6 +118,12 @@ vendor/firmware/bcm43341/fw_bcmdhd_a0.bin
 vendor/firmware/bcm43341/fw_bcmdhd_mfgtest.bin
 etc/firmware/BCM43341A0_001.001.030.0015.0000.hcd
 etc/firmware/BCM43341B0_002.001.014.0008.0011.hcd
+etc/firmware/nvavp_aud_ucode.bin
+etc/firmware/nvavp_os_0ff00000.bin
+etc/firmware/nvavp_os_eff00000.bin
+etc/firmware/nvavp_vid_ucode_alt.bin
+etc/firmware/tegra14x/nvhost_msenc030.fw
+etc/firmware/tegra14x/nvhost_tsec.fw
 etc/wifi/wpa_supplicant_overlay.conf
 etc/wifi/p2p_supplicant_overlay.conf
 etc/nvram_rev2.txt
@@ -216,8 +223,6 @@ etc/bluetooth/bt_stack.conf
 etc/audioConfig_qvoice_icera_pc400.xml
 etc/model_frontal.xml
 etc/enctune.conf
-#etc/media_profiles.xml
-#etc/media_codecs.xml
 etc/audio_policy.conf
 etc/dhcpcd/dhcpcd.conf
 etc/asound.conf
