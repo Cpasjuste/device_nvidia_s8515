@@ -10,55 +10,6 @@ $(call inherit-product, build/target/product/languages_full.mk)
 # Roth screen sizes: 640dp/360dp  960dp/540dp
 PRODUCT_AAPT_CONFIG += mdpi hdpi xhdpi sw320dp sw340dp sw360dp sw380dp sw540dp small normal
 
-ifeq ($(wildcard vendor/nvidia/tegra/core-private),vendor/nvidia/tegra/core-private)
-    NVFLASH_FILES_PATH := vendor/nvidia/tegra/customers/nvidia-partner/roth
-else
-    NVFLASH_FILES_PATH := vendor/nvidia/tegra/odm/roth
-endif
-
-ifeq ($(NV_ANDROID_FRAMEWORK_ENHANCEMENTS),TRUE)
-PRODUCT_COPY_FILES += \
-    $(NVFLASH_FILES_PATH)/nvflash/P2454_Hynix_4gb_H5TC4G43AFR_204MHz.cfg:flash_204Mhz.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/P2454_Hynix_4gb_H5TC4G43AFR_204Mhz.bct:flash_204Mhz.bct \
-    $(NVFLASH_FILES_PATH)/nvflash/P2454_Hynix_4gb_H5TC4G43AFR_450Mhz.cfg:bct.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/P2454_Hynix_4gb_H5TC4G43AFR_450Mhz.bct:flash.bct \
-    $(NVFLASH_FILES_PATH)/nvflash/P2454_Hynix_4gb_H5TC4G43AFR_480Mhz.cfg:flash_480Mhz.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/P2454_Hynix_4gb_H5TC4G43AFR_480Mhz.bct:flash_480Mhz.bct \
-    $(NVFLASH_FILES_PATH)/nvflash/P2454_Hynix_4gb_H5TC4G43AFR_528Mhz.cfg:flash_528Mhz.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/P2454_Hynix_4gb_H5TC4G43AFR_528Mhz.bct:flash_528Mhz.bct \
-    $(NVFLASH_FILES_PATH)/nvflash/P2454_Hynix_4gb_H5TC4G43AFR_660Mhz.cfg:flash_660Mhz.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/P2454_Hynix_4gb_H5TC4G43AFR_660Mhz.bct:flash_660Mhz.bct \
-    $(NVFLASH_FILES_PATH)/nvflash/P2454_Hynix_4gb_H5TC4G43AFR_792Mhz.cfg:flash_792Mhz.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/P2454_Hynix_4gb_H5TC4G43AFR_792Mhz.bct:flash_792Mhz.bct \
-    $(NVFLASH_FILES_PATH)/nvflash/P2560_Hynix_2GB_H5TC4G63AFR-RDA_450Mhz_r415_v2.cfg:flash_p2560_450Mhz.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/P2560_Hynix_2GB_H5TC4G63AFR-RDA_450Mhz_r415_v2.bct:flash_p2560_450Mhz.bct \
-    $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_dtb_emmc_full.cfg:flash.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_dtb_emmc_full_mfg.cfg:flash_mfg.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_dtb_emmc_full_sif.cfg:flash_sif.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/eks_nokey.dat:eks.dat \
-    $(NVFLASH_FILES_PATH)/nvflash/SIF.txt:SIF.txt \
-    $(NVFLASH_FILES_PATH)/nvflash/nvidia.bmp:nvidia.bmp \
-    $(NVFLASH_FILES_PATH)/nvflash/lowbat.bmp:lowbat.bmp \
-    $(NVFLASH_FILES_PATH)/nvflash/charging.bmp:charging.bmp \
-    $(NVFLASH_FILES_PATH)/nvflash/charged.bmp:charged.bmp \
-    $(NVFLASH_FILES_PATH)/nvflash/fullycharged.bmp:fullycharged.bmp \
-    $(NVFLASH_FILES_PATH)/nvflash/fuse_write.txt:fuse_write.txt
-else
-PRODUCT_COPY_FILES += \
-    $(NVFLASH_FILES_PATH)/nvflash/P2454_Hynix_4gb_H5TC4G43AFR_450Mhz.bct:flash.bct \
-	$(NVFLASH_FILES_PATH)/nvflash/android_fastboot_dtb_emmc_full.cfg:flash.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/P2560_Hynix_2GB_H5TC4G63AFR-RDA_450Mhz_r415_v2.cfg:flash_p2560_450Mhz.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/P2560_Hynix_2GB_H5TC4G63AFR-RDA_450Mhz_r415_v2.bct:flash_p2560_450Mhz.bct \
-    $(NVFLASH_FILES_PATH)/nvflash/eks_nokey.dat:eks.dat \
-    $(NVFLASH_FILES_PATH)/nvflash/nvidia.bmp:nvidia.bmp \
-    $(NVFLASH_FILES_PATH)/nvflash/lowbat.bmp:lowbat.bmp \
-    $(NVFLASH_FILES_PATH)/nvflash/charging.bmp:charging.bmp \
-    $(NVFLASH_FILES_PATH)/nvflash/charged.bmp:charged.bmp \
-    $(NVFLASH_FILES_PATH)/nvflash/fullycharged.bmp:fullycharged.bmp
-endif
-
-NVFLASH_FILES_PATH :=
-
 PRODUCT_COPY_FILES += \
     device/nvidia/roth/blob-binaries/bootloader.bin:bootloader_BIN.bin
 

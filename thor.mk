@@ -4,7 +4,6 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_no_telephony.mk)
 
-
 ifeq ($(wildcard vendor/nvidia/tegra/core-private),vendor/nvidia/tegra/core-private)
 ifeq ($(wildcard 3rdparty/google/gms-apps/products/gms_simple.mk),3rdparty/google/gms-apps/products/gms_simple.mk)
 $(call inherit-product, 3rdparty/google/gms-apps/products/gms_simple.mk)
@@ -14,7 +13,6 @@ ifeq ($(wildcard 3rdparty/google/gms-apps/products/gms.mk),3rdparty/google/gms-a
 $(call inherit-product, 3rdparty/google/gms-apps/products/gms.mk)
 endif
 endif
-
 
 ifeq ($(wildcard 3rdparty/applications/prebuilt/common/products/roth.mk),3rdparty/applications/prebuilt/common/products/roth.mk)
 $(call inherit-product, 3rdparty/applications/prebuilt/common/products/roth.mk)
