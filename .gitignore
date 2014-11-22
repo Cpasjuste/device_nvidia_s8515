@@ -15,7 +15,7 @@
 *.a
 *.s
 *.ko
-*.so
+#*.so
 *.so.dbg
 *.mod.c
 *.i
@@ -84,7 +84,5 @@ arch/arm/boot/compressed/piggy.gzip
 arch/arm/boot/compressed/vmlinux
 
 # prevent blobs removal
-!blobs/audio_policy.tegra.so
-!blobs/power.ceres.so
-!blobs/camera.tegra.so
+!blobs/*
 !nvflash/bootloader.bin
