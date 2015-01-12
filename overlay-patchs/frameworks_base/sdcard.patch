@@ -217,7 +217,7 @@ index b3153a9..f000721
  
      <permission name="android.permission.ACCESS_MTP" >
 diff --git a/services/java/com/android/server/MountService.java b/services/java/com/android/server/MountService.java
-index 69c8142..372d2ac 100755
+index 4c5a5c2..e39ec58 100644
 --- a/services/java/com/android/server/MountService.java
 +++ b/services/java/com/android/server/MountService.java
 @@ -1328,7 +1328,13 @@ class MountService extends IMountService.Stub
