@@ -3,8 +3,8 @@
 VENDOR=nvidia
 DEVICE=s8515
 
-mkdir ../../../.repo/local_manifests
-cp repo-twrp.xml ../../../.repo/local_manifests/
+#mkdir ../../../.repo/local_manifests
+#cp repo-twrp.xml ../../../.repo/local_manifests/
 
 if [ $# -eq 0 ]; then
   SRC=adb

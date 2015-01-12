@@ -173,11 +173,11 @@ etc/gps/gpsconfig.xml
 etc/ril_atc.config
 
 # sensors
-lib/libsensors.base.so
-lib/libsensors.isl29018.so
-lib/libsensors.mpl.so
-lib/libsensors.isl29028.so
-lib/libsensors.nvs_input.so
+#lib/libsensors.base.so
+#lib/libsensors.isl29018.so
+#lib/libsensors.mpl.so
+#lib/libsensors.isl29028.so
+#lib/libsensors.nvs_input.so
 
 #
 bin/akmd8963
