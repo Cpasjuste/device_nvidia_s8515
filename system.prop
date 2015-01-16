@@ -20,6 +20,6 @@ ro.com.google.clientidbase=android-nvidia
 ro.zygote.disable_gl_preload=true
 
 # swapsd @ cpasjuste
-config.swapsd=false
+config.swapsd=true
 
 
