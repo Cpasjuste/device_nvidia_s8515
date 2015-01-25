@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/media/media_codecs.xml:system/etc/media_codecs.xml \
 	$(LOCAL_PATH)/media/media_profiles.xml:system/etc/media_profiles.xml \
+	$(LOCAL_PATH)/media/nvaudio_conf.xml:system/etc/nvaudio_conf.xml \
 	$(LOCAL_PATH)/audio/conf/alsa.conf:system/usr/share/alsa/alsa.conf \
 	$(LOCAL_PATH)/audio/conf/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
 	$(LOCAL_PATH)/audio/conf/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \

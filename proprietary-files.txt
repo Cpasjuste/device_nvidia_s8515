@@ -74,8 +74,6 @@ lib/libnvremotell.so
 lib/libnvremoteprotocol.so
 lib/libnvsm.so
 lib/libnvstitching.so
-lib/libnvtestio.so
-lib/libnvtestresults.so
 lib/libnvtnr.so
 lib/libnvtvmr.so
 lib/libnvupdater_jni.so
@@ -134,7 +132,6 @@ bin/bt_mac_copy.sh
 bin/btmacwriter
 bin/nwifdown
 bin/nwifup
-bin/factory
 xbin/wifimacaddr
 
 # charging
@@ -152,14 +149,6 @@ res/images/charging/charger_p_7.png
 res/images/charging/charger_p_10.png
 res/images/charging/charger_p_4.png
 res/images/charging/charger_p_8.png
-res/images/lcd_test_00.png
-res/images/lcd_test_01.png
-res/images/lcd_test_02.png
-res/images/lcd_test_03.png
-res/images/lcd_test_04.png
-res/images/lcd_test_05.png
-res/images/lcd_test_06.png
-res/images/lcd_test_07.png
 
 # ril/gps
 bin/icera-crashlogs
@@ -168,7 +157,7 @@ lib/libril-icera.so
 bin/glgps_nvidiaTegra2android
 bin/ceres_mdm_boot_cfg.sh
 bin/agpsd
-#etc/gps.conf
+etc/gps.conf
 etc/gps/gpsconfig.xml
 etc/ril_atc.config
 
@@ -183,12 +172,6 @@ etc/ril_atc.config
 bin/akmd8963
 bin/fild
 #bin/init_zram.sh
-bin/cluster
-bin/cluster_get.sh
-bin/cluster_set.sh
-bin/dcc
-bin/hotplug
-bin/mount_debugfs.sh
 #bin/wlbwservice
 
 # divers 
@@ -226,7 +209,6 @@ etc/enctune.conf
 etc/audio_policy.conf
 etc/dhcpcd/dhcpcd.conf
 etc/asound.conf
-etc/nvaudio_conf.xml
 etc/nvcamera.conf
 usr/idc/s320_tp.idc
 usr/idc/sensor00fn11.idc
